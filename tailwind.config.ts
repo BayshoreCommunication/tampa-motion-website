@@ -54,7 +54,8 @@ const config: Config = {
   		},
   		fontFamily: {
   			baskerville: ["Libre Baskerville", "serif"],
-  			roboto: ["Roboto", "sans-serif"]
+  			roboto: ["Roboto", "sans-serif"],
+			oxanium: ["Oxanium", "serif"],
   		},
   		backgroundImage: {
   			doctors: `url('/transparentGradient.png')`,

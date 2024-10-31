@@ -6,10 +6,10 @@ const Grid2 = () => {
   return (
     <section className="h-fit w-full bg-white grid grid-flow-row grid-cols-4 auto-rows-min px-5 py-20 m-auto xl:px-20">
       <article className="col-span-4 flex flex-col justify-start items-left text-textSecondary xl:col-span-2 xl:col-start-3 xl:row-span-2 xl:row-start-1 ">
-        <div className="text-2xl text-center font-baskerville pt-4 pb-2 xl:text-5xl xl:text-left">
+        <div className="text-2xl text-center font-baskerville pt-4 pb-2 md:text-3xl xl:text-5xl xl:text-left">
           Achieving Optimal
         </div>
-        <div className="text-2xl text-center font-baskerville pb-1 xl:text-5 xl:text-left">
+        <div className="text-2xl text-center font-baskerville pb-1 md:text-3xl xl:text-5xl xl:text-left">
           Health with Chirox
         </div>
         <div className=" font-sans text-center p-3 text-base xl:text-left">
@@ -31,7 +31,7 @@ const Grid2 = () => {
             alt="logo"
             width={577}
             height={538}
-            className="absolute top-0 left-20  z-10 object-cover h-[303px] w-[325px] xl:h-[538px] xl:w-[577px]"
+            className="absolute top-5 left-20  z-10 object-cover h-[303px] w-[325px] xl:h-[538px] xl:w-[577px]"
           />
 
           <div className="flex flex-col items-center justify-center absolute top-56 left-48 -translate-x-2 z-30 xl:left-[400px] xl:top-[420px] xl:w-44 xl:h-24">

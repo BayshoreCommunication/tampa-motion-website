@@ -8,8 +8,8 @@ import { FiPhone } from "react-icons/fi";
 import { FaLocationDot } from "react-icons/fa6";
 const Footer = () => {
   return (
-    <div className="bg-primary h-fit flex flex-col justify-center items-center  pt-10 px-10 pb-2 text-slate-200">
-      <section className="flex flex-col justify-between w-full border-b-2 border-white">
+    <div className="bg-primary w-full h-fit flex flex-col justify-center items-center  pt-10 px-10 pb-2 text-slate-200">
+      <section className="flex flex-col lg:flex-row  justify-between w-full border-b-2 border-white">
         <div>
           <section className="hidden 2xl:block text-white font-baskerville text-4xl font-bold py-6">
             Tampa Motion <span className="text-base font-bold">PLLC</span>
@@ -138,7 +138,7 @@ const Footer = () => {
           </section>
         </div>
       </section>
-      <section className="w-full flex flex-col gap-2 justify-between items-center py-4 text-slate-200">
+      <section className="w-full flex flex-col md:flex-row gap-2 justify-between items-center py-4 text-slate-200">
         <div>© 2024 Tampa Motion PLLC All Rights Reserved</div>
         <div>Design and Developed by Bayshore Communication </div>
       </section>

@@ -79,7 +79,11 @@ const Nav = () => {
           </NavigationMenuItem>
 
           <NavigationMenuItem>
-            <NavigationMenuTrigger>Servives</NavigationMenuTrigger>
+            <NavigationMenuTrigger>
+              <Link href="/services" legacyBehavior passHref>
+                Servives
+              </Link>
+            </NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] z-50 ">
                 {components.map((component) => (

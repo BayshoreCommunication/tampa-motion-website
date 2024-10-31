@@ -5,17 +5,17 @@ import { FaArrowAltCircleRight, FaArrowRight } from "react-icons/fa";
 
 const Experience = () => {
   return (
-    <section className="h-fitbg-white px-5 pb-24 pt-16 h-fit inline-grid grid-flow-row auto-cols-min grid-cols-1 items-end gap-6">
-      <section className="col-span-1 text-center">
-        <h2 className="text-2xl font-baskerville leading-normal">
+    <section className="w-full bg-white px-5 pb-24 pt-16 h-fit inline-grid grid-flow-row auto-cols-min grid-cols-2 items-end gap-6">
+      <section className="col-span-2 text-center lg:col-span-1 lg:col-start-2">
+        <h2 className="text-2xl font-baskerville leading-normal lg:text-left">
           Experience The Healing Power Of Physiotherapy
         </h2>
-        <p className="font-sans font-thin text-sm ">
+        <p className="font-sans font-thin text-sm lg:text-left">
           Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo
           ligula eget dolor aenean massa cum sociis et natoque penatibus.
         </p>
       </section>
-      <article className="relative h-fit w-full place-self-center">
+      <article className="relative h-fit w-full place-self-center lg:col-span-1 lg:row-start-1 lg:row-span-2 lg:col-start-1">
         <Image
           src={"/emptyCircle.png"}
           alt="blueCircle"
@@ -37,10 +37,10 @@ const Experience = () => {
           </p>
         </button>
       </article>
-      <article className="col-span-1 flex flex-col justify-start items-center px-5 m-auto gap-6 self-start text-textSecondary pt-[450px]">
-        <section className="flex flex-col justify-start items-center">
+      <article className="col-span-2 flex flex-col justify-start items-center px-5 m-auto gap-6 self-start text-textSecondary pt-[450px] lg:pt-0 lg:col-span-1 lg:col-start-2 lg:row-start-2 lg:pl-0">
+        <section className="flex flex-col justify-start items-center lg:pl-10">
           {services.map((service, index) => (
-            <div className="flex flex-row justify-start items-start gap-6  border-b-2 border-textSecondary last:border-none">
+            <div className="flex flex-row justify-start items-start gap-6   border-b-2 border-textSecondary last:border-none">
               <Image
                 src={service.image}
                 alt="Frame1"

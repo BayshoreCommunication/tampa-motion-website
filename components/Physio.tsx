@@ -3,8 +3,8 @@ import React from "react";
 
 const Physio = () => {
   return (
-    <section className="h-fit bg-background2 inline-grid grid-flow-row grid-cols-4 auto-rows-min px-10 w-full xl:px-52 xl:place-content-start">
-      <h1 className="col-span-4 w-1/2 bg-background2 pt-5 text-3xl  font-baskerville font-thin text-textSecondary m-auto xl:text-7xl xl:col-span-2 justify-self-start xl:w-full xl:pr-52">
+    <section className="h-fit bg-background2 inline-grid grid-flow-row grid-cols-4 auto-rows-min px-10 w-full md:px-20 2xl:px-52 xl:place-content-start">
+      <h1 className="col-span-4 w-1/2 bg-background2 pt-5 text-3xl  font-baskerville font-thin text-textSecondary m-auto md:text-5xl xl:text-7xl xl:col-span-2 justify-self-start md:w-full md:text-center xl:w-full xl:pr-52 xl:text-left ">
         Physio At Your Service
       </h1>
       <div className=" col-span-4 xl:col-span-2 xl:col-start-1 xl:pr-64 xl:text-left  bg-background2 text-center  py-2 text-textSecondary  font-sans">
@@ -14,7 +14,7 @@ const Physio = () => {
         from surgery or looking to prevent future issues, we&apos;re here to
         support every step of your journey to better health.
         <br />
-        <div className="  bg-background2 text-center font-semibold text-black xl:pt-3 font-sans xl:text-left">
+        <div className="  bg-background2 text-center font-semibold text-black xl:pt-3 font-sans xl:text-left md:py-4">
           Move better. Feel better. Live better.
         </div>
       </div>
