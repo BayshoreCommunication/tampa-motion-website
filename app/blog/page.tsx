@@ -12,9 +12,9 @@ const Blog = () => {
         </h1>
         <p className="text-textSecondary font-sans text-base py-4">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
-          commodi quidem sed dolor, quibusdam enim incidunt beatae deleniti
-          soluta blanditiis esse, ullam explicabo ipsa, ratione voluptatum
-          distinctio corrupti adipisci est.
+          commodi sed dolor, quibusdam enim incidunt beatae deleniti soluta
+          blanditiis esse, ullam explicabo ipsa, ratione voluptatum distinctio
+          corrupti adipisci est.
         </p>
       </div>
       <Experience2 />
