@@ -6,10 +6,10 @@ import React from "react";
 const About = () => {
   return (
     <section>
-      <article className="h-fit w-full bg-doctors bg-cover  py-20 px-52">
+      <article className="h-fit w-full bg-doctors bg-cover  py-20 2xl:px-52 px-5">
         <h1 className="text-2xl 2xl:text-7xl font-baskerville">About Us</h1>
         <h2
-          className="font-sans text-base w-3/6 py-4
+          className="font-sans text-base 2xl:w-3/6 py-4
         "
         >
           Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo
