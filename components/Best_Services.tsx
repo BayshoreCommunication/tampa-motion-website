@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Best_Services = () => {
   return (
-    <section className="h-fit bg-background2 inline-grid grid-flow-row grid-cols-3 auto-rows-min px-5 w-full gap-8 py-8 items-center md:px-52 lg:px-32">
+    <section className="h-fit bg-background2 inline-grid grid-flow-row grid-cols-3 auto-rows-min px-5 w-full gap-4 py-8 items-center md:px-52 lg:px-32">
       <div className="col-span-3  text-textSecondary row-start-1">
         <h2 className="font-baskerville text-5xl text-center">Best Services</h2>
         <p className="font-sans text-center px-10 ">
@@ -91,22 +91,22 @@ const Best_Services = () => {
         </article>
       </div>
 
-      <div className="relative col-span-3 row-span-1 xl:row-start-2 xl:col-start-3 h-[500px] text-center lg:col-start-3 lg:row-start-2 lg:col-span-1">
+      <div className="relative col-span-3 row-span-1 xl:row-start-2 xl:col-start-3 h-[500px] text-center lg:col-start-3 lg:row-start-2 lg:col-span-1 lg:row-span-2">
         <Image
           src={"/emptyCircle.png"}
           alt="logo"
           width={608}
           height={608}
-          className="w-[608px] h-[608px] sticky -translate-x-40  -translate-y-1/4"
+          className="w-[608px] h-[608px] absolute -translate-x-40  -translate-y-1/4 xl:translate-y-[100px] xl:-translate-x-1/4 xl:w-[400px] xl:h-[400px]"
         />
         <Image
           src={"/patientBack.png"}
           alt="patient back"
           width={386}
           height={521}
-          className="w-[328px] h-[442px] sticky  lg:-translate-y-[600px] translate-x-16"
+          className="w-[328px] h-[442px] absolute  lg:-translate-y-[600px] translate-x-16 xl:top-0 xl:translate-y-[20px]"
         />
-        <button className="bg-primary h-32 w-56 text-white font-thin rounded-3xl flex flex-col justify-center items-center sticky translate-x-[350px] -translate-y-[650px] ">
+        <button className="bg-primary h-32 w-56 text-white font-thin rounded-3xl flex flex-col justify-center items-center absolute translate-x-32  translate-y-[370px]  ">
           <p className="pb-4 font-baskerville text-lg">
             We Proudly Give Quality Treatments
           </p>

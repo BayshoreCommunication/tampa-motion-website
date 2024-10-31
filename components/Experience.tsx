@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Experience = () => {
   return (
-    <section className="w-full bg-white px-5 pb-24 pt-16 h-fit inline-grid grid-flow-row auto-cols-min grid-cols-2 items-end gap-6">
+    <section className="w-full bg-white px-5 pb-24 pt-16 h-fit inline-grid grid-flow-row auto-cols-min grid-cols-2 gap-6">
       <section className="col-span-2 text-center lg:col-span-1 lg:col-start-2">
         <h2 className="text-2xl font-baskerville leading-normal lg:text-left">
           Experience The Healing Power Of Physiotherapy
@@ -15,7 +15,7 @@ const Experience = () => {
           ligula eget dolor aenean massa cum sociis et natoque penatibus.
         </p>
       </section>
-      <article className="relative h-fit w-full place-self-center lg:col-span-1 lg:row-start-1 lg:row-span-2 lg:col-start-1">
+      <article className="relative h-fit w-full place-self-center lg:col-span-1 lg:row-start-1 lg:row-span-2 lg:col-start-1 xl:translate-x-80 xl:px-32 2xl:p-52">
         <Image
           src={"/emptyCircle.png"}
           alt="blueCircle"
@@ -37,8 +37,8 @@ const Experience = () => {
           </p>
         </button>
       </article>
-      <article className="col-span-2 flex flex-col justify-start items-center px-5 m-auto gap-6 self-start text-textSecondary pt-[450px] lg:pt-0 lg:col-span-1 lg:col-start-2 lg:row-start-2 lg:pl-0">
-        <section className="flex flex-col justify-start items-center lg:pl-10">
+      <article className="col-span-2 place-self-start flex flex-col justify-start items-center lg:items-start lg:px-5 m-auto gap-6 self-start text-textSecondary pt-[450px] lg:pt-0 lg:col-span-1 lg:col-start-2 lg:row-start-2 lg:pl-0 xl:-translate-x-32">
+        <section className="flex flex-col justify-start items-start  lg:pl-10 xl:pl-0">
           {services.map((service) => (
             <div
               key={service.name}

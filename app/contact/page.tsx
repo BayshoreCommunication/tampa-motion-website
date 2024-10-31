@@ -81,7 +81,15 @@ const Contact = () => {
         </div>
       </div>
 
-      <div></div>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/place/20200+W+Dixie+Hwy+%23902,+Miami,+FL+33180,+USA/@25.9631404,-80.1481251,17z/data=!3m1!4b1!4m5!3m4!1s0x88d9ac5e74403639:0x487bf5a8937d27c5!8m2!3d25.9631404!4d-80.1481251?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D"
+          frameBorder="0"
+          width="100%"
+          height="500px"
+          allowFullScreen
+        ></iframe>
+      </div>
     </div>
   );
 };
