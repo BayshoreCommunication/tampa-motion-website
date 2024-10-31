@@ -83,11 +83,11 @@ const Contact = () => {
 
       <div>
         <iframe
-          src="https://www.google.com/maps/place/20200+W+Dixie+Hwy+%23902,+Miami,+FL+33180,+USA/@25.9631404,-80.1481251,17z/data=!3m1!4b1!4m5!3m4!1s0x88d9ac5e74403639:0x487bf5a8937d27c5!8m2!3d25.9631404!4d-80.1481251?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D"
-          frameBorder="0"
-          width="100%"
-          height="500px"
-          allowFullScreen
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3587.1493927564125!2d-80.1481251!3d25.9631404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9ac5e74403639%3A0x487bf5a8937d27c5!2s20200%20W%20Dixie%20Hwy%20%23902%2C%20Miami%2C%20FL%2033180%2C%20USA!5e0!3m2!1sen!2sbd!4v1730375390755!5m2!1sen!2sbd"
+          width="600"
+          height="450"
+          loading="lazy"
+          className="w-full"
         ></iframe>
       </div>
     </div>
