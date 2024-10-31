@@ -54,11 +54,7 @@ const components: { title: string; href: string; description: string }[] = [
 
 import Link from "next/link";
 
-import { CiMenuBurger } from "react-icons/ci";
-import { FaChevronDown } from "react-icons/fa";
-
 const Nav = () => {
-  const [show, setShow] = React.useState(false);
   return (
     <div className="hidden 2xl:block">
       <NavigationMenu>

@@ -12,8 +12,6 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import Rating from "./Rating";
 
-import { useState, useCallback, useEffect } from "react";
-
 const Testimonials = () => {
   return (
     <section className="inline-grid grid-flow-row auto-rows-min grid-cols-1 py-8  bg-doctors md:px-5  2xl:px-52 ">

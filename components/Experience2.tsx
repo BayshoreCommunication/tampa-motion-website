@@ -45,8 +45,11 @@ const Experience2 = () => {
       </div>
 
       <div className="col-start-1 col-span-2 flex justify-around items-center pt-36">
-        {experties.map((exp, i) => (
-          <div className="h-28 w-80 rounded-2xl bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] p-[1px]">
+        {experties.map((exp) => (
+          <div
+            key={exp.title}
+            className="h-28 w-80 rounded-2xl bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] p-[1px]"
+          >
             <div className="inline-grid grid-cols-2 grid-flow-row auto-rows-min h-full w-full bg-white rounded-2xl place-content-center gap-2">
               <Image
                 src={exp.image}

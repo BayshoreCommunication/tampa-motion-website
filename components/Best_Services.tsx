@@ -82,7 +82,7 @@ const Best_Services = () => {
           />
 
           <div className="text-xl font-bold text-textSecondary font-baskerville">
-            Parkinson's Disease
+            Parkinson&apos;s Disease
           </div>
           <div className="font-sans text-textSecondary text-center pt-3 ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit

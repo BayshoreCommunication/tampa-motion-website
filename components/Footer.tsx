@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
-import { CiLocationOn, CiTwitter } from "react-icons/ci";
+import { CiTwitter } from "react-icons/ci";
 import { IoLogoInstagram } from "react-icons/io";
 import { FiPhone } from "react-icons/fi";
 import { FaLocationDot } from "react-icons/fa6";

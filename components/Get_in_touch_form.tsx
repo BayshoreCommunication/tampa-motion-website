@@ -1,10 +1,13 @@
 import React from "react";
 
-const Get_in_touch_form = () => {
+const Get_in_touch_form = ({ className }: { className?: string }) => {
   return (
     <form
       action=""
-      className="inline-grid grid-flow-row auto-rows-min grid-cols-1 lg:grid-cols-2 gap-4 2xl:px-10 "
+      className={
+        "inline-grid grid-flow-row auto-rows-min grid-cols-1 lg:grid-cols-2 gap-4 2xl:gap-8 2xl:px-10 " +
+        className
+      }
     >
       <h3 className="font-oxanium text-2xl lg:col-span-2 font-bold">
         Get in Touch

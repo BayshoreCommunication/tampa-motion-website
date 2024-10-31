@@ -5,19 +5,22 @@ import Easy_Step from "./Easy_Step";
 const Services = () => {
   return (
     <div className=" h-fit">
-      <div className="flex flex-col justify-between items-center lg:items-start 2xl:px-52 2xl:py-12 bg-doctors bg-cover">
-        <h1 className="2xl:text-7xl font-baskerville px-5 2xl:px-52">
+      <div className="flex flex-col justify-between items-center lg:items-start 2xl:px-52 2xl:py-20 bg-doctors bg-cover">
+        <h1 className="2xl:text-7xl font-baskerville px-5 2xl:text-left">
           Services
         </h1>
-        <h3 className="test-base font-sans px-5 2xl:px-52">
+        <h3 className="test-base font-sans px-5 2xl:text-left py-4">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
           ullam ex labore earum quas saepe enim iure aperiam magni, autem est
           dolore nulla ratione odit quasi libero illum accusantium fugiat!
         </h3>
       </div>
       <div className="inline-grid gap-3 2xl:gap-12 grid-flow-row grid-cols-1 md:grid-cols-2 2xl:grid-cols-3  auto-rows-min py-5 px-5 2xl:px-52  translate-y-12">
-        {services.map((service, index) => (
-          <div className="bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] rounded-3xl p-[1px] z-20 ">
+        {services.map((service) => (
+          <div
+            className="bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] rounded-3xl p-[1px] z-20 "
+            key={service.service}
+          >
             <article className="w-full h-[249px] border bg-white p-1 rounded-3xl flex flex-col justify-center items-center border-transparent">
               <Image
                 src={service.image}

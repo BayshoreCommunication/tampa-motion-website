@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FaArrowAltCircleRight, FaArrowRight } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 
 const Experience = () => {
   return (
@@ -39,8 +39,11 @@ const Experience = () => {
       </article>
       <article className="col-span-2 flex flex-col justify-start items-center px-5 m-auto gap-6 self-start text-textSecondary pt-[450px] lg:pt-0 lg:col-span-1 lg:col-start-2 lg:row-start-2 lg:pl-0">
         <section className="flex flex-col justify-start items-center lg:pl-10">
-          {services.map((service, index) => (
-            <div className="flex flex-row justify-start items-start gap-6   border-b-2 border-textSecondary last:border-none">
+          {services.map((service) => (
+            <div
+              key={service.name}
+              className="flex flex-row justify-start items-start gap-6   border-b-2 border-textSecondary last:border-none"
+            >
               <Image
                 src={service.image}
                 alt="Frame1"

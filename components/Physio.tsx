@@ -10,9 +10,9 @@ const Physio = () => {
       <div className=" col-span-4 xl:col-span-2 xl:col-start-1 xl:pr-64 xl:text-left  bg-background2 text-center  py-2 text-textSecondary  font-sans">
         We empower you to move freely and live fully. Our expert
         physiotherapists use personalized treatment plans to help you recover
-        from injury, manage pain, and enhance mobility. Whether you're healing
-        from surgery or looking to prevent future issues, we&apos;re here to
-        support every step of your journey to better health.
+        from injury, manage pain, and enhance mobility. Whether you&apos;re
+        healing from surgery or looking to prevent future issues, we&apos;re
+        here to support every step of your journey to better health.
         <br />
         <div className="  bg-background2 text-center font-semibold text-black xl:pt-3 font-sans xl:text-left md:py-4">
           Move better. Feel better. Live better.
