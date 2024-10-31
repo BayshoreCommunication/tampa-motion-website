@@ -13,7 +13,7 @@ const Blog = () => {
         <p className="text-textSecondary font-sans text-base py-4">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
           commodi sed dolor, quibusdam enim incidunt beatae deleniti soluta
-          blanditiis esse, ullam explicabo ipsa, ratione voluptatum distinctio
+          blanditiis esse, ullam explicabo ratione voluptatum distinctio
           corrupti adipisci est.
         </p>
       </div>
