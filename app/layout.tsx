@@ -1,48 +1,32 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import Head from "next/head";
+import "@/styles/globals.css";
+import { Metadata, Viewport } from "next";
+import { Link } from "@nextui-org/link";
+import clsx from "clsx";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+import { Providers } from "./providers";
 
-export const metadata: Metadata = {
-  title: "Tampa Motion",
-  description: "Physio At Your Service",
+import { siteConfig } from "@/config/site";
+import MainHeader from "@/components/layout/MainHeader";
+import MainFooter from "@/components/layout/MainFooter";
+
+export const metadata = {
+  metadataBase: new URL("https://tampa-motion-website.vercel.app"),
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.jpeg" sizes="any" />
-        <link
-          rel="icon"
-          href="/tampaMotion.jpeg?<generated>"
-          type="image/<generated>"
-          sizes="<generated>"
-        />
-      </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased m-0 p-0 `}
-      >
-        <Header />
-        {children}
-        <Footer />
+    <html suppressHydrationWarning lang="en">
+      <head />
+      <body className={clsx("antialiased")}>
+        <Providers themeProps={{ attribute: "class" }}>
+          <MainHeader />
+          <div className="overflow-x-hidden">{children}</div>
+          <MainFooter />
+        </Providers>
       </body>
     </html>
   );
