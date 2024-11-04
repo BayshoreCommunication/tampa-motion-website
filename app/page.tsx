@@ -1,5 +1,6 @@
 import AchievingOptimal from "@/components/home/AchievingOptimal";
 import BestServices from "@/components/home/BestServices";
+import EasyStep from "@/components/home/EasyStep";
 import HeroSection from "@/components/home/HeroSection";
 
 export const metadata = {
@@ -24,6 +25,7 @@ export default function Home() {
       <HeroSection />
       <AchievingOptimal />
       <BestServices />
+      <EasyStep />
     </section>
   );
 }
