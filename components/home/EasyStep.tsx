@@ -15,7 +15,7 @@ const EasyStep = () => {
           </div>
           <div className="col-span-1 place-self-center">
             <ol className="relative border-s  pl-6 ml-2 h-fit m-auto w-full mx-5 ">
-              <li className="mb-10 ms-6" key={1}>
+              <li className="mb-10 ms-6 pb-5" key={1}>
                 <span className="absolute flex items-center justify-center w-14 h-10 bg-secondary rounded-full -start-7  ring-8 ring-white  translate-y-2  xl:-start-8 xl:w-16">
                   <Image
                     src={"/assets/EasyStep/Frame1.png"}
@@ -34,7 +34,7 @@ const EasyStep = () => {
                   penatibus.
                 </p>
               </li>
-              <li className="mb-10 ms-6" key={2}>
+              <li className="mb-10 ms-6 pb-5" key={2}>
                 <span className="absolute flex items-center justify-center w-14 h-10 bg-secondary rounded-full -start-7 ring-8 ring-white  translate-y-2  xl:-start-8 xl:w-16">
                   <Image
                     src={"/assets/EasyStep/Frame2.png"}
@@ -53,7 +53,7 @@ const EasyStep = () => {
                   penatibus.
                 </p>
               </li>
-              <li className="mb-10 ms-6" key={3}>
+              <li className="mb-10 ms-6 pb-5" key={3}>
                 <span className="absolute flex items-center justify-center w-14 h-10 bg-secondary rounded-full -start-7 ring-8 ring-white  translate-y-2  xl:-start-8 xl:w-16">
                   <Image
                     src={"/assets/EasyStep/Frame3.png"}
