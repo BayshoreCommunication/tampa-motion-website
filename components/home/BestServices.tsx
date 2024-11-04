@@ -123,8 +123,69 @@ const BestServices = () => {
     //     </div>
     //   </div>
     // </section>
-    <section className="bg-white text-black pt-44">
-      <div className="container py-10 md:py-20"></div>
+    <section className="bg-[#EFEFEF] text-black ">
+      <div className="container py-10 md:py-20 pb-20">
+        <div className="flex w-full  flex-col justify-center items-center">
+          <div className="flex  flex-col   justify-center items-center pb-20">
+            <h2 className="text-5xl font-bold">Best Services</h2>
+            <p className="text-lg py-4 text-center">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              unde aut laudantium voluptate esse vel. Tenetur, tempora ipsum! Ut
+              cupiditate numquam deleniti corporis vitae voluptatibus atque
+              labore, laudantium tempora sit? Lorem ipsum dolor sit, amet
+              consectetur adipisicing elit. Beatae ducimus odit distinctio
+              dolorem nisi sint saepe, incidunt necessitatibus earum a iure
+              placeat omnis temporibus, animi laudantium ex eum. Voluptate,
+              temporibus?
+            </p>
+          </div>
+          <div className="flex flex-col xl:flex-row justify-center items-center gap-4">
+            <div className=" flex justify-center items-center gap-4 flex-wrap z-10">
+              {[1, 2, 3, 4].map((item) => (
+                <div className="  bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] rounded-3xl p-[1px] ">
+                  <article className="w-[350px] h-[250px] border bg-white p-2 rounded-3xl flex flex-col justify-center items-center border-transparent">
+                    <Image
+                      src="/assets/BestServices/healthCare.png"
+                      alt="healthCare"
+                      width={60}
+                      height={60}
+                      className="pb-3"
+                    />
+                    <div className="text-xl font-bold ">Physiotherapy</div>
+                    <div className=" text-center pt-3 ">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quibusdam alias dignissimos in asperiores earum nesciunt
+                      commodi, hic illum magnam.
+                    </div>
+                  </article>
+                </div>
+              ))}
+            </div>
+            <div className="w-[90%]  md:w-[60%] xl:w-[65%] flex flex-col justify-center items-center relative  -left-20 sm:-left-24 md:-left-20 ">
+              <Image
+                src="/assets/BestServices/backCircle.png"
+                alt="backCircle"
+                width={900}
+                height={600}
+                className=" w-[900px] "
+              />
+              <button className="bg-primary h-32 w-56 text-white font-thin rounded-xl flex flex-col justify-center items-center absolute md:-bottom-12 2xl:-bottom-5 -bottom-8 md:right-5  sm:right-14 right-4 lg:right-14 xl:right-1 2xl:right-16">
+                <p className="pb-4  text-lg">
+                  We Proudly Give Quality Treatments
+                </p>
+                <Link href="/services">
+                  <p className=" text-black flex items-center gap-5">
+                    View All Services&nbsp;
+                    <span>
+                      <FaArrowRight />
+                    </span>
+                  </p>
+                </Link>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };

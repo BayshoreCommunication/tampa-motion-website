@@ -23,7 +23,7 @@ export default function Home() {
     <section className="">
       <HeroSection />
       <AchievingOptimal />
-      {/* <BestServices /> */}
+      <BestServices />
     </section>
   );
 }
