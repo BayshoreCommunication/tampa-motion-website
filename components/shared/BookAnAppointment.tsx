@@ -2,7 +2,7 @@ import React from "react";
 
 const BookAnAppointment = () => {
   return (
-    <div className="bg-white p-10">
+    <div className="bg-white p-10 text-black">
       <h1 className="text-2xl font-bold leading-tight text-center">
         Book an appointment today
       </h1>

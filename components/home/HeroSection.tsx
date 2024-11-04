@@ -28,17 +28,17 @@ const HeroSection = () => {
           <div className="flex-1 mt-10 md:mt-0">
             {/* Main Title */}
 
-            <h1 className="text-4xl md:text-7xl font-bold leading-tight md:text-left text-center">
+            <h1 className="text-4xl md:text-7xl font-bold leading-tight md:text-left text-center text-black">
               Physio At Your Service
             </h1>
-            <h6 className="text-lg md:text-2xl font-normal mt-6 md:text-left text-center">
+            <h6 className="text-lg md:text-2xl font-normal mt-6 md:text-left text-center text-black">
               {`We empower you to move freely and live fully. Our expert
               physiotherapists use personalized treatment plans to help you
               recover from injury, manage pain, and enhance mobility. Whether
               you're healing from surgery or looking to prevent future issues,
               we’re here to support every step of your journey to better health.`}
             </h6>
-            <h2 className="text-lg font-semibold mt-6 md:text-left text-center">
+            <h2 className="text-lg font-semibold mt-6 md:text-left text-center text-black">
               Move better. Feel better. Live better.
             </h2>
 
@@ -60,11 +60,11 @@ const HeroSection = () => {
                     src="/assets/home/group-image.png"
                     alt="avatar"
                   />
-                  <h2 className="text-2xl md:text-4xl font-bold leading-tight">
+                  <h2 className="text-2xl md:text-4xl font-bold leading-tight text-black">
                     18K
                   </h2>
                 </div>
-                <h2 className="text-xl md:text-2xl font-bold leading-tight">
+                <h2 className="text-xl md:text-2xl font-bold leading-tight text-black">
                   Satisfied Customers
                 </h2>
               </div>
@@ -86,7 +86,7 @@ const HeroSection = () => {
         <div className="relative -bottom-40 md:-bottom-48 -mt-24 md:-mt-32 overscroll-none">
           <div className="grid grid-cols-1 md:grid-cols-3 items-center justify-between gap-8">
             {cardDatas?.map((el: any, index: number) => (
-              <div className="bg-white border shadow-2xl rounded-xl p-6 ">
+              <div className="bg-white border shadow-2xl rounded-xl p-6 text-black">
                 <div className="flex justify-center items-center">
                   <Image
                     className="w-20 h-auto flex  justify-center"

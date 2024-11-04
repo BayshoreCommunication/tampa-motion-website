@@ -133,7 +133,7 @@ const MainFooter = () => {
                       className=" hover:underline duration-300"
                       target="_blank"
                     >
-                      {`20200 West Dixie Highway, Suite 902 Aventura, FL 33180`}
+                      {`20200 West Dixie Highway, Suite 902Aventura, FL 33180`}
                     </Link>
                   </li>
                   <li className="mb-4">
