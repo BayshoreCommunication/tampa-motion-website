@@ -1,3 +1,6 @@
+import ExperienceSection from "@/components/about/ExperienceSection";
+import PowerOfPhysiotherapy from "@/components/about/PowerOfPhysiotherapy";
+import PageHeroSection from "@/components/shared/PageHeroSection";
 import React from "react";
 
 export const metadata = {
@@ -8,7 +11,16 @@ export const metadata = {
 };
 
 const page = () => {
-  return <div>page</div>;
+  return (
+    <div>
+      <PageHeroSection
+        title="About Us"
+        description="Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus. Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus."
+      />
+      <ExperienceSection />
+      <PowerOfPhysiotherapy />
+    </div>
+  );
 };
 
 export default page;
