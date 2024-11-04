@@ -12,7 +12,7 @@ const physiotherapyDatas = [
   {
     url: "/assets/about/affordable-prices.png",
     title: "Affordable Prices",
-    desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo.",
+    desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo",
   },
   {
     url: "/assets/about/very-friendly-service.png",
