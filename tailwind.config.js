@@ -15,6 +15,9 @@ module.exports = {
         black: "#000000",
         white: "#FFFFFF",
       },
+      backgroundImage: {
+        doctors: `url('/assets/Testimonials/transparentGradient.png')`,
+      },
     },
     container: {
       center: true,
@@ -30,6 +33,7 @@ module.exports = {
       "2xl": "1536px", // The default value for 2xl in Tailwind CSS
     },
   },
+ 
   darkMode: "class",
   plugins: [nextui()],
 };
