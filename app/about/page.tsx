@@ -1,6 +1,6 @@
-import BestServices from "@/components/about/BestServices";
 import ExperienceSection from "@/components/about/ExperienceSection";
 import PowerOfPhysiotherapy from "@/components/about/PowerOfPhysiotherapy";
+import BestServices from "@/components/home/BestServices";
 import PageHeroSection from "@/components/shared/PageHeroSection";
 import React from "react";
 

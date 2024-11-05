@@ -103,7 +103,7 @@ const MainHeader = () => {
                             href={el?.slug}
                             className={`flex items-center gap-x-1 cursor-pointer text-black text-sm xl:text-[16px] font-medium capitalize hover:text-secondary ${pathname === el.slug || setPathSlug ? " border border-secondary rounded-full text-secondary py-1 lg:py-2 px-2 lg:px-5" : ""} `}
                           >
-                            Practice Areas
+                            Services
                             <span>
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"

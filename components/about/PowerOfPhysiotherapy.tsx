@@ -36,10 +36,10 @@ const PowerOfPhysiotherapy = () => {
             />
           </div>
           <div className="flex-1 mt-8 md:mt-0">
-            <h2 className="text-3xl md:text-6xl font-semibold md:text-left text-center text-gray-800  !leading-snug">
+            <h2 className="text-3xl md:text-5xl font-semibold md:text-left text-center text-black  !leading-snug">
               Experience The Healing Power Of Physiotherapy
             </h2>
-            <p className="text-base md:text-lg font-medium mt-4  text-gray-900 mb-6  md:text-left text-center ">
+            <p className="text-base md:text-lg font-medium mt-4  text-black mb-6  md:text-left text-center ">
               Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean
               commodo ligula eget dolor aenean massa cum sociis et natoque
               penatibus.Lorem ipsum dolor sit amet, consectetuer adipiscing.
@@ -71,20 +71,19 @@ const PowerOfPhysiotherapy = () => {
                 </li>
               ))}
             </ul>
-            <div className="mt-6 flex flex-col md:flex-row justify-center md:justify-start space-10 items-center">
+            <div className="mt-6 flex flex-col md:flex-row justify-center md:justify-start gap-4 items-center">
               <Link
                 href="tel:954-529-0695"
-                className="bg-secondary  py-3  md:px-1 lg:px-4 rounded-sm w-[200px] md:w-[250px]  text-white text-center"
+                className="bg-secondary hover:bg-secondary-dark transition-colors duration-200 ease-in-out py-3 px-6 rounded-sm w-full md:w-auto max-w-xs text-white text-center"
               >
-                Make An Apponment
+                Make An Appointment
               </Link>
               <Link
                 href="tel:954-529-0695"
-                className=" py-3  md:px-1 lg:px-4 rounded-sm w-[200px] md:w-[250px]  text-gray-900 text-center flex items-center space-x-4 hover:bg-secondary hover:text-white group:"
+                className="flex items-center justify-center py-3 px-6 rounded-sm w-full md:w-auto max-w-xs text-gray-900 text-center hover:bg-secondary hover:text-white transition-colors duration-200 ease-in-out group"
               >
-                <span>Make An Apponment</span>
-
-                <FaArrowRightLong className="text-gray-900 size-6 group-hover:text-white" />
+                <span>Read More About</span>
+                <FaArrowRightLong className="ml-2 text-gray-900 group-hover:text-white transition-colors duration-200 ease-in-out" />
               </Link>
             </div>
           </div>

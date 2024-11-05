@@ -1,3 +1,4 @@
+import PowerOfPhysiotherapy from "@/components/about/PowerOfPhysiotherapy";
 import AchievingOptimal from "@/components/home/AchievingOptimal";
 import BestServices from "@/components/home/BestServices";
 import EasyStep from "@/components/home/EasyStep";
@@ -28,6 +29,7 @@ export default function Home() {
       <BestServices />
       <EasyStep />
       <Testimonials />
+      <PowerOfPhysiotherapy />
     </section>
   );
 }
