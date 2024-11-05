@@ -20,7 +20,7 @@ const Testimonials = () => {
           <h2 className="text-2xl font-bold  text-textSecondary text-center md:text-3xl lg:text-5xl">
             Testimonials
           </h2>
-          <h4 className="font-sans py-3 text-black text-center md:py-5 lg:py-8">
+          <h4 className="font-sans py-3 text-black text-center md:py-5 lg:py-8 px-5 lg:px-20 2xl:px-52">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima
             neque repellendus adipisci recusandae, quisquam aliquam reiciendis
             ea? Ex exercitationem rerum ipsa debitis quod error accusantium
