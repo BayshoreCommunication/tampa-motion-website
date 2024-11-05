@@ -162,7 +162,7 @@ const BookAnAppointment = () => {
             {loading ? (
               <button
                 type="submit"
-                className="text-white bg-secondary   font-medium  text-base w-full rounded  cursor-pointer px-5 py-2 xl:py-4 text-center flex items-center justify-center gap-x-2 "
+                className="text-white bg-secondary   font-medium  text-base rounded max-w-40 cursor-pointer px-[25px] py-[10px] text-center flex items-center justify-center gap-x-2 "
               >
                 <div role="status">
                   <svg
@@ -189,7 +189,7 @@ const BookAnAppointment = () => {
               <button
                 type="submit"
                 onClick={() => handleSubmit}
-                className="text-white bg-secondary hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-sm rounded-sm text-sm sm:w-auto px-10 py-[12px] text-center min-w-fit"
+                className="text-white bg-secondary hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-sm rounded-sm text-sm sm:w-auto px-10 py-[12px] text-center min-w-40 "
               >
                 Book Now
               </button>

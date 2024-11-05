@@ -11,7 +11,7 @@ const EasyStep = ({ className }: { className?: string }) => {
             " bg-white px-10 h-fit inline-grid grid-flow-row grid-cols-1 auto-rows-min pb-16 w-full place-content-center md:32 lg:px-52 text-black m-auto"
           }
         >
-          <ScrollMotionEffect effect="fade-left" duration={2000}>
+          <ScrollMotionEffect effect="fade-up" duration={2000}>
             <div className="col-span-1 text-2xl  p-8  text-center leading-loose md:text-3xl  2xl:text-5xl font-semibold pb-14">
               Easy Step to Get Physiotherapy
             </div>

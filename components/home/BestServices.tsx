@@ -128,7 +128,7 @@ const BestServices = () => {
     <section className="bg-[#EFEFEF] text-black ">
       <div className="container py-10 md:py-20 pb-20">
         <div className="flex w-full  flex-col justify-center items-center ">
-          <ScrollMotionEffect effect="fade-down" duration={2000}>
+          <ScrollMotionEffect effect="fade-up" duration={2000}>
             <div className="flex  flex-col   justify-center items-center pb-20">
               <h2 className="text-5xl font-bold">Best Services</h2>
               <p className="text-lg py-4 text-center">

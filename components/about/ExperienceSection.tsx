@@ -7,7 +7,7 @@ const ExperienceSection = () => {
   return (
     <section className="bg-white te">
       <div className="container py-10 md:py-20">
-        <ScrollMotionEffect effect="fade-left" duration={2000}>
+        <ScrollMotionEffect effect="fade-up" duration={2000}>
           <div className="flex flex-col md:flex-row items-center ">
             <div className="flex-1 flex justify-center">
               <Image
@@ -50,7 +50,7 @@ const ExperienceSection = () => {
             </div>
           </div>
         </ScrollMotionEffect>
-        <ScrollMotionEffect effect="fade-right" duration={2000}>
+        <ScrollMotionEffect effect="fade-up" duration={2000}>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center justify-between mt-10 md:mt-20 text-black">
             <div className="flex items-center justify-center border bg-white shadow-xl p-10 space-x-6 rounded-lg">
               <Image
