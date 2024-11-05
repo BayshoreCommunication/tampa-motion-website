@@ -101,7 +101,7 @@ const BookAnAppointment = () => {
         Book an appointment today
       </h1>
       <div className="mt-8">
-        <form className="">
+        <form className="" onSubmit={handleSubmit}>
           <div className="flex flex-col md:flex-row  justify-between items-center gap-4">
             <div className="w-full">
               <input

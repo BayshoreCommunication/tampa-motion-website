@@ -32,6 +32,7 @@ const ContactForm: React.FC = () => {
   const validate = (values: EmailFormType): FormErrorsType => {
     const errors: FormErrorsType = {};
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
+
     if (!values.name) {
       errors.name = "Name is required!";
     }
