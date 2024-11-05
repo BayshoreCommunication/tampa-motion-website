@@ -1,5 +1,6 @@
 import HeroSection from "@/components/home/HeroSection";
 import ServiceCards from "@/components/services/ServiceCards";
+import EasyStep from "@/components/shared/EasyStep";
 import PageHeroSection from "@/components/shared/PageHeroSection";
 import React from "react";
 
@@ -68,6 +69,9 @@ const page = () => {
           </article>
         </div>
       </article>
+      {/* <div className="bg-white w-full">
+        <EasyStep className={" relative -top-10 "} />
+      </div> */}
     </section>
   );
 };

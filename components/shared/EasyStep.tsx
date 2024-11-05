@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const EasyStep = () => {
+const EasyStep = ({ className }: { className?: string }) => {
   return (
     <section className=" bg-white m-auto  py-10 md:py-20">
       <div className="container">
