@@ -20,14 +20,14 @@ export const metadata = {
 };
 const page = () => {
   return (
-    <section className=" bg-white ">
+    <section className=" bg-white">
       <PageHeroSection
         title="Contact Us"
         description="Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus."
       />
-      <div className=" w-full inline-grid grid-cols-1 grid-flow-row auto-rows-min py-10 md:py-20 ">
-        <div className=" container 2xl:px-32 sm:px-5 md:px-16 lg:px-32 xl:px-40">
-          <div className="inline-grid justify-center content-center grid-cols-1 xl:grid-cols-3 grid-flow-row gap-10 auto-rows-min px-5 p-8 border shadow-2xl rounded-xl ">
+      <div className="container md:px-40 py-10 md:py-20">
+        <div className="flex flex-col md:flex-row items-start justify-between gap-4 bg-white md:p-10  shadow-xl p-0">
+          <div className="w-full md:w-[40%]">
             <div className="flex flex-col justify-center items-center rounded-2xl p-4 bg-[#084a4d] text-white xl:col-span-1">
               <div className="p-4 rounded-2xl">
                 <h3 className="font-sans text-xl pb-4 2xl:py-8 2xl:text-3xl text-center font-bold 2xl:text-left">
@@ -83,7 +83,9 @@ const page = () => {
                 </Link>
               </section>
             </div>
-            <ContactForm className="xl:col-span-2" />
+          </div>
+          <div className="w-full md:w-[70%]">
+            <ContactForm />
           </div>
         </div>
       </div>

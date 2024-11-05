@@ -43,28 +43,29 @@ const HeroSection = () => {
             </h2>
 
             {/* Bottom Image */}
-            <div className="bg-[#CEECFB] flex items-center space-x-6 rounded-t-2xl w-full md:w-[80%] h-[160px] mt-20">
+            <div className="bg-[#CEECFB] flex items-center space-x-6 rounded-t-2xl w-full md:w-[80%] h-[150px] md:h-[160px] mt-20">
               <Image
                 src={"/assets/home/satisfied-customers-imageone.png"}
                 alt="logo"
                 width={600}
                 height={400}
-                className="w-[200px] h-auto relative ml-6 -top-6"
+                className="w-[180px] h-auto relative ml-6 -top-6"
               />
               <div className="flex flex-col items-center justify-start space-y-4">
-                <div className="flex items-center space-x-2">
+                <div className="flex items-center justify-start space-x-0 md:space-x-2">
                   <Image
-                    className="w-[150px] md:w-[200px] h-auto "
+                    className="w-[100px] md:w-[200px] h-auto -ml-4 md:ml-2"
                     width={200}
                     height={100}
                     src="/assets/home/group-image.png"
                     alt="avatar"
                   />
-                  <h2 className="text-2xl md:text-4xl font-bold leading-tight text-black">
+
+                  <h2 className="text-xl md:text-4xl font-bold leading-tight text-black">
                     18K
                   </h2>
                 </div>
-                <h2 className="text-xl md:text-2xl font-bold leading-tight text-black">
+                <h2 className="text-lg md:text-2xl font-bold leading-tight text-black">
                   Satisfied Customers
                 </h2>
               </div>
