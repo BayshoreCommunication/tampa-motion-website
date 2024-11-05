@@ -1,3 +1,4 @@
+import BestServices from "@/components/about/BestServices";
 import ExperienceSection from "@/components/about/ExperienceSection";
 import PowerOfPhysiotherapy from "@/components/about/PowerOfPhysiotherapy";
 import PageHeroSection from "@/components/shared/PageHeroSection";
@@ -19,6 +20,7 @@ const page = () => {
       />
       <ExperienceSection />
       <PowerOfPhysiotherapy />
+      <BestServices />
     </div>
   );
 };
