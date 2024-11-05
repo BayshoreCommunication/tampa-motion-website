@@ -69,9 +69,9 @@ const page = () => {
           </article>
         </div>
       </article>
-      {/* <div className="bg-white w-full">
+      <div className="bg-white w-full">
         <EasyStep className={" relative -top-10 "} />
-      </div> */}
+      </div>
     </section>
   );
 };
