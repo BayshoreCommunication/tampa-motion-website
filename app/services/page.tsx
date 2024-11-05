@@ -1,5 +1,6 @@
 import HeroSection from "@/components/home/HeroSection";
 import ServiceCards from "@/components/services/ServiceCards";
+import BookAnAppointment from "@/components/shared/BookAnAppointment";
 import EasyStep from "@/components/shared/EasyStep";
 import PageHeroSection from "@/components/shared/PageHeroSection";
 import React from "react";
@@ -32,7 +33,7 @@ const page = () => {
             cum animi consequatur?
           </p>
         </div>
-        <div className="container py-5 px-5 text-black relative -top-20 ">
+        {/* <div className="container py-5 px-5 text-black relative -top-20 ">
           <article className="w-full  rounded-3xl grid grid-flow-row grid-cols-1  h-fit z-10 shadow-2xl">
             <div className="w-full h-fit text-2xl text-center  pb-4 xl:text-3xl bg-white pt-5 rounded-t-3xl">
               Book an appointment today
@@ -67,6 +68,9 @@ const page = () => {
               </button>
             </form>
           </article>
+        </div> */}
+        <div className="container relative -top-20 ">
+          <BookAnAppointment />
         </div>
       </article>
       <div className="bg-white w-full">
