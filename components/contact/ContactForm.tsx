@@ -1,12 +1,24 @@
 "use client";
+
 import React, { useState, useEffect } from "react";
 import { Button } from "@nextui-org/react";
 import { send } from "emailjs-com";
 import Swal from "sweetalert2";
 import { MdArrowOutward } from "react-icons/md";
 
-const ContactForm = () => {
-  const [emailForm, setEmailForm] = useState({
+// Define types for form fields and errors
+type EmailFormType = {
+  name: string;
+  phone: string;
+  email: string;
+  subject: string;
+  message: string;
+};
+
+type FormErrorsType = Partial<Record<keyof EmailFormType, string>>;
+
+const ContactForm: React.FC = () => {
+  const [emailForm, setEmailForm] = useState<EmailFormType>({
     name: "",
     phone: "",
     email: "",
@@ -14,45 +26,39 @@ const ContactForm = () => {
     message: "",
   });
 
-  const [loading, setLoading] = useState(false);
-  const [formErrors, setFormErrors] = useState({});
+  const [loading, setLoading] = useState<boolean>(false);
+  const [formErrors, setFormErrors] = useState<FormErrorsType>({});
 
-  const validate = (values: any) => {
-    const errors = {};
+  const validate = (values: EmailFormType): FormErrorsType => {
+    const errors: FormErrorsType = {};
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
     if (!values.name) {
       errors.name = "Name is required!";
     }
-
     if (!values.email) {
       errors.email = "Email is required!";
     } else if (!regex.test(values.email)) {
       errors.email = "This is not a valid email format!";
     }
-
     if (!values.phone) {
       errors.phone = "Phone number is required!";
     }
-
     if (!values.subject) {
       errors.subject = "Subject is required!";
     }
-
     if (!values.message) {
       errors.message = "Message is required!";
     }
     return errors;
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setLoading(true); // Start loading
+    setLoading(true);
 
-    // Validate the form and set errors
     const errors = validate(emailForm);
     setFormErrors(errors);
 
-    // Check if there are any errors
     if (Object.keys(errors).length === 0) {
       send(
         "service_8n2c08r",
@@ -61,7 +67,7 @@ const ContactForm = () => {
         "892_ctuJSgLrPDjJ7"
       )
         .then((response) => {
-          setLoading(false); // Stop loading
+          setLoading(false);
           Swal.fire({
             icon: "success",
             text: "Thank you for reaching out. Your information has been successfully submitted. Our team will respond to your inquiry shortly.",
@@ -89,11 +95,11 @@ const ContactForm = () => {
               subject: "",
               message: "",
             });
-            setLoading(false); // Stop loading
+            setLoading(false);
           });
         });
     } else {
-      setLoading(false); // Stop loading
+      setLoading(false);
     }
   };
 
