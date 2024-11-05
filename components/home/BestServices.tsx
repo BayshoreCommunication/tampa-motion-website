@@ -143,7 +143,7 @@ const BestServices = () => {
             <div className=" flex justify-center items-center gap-4 flex-wrap z-10">
               {[1, 2, 3, 4].map((item) => (
                 <div className="  bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] rounded-3xl p-[1px] ">
-                  <article className="w-[350px] h-[250px] border bg-white p-2 rounded-3xl flex flex-col justify-center items-center border-transparent">
+                  <article className="w-[350px] h-[250px] border bg-white p-4 rounded-3xl flex flex-col justify-center items-center border-transparent">
                     <Image
                       src="/assets/BestServices/healthCare.png"
                       alt="healthCare"
@@ -153,9 +153,8 @@ const BestServices = () => {
                     />
                     <div className="text-xl font-bold ">Physiotherapy</div>
                     <div className=" text-center pt-3 ">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Quibusdam alias dignissimos in asperiores earum nesciunt
-                      commodi, hic illum magnam.
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Perspiciatis soluta nemo dolorum, eum ipsum dolor illum.
                     </div>
                   </article>
                 </div>
