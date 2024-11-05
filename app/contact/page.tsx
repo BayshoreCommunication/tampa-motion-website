@@ -27,9 +27,9 @@ const page = () => {
         description="Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus."
       />
       <div className="container md:px-40 py-10 md:py-20">
-        <div className="flex flex-col md:flex-row items-start justify-between gap-4 bg-white md:p-10  shadow-xl p-0">
-          <div className="w-full md:w-[40%]">
-            <ScrollMotionEffect effect="fade-right" duration={2000}>
+        <ScrollMotionEffect effect="fade-up" duration={2000}>
+          <div className="flex flex-col md:flex-row items-start justify-between gap-4 bg-white md:p-10  shadow-xl p-0">
+            <div className="w-full md:w-[40%]">
               <div className="flex flex-col justify-center items-center rounded-2xl p-4 bg-[#084a4d] text-white xl:col-span-1">
                 <div className="p-4 rounded-2xl">
                   <h3 className="font-sans text-xl pb-4 2xl:py-8 2xl:text-3xl text-center font-bold 2xl:text-left">
@@ -91,17 +91,15 @@ const page = () => {
                   </Link>
                 </section>
               </div>
-            </ScrollMotionEffect>
-          </div>
-          <div className="w-full md:w-[70%]">
-            <ScrollMotionEffect effect="fade-left" duration={2000}>
+            </div>
+            <div className="w-full md:w-[70%]">
               <ContactForm />
-            </ScrollMotionEffect>
+            </div>
           </div>
-        </div>
+        </ScrollMotionEffect>
       </div>
       <div>
-        <ScrollMotionEffect effect="fade-in" duration={1000}>
+        <ScrollMotionEffect effect="fade-in" duration={2000}>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3587.1493927564125!2d-80.1481251!3d25.9631404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9ac5e74403639%3A0x487bf5a8937d27c5!2s20200%20W%20Dixie%20Hwy%20%23902%2C%20Miami%2C%20FL%2033180%2C%20USA!5e0!3m2!1sen!2sbd!4v1730375390755!5m2!1sen!2sbd"
             width="600"
