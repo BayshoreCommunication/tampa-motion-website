@@ -17,7 +17,7 @@ const ContactForm = () => {
   const [loading, setLoading] = useState(false);
   const [formErrors, setFormErrors] = useState({});
 
-  const validate = (values) => {
+  const validate = (values: any) => {
     const errors = {};
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
     if (!values.name) {
