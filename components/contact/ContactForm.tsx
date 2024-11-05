@@ -236,7 +236,7 @@ const ContactForm: React.FC = () => {
         ) : (
           <button
             type="submit"
-            // onClick={handleSubmit}
+            onClick={() => handleSubmit}
             className="text-white bg-secondary   font-medium  text-base w-full rounded  cursor-pointer px-5 py-2 xl:py-4 text-center"
           >
             Make An Apponment
