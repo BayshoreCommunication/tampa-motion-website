@@ -6,8 +6,8 @@ const AchievingOptimal = () => {
   return (
     <section className="bg-white text-black pt-44">
       <div className="container py-10 md:py-20">
-        <div className="flex flex-col md:flex-row items-center gap-x-16">
-          <div className="w-[50%] flex items-center justify-center">
+        <div className="flex flex-col xl:flex-row items-center gap-x-16">
+          <div className="w-full xl:w-[50%] flex items-center justify-center">
             <div className="relative">
               <Image
                 src={"/assets/AchievingOptimal/patientBg.png"}
@@ -22,7 +22,7 @@ const AchievingOptimal = () => {
               </div>
             </div>
           </div>
-          <div className="w-[50%]">
+          <div className="w-full xl:w-[50%] pt-10">
             <h2 className="text-5xl font-bold leading-snug">
               Achieving Optimal Health with Chirox
             </h2>
