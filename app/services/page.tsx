@@ -1,4 +1,5 @@
 import HeroSection from "@/components/home/HeroSection";
+import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
 import ServiceCards from "@/components/services/ServiceCards";
 import BookAnAppointment from "@/components/shared/BookAnAppointment";
 import EasyStep from "@/components/shared/EasyStep";
@@ -23,15 +24,17 @@ const page = () => {
           <ServiceCards />
         </div>
         <div className="bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] z-20  py-32 text-black">
-          <h3 className="text-xl  text-center md:text-3xl 2xl:text-5xl font-baskerville px-5 2xl:px-52">
-            If you want avail these services Book an appointment today
-          </h3>
-          <p className="text-center py-5 text-base 2xl:text-lg font-sans px-5 xl:px-52">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi alias
-            reiciendis, earum autem perspiciatis neque necessitatibus quia
-            nulla. Deleniti quos quas aut rem culpa eligendi qui reprehenderit
-            cum animi consequatur?
-          </p>
+          <ScrollMotionEffect effect="fade-up" duration={2000}>
+            <h3 className="text-xl  text-center md:text-3xl 2xl:text-5xl font-baskerville px-5 2xl:px-52">
+              If you want avail these services Book an appointment today
+            </h3>
+            <p className="text-center py-5 text-base 2xl:text-lg font-sans px-5 xl:px-52">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              alias reiciendis, earum autem perspiciatis neque necessitatibus
+              quia nulla. Deleniti quos quas aut rem culpa eligendi qui
+              reprehenderit cum animi consequatur?
+            </p>
+          </ScrollMotionEffect>
         </div>
         {/* <div className="container py-5 px-5 text-black relative -top-20 ">
           <article className="w-full  rounded-3xl grid grid-flow-row grid-cols-1  h-fit z-10 shadow-2xl">
@@ -70,7 +73,9 @@ const page = () => {
           </article>
         </div> */}
         <div className="container relative -top-20 ">
-          <BookAnAppointment />
+          <ScrollMotionEffect effect="fade-up" duration={2000}>
+            <BookAnAppointment />
+          </ScrollMotionEffect>
         </div>
       </article>
       <div className="bg-white w-full">

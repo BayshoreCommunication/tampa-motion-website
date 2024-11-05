@@ -4,6 +4,7 @@ import BestServices from "@/components/home/BestServices";
 import EasyStep from "@/components/shared/EasyStep";
 import HeroSection from "@/components/home/HeroSection";
 import Testimonials from "@/components/home/Testimonials";
+import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
 
 export const metadata = {
   title: "Tampa Motion",
@@ -22,8 +23,10 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <section className="">
-      <HeroSection />
+    <section className="bg-[#EFEFEF] ">
+      <ScrollMotionEffect effect="fade-up" duration={2000}>
+        <HeroSection />
+      </ScrollMotionEffect>
       <AchievingOptimal />
       <BestServices />
       <EasyStep />

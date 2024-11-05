@@ -35,7 +35,7 @@ const PageHeroSection: React.FC<PageHeroSectionProps> = ({
             </h1>
           </ScrollMotionEffect>
           <ScrollMotionEffect {...animationProps}>
-            <h2 className="mt-4 md:mt-6 text-base md:text-[20px] font-light text-black md:text-left text-center leading-snug max-w-[1000px]">
+            <h2 className="mt-4 md:mt-6 text-base md:text-[20px] font-light text-black md:text-left text-center leading-snug max-w-[2000px]">
               {description}
             </h2>
           </ScrollMotionEffect>

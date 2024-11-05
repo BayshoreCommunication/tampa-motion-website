@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import BookAnAppointment from "../shared/BookAnAppointment";
+import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 
 const cardDatas = [
   {
@@ -75,35 +76,39 @@ const HeroSection = () => {
             <Image
               src={"/assets/home/heroimage.png"}
               alt="logo"
-              width={1200}
+              width={2000}
               height={604}
               className="w-full"
             />
           </div>
         </div>
         <div>
-          <BookAnAppointment />
+          <ScrollMotionEffect effect="fade-right" duration={2000}>
+            <BookAnAppointment />
+          </ScrollMotionEffect>
         </div>
         <div className="relative -bottom-40 md:-bottom-48 -mt-24 md:-mt-32 overscroll-none">
-          <div className="grid grid-cols-1 md:grid-cols-3 items-center justify-between gap-8">
-            {cardDatas?.map((el: any, index: number) => (
-              <div className="bg-white border shadow-2xl rounded-xl p-6 text-black">
-                <div className="flex justify-center items-center">
-                  <Image
-                    className="w-20 h-auto flex  justify-center"
-                    width={100}
-                    height={100}
-                    src={el?.img}
-                    alt="avatar"
-                  />
+          <ScrollMotionEffect effect="fade-left" duration={2000}>
+            <div className="grid grid-cols-1 md:grid-cols-3 items-center justify-between gap-8">
+              {cardDatas?.map((el: any, index: number) => (
+                <div className="bg-white border shadow-2xl rounded-xl p-6 text-black">
+                  <div className="flex justify-center items-center">
+                    <Image
+                      className="w-20 h-auto flex  justify-center"
+                      width={100}
+                      height={100}
+                      src={el?.img}
+                      alt="avatar"
+                    />
+                  </div>
+                  <h2 className="text-2xl md:text-3xl font-semibold leading-tight text-center mt-4">
+                    {el?.title}
+                  </h2>
+                  <p className=" text-center mt-2 text-lg">{el?.desc}</p>
                 </div>
-                <h2 className="text-2xl md:text-3xl font-semibold leading-tight text-center mt-4">
-                  {el?.title}
-                </h2>
-                <p className=" text-center mt-2 text-lg">{el?.desc}</p>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          </ScrollMotionEffect>
         </div>
       </div>
     </section>
