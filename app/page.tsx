@@ -1,7 +1,7 @@
 import PowerOfPhysiotherapy from "@/components/about/PowerOfPhysiotherapy";
 import AchievingOptimal from "@/components/home/AchievingOptimal";
 import BestServices from "@/components/home/BestServices";
-import EasyStep from "@/components/home/EasyStep";
+import EasyStep from "@/components/shared/EasyStep";
 import HeroSection from "@/components/home/HeroSection";
 import Testimonials from "@/components/home/Testimonials";
 

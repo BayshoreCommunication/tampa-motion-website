@@ -33,29 +33,35 @@ const page = () => {
                 <h3 className="font-sans text-xl pb-4 2xl:py-8 2xl:text-3xl text-center font-bold 2xl:text-left">
                   Contact Information
                 </h3>
-                <p className="font-sans 2xl:text-base text-sm text-left">
+                <p className="font-sans 2xl:text-base text-sm text-center xl:text-left">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
                   dolorum ipsa consequuntur sint id labore voluptatum repellat
                   quidem
                 </p>
               </div>
-              <div className="flex flex-row pt-8 text-left w-full items-center pl-4">
+              <div className="flex flex-row pt-8 text-left w-full items-center pl-4 pb-2">
                 <div>
                   <IoIosCall />
                 </div>
-                <div>&nbsp;&nbsp;+26&nbsp;123&nbsp;456&nbsp;789</div>
+                <div className="text-sm md:text-base">
+                  &nbsp;&nbsp;+26&nbsp;123&nbsp;456&nbsp;789
+                </div>
               </div>
-              <div className="flex flex-row  text-left w-full items-center pl-4">
+              <div className="flex flex-row  text-left w-full items-center pl-4 pb-2">
                 <div>
                   <IoMdMailUnread />
                 </div>
-                <div>&nbsp;&nbsp;support@chirox.com</div>
+                <div className="text-sm md:text-base">
+                  &nbsp;&nbsp;support@chirox.com
+                </div>
               </div>
               <div className="flex flex-row pb-5 2xl:pb-20  text-left w-full items-center pl-4">
                 <div>
                   <FaLocationDot />
                 </div>
-                <div>&nbsp;&nbsp;JI Dr. Ir. Soekarno Tabanan - Bali</div>
+                <div className="text-sm md:text-base line-clamp-1">
+                  &nbsp;&nbsp;JI Dr. Ir. Soekarno Tabanan - Bali
+                </div>
               </div>
               <section className="text-white flex flex-row justify-start items-center gap-4 h-fit py-4">
                 <Link href={"#"}>
