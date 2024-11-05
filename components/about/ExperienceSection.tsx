@@ -27,14 +27,14 @@ const ExperienceSection = () => {
               Aenean commodo ligula eget dolor aenean massa cum sociis et
               natoque penatibus.
             </p>
-            <ui className=" md:text-left text-center ">
+            <ul className=" md:text-left text-center ">
               <li className="text-base md:text-xl font-semibold text-gray-800 py-1">
                 Professional Therapist
               </li>
               <li className="text-base md:text-xl font-semibold text-gray-800 py-1">
                 Satisfaction Gurantee
               </li>
-            </ui>
+            </ul>
             <div className="mt-6 flex justify-center md:justify-start">
               <Link
                 href="tel:954-529-0695"

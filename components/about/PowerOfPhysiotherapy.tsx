@@ -12,7 +12,7 @@ const physiotherapyDatas = [
   {
     url: "/assets/about/affordable-prices.png",
     title: "Affordable Prices",
-    desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo.",
+    desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo",
   },
   {
     url: "/assets/about/very-friendly-service.png",
@@ -46,7 +46,7 @@ const PowerOfPhysiotherapy = () => {
               Aenean commodo ligula eget dolor aenean massa cum sociis et
               natoque penatibus.
             </p>
-            <ui className=" md:text-left text-center list-none">
+            <ul className=" md:text-left text-center list-none">
               {physiotherapyDatas?.map((el: any, index: number) => (
                 <li className="text-base md:text-xl font-semibold text-gray-800 py-1">
                   <div className="flex md:flex-row flex-col items-center md:items-start justify-center md:justify-start space-x-4">
@@ -70,7 +70,7 @@ const PowerOfPhysiotherapy = () => {
                   </div>
                 </li>
               ))}
-            </ui>
+            </ul>
             <div className="mt-6 flex flex-col md:flex-row justify-center md:justify-start space-10 items-center">
               <Link
                 href="tel:954-529-0695"
