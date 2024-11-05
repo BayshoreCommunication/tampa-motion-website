@@ -3,7 +3,7 @@ import React from "react";
 
 const EasyStep = ({ className }: { className?: string }) => {
   return (
-    <section className=" bg-white m-auto  py-10 md:py-20">
+    <section className={" bg-white m-auto  py-10 md:py-20 " + className}>
       <div className="container">
         <div
           className={
