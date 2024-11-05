@@ -23,19 +23,19 @@ const AchievingOptimal = () => {
             </div>
           </div>
           <div className="w-full xl:w-[50%] pt-10">
-            <h2 className="text-5xl font-bold leading-snug">
+            <h2 className="text-center xl:text-left text-5xl font-bold leading-snug">
               Achieving Optimal Health with Chirox
             </h2>
 
-            <p className="text-lg font-medium mt-4 border-b-2 border-secondary pb-10">
+            <p className="text-center xl:text-left text-lg font-medium mt-4 border-b-2 border-secondary pb-10">
               Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean
               commodo ligula eget dolor aenean massa cum sociis et natoque
               penatibus.Lorem ipsum dolor sit amet, consectetuer adipiscing.
               Aenean commodo ligula eget dolor aenean massa cum sociis et
               natoque penatibus.
             </p>
-            <div className="flex items-center justify-center gap-x-16 mt-8">
-              <div>
+            <div className="flex flex-col xl:flex-row items-center justify-center gap-x-16 gap-y-10 mt-8">
+              <div className="flex flex-col items-center justify-center xl:justify-start xl:items-start ">
                 <div className="flex items-center justify-center p-3 bg-secondary rounded-full w-16 h-16">
                   <Image
                     src={"/assets/AchievingOptimal/focus.png"}
@@ -49,13 +49,13 @@ const AchievingOptimal = () => {
                   Our Mission
                 </h2>
 
-                <p className="text-base mt-4">
+                <p className="text-base mt-4 px-5 text-center xl:text-left xl:px-0">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean
                   commodo ligula eget dolor aenean massa cum sociis et natoque
                   penatibus.
                 </p>
               </div>
-              <div>
+              <div className="flex flex-col items-center justify-center xl:justify-start xl:items-start ">
                 <div className="flex items-center justify-center p-3 bg-secondary rounded-full w-16 h-16">
                   <Image
                     src={"/assets/AchievingOptimal/pointer.png"}
@@ -66,9 +66,9 @@ const AchievingOptimal = () => {
                   />
                 </div>
                 <h2 className="text-2xl font-bold leading-snug mt-3">
-                  Our Mission
+                  Our Vision
                 </h2>
-                <p className="text-base mt-4">
+                <p className="text-base mt-4 px-5 text-center xl:text-left xl:px-0">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean
                   commodo ligula eget dolor aenean massa cum sociis et
                   penatibus.
