@@ -23,7 +23,12 @@ const cardDatas = [
   },
 ];
 
-const text = "Physio At Your Service".split(" ");
+const h1 = `Physio At Your Service`.split(" ");
+const h6 =
+  `We empower you to move freely and live fully. Our expert physiotherapists use personalized treatment plans to help you recover from injury, manage pain, and enhance mobility. Whether you're healing from surgery or looking to prevent future issues, we’re here to support every step of your journey to better health.`.split(
+    " "
+  );
+const h2 = "Move better. Feel better. Live better.".split(" ");
 
 const HeroSection = () => {
   return (
@@ -32,9 +37,9 @@ const HeroSection = () => {
         <div className="flex flex-col-reverse md:flex-row items-end">
           <div className="flex-1 mt-10 md:mt-0">
             {/* Main Title */}
-
+            pt-20
             <h1 className="text-4xl md:text-7xl font-bold leading-tight md:text-left text-center text-black">
-              {text.map((word, index) => (
+              {h1.map((word, index) => (
                 <motion.span
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
@@ -46,53 +51,95 @@ const HeroSection = () => {
               ))}
             </h1>
             <h6 className="text-lg md:text-2xl font-normal mt-6 md:text-left text-center text-black">
-              {`We empower you to move freely and live fully. Our expert
+              {/* {h6.map((word, index) => (
+                <motion.span
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 0.5, delay: index / 10 }}
+                  key={index}
+                >
+                  {word}{" "}
+                </motion.span>
+              ))} */}
+              <ScrollMotionEffect effect="fade-up" duration={2000}>
+                {h6.map((word, index) => (
+                  <motion.span
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 0.5, delay: index / 10 }}
+                    key={index}
+                  >
+                    {word}{" "}
+                  </motion.span>
+                ))}
+              </ScrollMotionEffect>
+
+              {/* <ScrollMotionEffect effect="fade-up" duration={2000}>
+                {`We empower you to move freely and live fully. Our expert
               physiotherapists use personalized treatment plans to help you
               recover from injury, manage pain, and enhance mobility. Whether
               you're healing from surgery or looking to prevent future issues,
-              we’re here to support every step of your journey to better health.`}
+              we’re here to support every step of your journey to better
+              health.`}
+              </ScrollMotionEffect> */}
             </h6>
             <h2 className="text-lg font-semibold mt-6 md:text-left text-center text-black">
-              Move better. Feel better. Live better.
+              {h2.map((word, index) => (
+                <motion.span
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 4, delay: index / 10 }}
+                  key={index}
+                >
+                  {word}{" "}
+                </motion.span>
+              ))}
             </h2>
-
             {/* Bottom Image */}
-            <div className="bg-[#CEECFB] flex items-center space-x-6 rounded-t-2xl w-full md:w-[80%] h-[150px] md:h-[160px] mt-20">
-              <Image
-                src={"/assets/home/satisfied-customers-imageone.png"}
-                alt="logo"
-                width={600}
-                height={400}
-                className="w-[180px] h-auto relative ml-6 -top-6"
-              />
-              <div className="flex flex-col items-center justify-start space-y-4">
-                <div className="flex items-center justify-start space-x-0 md:space-x-2">
+            <ScrollMotionEffect effect="fade-up" duration={2000}>
+              <div className="bg-[#CEECFB] flex items-center space-x-6 rounded-t-2xl w-full md:w-[80%] h-[150px] md:h-[160px] mt-20">
+                <ScrollMotionEffect effect="fade-up" duration={2000}>
                   <Image
-                    className="w-[100px] md:w-[200px] h-auto -ml-4 md:ml-2"
-                    width={200}
-                    height={100}
-                    src="/assets/home/group-image.png"
-                    alt="avatar"
+                    src={"/assets/home/satisfied-customers-imageone.png"}
+                    alt="logo"
+                    width={600}
+                    height={400}
+                    className="w-[180px] h-auto relative ml-6 -top-6"
                   />
+                </ScrollMotionEffect>
+                <ScrollMotionEffect effect="fade-up" duration={2000}>
+                  <div className="flex flex-col items-center justify-start space-y-4">
+                    <div className="flex items-center justify-start space-x-0 md:space-x-2">
+                      <Image
+                        className="w-[100px] md:w-[200px] h-auto -ml-4 md:ml-2"
+                        width={200}
+                        height={100}
+                        src="/assets/home/group-image.png"
+                        alt="avatar"
+                      />
 
-                  <h2 className="text-xl md:text-4xl font-bold leading-tight text-black">
-                    18K
-                  </h2>
-                </div>
-                <h2 className="text-lg md:text-2xl font-bold leading-tight text-black">
-                  Satisfied Customers
-                </h2>
+                      <h2 className="text-xl md:text-4xl font-bold leading-tight text-black">
+                        18K
+                      </h2>
+                    </div>
+                    <h2 className="text-lg md:text-2xl font-bold leading-tight text-black">
+                      Satisfied Customers
+                    </h2>
+                  </div>
+                </ScrollMotionEffect>
               </div>
-            </div>
+            </ScrollMotionEffect>
           </div>
           <div className="flex-1">
-            <Image
-              src={"/assets/home/heroimage.png"}
-              alt="logo"
-              width={2000}
-              height={604}
-              className="w-full"
-            />
+            <ScrollMotionEffect effect="fade-up" duration={2000}>
+              <Image
+                src={"/assets/home/heroimage.png"}
+                alt="logo"
+                width={2000}
+                height={604}
+                className="w-full"
+              />
+            </ScrollMotionEffect>
           </div>
         </div>
         <div>

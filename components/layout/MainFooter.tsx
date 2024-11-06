@@ -29,7 +29,7 @@ const MainFooter = () => {
             <div className="grid justify-center grid-cols-2 gap-8 sm:gap-6 xl:grid-cols-5 ">
               <div className="col-span-2 mx-auto mb-6 md:mb-0 md:mx-0">
                 <Link
-                  href="https://tampa-motion-website.vercel.app/"
+                  href="/"
                   className="flex items-center justify-center cursor-pointer md:justify-start"
                 >
                   <Image
@@ -183,10 +183,7 @@ const MainFooter = () => {
           <div className="md:flex :items-center sm:justify-between">
             <div className="text-[18px] font-medium text-center text-white">
               © 2024{" "}
-              <a
-                href="https://tampa-motion-website.vercel.app/"
-                className="hover:underline text-white"
-              >
+              <a href="/" className="hover:underline text-white">
                 Tampla Motion
               </a>
               . All Rights Reserved.

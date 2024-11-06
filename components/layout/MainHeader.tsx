@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect, useCallback, useMemo } from "react";
+import React, { useState, useMemo } from "react";
 import {
   Navbar,
   NavbarBrand,
@@ -8,19 +8,15 @@ import {
   NavbarMenu,
   NavbarMenuItem,
 } from "@nextui-org/react";
-import { LuUser2 } from "react-icons/lu";
-import { IoCall } from "react-icons/io5";
+
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Orbitron } from "next/font/google";
-import { BsTelephoneForwardFill } from "react-icons/bs";
-import { IoLocationSharp } from "react-icons/io5";
-import { HiOutlineMail } from "react-icons/hi";
+import { Libre_Baskerville, Orbitron } from "next/font/google";
 
 import Image from "next/image";
 import { areaspracticeData } from "@/config/data";
 
-const orbitron = Orbitron({ subsets: ["latin"] });
+const baskerville = Libre_Baskerville({ subsets: ["latin"], weight: "400" });
 
 // // Debounce function to limit the rate of calling the handleScroll function
 // const debounce = (func, wait) => {
@@ -73,17 +69,17 @@ const MainHeader = () => {
 
   return (
     <section className={"relative z-50"}>
-      <div className="bg-primary">
-        <div className="bg-white hidden md:block">
-          <div className="flex items-center container  justify-between">
-            <div className=" flex items-center gap-x-10 2xl:gap-x-16">
-              <Link href={"/"}>
+      <div className="bg-primary ">
+        <div className="bg-white hidden md:block ">
+          <div className="flex items-center container  justify-between ">
+            <div className=" flex items-center gap-x-10 2xl:gap-x-16 max-h-[94px]">
+              <Link href={"/a"}>
                 <Image
                   src="/assets/site-logo/tampla-motion-logo.png"
                   alt="footer logo"
-                  width={500}
-                  height={500}
-                  className="cursor-pointer w-[180px] xl:w-[300px]  h-auto mt-2 mb-2"
+                  width={300}
+                  height={79}
+                  className="cursor-pointer w-[300px] xl:w-[300px]  m-2 max-h-[78px]"
                 />
               </Link>
             </div>
