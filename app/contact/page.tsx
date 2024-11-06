@@ -26,10 +26,10 @@ const page = () => {
         title="Contact Us"
         description="Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus."
       />
-      <div className="container md:px-40 py-10 md:py-20">
+      <div className="container xl:px-40 py-10 md:py-20">
         <ScrollMotionEffect effect="fade-up" duration={2000}>
           <div className="flex flex-col md:flex-row items-start justify-between gap-4 bg-white md:p-10  shadow-xl p-0">
-            <div className="w-full md:w-[40%]">
+            <div className="w-full ">
               <div className="flex flex-col justify-center items-center rounded-2xl p-4 bg-[#084a4d] text-white xl:col-span-1">
                 <div className="p-4 rounded-2xl">
                   <h3 className="font-sans text-xl pb-4 2xl:py-8 2xl:text-3xl text-center font-bold 2xl:text-left">
@@ -92,7 +92,7 @@ const page = () => {
                 </section>
               </div>
             </div>
-            <div className="w-full md:w-[70%]">
+            <div className="w-full ">
               <ContactForm />
             </div>
           </div>
