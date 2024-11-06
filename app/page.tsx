@@ -24,9 +24,8 @@ export const metadata = {
 export default function Home() {
   return (
     <section className="bg-[#EFEFEF] ">
-      <ScrollMotionEffect effect="fade-up" duration={2000}>
-        <HeroSection />
-      </ScrollMotionEffect>
+      <HeroSection />
+
       <AchievingOptimal />
       <BestServices />
       <EasyStep />

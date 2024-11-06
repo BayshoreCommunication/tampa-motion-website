@@ -16,7 +16,7 @@ import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
 
 const Testimonials = () => {
   return (
-    <div className="bg-doctors bg-cover text-black ">
+    <div className="bg-doctors bg-cover text-black pb-8 sm:pb-0">
       <ScrollMotionEffect effect="fade-up" duration={2000}>
         <div className="container">
           <section className="px-5 inline-grid grid-flow-row auto-rows-min grid-cols-1 py-10 md:py-20">
@@ -36,7 +36,7 @@ const Testimonials = () => {
               </h4>
             </div>
 
-            <div className="col-span-1 relative h-60 w-full z-50 opacity-100 px-5">
+            <div className="col-span-1 relative h-60 w-full z-50 opacity-100 px-5 ">
               <div className=" md:hidden lg:hidden">
                 <Swiper
                   slidesPerView={1}

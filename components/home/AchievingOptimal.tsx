@@ -9,7 +9,7 @@ const AchievingOptimal = () => {
       <div className="container py-10 md:py-20">
         <div className="flex flex-col xl:flex-row items-center gap-x-16">
           <div className="w-full xl:w-[50%] flex items-center justify-center">
-            <ScrollMotionEffect effect="fade-left" duration={2000}>
+            <ScrollMotionEffect effect="fade-right" duration={2000}>
               <div className="relative">
                 <Image
                   src={"/assets/AchievingOptimal/patientBg.png"}
@@ -27,7 +27,7 @@ const AchievingOptimal = () => {
           </div>
 
           <div className="w-full xl:w-[50%] pt-10">
-            <ScrollMotionEffect effect="fade-right" duration={2000}>
+            <ScrollMotionEffect effect="fade-left" duration={2000}>
               <h2 className="text-center xl:text-left text-5xl font-bold leading-snug">
                 Achieving Optimal Health with Chirox
               </h2>

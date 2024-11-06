@@ -1,7 +1,9 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import BookAnAppointment from "../shared/BookAnAppointment";
 import ScrollMotionEffect from "../motion/ScrollMotionEffect";
+import { motion } from "framer-motion";
 
 const cardDatas = [
   {
@@ -21,6 +23,8 @@ const cardDatas = [
   },
 ];
 
+const text = "Physio At Your Service".split(" ");
+
 const HeroSection = () => {
   return (
     <section className="bg-[#EFEFEF] ">
@@ -30,7 +34,16 @@ const HeroSection = () => {
             {/* Main Title */}
 
             <h1 className="text-4xl md:text-7xl font-bold leading-tight md:text-left text-center text-black">
-              Physio At Your Service
+              {text.map((word, index) => (
+                <motion.span
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 0.25, delay: index / 10 }}
+                  key={index}
+                >
+                  {word}{" "}
+                </motion.span>
+              ))}
             </h1>
             <h6 className="text-lg md:text-2xl font-normal mt-6 md:text-left text-center text-black">
               {`We empower you to move freely and live fully. Our expert
