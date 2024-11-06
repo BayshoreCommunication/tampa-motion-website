@@ -41,7 +41,13 @@ const HeroSection = () => {
     <section className="bg-[#EFEFEF] ">
       <div className="container py-10 md:py-20">
         <div className="flex flex-col-reverse md:flex-row items-end">
-          <div className="flex-1 mt-10 md:mt-0">
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            exit={{ opacity: 0, transition: { duration: 1 } }}
+            variants={{ visible: { transition: { staggerChildren: 0.2 } } }}
+            className="flex-1 mt-10 md:mt-0"
+          >
             <h1 className="text-4xl md:text-7xl font-bold leading-tight md:text-left text-center text-black whitespace-pre">
               {h1.map((word, index) => (
                 <motion.span
@@ -87,7 +93,7 @@ const HeroSection = () => {
                   <motion.span
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    transition={{ duration: 0.5, delay: index / 10 }}
+                    transition={{ duration: 0.2, delay: index / 10 }}
                     key={index}
                   >
                     {word}{" "}
@@ -129,7 +135,7 @@ const HeroSection = () => {
                 </ScrollMotionEffect>
               </div>
             </ScrollMotionEffect>
-          </div>
+          </motion.div>
           <div className="flex-1">
             <ScrollMotionEffect effect="fade-up" duration={2000}>
               <Image
