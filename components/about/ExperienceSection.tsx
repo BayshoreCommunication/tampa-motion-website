@@ -41,7 +41,7 @@ const ExperienceSection = () => {
               </div>
               <div className="mt-6 flex justify-center md:justify-start">
                 <Link
-                  href="tel:954-529-0695"
+                  href="/contact"
                   className="bg-secondary  py-3  md:px-1 lg:px-4 rounded-sm w-[200px] md:w-[250px]  text-white text-center"
                 >
                   Make An Apponment
