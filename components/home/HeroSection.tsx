@@ -38,7 +38,7 @@ const HeroSection = () => {
                 <motion.span
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
-                  transition={{ duration: 1, delay: index / 10 }}
+                  transition={{ duration: 3, delay: index / 10 }}
                   key={index}
                 >
                   {word}{" "}
