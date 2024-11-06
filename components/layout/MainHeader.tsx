@@ -176,7 +176,7 @@ const MainHeader = () => {
                     alt="footer logo"
                     width={500}
                     height={500}
-                    className="w-[200px] h-auto"
+                    className="w-[200px] h-auto max-h-[51px]"
                   />
                 </Link>
               </NavbarBrand>

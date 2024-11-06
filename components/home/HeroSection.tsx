@@ -105,7 +105,7 @@ const HeroSection = () => {
                     alt="logo"
                     width={600}
                     height={400}
-                    className="w-[180px] h-auto relative ml-6 -top-6"
+                    className="w-[180px] h-auto relative ml-6 -top-4"
                   />
                 </ScrollMotionEffect>
                 <ScrollMotionEffect effect="fade-up" duration={2000}>
