@@ -11,9 +11,9 @@ const BestServices = () => {
       <div className="container py-10 md:py-20 pb-20  text-black">
         <div className="flex w-full  flex-col justify-center items-center ">
           <ScrollMotionEffect effect="fade-up" duration={2000}>
-            <div className="flex  flex-col   justify-center items-center pb-20">
+            <div className="flex  flex-col   justify-center items-center pb-5">
               <h2 className="text-5xl font-bold">Best Services</h2>
-              <p className="text-lg py-4 text-center">
+              <p className="text-lg py-8 text-center">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
                 unde aut laudantium voluptate esse vel. Tenetur, tempora ipsum!
                 Ut cupiditate numquam deleniti corporis vitae voluptatibus atque
