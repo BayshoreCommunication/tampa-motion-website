@@ -73,7 +73,7 @@ const MainHeader = () => {
         <div className="bg-white hidden md:block ">
           <div className="flex items-center container  justify-between ">
             <div className=" flex items-center gap-x-10 2xl:gap-x-16 max-h-[94px]">
-              <Link href={"/a"}>
+              <Link href={"/"}>
                 <Image
                   src="/assets/site-logo/tampla-motion-logo.png"
                   alt="footer logo"

@@ -23,7 +23,8 @@ const cardDatas = [
   },
 ];
 
-const h1 = `Physio At Your Service`.split(" ");
+const h1 = `Physio At
+Your Service`.split(" ");
 const h6 =
   `We empower you to move freely and live fully. Our expert physiotherapists use personalized treatment plans to help you recover from injury, manage pain, and enhance mobility. Whether you're healing from surgery or looking to prevent future issues, we’re here to support every step of your journey to better health.`.split(
     " "
@@ -38,7 +39,7 @@ const HeroSection = () => {
           <div className="flex-1 mt-10 md:mt-0">
             {/* Main Title */}
             pt-20
-            <h1 className="text-4xl md:text-7xl font-bold leading-tight md:text-left text-center text-black">
+            <h1 className="text-4xl md:text-7xl font-bold leading-tight md:text-left text-center text-black whitespace-pre">
               {h1.map((word, index) => (
                 <motion.span
                   initial={{ opacity: 0 }}
