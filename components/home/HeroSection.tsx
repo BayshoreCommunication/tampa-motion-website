@@ -25,11 +25,16 @@ const cardDatas = [
 
 const h1 = `Physio At
 Your Service`.split(" ");
-const h6 =
-  `We empower you to move freely and live fully. Our expert physiotherapists use personalized treatment plans to help you recover from injury, manage pain, and enhance mobility. Whether you're healing from surgery or looking to prevent future issues, we’re here to support every step of your journey to better health.`.split(
-    " "
-  );
 const h2 = "Move better. Feel better. Live better.".split(" ");
+
+const variants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.5, ease: "easeOut" },
+  },
+};
 
 const HeroSection = () => {
   return (
@@ -44,14 +49,17 @@ const HeroSection = () => {
                 <motion.span
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
-                  transition={{ duration: 3, delay: index / 10 }}
+                  transition={{ duration: 0.25, delay: index / 10 }}
                   key={index}
                 >
                   {word}{" "}
                 </motion.span>
               ))}
             </h1>
-            <h6 className="text-lg md:text-2xl font-normal mt-6 md:text-left text-center text-black">
+            <motion.h6
+              variants={variants}
+              className="text-lg md:text-2xl font-normal mt-6 md:text-left text-center text-black"
+            >
               {/* {h6.map((word, index) => (
                 <motion.span
                   initial={{ opacity: 0 }}
@@ -63,16 +71,7 @@ const HeroSection = () => {
                 </motion.span>
               ))} */}
               <ScrollMotionEffect effect="fade-up" duration={2000}>
-                {h6.map((word, index) => (
-                  <motion.span
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ duration: 0.5, delay: index / 10 }}
-                    key={index}
-                  >
-                    {word}{" "}
-                  </motion.span>
-                ))}
+                {`We empower you to move freely and live fully. Our expert physiotherapists use personalized treatment plans to help you recover from injury, manage pain, and enhance mobility. Whether you're healing from surgery or looking to prevent future issues, we’re here to support every step of your journey to better health.`}
               </ScrollMotionEffect>
 
               {/* <ScrollMotionEffect effect="fade-up" duration={2000}>
@@ -83,18 +82,20 @@ const HeroSection = () => {
               we’re here to support every step of your journey to better
               health.`}
               </ScrollMotionEffect> */}
-            </h6>
+            </motion.h6>
             <h2 className="text-lg font-semibold mt-6 md:text-left text-center text-black">
-              {h2.map((word, index) => (
-                <motion.span
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ duration: 4, delay: index / 10 }}
-                  key={index}
-                >
-                  {word}{" "}
-                </motion.span>
-              ))}
+              <ScrollMotionEffect effect="fade-up" duration={2000}>
+                {h2.map((word, index) => (
+                  <motion.span
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 0.5, delay: index / 10 }}
+                    key={index}
+                  >
+                    {word}{" "}
+                  </motion.span>
+                ))}
+              </ScrollMotionEffect>
             </h2>
             {/* Bottom Image */}
             <ScrollMotionEffect effect="fade-up" duration={2000}>
