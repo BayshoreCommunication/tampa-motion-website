@@ -157,10 +157,7 @@ const MainHeader = () => {
                 Contact Us
               </Link> */}
               <div className="bg-secondary  py-3  md:px-1 lg:px-4 rounded-sm">
-                <Link
-                  href="tel:954-529-0695"
-                  className="flex flex-col justify-center"
-                >
+                <Link href="/contact" className="flex flex-col justify-center">
                   <p className="text-white text-[6px]  lg:text-[16px] text-center">
                     Make An Apponment
                   </p>
