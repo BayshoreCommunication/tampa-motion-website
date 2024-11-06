@@ -42,8 +42,6 @@ const HeroSection = () => {
       <div className="container py-10 md:py-20">
         <div className="flex flex-col-reverse md:flex-row items-end">
           <div className="flex-1 mt-10 md:mt-0">
-            {/* Main Title */}
-            pt-20
             <h1 className="text-4xl md:text-7xl font-bold leading-tight md:text-left text-center text-black whitespace-pre">
               {h1.map((word, index) => (
                 <motion.span
