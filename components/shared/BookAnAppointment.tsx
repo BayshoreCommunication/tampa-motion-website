@@ -126,7 +126,7 @@ const BookAnAppointment = () => {
                   setEmailForm({ ...emailForm, email: e.target.value })
                 }
                 className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-sm focus:ring-primary focus:border-ring-primary w-full p-2.5 "
-                placeholder="email"
+                placeholder="Your Email"
                 required
               />
               <span className="text-red-500">{formErrors.email}</span>
