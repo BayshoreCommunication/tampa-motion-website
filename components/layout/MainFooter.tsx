@@ -184,7 +184,7 @@ const MainFooter = () => {
             <div className="text-[18px] font-medium text-center text-white">
               © 2024{" "}
               <a
-                href="https://trip-law.com/"
+                href="https://tampa-motion-website.vercel.app/"
                 className="hover:underline text-white"
               >
                 Tampla Motion
@@ -195,7 +195,7 @@ const MainFooter = () => {
             <div className="text-[18px] font-medium text-center text-white">
               Design & Developed by{" "}
               <a
-                href="https://www.bayshorecommunication.com//"
+                href="https://www.bayshorecommunication.com/"
                 target="_blank"
                 className="font-medium hover:underline text-white"
               >
