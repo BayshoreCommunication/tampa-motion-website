@@ -49,20 +49,6 @@ const MainHeader = () => {
     []
   );
 
-  // const handleScroll = useCallback(
-  //   debounce(() => {
-  //     setNavbarColor(window.scrollY >= 100);
-  //   }, 100),
-  //   []
-  // );
-
-  // useEffect(() => {
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, [handleScroll]);
-
   const setPathSlug = areaspracticeData?.some(
     (el) => pathname === `/practice-areas/${el?.slug}`
   );
@@ -70,7 +56,7 @@ const MainHeader = () => {
   return (
     <section className={"relative z-50"}>
       <div className="bg-primary ">
-        <div className="bg-white hidden md:block ">
+        <div className="bg-white hidden lg:block ">
           <div className="flex items-center container  justify-between ">
             <div className=" flex items-center gap-x-10 2xl:gap-x-16 max-h-[94px]">
               <Link href={"/"}>
@@ -162,7 +148,7 @@ const MainHeader = () => {
             </div>
           </div>
         </div>
-        <div className="md:hidden ">
+        <div className="lg:hidden ">
           <Navbar
             isMenuOpen={isMenuOpen}
             onMenuOpenChange={setIsMenuOpen}
@@ -182,7 +168,7 @@ const MainHeader = () => {
               </NavbarBrand>
               <NavbarMenuToggle
                 aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-                className="md:hidden text-black"
+                className="lg:hidden text-black"
               />
             </NavbarContent>
 
