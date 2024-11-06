@@ -32,6 +32,7 @@ const ContactForm: React.FC = () => {
   const validate = (values: EmailFormType): FormErrorsType => {
     const errors: FormErrorsType = {};
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
+    const phoneRegex = /^[0-9+-]+$/;
 
     if (!values.name) {
       errors.name = "Name is required!";
@@ -43,6 +44,9 @@ const ContactForm: React.FC = () => {
     }
     if (!values.phone) {
       errors.phone = "Phone number is required!";
+    } else if (!phoneRegex.test(values.phone)) {
+      errors.phone =
+        "This is not a valid phone number format! Only numbers, + and - are allowed";
     }
     if (!values.subject) {
       errors.subject = "Subject is required!";
