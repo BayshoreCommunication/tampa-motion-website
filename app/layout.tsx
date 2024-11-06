@@ -27,7 +27,7 @@ export default function RootLayout({
       <body className={clsx("antialiased", inter.className)}>
         <Providers themeProps={{ attribute: "class" }}>
           <MainHeader />
-          <div className="overflow-x-hidden">{children}</div>
+          <div className="">{children}</div>
           <MainFooter />
         </Providers>
       </body>

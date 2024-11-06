@@ -84,7 +84,7 @@ const PowerOfPhysiotherapy = () => {
                   Make An Appointment
                 </Link>
                 <Link
-                  href="tel:954-529-0695"
+                  href="/about"
                   className="flex items-center justify-center py-3 px-6 rounded-sm w-full md:w-auto max-w-xs text-gray-900 text-center hover:bg-secondary hover:text-white transition-colors duration-200 ease-in-out group"
                 >
                   <span>Read More About</span>

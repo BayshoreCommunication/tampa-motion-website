@@ -5,7 +5,7 @@ import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 
 const ExperienceSection = () => {
   return (
-    <section className="bg-white te">
+    <section className="bg-white ">
       <div className="container py-10 md:py-20">
         <ScrollMotionEffect effect="fade-up" duration={2000}>
           <div className="flex flex-col md:flex-row items-center ">

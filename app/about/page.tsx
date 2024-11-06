@@ -13,7 +13,7 @@ export const metadata = {
 
 const page = () => {
   return (
-    <div>
+    <section className="">
       <PageHeroSection
         title="About Us"
         description="Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus. Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus."
@@ -21,7 +21,7 @@ const page = () => {
       <ExperienceSection />
       <PowerOfPhysiotherapy />
       <BestServices />
-    </div>
+    </section>
   );
 };
 

@@ -24,7 +24,7 @@ const Testimonials = () => {
               <h2 className="text-2xl font-bold  text-textSecondary text-center md:text-3xl lg:text-5xl">
                 Testimonials
               </h2>
-              <h4 className="font-sans py-3 text-black text-center md:py-5 lg:py-8 px-5 lg:px-20 2xl:px-52">
+              <h4 className="font-sans py-3 text-black text-center md:py-5 lg:py-8 lg:px-20 2xl:px-52">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima
                 neque repellendus adipisci recusandae, quisquam aliquam
                 reiciendis ea? Ex exercitationem rerum ipsa debitis quod error
@@ -36,8 +36,8 @@ const Testimonials = () => {
               </h4>
             </div>
 
-            <div className="col-span-1 relative h-60 w-full z-50 opacity-100 px-5 ">
-              <div className=" md:hidden lg:hidden">
+            <div className="col-span-1 relative h-60 w-full z-50 opacity-100 ">
+              <div className=" md:hidden lg:hidden py-4">
                 <Swiper
                   slidesPerView={1}
                   spaceBetween={30}
@@ -49,25 +49,25 @@ const Testimonials = () => {
                 >
                   {review.map((el, index) => (
                     <SwiperSlide
-                      className="text-center flex justify-center items-center  bg-[#EFEFEF] rounded-2xl p-8 "
+                      className="text-center flex justify-center items-center  bg-[#EFEFEF] rounded-2xl py-6 px-3 "
                       key={index}
                     >
-                      <div className="flex justify-start items-start w-full gap-6 ">
+                      <div className="flex flex-col justify-start items-center w-full gap-3 ">
                         <div className="basis-5/12">
                           <Image
                             src={el.avatar}
                             alt="avatar"
-                            width={72}
-                            height={72}
-                            className="rounded-full w-full"
+                            width={32}
+                            height={32}
+                            className="rounded-full w-16"
                           />
                         </div>
-                        <div className="flex flex-col justify-center items-left text-textSecondary">
+                        <div className="flex flex-col justify-center items-center text-textSecondary">
                           <Rating rating={el.rating} className="pb-3" />
-                          <h4 className="font-baskerville text-2xl text-left line-clamp-1">
+                          <h4 className="font-baskerville text-lg text-left line-clamp-1">
                             {el.username}
                           </h4>
-                          <p className="font-sans text-left line-clamp-6">
+                          <p className="font-sans text-sm text-center line-clamp-4">
                             {el.text}
                           </p>
                         </div>
