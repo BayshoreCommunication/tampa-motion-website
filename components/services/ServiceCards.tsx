@@ -8,7 +8,7 @@ const services = [
   {
     service: "Physiotherapy",
     text: "Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
-    image: "/assets/services/physiotherapy.png",
+    image: "/assets/services/Physiotherapy.png",
     alt: "Physiotherapy",
     slug: "physiotherapy",
   },
