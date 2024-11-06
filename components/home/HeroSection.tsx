@@ -64,28 +64,9 @@ const HeroSection = () => {
               variants={variants}
               className="text-lg md:text-2xl font-normal mt-6 md:text-left text-center text-black"
             >
-              {/* {h6.map((word, index) => (
-                <motion.span
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ duration: 0.5, delay: index / 10 }}
-                  key={index}
-                >
-                  {word}{" "}
-                </motion.span>
-              ))} */}
               <ScrollMotionEffect effect="fade-up" duration={2000}>
                 {`We empower you to move freely and live fully. Our expert physiotherapists use personalized treatment plans to help you recover from injury, manage pain, and enhance mobility. Whether you're healing from surgery or looking to prevent future issues, we’re here to support every step of your journey to better health.`}
               </ScrollMotionEffect>
-
-              {/* <ScrollMotionEffect effect="fade-up" duration={2000}>
-                {`We empower you to move freely and live fully. Our expert
-              physiotherapists use personalized treatment plans to help you
-              recover from injury, manage pain, and enhance mobility. Whether
-              you're healing from surgery or looking to prevent future issues,
-              we’re here to support every step of your journey to better
-              health.`}
-              </ScrollMotionEffect> */}
             </motion.h6>
             <h2 className="text-lg font-semibold mt-6 md:text-left text-center text-black">
               <ScrollMotionEffect effect="fade-up" duration={2000}>
@@ -103,7 +84,7 @@ const HeroSection = () => {
             </h2>
             {/* Bottom Image */}
             <ScrollMotionEffect effect="fade-up" duration={2000}>
-              <div className="bg-[#CEECFB] flex items-center space-x-6 rounded-t-2xl w-full md:w-[80%] h-[150px] md:h-[160px] mt-20">
+              <div className="bg-[#CEECFB] flex items-center rounded-t-2xl w-full  h-[150px] md:h-[160px] mt-20">
                 <ScrollMotionEffect effect="fade-up" duration={2000}>
                   <Image
                     src={"/assets/home/satisfied-customers-imageone.png"}
@@ -136,7 +117,7 @@ const HeroSection = () => {
               </div>
             </ScrollMotionEffect>
           </motion.div>
-          <div className="flex-1">
+          <div className="flex-1 self-end">
             <ScrollMotionEffect effect="fade-up" duration={2000}>
               <Image
                 src={"/assets/home/heroimage.png"}
