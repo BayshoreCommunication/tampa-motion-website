@@ -8,7 +8,7 @@ const ExperienceSection = () => {
     <section className="bg-white ">
       <div className="container py-10 md:py-20">
         <ScrollMotionEffect effect="fade-up" duration={2000}>
-          <div className="flex flex-col md:flex-row items-center ">
+          <div className="flex flex-col xl:flex-row items-center gap-6 ">
             <div className="flex-1 flex justify-center">
               <Image
                 src={"/assets/about/experience.png"}
@@ -19,17 +19,17 @@ const ExperienceSection = () => {
               />
             </div>
             <div className="flex-1">
-              <h2 className="text-3xl md:text-5xl font-semibold mt-6 md:text-left text-center text-black  !leading-snug">
+              <h2 className="text-3xl md:text-5xl font-semibold mt-6 md:text-center text-center text-black  !leading-snug  xl:text-left">
                 Experience The Healing Power Of Physiotherapy
               </h2>
-              <p className="text-base md:text-lg font-medium mt-4  text-black mb-6  md:text-left text-center ">
+              <p className="text-base md:text-lg font-medium mt-4  text-black mb-6  md:text-center text-center  lg:text-center xl:text-left">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean
                 commodo ligula eget dolor aenean massa cum sociis et natoque
                 penatibus.Lorem ipsum dolor sit amet, consectetuer adipiscing.
                 Aenean commodo ligula eget dolor aenean massa cum sociis et
                 natoque penatibus.
               </p>
-              <div className="flex justify-center md:justify-start">
+              <div className="flex justify-center xl:justify-start">
                 <ul className=" list-disc list-outside ml-5 text-black">
                   <li className="text-base md:text-xl font-semibold black py-1">
                     Professional Therapist
@@ -39,7 +39,7 @@ const ExperienceSection = () => {
                   </li>
                 </ul>
               </div>
-              <div className="mt-6 flex justify-center md:justify-start">
+              <div className="mt-6 flex justify-center xl:justify-start">
                 <Link
                   href="/contact"
                   className="bg-secondary  py-3  md:px-1 lg:px-4 rounded-sm w-[200px] md:w-[250px]  text-white text-center"

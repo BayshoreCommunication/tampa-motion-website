@@ -26,7 +26,7 @@ const PowerOfPhysiotherapy = () => {
   return (
     <section className="bg-white">
       <div className="container py-10 md:py-20">
-        <div className="flex flex-col md:flex-row items-center ">
+        <div className="flex flex-col lg:flex-row items-center ">
           <div className="flex-1 flex justify-center">
             <ScrollMotionEffect effect="fade-right" duration={2000}>
               <Image
