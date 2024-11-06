@@ -29,7 +29,7 @@ const MainFooter = () => {
             <div className="grid justify-center grid-cols-2 gap-8 sm:gap-6 md:grid-cols-5 ">
               <div className="col-span-2 mx-auto mb-6 md:mb-0 md:mx-0">
                 <Link
-                  href="https://trip-law.com"
+                  href="https://tampa-motion-website.vercel.app/"
                   className="flex items-center justify-center cursor-pointer md:justify-start"
                 >
                   <Image
@@ -48,35 +48,35 @@ const MainFooter = () => {
 
                 <div className="text-white  flex justify-center md:justify-start gap-3 mt-4 md:mt-6 ">
                   <Link
-                    href="https://www.facebook.com/MelamedLawPLLC"
+                    href="#"
                     target="_blank"
                     className="inline-block p-2 rounded  duration-300"
                   >
                     <FaFacebookF className="size-5 hover:text-black" />
                   </Link>
                   <Link
-                    href="https://www.linkedin.com/company/melamedlawpllc"
+                    href="#"
                     target="_blank"
                     className="inline-block p-2 rounded duration-300"
                   >
                     <FaLinkedinIn className="size-5 hover:text-black" />
                   </Link>
                   <Link
-                    href="https://x.com/Melamedlawpllc"
+                    href="#"
                     target="_blank"
                     className="inline-block p-2 rounded  duration-300"
                   >
                     <FaTwitter className="size-5 hover:text-black" />
                   </Link>
                   <Link
-                    href="https://www.instagram.com/melamedlaw_pllc"
+                    href="#"
                     target="_blank"
                     className="inline-block p-2 rounded  duration-300"
                   >
                     <FaInstagram className="size-5 hover:text-black" />
                   </Link>
                   <Link
-                    href="https://www.youtube.com/@melamedlawpllc"
+                    href="#"
                     target="_blank"
                     className="inline-block p-2 rounded duration-300"
                   >
@@ -129,7 +129,7 @@ const MainFooter = () => {
                       </h3>
                     </div>
                     <Link
-                      href="https://maps.app.goo.gl/BxuNRwy3CHg2ykCd7"
+                      href="https://www.google.com/maps/place/20200+W+Dixie+Hwy+%23902,+Miami,+FL+33180,+USA/@25.96314,-80.148125,16z/data=!4m5!3m4!1s0x88d9ac5e74403639:0x487bf5a8937d27c5!8m2!3d25.9631404!4d-80.1481251?hl=en&entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D"
                       className=" hover:underline duration-300"
                       target="_blank"
                     >
