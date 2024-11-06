@@ -26,7 +26,7 @@ const MainFooter = () => {
       <footer className="bg-secondary">
         <div className="container py-16">
           <div className="md:flex md:justify-center">
-            <div className="grid justify-center grid-cols-2 gap-8 sm:gap-6 md:grid-cols-5 ">
+            <div className="grid justify-center grid-cols-2 gap-8 sm:gap-6 xl:grid-cols-5 ">
               <div className="col-span-2 mx-auto mb-6 md:mb-0 md:mx-0">
                 <Link
                   href="https://tampa-motion-website.vercel.app/"
