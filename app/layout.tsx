@@ -27,7 +27,7 @@ export default function RootLayout({
       <body className={clsx("antialiased", inter.className)}>
         <Providers themeProps={{ attribute: "class" }}>
           <MainHeader />
-          <div className="">{children}</div>
+          <div className=" scroll-smooth">{children}</div>
           <MainFooter />
         </Providers>
       </body>

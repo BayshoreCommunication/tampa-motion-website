@@ -131,7 +131,7 @@ const HeroSection = () => {
               sm:top-[21.6%] sm:left-[27%] top-[21%] left-[26.4%]"
               >
                 <span className="relative flex h-7 w-7 bottom-[20%] justify-center items-center">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white "></span>
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-500 "></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 sm:h-3 sm:w-3 xl:h-3 xl:w-3 lg:h-2 lg:w-2 md:h-1 md:w-1  bg-sky-500"></span>
                 </span>
               </div>
@@ -140,7 +140,7 @@ const HeroSection = () => {
               sm:bottom-[27.7%] sm:left-[25.4%] bottom-[27.1%] left-[24.7%]"
               >
                 <span className="relative flex h-7 w-7  bottom-[20%] justify-center items-center">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-100"></span>
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-500 "></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 sm:h-3 sm:w-3 xl:h-3 xl:w-3 lg:h-2 lg:w-2 md:h-1 md:w-1 bg-sky-500"></span>
                 </span>
               </div>
