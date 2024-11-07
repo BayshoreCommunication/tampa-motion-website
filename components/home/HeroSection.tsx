@@ -117,7 +117,7 @@ const HeroSection = () => {
               </div>
             </ScrollMotionEffect>
           </motion.div>
-          <div className="flex-1 self-end">
+          <div className="flex-1 self-end relative">
             <ScrollMotionEffect effect="fade-up" duration={2000}>
               <Image
                 src={"/assets/home/heroimage.png"}
@@ -126,6 +126,24 @@ const HeroSection = () => {
                 height={604}
                 className="w-full"
               />
+              <div
+                className="absolute 2xl:top-[22.150%] 2xl:left-[27.5%] xl:top-[21.5%] xl:left-[27%] lg:top-[20.6%] lg:left-[26.1%]  md:top-[17.6%] md:left-[23.2%] 
+              sm:top-[21.6%] sm:left-[27%] top-[21%] left-[26.4%]"
+              >
+                <span className="relative flex h-7 w-7 bottom-[20%] justify-center items-center">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white "></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 sm:h-3 sm:w-3 xl:h-3 xl:w-3 lg:h-2 lg:w-2 md:h-1 md:w-1  bg-sky-500"></span>
+                </span>
+              </div>
+              <div
+                className="absolute 2xl:bottom-[28.2%] 2xl:left-[25.8%] xl:bottom-[27.6%] xl:left-[25.3%] lg:bottom-[26.7%] lg:left-[24.4%] md:bottom-[24%] md:left-[21.4%]
+              sm:bottom-[27.7%] sm:left-[25.4%] bottom-[27.1%] left-[24.7%]"
+              >
+                <span className="relative flex h-7 w-7  bottom-[20%] justify-center items-center">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-100"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 sm:h-3 sm:w-3 xl:h-3 xl:w-3 lg:h-2 lg:w-2 md:h-1 md:w-1 bg-sky-500"></span>
+                </span>
+              </div>
             </ScrollMotionEffect>
           </div>
         </div>
