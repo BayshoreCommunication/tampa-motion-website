@@ -51,7 +51,7 @@ const ExperienceSection = () => {
           </div>
         </ScrollMotionEffect>
         <ScrollMotionEffect effect="fade-up" duration={2000}>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center justify-between mt-10 md:mt-20 text-black">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch justify-between mt-10 md:mt-20 text-black">
             <div className="flex items-center justify-center border bg-white shadow-xl p-10 space-x-6 rounded-lg">
               <Image
                 src={"/assets/about/skilled-therapist.png"}

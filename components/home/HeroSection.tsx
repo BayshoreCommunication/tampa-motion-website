@@ -154,9 +154,9 @@ const HeroSection = () => {
         </div>
         <div className="relative -bottom-40 md:-bottom-48 -mt-24 md:-mt-32 overscroll-none">
           <ScrollMotionEffect effect="fade-up" duration={2000}>
-            <div className="grid grid-cols-1 md:grid-cols-3 items-center justify-between gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 items-stretch justify-between gap-8">
               {cardDatas?.map((el: any, index: number) => (
-                <div className="bg-white border shadow-2xl rounded-xl p-6 text-black">
+                <div className="bg-white border shadow-2xl rounded-xl p-6 text-black ">
                   <div className="flex justify-center items-center">
                     <Image
                       className="w-20 h-auto flex  justify-center"
