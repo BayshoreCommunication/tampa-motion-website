@@ -6,6 +6,33 @@ import Image from "next/image";
 
 import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
 
+const services = [
+  {
+    image: "/assets/BestServices/healthCare.png",
+    alt: "Physiotherapy",
+    service: "Physiotherapy",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quae.",
+  },
+  {
+    image: "/assets/BestServices/healthCare.png",
+    alt: "Joint replacements",
+    service: "Joint replacements",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quae.",
+  },
+  {
+    image: "/assets/BestServices/healthCare.png",
+    alt: "Neurological Rehab",
+    service: "Neurological Rehab",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quae.",
+  },
+  {
+    image: "/assets/BestServices/healthCare.png",
+    alt: "Parkinson's Disease",
+    service: "Parkinson's Disease",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quae.",
+  },
+];
+
 const BestServices = () => {
   return (
     <section className="bg-white">
@@ -29,26 +56,22 @@ const BestServices = () => {
           <ScrollMotionEffect effect="fade-up" duration={2000}>
             <div className="w-full flex flex-col 2xl:flex-row justify-center items-center gap-4 2xl:relative 2xl:left-28">
               <div className="container w-full flex  flex-wrap justify-center items-center gap-4 2xl:p-10  z-10">
-                {[1, 2, 3, 4].map((item) => (
+                {services.map((item, i) => (
                   <ScrollMotionEffect effect="fade-up" duration={2000}>
                     <div
-                      key={item}
+                      key={i}
                       className="item  bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] rounded-3xl p-[1px] hover:scale-105"
                     >
                       <article className="w-[350px] md:w-[500px] lg:w-[400px] h-[250px] border bg-white p-4 rounded-3xl flex flex-col justify-center items-center border-transparent">
                         <Image
-                          src="/assets/BestServices/healthCare.png"
-                          alt="healthCare"
+                          src={item.image}
+                          alt={item.alt}
                           width={60}
                           height={60}
                           className="pb-3"
                         />
-                        <div className="text-xl font-bold ">Physiotherapy</div>
-                        <div className=" text-center pt-3 ">
-                          Lorem ipsum, dolor sit amet consectetur adipisicing
-                          elit. Perspiciatis soluta nemo dolorum, eum ipsum
-                          dolor illum.
-                        </div>
+                        <div className="text-xl font-bold ">{item.service}</div>
+                        <div className=" text-center pt-3 ">{item.text}</div>
                       </article>
                     </div>
                   </ScrollMotionEffect>
