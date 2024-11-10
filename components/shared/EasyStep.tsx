@@ -12,13 +12,13 @@ const EasyStep = ({ className }: { className?: string }) => {
           }
         >
           <ScrollMotionEffect effect="fade-up" duration={2000}>
-            <div className="col-span-1 text-2xl  p-8  text-center leading-loose md:text-3xl  2xl:text-5xl font-semibold pb-14">
+            <div className="col-span-1 text-2xl text-center md:text-3xl  2xl:text-5xl 2xl:px-52 w-full   2xl:leading-normal pb-16 font-semibold">
               Easy Step to Get Physiotherapy
             </div>
           </ScrollMotionEffect>
           <ScrollMotionEffect effect="fade-up" duration={2000}>
-            <div className="col-span-1 place-self-center">
-              <ol className="relative border-s-2 border-secondary  pl-6 ml-2 h-fit m-auto w-full mx-5 ">
+            <div className="relative col-span-1 place-self-center">
+              <ol className="relative border-s-2 border-secondary  pl-10 ml-2 h-fit m-auto w-full mx-5 ">
                 <li className="mb-10 ms-6 pb-5" key={1}>
                   <span className="absolute flex items-center justify-center w-14 h-10 bg-secondary rounded-full -start-7  ring-8 ring-white  translate-y-2  xl:-start-8 xl:w-16">
                     <Image
@@ -28,7 +28,7 @@ const EasyStep = ({ className }: { className?: string }) => {
                       height={84}
                     />
                   </span>
-                  <h3 className="flex items-center mb-1 text-lg  md:text-xl lg:text-2xl">
+                  <h3 className="flex items-center mb-4 text-lg  md:text-xl lg:text-2xl">
                     Make an Appointment
                   </h3>
 
@@ -47,7 +47,7 @@ const EasyStep = ({ className }: { className?: string }) => {
                       height={84}
                     />
                   </span>
-                  <h3 className="flex items-center mb-1 text-lg   md:text-xl  lg:text-2xl">
+                  <h3 className="flex items-center mb-4 text-lg   md:text-xl  lg:text-2xl">
                     Get Consultation
                   </h3>
 
@@ -66,7 +66,7 @@ const EasyStep = ({ className }: { className?: string }) => {
                       height={84}
                     />
                   </span>
-                  <h3 className="flex items-center mb-1 text-lg  md:text-xl   lg:text-2xl">
+                  <h3 className="flex items-center mb-4 text-lg  md:text-xl   lg:text-2xl">
                     Meet Our Physiotherapist
                   </h3>
 
@@ -84,8 +84,9 @@ const EasyStep = ({ className }: { className?: string }) => {
                       width={84}
                       height={84}
                     />
+                    <div className=" absolute w-5 h-28 top-full translate-y-2 bg-white md:translate-y-2 lg:translate-y-2 xl:translate-y-3"></div>
                   </span>
-                  <h3 className="flex items-center mb-1 text-lg   md:text-xl  lg:text-2xl">
+                  <h3 className="flex items-center mb-5 text-lg   md:text-xl  lg:text-2xl">
                     Enjoy Your Therapy
                   </h3>
 

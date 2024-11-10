@@ -85,35 +85,35 @@ const HeroSection = () => {
             {/* Bottom Image */}
             <ScrollMotionEffect effect="fade-up" duration={2000}>
               <div className="bg-[#CEECFB] flex items-center rounded-t-2xl w-full  h-[150px] md:h-[160px] mt-20">
-                <ScrollMotionEffect effect="fade-up" duration={2000}>
-                  <Image
-                    src={"/assets/home/satisfied-customers-imageone.png"}
-                    alt="logo"
-                    width={600}
-                    height={400}
-                    className="w-[180px] h-auto relative ml-6 -top-4"
-                  />
-                </ScrollMotionEffect>
-                <ScrollMotionEffect effect="fade-up" duration={2000}>
-                  <div className="flex flex-col items-center justify-start space-y-4">
-                    <div className="flex items-center justify-start space-x-0 md:space-x-2">
-                      <Image
-                        className="w-[100px] md:w-[200px] h-auto -ml-4 md:ml-2"
-                        width={200}
-                        height={100}
-                        src="/assets/home/group-image.png"
-                        alt="avatar"
-                      />
+                {/* <ScrollMotionEffect effect="fade-up" duration={2000}> */}
+                <Image
+                  src={"/assets/home/satisfied-customers-imageone.png"}
+                  alt="logo"
+                  width={600}
+                  height={400}
+                  className="w-[180px] h-auto relative ml-6 -top-4"
+                />
+                {/* </ScrollMotionEffect> */}
+                {/* <ScrollMotionEffect effect="fade-up" duration={2000}> */}
+                <div className="flex flex-col items-center justify-start space-y-4">
+                  <div className="flex items-center justify-start space-x-0 md:space-x-2">
+                    <Image
+                      className="w-[100px] md:w-[200px] h-auto -ml-4 md:ml-2"
+                      width={200}
+                      height={100}
+                      src="/assets/home/group-image.png"
+                      alt="avatar"
+                    />
 
-                      <h2 className="text-xl md:text-4xl font-bold leading-tight text-black">
-                        18K
-                      </h2>
-                    </div>
-                    <h2 className="text-lg md:text-2xl font-bold leading-tight text-black">
-                      Satisfied Customers
+                    <h2 className="text-xl md:text-4xl font-bold leading-tight text-black">
+                      18K
                     </h2>
                   </div>
-                </ScrollMotionEffect>
+                  <h2 className="text-lg md:text-2xl font-bold leading-tight text-black">
+                    Satisfied Customers
+                  </h2>
+                </div>
+                {/* </ScrollMotionEffect> */}
               </div>
             </ScrollMotionEffect>
           </motion.div>
@@ -156,20 +156,22 @@ const HeroSection = () => {
           <ScrollMotionEffect effect="fade-up" duration={2000}>
             <div className="grid grid-cols-1 md:grid-cols-3 items-stretch justify-between gap-8">
               {cardDatas?.map((el: any, index: number) => (
-                <div className="bg-white border shadow-2xl rounded-xl p-6 text-black ">
-                  <div className="flex justify-center items-center">
-                    <Image
-                      className="w-20 h-auto flex  justify-center"
-                      width={100}
-                      height={100}
-                      src={el?.img}
-                      alt="avatar"
-                    />
+                <div className="bg-white border shadow-2xl rounded-3xl text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px]  hover:scale-105">
+                  <div className="bg-white border border-transparent rounded-3xl p-4 h-full">
+                    <div className="flex justify-center items-center ">
+                      <Image
+                        className="w-20 h-auto flex  justify-center"
+                        width={100}
+                        height={100}
+                        src={el?.img}
+                        alt="avatar"
+                      />
+                    </div>
+                    <h2 className="text-2xl md:text-3xl font-semibold leading-tight text-center mt-4">
+                      {el?.title}
+                    </h2>
+                    <p className=" text-center mt-2 text-lg">{el?.desc}</p>
                   </div>
-                  <h2 className="text-2xl md:text-3xl font-semibold leading-tight text-center mt-4">
-                    {el?.title}
-                  </h2>
-                  <p className=" text-center mt-2 text-lg">{el?.desc}</p>
                 </div>
               ))}
             </div>
