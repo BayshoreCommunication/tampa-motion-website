@@ -28,15 +28,17 @@ const EasyStep = ({ className }: { className?: string }) => {
                       height={84}
                     />
                   </span>
-                  <h3 className="flex items-center mb-4 text-lg  md:text-xl lg:text-2xl">
-                    Make an Appointment
-                  </h3>
+                  <ScrollMotionEffect effect="fade-up" duration={2000}>
+                    <h3 className="flex items-center mb-4 text-lg  md:text-xl lg:text-2xl">
+                      Make an Appointment
+                    </h3>
 
-                  <p className="mb-4 text-sm lg:text-base font-normal ">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean
-                    commodo ligula eget dolor aenean massa cum sociis et natoque
-                    penatibus.
-                  </p>
+                    <p className="mb-4 text-sm lg:text-base font-normal ">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing.
+                      Aenean commodo ligula eget dolor aenean massa cum sociis
+                      et natoque penatibus.
+                    </p>
+                  </ScrollMotionEffect>
                 </li>
                 <li className="mb-10 ms-6 pb-5" key={2}>
                   <span className="absolute flex items-center justify-center w-14 h-10 bg-secondary rounded-full -start-7 ring-8 ring-white  translate-y-2  xl:-start-8 xl:w-16">
@@ -46,16 +48,18 @@ const EasyStep = ({ className }: { className?: string }) => {
                       width={84}
                       height={84}
                     />
-                  </span>
-                  <h3 className="flex items-center mb-4 text-lg   md:text-xl  lg:text-2xl">
-                    Get Consultation
-                  </h3>
+                  </span>{" "}
+                  <ScrollMotionEffect effect="fade-up" duration={2000}>
+                    <h3 className="flex items-center mb-4 text-lg   md:text-xl  lg:text-2xl">
+                      Get Consultation
+                    </h3>
 
-                  <p className="mb-4 text-sm lg:text-base font-normal ">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean
-                    commodo ligula eget dolor aenean massa cum sociis et natoque
-                    penatibus.
-                  </p>
+                    <p className="mb-4 text-sm lg:text-base font-normal ">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing.
+                      Aenean commodo ligula eget dolor aenean massa cum sociis
+                      et natoque penatibus.
+                    </p>
+                  </ScrollMotionEffect>
                 </li>
                 <li className="mb-10 ms-6 pb-5" key={3}>
                   <span className="absolute flex items-center justify-center w-14 h-10 bg-secondary rounded-full -start-7 ring-8 ring-white  translate-y-2  xl:-start-8 xl:w-16">
@@ -65,16 +69,18 @@ const EasyStep = ({ className }: { className?: string }) => {
                       width={84}
                       height={84}
                     />
-                  </span>
-                  <h3 className="flex items-center mb-4 text-lg  md:text-xl   lg:text-2xl">
-                    Meet Our Physiotherapist
-                  </h3>
+                  </span>{" "}
+                  <ScrollMotionEffect effect="fade-up" duration={2000}>
+                    <h3 className="flex items-center mb-4 text-lg  md:text-xl   lg:text-2xl">
+                      Meet Our Physiotherapist
+                    </h3>
 
-                  <p className="mb-4 text-sm lg:text-base font-normal ">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean
-                    commodo ligula eget dolor aenean massa cum sociis et natoque
-                    penatibus.
-                  </p>
+                    <p className="mb-4 text-sm lg:text-base font-normal ">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing.
+                      Aenean commodo ligula eget dolor aenean massa cum sociis
+                      et natoque penatibus.
+                    </p>
+                  </ScrollMotionEffect>
                 </li>
                 <li className=" ms-6" key={4}>
                   <span className="absolute flex items-center justify-center w-14 h-10 bg-secondary rounded-full -start-7 ring-8 ring-white  translate-y-3  xl:-start-8 xl:w-16">
@@ -86,15 +92,17 @@ const EasyStep = ({ className }: { className?: string }) => {
                     />
                     <div className=" absolute w-5 h-28 top-full translate-y-2 bg-white md:translate-y-2 lg:translate-y-2 xl:translate-y-3"></div>
                   </span>
-                  <h3 className="flex items-center mb-5 text-lg   md:text-xl  lg:text-2xl">
-                    Enjoy Your Therapy
-                  </h3>
+                  <ScrollMotionEffect effect="fade-up" duration={2000}>
+                    <h3 className="flex items-center mb-5 text-lg   md:text-xl  lg:text-2xl">
+                      Enjoy Your Therapy
+                    </h3>
 
-                  <p className=" font-normal  text-sm lg:text-base">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean
-                    commodo ligula eget dolor aenean massa cum sociis et natoque
-                    penatibus.
-                  </p>
+                    <p className=" font-normal  text-sm lg:text-base">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing.
+                      Aenean commodo ligula eget dolor aenean massa cum sociis
+                      et natoque penatibus.
+                    </p>
+                  </ScrollMotionEffect>
                 </li>
               </ol>
             </div>

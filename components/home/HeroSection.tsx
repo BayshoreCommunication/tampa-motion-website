@@ -156,8 +156,8 @@ const HeroSection = () => {
           <ScrollMotionEffect effect="fade-up" duration={2000}>
             <div className="grid grid-cols-1 md:grid-cols-3 items-stretch justify-between gap-8">
               {cardDatas?.map((el: any, index: number) => (
-                <div className="bg-white border shadow-2xl rounded-3xl text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px]  hover:scale-105">
-                  <div className="bg-white border border-transparent rounded-3xl p-4 h-full">
+                <div className="bg-white  border shadow-2xl rounded-3xl text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px]  ">
+                  <div className="bg-white border border-transparent rounded-3xl p-4 h-full hover:bg-gray-100 transition-all ease-in-out duration-500">
                     <div className="flex justify-center items-center ">
                       <Image
                         className="w-20 h-auto flex  justify-center"

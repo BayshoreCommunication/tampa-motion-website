@@ -60,9 +60,9 @@ const BestServices = () => {
                   <ScrollMotionEffect effect="fade-up" duration={2000}>
                     <div
                       key={i}
-                      className="item  bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] rounded-3xl p-[1px] hover:scale-105"
+                      className="item  bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] rounded-3xl p-[1px]  "
                     >
-                      <article className="w-[350px] md:w-[500px] lg:w-[400px] h-[250px] border bg-white p-4 rounded-3xl flex flex-col justify-center items-center border-transparent">
+                      <article className="w-[350px] md:w-[500px] lg:w-[400px] h-[250px] border bg-white p-4 rounded-3xl flex flex-col justify-center items-center border-transparent hover:bg-gray-100 transition-all duration-500 ease-in-out">
                         <Image
                           src={item.image}
                           alt={item.alt}

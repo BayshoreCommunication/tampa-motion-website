@@ -1,8 +1,10 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import ScrollMotionEffect from "../motion/ScrollMotionEffect";
+import { motion } from "framer-motion";
 
 const physiotherapyDatas = [
   {
@@ -25,30 +27,78 @@ const physiotherapyDatas = [
 const PowerOfPhysiotherapy = () => {
   return (
     <section className="bg-white">
-      <div className="container py-10 md:py-20">
-        <div className="flex flex-col lg:flex-row items-center ">
-          <div className="flex-1 flex justify-center ">
-            <div className=" hidden lg:block">
-              <ScrollMotionEffect effect="fade-right" duration={2000}>
-                <Image
-                  src={"/assets/about/physiotherapy.png"}
-                  alt="logo"
-                  width={800}
-                  height={500}
-                  className="w-[600px] h-auto mx-0"
-                />
-              </ScrollMotionEffect>
+      <div className="container py-10 md:py-20 xl:px-10">
+        <div className="flex flex-col xl:flex-row items-center ">
+          <div className="flex-1 flex justify-center lg:-translate-x-10 ">
+            <div className=" hidden lg:block pb-10">
+              <article className="relative h-fit w-full place-self-center">
+                <ScrollMotionEffect effect="zoom-in" duration={1000}>
+                  <Image
+                    src={"/assets/about/emptyCircle.png"}
+                    alt="blueCircle"
+                    width={464}
+                    height={464}
+                    className="lg:relative   top-0  left-0 z-10 w-full h-full "
+                  />
+                </ScrollMotionEffect>
+                <div className="lg:absolute top-0 left-0 z-20 lg:left-[16%] ">
+                  <ScrollMotionEffect effect="zoom-in" duration={2000}>
+                    <Image
+                      src={"/assets/about/backPainRelif.png"}
+                      alt="blueCircle"
+                      width={381}
+                      height={565}
+                      className=""
+                    />
+                  </ScrollMotionEffect>
+                </div>
+                <div className="absolute top-60 left-48 z-20 lg:left-[65%] lg:top-[65%]">
+                  <ScrollMotionEffect effect="zoom-in" duration={3000}>
+                    <button className="bg-gradient-to-b from-[#0aa3e8] to-[#34e1d8] h-32 w-56 text-white font-thin  rounded-3xl flex flex-col justify-center items-center ">
+                      <p className=" font-baskerville text-base font-thin">
+                        &quot;Physiotherapy gives me the flexibility I need to
+                        keep in the game.&quot;
+                      </p>
+                    </button>
+                  </ScrollMotionEffect>
+                </div>
+              </article>
             </div>
-            <div className=" lg:hidden block">
-              <ScrollMotionEffect effect="fade-up" duration={2000}>
-                <Image
-                  src={"/assets/about/physiotherapy.png"}
-                  alt="logo"
-                  width={800}
-                  height={500}
-                  className="w-[600px] h-auto mx-0"
-                />
-              </ScrollMotionEffect>
+            <div className=" lg:hidden block pb-10 ">
+              <article className="relative h-fit w-full place-self-center">
+                <div className=" relative top-0 left-0 scale-95  translate-y-16 md:translate-y-1  ">
+                  <ScrollMotionEffect effect="zoom-in" duration={1000}>
+                    <Image
+                      src={"/assets/about/emptyCircle.png"}
+                      alt="blueCircle"
+                      width={464}
+                      height={464}
+                    />
+                  </ScrollMotionEffect>
+                </div>
+
+                <div className="absolute top-0 left-[20%] scale-80 md:scale-85 -translate-x-20  md:-translate-y-20 ">
+                  <ScrollMotionEffect effect="zoom-in" duration={2000}>
+                    <Image
+                      src={"/assets/about/backPainRelif.png"}
+                      alt="blueCircle"
+                      width={381}
+                      height={565}
+                      className="w-full h-full "
+                    />
+                  </ScrollMotionEffect>
+                </div>
+                <div className="absolute z-20 left-[65%] top-[65%] scale-90 -translate-x-20 translate-y-4 md:translate-y-0">
+                  <ScrollMotionEffect effect="zoom-in" duration={3000}>
+                    <button className="bg-gradient-to-b from-[#0aa3e8] to-[#34e1d8] h-28 p-3 w-52 text-white font-thin  rounded-3xl flex flex-col justify-center items-center ">
+                      <p className=" font-baskerville text-sm font-thin">
+                        &quot;Physiotherapy gives me the flexibility I need to
+                        keep in the game.&quot;
+                      </p>
+                    </button>
+                  </ScrollMotionEffect>
+                </div>
+              </article>
             </div>
           </div>
 
