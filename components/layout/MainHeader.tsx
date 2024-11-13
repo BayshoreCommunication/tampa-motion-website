@@ -61,8 +61,8 @@ const MainHeader = () => {
             <div className=" flex items-center gap-x-10 2xl:gap-x-16 max-h-[94px]">
               <Link href={"/"}>
                 <Image
-                  src="/assets/site-logo/tampla-motion-logo.png"
-                  alt="footer logo"
+                  src="/assets/site-logo/tampla-motion-logo1.png"
+                  alt="header logo"
                   width={300}
                   height={79}
                   className="cursor-pointer w-[300px] xl:w-[300px]  m-2 max-h-[78px]"
@@ -158,7 +158,7 @@ const MainHeader = () => {
               <NavbarBrand>
                 <Link href="/">
                   <Image
-                    src="/assets/site-logo/tampla-motion-logo.png"
+                    src="/assets/site-logo/tampla-motion-logo1.png"
                     alt="footer logo"
                     width={500}
                     height={500}

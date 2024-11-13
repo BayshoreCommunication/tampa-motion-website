@@ -78,7 +78,7 @@ const BestServices = () => {
                 ))}
               </div>
               <ScrollMotionEffect effect="fade-up" duration={2000}>
-                <div className="  flex flex-col justify-center items-center relative -left-[19%]  lg:-left-[13%] xl:-left-[10%] 2xl:-left-[3%]">
+                <div className=" flex flex-col justify-center items-center relative -left-[19%]  lg:-left-[13%] xl:-left-[10%] 2xl:-left-[3%]">
                   <Image
                     src="/assets/BestServices/backCircle.png"
                     alt="backCircle"
