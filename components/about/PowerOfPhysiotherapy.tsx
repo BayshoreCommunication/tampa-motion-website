@@ -30,18 +30,20 @@ const PowerOfPhysiotherapy = () => {
       <div className="container py-10 md:py-20 xl:px-10">
         <div className="flex flex-col xl:flex-row items-center ">
           <div className="flex-1 flex justify-center lg:-translate-x-10 ">
-            <div className=" hidden lg:block pb-10">
+            <div className=" hidden lg:block pb-20">
               <article className="relative h-fit w-full place-self-center">
-                <ScrollMotionEffect effect="zoom-in" duration={1000}>
-                  <Image
-                    src={"/assets/about/emptyCircle.png"}
-                    alt="blueCircle"
-                    width={464}
-                    height={464}
-                    className="lg:relative   top-0  left-0 z-10 w-full h-full "
-                  />
-                </ScrollMotionEffect>
-                <div className="lg:absolute top-0 left-0 z-20 lg:left-[16%] ">
+                <div className=" absolute scale-125   top-[40%]  left-[18%]  w-full h-full ">
+                  <ScrollMotionEffect effect="zoom-in" duration={1000}>
+                    <Image
+                      src={"/assets/about/emptyCircle.png"}
+                      alt="blueCircle"
+                      width={464}
+                      height={464}
+                      className=""
+                    />
+                  </ScrollMotionEffect>
+                </div>
+                <div className="relative top-0 left-0 z-20 lg:left-[16%] ">
                   <ScrollMotionEffect effect="zoom-in" duration={2000}>
                     <Image
                       src={"/assets/about/backPainRelif.png"}
@@ -66,7 +68,7 @@ const PowerOfPhysiotherapy = () => {
             </div>
             <div className=" lg:hidden block pb-10 ">
               <article className="relative h-fit w-full place-self-center">
-                <div className=" relative top-0 left-0 scale-95  translate-y-16 md:translate-y-1  ">
+                <div className=" relative pb-8 md:pb-16 top-0 left-0 scale-95 md:scale-110 translate-y-24 md:translate-y-16 w-[325px]  ">
                   <ScrollMotionEffect effect="zoom-in" duration={1000}>
                     <Image
                       src={"/assets/about/emptyCircle.png"}
@@ -77,7 +79,7 @@ const PowerOfPhysiotherapy = () => {
                   </ScrollMotionEffect>
                 </div>
 
-                <div className="absolute top-0 left-[20%] scale-80 md:scale-85 -translate-x-20  md:-translate-y-20 ">
+                <div className="absolute w-[250px] top-0 left-[13%] text-center ">
                   <ScrollMotionEffect effect="zoom-in" duration={2000}>
                     <Image
                       src={"/assets/about/backPainRelif.png"}
@@ -88,7 +90,7 @@ const PowerOfPhysiotherapy = () => {
                     />
                   </ScrollMotionEffect>
                 </div>
-                <div className="absolute z-20 left-[65%] top-[65%] scale-90 -translate-x-20 translate-y-4 md:translate-y-0">
+                <div className="absolute z-20 left-[65%] top-[65%] scale-85 -translate-x-20 translate-y-4 md:translate-y-0">
                   <ScrollMotionEffect effect="zoom-in" duration={3000}>
                     <button className="bg-gradient-to-b from-[#0aa3e8] to-[#34e1d8] h-28 p-3 w-52 text-white font-thin  rounded-3xl flex flex-col justify-center items-center ">
                       <p className=" font-baskerville text-sm font-thin">
