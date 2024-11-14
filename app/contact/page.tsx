@@ -28,8 +28,8 @@ const page = () => {
       />
       <div className="container xl:px-40 py-10 md:py-20">
         <ScrollMotionEffect effect="fade-up" duration={2000}>
-          <div className="flex flex-col md:flex-row items-start justify-between gap-4 bg-white md:p-10  shadow-xl p-0">
-            <div className="w-full ">
+          <div className="flex flex-col md:flex-row items-start justify-between gap-6 bg-white md:p-10  shadow-xl p-0">
+            <div className="w-full p-4">
               <div className="flex flex-col justify-center items-center rounded-2xl p-4 bg-[#084a4d] text-white xl:col-span-1">
                 <div className="p-4 rounded-2xl">
                   <h3 className="font-sans text-xl pb-4 2xl:py-8 2xl:text-3xl text-center font-bold 2xl:text-left">
@@ -57,7 +57,7 @@ const page = () => {
                     &nbsp;&nbsp;support@chirox.com
                   </div>
                 </div>
-                <div className="flex flex-row pb-5 2xl:pb-20  text-left w-full items-center pl-4">
+                <div className="flex flex-row pb-5 lg:pb-20  text-left w-full items-center pl-4">
                   <div>
                     <FaLocationDot />
                   </div>
@@ -92,7 +92,7 @@ const page = () => {
                 </section>
               </div>
             </div>
-            <div className="w-full ">
+            <div className="w-full p-4">
               <ContactForm />
             </div>
           </div>

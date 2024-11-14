@@ -241,9 +241,9 @@ const ContactForm: React.FC = () => {
           <button
             type="submit"
             onClick={() => handleSubmit}
-            className="text-white bg-secondary   font-medium  text-base w-full rounded  cursor-pointer px-5 py-2 xl:py-4 text-center"
+            className="text-white bg-secondary   font-medium  text-base w-full rounded  cursor-pointer px-5 py-2 xl:py-4 text-center hover:scale-105 transition-all ease-in-out duration-400"
           >
-            Make An Apponment
+            Make An Appointment
           </button>
         )}
       </form>

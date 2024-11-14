@@ -78,9 +78,9 @@ const ExperienceSection = () => {
               <div className="mt-6 flex justify-center xl:justify-start">
                 <Link
                   href="/contact"
-                  className="bg-secondary  py-3  md:px-1 lg:px-4 rounded-sm w-[200px] md:w-[250px]  text-white text-center"
+                  className="bg-secondary  py-3  md:px-1 lg:px-4 rounded-sm w-[200px] md:w-[250px]  text-white text-center transition-all duration-500 ease-in-out hover:scale-105"
                 >
-                  Make An Apponment
+                  Make An Appointment
                 </Link>
               </div>
             </div>
