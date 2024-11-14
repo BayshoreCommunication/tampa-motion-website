@@ -193,7 +193,7 @@ const BookAnAppointment = () => {
               <button
                 type="submit"
                 onClick={() => handleSubmit}
-                className="text-white bg-secondary hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-sm rounded-sm text-sm sm:w-auto px-10 py-[12px] text-center min-w-40 "
+                className="text-white bg-secondary  focus:ring-4 focus:outline-none focus:ring-blue-300 font-sm rounded-sm text-sm  px-10 py-[12px] text-center min-w-40 hover:scale-110 transition-all duration-500 "
               >
                 Book Now
               </button>
