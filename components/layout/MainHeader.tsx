@@ -178,7 +178,7 @@ const MainHeader = () => {
               {menuItems.map((el, index) => (
                 <NavbarMenuItem key={el.slug} className="flex flex-row">
                   <Link
-                    className={`w-full text-black text-center !text-xl font-medium py-1 ${pathname === el.slug ? "!text-primary" : ""} ${index === 0 ? "mt-6" : ""}`}
+                    className={`w-full text-white text-center !text-xl font-medium py-1 hover:scale-110 transition-all ease-in-out duration-500 ${pathname === el.slug ? "!text-primary" : ""} ${index === 0 ? "mt-6" : ""}`}
                     href={el.slug}
                     onClick={() => setIsMenuOpen(false)}
                   >

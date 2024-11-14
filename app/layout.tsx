@@ -24,10 +24,10 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning lang="en">
       <head />
-      <body className={clsx("antialiased", inter.className)}>
+      <body className={clsx("antialiased scroll-smooth", inter.className)}>
         <Providers themeProps={{ attribute: "class" }}>
           <MainHeader />
-          <div className=" scroll-smooth">{children}</div>
+          <div className="">{children}</div>
           <MainFooter />
         </Providers>
       </body>

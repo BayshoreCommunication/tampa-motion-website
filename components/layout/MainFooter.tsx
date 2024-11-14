@@ -50,37 +50,37 @@ const MainFooter = () => {
                   <Link
                     href="#"
                     target="_blank"
-                    className="inline-block p-2 rounded  duration-300"
+                    className="inline-block p-2 rounded  duration-300 border-2 border-secondary hover:border-white"
                   >
-                    <FaFacebookF className="size-5 hover:text-black" />
+                    <FaFacebookF className="size-5" />
                   </Link>
                   <Link
                     href="#"
                     target="_blank"
-                    className="inline-block p-2 rounded duration-300"
+                    className="inline-block p-2 rounded duration-300 border-2 border-secondary hover:border-white"
                   >
-                    <FaLinkedinIn className="size-5 hover:text-black" />
+                    <FaLinkedinIn className="size-5" />
                   </Link>
                   <Link
                     href="#"
                     target="_blank"
-                    className="inline-block p-2 rounded  duration-300"
+                    className="inline-block p-2 rounded  duration-300 border-2 border-secondary hover:border-white"
                   >
-                    <FaTwitter className="size-5 hover:text-black" />
+                    <FaTwitter className="size-5 " />
                   </Link>
                   <Link
                     href="#"
                     target="_blank"
-                    className="inline-block p-2 rounded  duration-300"
+                    className="inline-block p-2 rounded  duration-300 border-2 border-secondary hover:border-white"
                   >
-                    <FaInstagram className="size-5 hover:text-black" />
+                    <FaInstagram className="size-5 " />
                   </Link>
                   <Link
                     href="#"
                     target="_blank"
-                    className="inline-block p-2 rounded duration-300"
+                    className="inline-block p-2 rounded duration-300 border-2 border-secondary hover:border-white"
                   >
-                    <FaYoutube className="size-5 hover:text-black" />
+                    <FaYoutube className="size-5 " />
                   </Link>
                 </div>
               </div>
