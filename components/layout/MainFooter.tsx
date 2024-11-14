@@ -35,7 +35,7 @@ const MainFooter = () => {
                   <Image
                     width={320}
                     height={200}
-                    src={"/assets/site-logo/tampla-motion-logo-white.png"}
+                    src={"/assets/site-logo/tampa-motion-logo-white.png"}
                     alt="Trip Low"
                     className="object-cover"
                   />
@@ -184,7 +184,7 @@ const MainFooter = () => {
             <div className="text-[18px] font-medium text-center text-white">
               © 2024{" "}
               <a href="/" className="hover:underline text-white">
-                Tampla Motion
+                Tampa Motion
               </a>
               . All Rights Reserved.
             </div>

@@ -61,7 +61,7 @@ const MainHeader = () => {
             <div className=" flex items-center gap-x-10 2xl:gap-x-16 max-h-[94px]">
               <Link href={"/"}>
                 <Image
-                  src="/assets/site-logo/tampla-motion-logo1.png"
+                  src="/assets/site-logo/tampa-motion-logo1.png"
                   alt="header logo"
                   width={300}
                   height={79}
@@ -160,7 +160,7 @@ const MainHeader = () => {
               <NavbarBrand>
                 <Link href="/">
                   <Image
-                    src="/assets/site-logo/tampla-motion-logo1.png"
+                    src="/assets/site-logo/tampa-motion-logo1.png"
                     alt="footer logo"
                     width={500}
                     height={500}
