@@ -138,13 +138,15 @@ const MainHeader = () => {
               >
                 Contact Us
               </Link> */}
-              <div className="bg-secondary  py-3  md:px-1 lg:px-4 rounded-sm">
-                <Link href="/contact" className="flex flex-col justify-center">
-                  <p className="text-white text-[6px]  lg:text-[16px] text-center">
-                    Make An Apponment
-                  </p>
+
+              <button className="transition-all hover:scale-110 ease-in-out duration-500 text-white text-[6px]  lg:text-[16px] text-center">
+                <Link
+                  href="/contact"
+                  className="bg-secondary  py-3  md:px-1 lg:px-4 rounded-sm "
+                >
+                  Make An Appointment
                 </Link>
-              </div>
+              </button>
             </div>
           </div>
         </div>
