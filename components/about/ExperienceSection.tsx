@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import ScrollMotionEffect from "../motion/ScrollMotionEffect";
+import { motion } from "framer-motion";
 
 const ExperienceSection = () => {
   return (
@@ -9,14 +10,49 @@ const ExperienceSection = () => {
       <div className="container py-10 md:py-20">
         <ScrollMotionEffect effect="fade-up" duration={2000}>
           <div className="flex flex-col xl:flex-row items-center gap-6 ">
-            <div className="flex-1 flex justify-center">
+            <div className="flex-1 flex flex-col justify-center relative">
               <Image
-                src={"/assets/about/experience.png"}
+                src={"/assets/about/emptyCircle.png"}
                 alt="logo"
-                width={800}
-                height={500}
+                width={552}
+                height={552}
                 className="w-[600px] h-auto"
               />
+              <div className="absolute top-0 left-0 right-0 bottom-0 grid auto-rows-min place-content-center place-items-center grid-cols-12 gap-4">
+                <div className="col-span-8 row-span-2 md:col-span-7">
+                  <ScrollMotionEffect effect="zoom-in" duration={2000}>
+                    <Image
+                      src={"/assets/about/patientHand.png"}
+                      alt="logo"
+                      width={800}
+                      height={500}
+                      className="w-[600px] h-auto "
+                    />
+                  </ScrollMotionEffect>
+                </div>
+                <div className=" col-span-4 row-span-1 md:col-span-5 md:scale-90">
+                  <ScrollMotionEffect effect="zoom-in" duration={2000}>
+                    <Image
+                      src={"/assets/about/patientNeck.png"}
+                      alt="logo"
+                      width={800}
+                      height={500}
+                      className="w-[600px] h-auto  "
+                    />
+                  </ScrollMotionEffect>
+                </div>
+                <div className="col-span-4 row-span-1 md:col-span-5 md:scale-90">
+                  <ScrollMotionEffect effect="zoom-in" duration={2000}>
+                    <Image
+                      src={"/assets/about/patientBack.png"}
+                      alt="logo"
+                      width={800}
+                      height={500}
+                      className="w-[600px] h-auto "
+                    />
+                  </ScrollMotionEffect>
+                </div>
+              </div>
             </div>
             <div className="flex-1">
               <h2 className="text-3xl md:text-5xl font-semibold mt-6 md:text-center text-center text-black  !leading-snug  xl:text-left">
@@ -52,7 +88,7 @@ const ExperienceSection = () => {
         </ScrollMotionEffect>
         <ScrollMotionEffect effect="fade-up" duration={2000}>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch justify-between mt-10 md:mt-20 text-black">
-            <div className="flex items-center justify-center border bg-white shadow-xl p-10 space-x-6 rounded-lg">
+            <div className="flex items-center justify-center border bg-white shadow-xl p-10 space-x-6 rounded-lg hover:scale-105 transition-all duration-500 ease-in-out hover:bg-gray-200">
               <Image
                 src={"/assets/about/skilled-therapist.png"}
                 alt="logo"
@@ -67,7 +103,7 @@ const ExperienceSection = () => {
                 <p className="text-base md:text-lg  black">Skilled Therapist</p>
               </div>
             </div>
-            <div className="flex items-center justify-center border bg-white shadow-xl p-10 space-x-6 rounded-lg">
+            <div className="flex items-center justify-center border bg-white shadow-xl p-10 space-x-6 rounded-lg hover:scale-105 transition-all duration-500 ease-in-out hover:bg-gray-200">
               <Image
                 src={"/assets/about/solved-cases.png"}
                 alt="logo"
@@ -82,7 +118,7 @@ const ExperienceSection = () => {
                 <p className="text-base md:text-lg  black">Solved Cases</p>
               </div>
             </div>
-            <div className="flex items-center justify-center border bg-white shadow-xl p-10 space-x-6 rounded-lg">
+            <div className="flex items-center justify-center border bg-white shadow-xl p-10 space-x-6 rounded-lg hover:scale-105 transition-all duration-500 ease-in-out hover:bg-gray-200">
               <Image
                 src={"/assets/about/happy-patients.png"}
                 alt="logo"
