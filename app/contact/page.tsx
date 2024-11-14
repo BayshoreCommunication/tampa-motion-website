@@ -46,7 +46,7 @@ const page = () => {
                     <IoIosCall />
                   </div>
                   <div className="text-sm md:text-base">
-                    &nbsp;&nbsp;+26&nbsp;123&nbsp;456&nbsp;789
+                    &nbsp;&nbsp;+1 248-993-5526
                   </div>
                 </div>
                 <div className="flex flex-row  text-left w-full items-center pl-4 pb-2">
@@ -54,31 +54,34 @@ const page = () => {
                     <IoMdMailUnread />
                   </div>
                   <div className="text-sm md:text-base">
-                    &nbsp;&nbsp;support@chirox.com
+                    &nbsp;&nbsp;tampamotionpllc@gmail.com
                   </div>
                 </div>
                 <div className="flex flex-row pb-5 lg:pb-20  text-left w-full items-center pl-4">
                   <div>
                     <FaLocationDot />
                   </div>
-                  <div className="text-sm md:text-base line-clamp-1">
-                    &nbsp;&nbsp;JI Dr. Ir. Soekarno Tabanan - Bali
+                  <div className="text-sm md:text-base line-clamp-1 xl:line-clamp-2 ">
+                    &nbsp;&nbsp;20200 West Dixie Highway, Suite 902 Aventura,
+                    &nbsp;&nbsp;FL&nbsp;&nbsp;33180
                   </div>
                 </div>
                 <section className="text-white flex flex-row justify-start items-center gap-4 h-fit py-4">
-                  <Link href={"#"}>
+                  <Link href={"https://www.facebook.com/tampamotion"}>
                     <button className="p-2 rounded-md hover:border-white border border-[#084a4d]">
                       <FaFacebookF className="w-6 h-6" />
                     </button>
                   </Link>
 
-                  <Link href={"#"}>
+                  <Link
+                    href={"https://www.linkedin.com/company/tampamotionpllc"}
+                  >
                     <button className="p-2 rounded-md hover:border-white border border-[#084a4d]">
                       <FaLinkedinIn className="w-6 h-6" />
                     </button>
                   </Link>
 
-                  <Link href={"#"}>
+                  <Link href={"https://x.com/tampamotionpllc"}>
                     <button className="p-2 rounded-md hover:border-white border border-[#084a4d]">
                       <FaTwitter className="w-6 h-6" />
                     </button>

@@ -36,33 +36,33 @@ const MainFooter = () => {
                     width={320}
                     height={200}
                     src={"/assets/site-logo/tampa-motion-logo-white.png"}
-                    alt="Trip Low"
+                    alt="tampa-motion-logo"
                     className="object-cover"
                   />
                 </Link>
                 <p className="py-5 text-[18px] font-normal text-center text-white md:text-left max-w-[450px] leading-8">
                   The firm offers a free consultation and will gladly discuss
-                  your case with you at your convenience. Contact Melamed Law,
+                  your case with you at your convenience. Contact Tampa Motion,
                   PLLC today to schedule an appointment.
                 </p>
 
                 <div className="text-white  flex justify-center md:justify-start gap-3 mt-4 md:mt-6 ">
                   <Link
-                    href="#"
+                    href="https://www.facebook.com/tampamotion"
                     target="_blank"
                     className="inline-block p-2 rounded  duration-300 border-2 border-secondary hover:border-white"
                   >
                     <FaFacebookF className="size-5" />
                   </Link>
                   <Link
-                    href="#"
+                    href="https://www.linkedin.com/company/tampamotionpllc"
                     target="_blank"
                     className="inline-block p-2 rounded duration-300 border-2 border-secondary hover:border-white"
                   >
                     <FaLinkedinIn className="size-5" />
                   </Link>
                   <Link
-                    href="#"
+                    href="https://x.com/tampamotionpllc"
                     target="_blank"
                     className="inline-block p-2 rounded  duration-300 border-2 border-secondary hover:border-white"
                   >
@@ -76,7 +76,7 @@ const MainFooter = () => {
                     <FaInstagram className="size-5 " />
                   </Link>
                   <Link
-                    href="#"
+                    href="https://www.youtube.com/channel/UCTJg34YjVuwolUNmUs8tdJw"
                     target="_blank"
                     className="inline-block p-2 rounded duration-300 border-2 border-secondary hover:border-white"
                   >
@@ -146,10 +146,10 @@ const MainFooter = () => {
                     </div>
                     <div className="flex flex-wrap gap-x-3 gap-y-1">
                       <Link
-                        href="tel:954-529-0695"
+                        href="tel:+1 248-993-5526"
                         className="hover:underline duration-300"
                       >
-                        {`954-529-0695`}
+                        {`+1 248-993-5526`}
                       </Link>
                       {/* <Link
                         href="tel:+18635996735"
@@ -169,10 +169,10 @@ const MainFooter = () => {
                       </h3>
                     </div>
                     <Link
-                      href="mailto:aaron@melamedlawpllc.com"
-                      className="hover:underline duration-300"
+                      href="mailto:convergentkineticspt@gmail.com"
+                      className="hover:convergentkineticspt@gmail.com"
                     >
-                      aaron@melamedlawpllc.com
+                      tampamotionpllc@gmail.com
                     </Link>
                   </li>
                 </ul>
