@@ -56,7 +56,7 @@ const PowerOfPhysiotherapy = () => {
                 </div>
                 <div className="absolute top-60 left-48 z-20 lg:left-[65%] lg:top-[65%]">
                   <ScrollMotionEffect effect="zoom-in" duration={3000}>
-                    <button className="bg-gradient-to-b from-[#0aa3e8] to-[#34e1d8] h-32 w-56 text-white font-thin  rounded-3xl flex flex-col justify-center items-center ">
+                    <button className="bg-gradient-to-b from-[#0aa3e8] to-[#34e1d8] h-32 w-56 text-white font-thin  rounded-3xl flex flex-col justify-center items-center hover:scale-105 transition-all duration-500 ease-in-out cursor-default">
                       <p className=" font-baskerville text-base font-thin">
                         &quot;Physiotherapy gives me the flexibility I need to
                         keep in the game.&quot;
@@ -145,13 +145,13 @@ const PowerOfPhysiotherapy = () => {
                 <div className="mt-6 flex flex-col md:flex-row justify-center md:justify-start gap-4 items-center">
                   <Link
                     href="/contact"
-                    className="bg-secondary hover:bg-secondary-dark transition-colors duration-200 ease-in-out py-3 px-6 rounded-sm w-full md:w-auto max-w-xs text-white text-center"
+                    className="bg-secondary py-3 px-6 rounded-sm w-full md:w-auto max-w-xs text-white text-center hover:scale-105 transition-all duration-500 ease-in-out"
                   >
                     Make An Appointment
                   </Link>
                   <Link
                     href="/about"
-                    className="flex items-center justify-center py-3 px-6 rounded-sm w-full md:w-auto max-w-xs text-gray-900 text-center hover:bg-secondary hover:text-white transition-colors duration-200 ease-in-out group"
+                    className="flex items-center justify-center py-3 px-6 rounded-sm w-full md:w-auto max-w-xs text-gray-900 text-center hover:bg-secondary hover:text-white group hover:scale-105 transition-all duration-300 ease-in-out"
                   >
                     <span>Read More About</span>
                     <FaArrowRightLong className="ml-2 text-gray-900 group-hover:text-white transition-colors duration-200 ease-in-out" />

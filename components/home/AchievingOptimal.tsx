@@ -19,7 +19,7 @@ const AchievingOptimal = () => {
                     height={500}
                     className="w-[550px] h-auto"
                   />
-                  <div className="bg-secondary p-6 rounded-lg w-[250px] h-[150px] flex items-center justify-center flex-col absolute bottom-4 right-24">
+                  <div className="bg-secondary p-6 rounded-lg w-[230px] h-[120px] flex items-center justify-center flex-col absolute bottom-4 right-24">
                     <h2 className="text-5xl font-semibold text-white">7+</h2>
                     <p className="text-lg  text-white">Years of Experience</p>
                   </div>
@@ -36,9 +36,11 @@ const AchievingOptimal = () => {
                     height={500}
                     className="w-[550px] h-auto"
                   />
-                  <div className="bg-secondary  p-6 rounded-lg w-[250px] h-[150px] flex items-center justify-center flex-col absolute bottom-4 right-24">
-                    <h2 className="text-5xl font-semibold text-white">7+</h2>
-                    <p className="text-lg  text-white">Years of Experience</p>
+                  <div className="bg-secondary  p-0 rounded-lg w-[200px] h-[100px] flex items-center justify-center flex-col absolute bottom-4 right-24">
+                    <h2 className="text-4xl font-semibold text-white">7+</h2>
+                    <p className="text-base  text-white text-center">
+                      Years of Experience
+                    </p>
                   </div>
                 </div>
               </ScrollMotionEffect>
