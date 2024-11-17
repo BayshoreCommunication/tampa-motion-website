@@ -1,5 +1,9 @@
 import React from "react";
 
+export const metadata = {
+  title: "",
+  description: "",
+};
 const page = () => {
   return (
     <article className="h-screen bg-white text-black ">

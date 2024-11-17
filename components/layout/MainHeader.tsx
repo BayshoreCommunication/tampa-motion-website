@@ -15,6 +15,7 @@ import { Libre_Baskerville, Orbitron } from "next/font/google";
 
 import Image from "next/image";
 //import { areaspracticeData } from "@/config/data";
+import { services } from "@/config/serviceData";
 
 const baskerville = Libre_Baskerville({ subsets: ["latin"], weight: "400" });
 
@@ -49,9 +50,9 @@ const MainHeader = () => {
     []
   );
 
-  // const setPathSlug = areaspracticeData?.some(
-  //   (el) => pathname === `/practice-areas/${el?.slug}`
-  // );
+  const setPathSlug = services?.some(
+    (el) => pathname === `/services/${el?.service_slug}`
+  );
 
   return (
     <section className={"relative z-50"}>
@@ -83,7 +84,7 @@ const MainHeader = () => {
                         <div className="flex items-center gap-1 ">
                           <Link
                             href={el?.slug}
-                            className={`flex items-center gap-x-1 cursor-pointer text-black text-sm xl:text-[16px] font-medium capitalize hover:text-secondary ${pathname === el.slug ? " border border-secondary rounded-full text-secondary py-1 lg:py-2 px-2 lg:px-5" : ""} `}
+                            className={`flex items-center gap-x-1 cursor-pointer text-black text-sm xl:text-[16px] font-medium capitalize hover:text-secondary ${pathname === el.slug || setPathSlug ? " border border-secondary rounded-full text-secondary py-1 lg:py-2 px-2 lg:px-5" : ""} `}
                           >
                             Services
                             <span>
@@ -103,18 +104,18 @@ const MainHeader = () => {
                           </Link>
                         </div>
                         <div className="absolute hidden group-hover:block bg-white shadow-lg rounded p-6  overflow-y-scroll w-[300px] max-h-[400px]">
-                          {/* <ul className="py-2 list-none ml-0">
-                            {areaspracticeData?.map((el, index) => (
+                          <ul className="py-2 list-none ml-0">
+                            {services?.map((el, index) => (
                               <li key={index}>
                                 <Link
-                                  href={`/practice-areas/${el.slug}`}
-                                  className={`py-2 flex  text-base xl:text-[16px] hover:text-secondary  ${pathname === `/practice-areas/${el?.slug}` ? " text-secondary " : "text-slate-900"}`}
+                                  href={`/services/${el.service_slug}`}
+                                  className={`py-2 flex  text-base xl:text-[16px] hover:text-secondary border-b  ${pathname === `/practice-areas/${el?.slug}` ? " text-secondary " : "text-slate-900"}`}
                                 >
-                                  {el.title}
+                                  {el.service}
                                 </Link>
                               </li>
                             ))}
-                          </ul> */}
+                          </ul>
                         </div>
                       </div>
                     </div>

@@ -3,72 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
-
-const services = [
-  {
-    service: "Physiotherapy",
-    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
-    image: "/assets/services/Physiotherapy.png",
-    alt: "Physiotherapy",
-    slug: "physiotherapy",
-  },
-  {
-    service: "Joint replacements",
-    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
-    image: "/assets/services/joint_replacements.png",
-    alt: "Joint replacements",
-    slug: "joint-replacements",
-  },
-  {
-    service: "Neurological Rehab",
-    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
-    image: "/assets/services/neurological_rehab.png",
-    alt: "Neurological Rehab",
-    slug: "neurological-rehab",
-  },
-  {
-    service: "Parkinson's Disease",
-    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
-    image: "/assets/services/parkinson_disease.png",
-    alt: "Parkinson's Disease",
-    slug: "parkinson-disease",
-  },
-  {
-    service: "Pre and Post-Operative Rehab",
-    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
-    image: "/assets/services/operative_rehab.png",
-    alt: "Pre- and Post-Operative Rehab",
-    slug: "Pre-and-Post-Operative-Rehab",
-  },
-  {
-    service: "Rotator cuff surgery preparation",
-    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
-    image: "/assets/services/cuff_surgery.png",
-    alt: "Rotator cuff surgery preparation",
-    slug: "rotator-cuff-surgery-preparation",
-  },
-  {
-    service: "Spine and cosmetic surgeries",
-    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
-    image: "/assets/services/surgeries.png",
-    alt: "Spine and cosmetic surgeries",
-    slug: "spine-and-cosmetic-surgeries",
-  },
-  {
-    service: "Ligament and tendon repairs",
-    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
-    image: "/assets/services/repairs.png",
-    alt: "Ligament and tendon repairs",
-    slug: "ligament-and-tendon-repairs",
-  },
-  {
-    service: "Upper and lower extremities surgeries",
-    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
-    image: "/assets/services/extremities_surgeries.png",
-    alt: "Upper and lower extremities surgeries",
-    slug: "upper-and-lower-extremities-surgeries",
-  },
-];
+import { services } from "@/config/serviceData.js";
 
 const ServiceCards = () => {
   return (
