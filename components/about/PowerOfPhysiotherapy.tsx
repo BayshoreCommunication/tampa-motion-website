@@ -105,7 +105,7 @@ const PowerOfPhysiotherapy = () => {
           </div>
 
           <div className="flex-1 mt-8 md:mt-0">
-            <div className=" hidden lg:block xl:hidden">
+            {/* <div className=" hidden lg:block xl:hidden">
               <ScrollMotionEffect effect="fade-up" duration={2000}>
                 <h2 className="text-3xl md:text-5xl font-semibold md:text-left text-center text-black  !leading-snug">
                   Experience The Healing Power Of Physiotherapy
@@ -158,8 +158,8 @@ const PowerOfPhysiotherapy = () => {
                   </Link>
                 </div>
               </ScrollMotionEffect>
-            </div>
-            <div className=" hidden xl:block">
+            </div> */}
+            {/* <div className=" hidden 2xl:block">
               <ScrollMotionEffect effect="fade-left" duration={2000}>
                 <h2 className="text-3xl md:text-5xl font-semibold md:text-left text-center text-black  !leading-snug">
                   Experience The Healing Power Of Physiotherapy
@@ -212,8 +212,8 @@ const PowerOfPhysiotherapy = () => {
                   </Link>
                 </div>
               </ScrollMotionEffect>
-            </div>
-            <div className=" lg:hidden block">
+            </div> */}
+            <div className=" ">
               <ScrollMotionEffect effect="fade-up" duration={2000}>
                 <h2 className="text-3xl md:text-5xl font-semibold md:text-left text-center text-black  !leading-snug">
                   Experience The Healing Power Of Physiotherapy

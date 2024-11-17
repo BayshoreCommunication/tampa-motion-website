@@ -54,7 +54,7 @@ const BestServices = () => {
             </div>
           </ScrollMotionEffect>
           <ScrollMotionEffect effect="fade-up" duration={2000}>
-            <div className="w-full flex flex-col 2xl:flex-row justify-center items-center gap-4 2xl:relative 2xl:left-28">
+            <div className="w-full flex flex-col 2xl:flex-row justify-end items-end gap-4 2xl:relative">
               <div className="container w-full flex  flex-wrap justify-center items-center gap-4 2xl:p-10  z-10">
                 {services.map((item, i) => (
                   <ScrollMotionEffect effect="zoom-in" duration={2000}>
