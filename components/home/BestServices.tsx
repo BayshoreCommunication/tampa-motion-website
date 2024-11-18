@@ -78,7 +78,7 @@ const BestServices = () => {
                 ))}
               </div>
 
-              <div className=" flex flex-col justify-center items-center relative ">
+              <div className="w-[400px] md:w-auto flex flex-col justify-center items-center relative ">
                 <ScrollMotionEffect effect="zoom-in" duration={2000}>
                   <Image
                     src="/assets/BestServices/emptyCircle.png"
@@ -86,7 +86,7 @@ const BestServices = () => {
                     width={600}
                     height={608}
                     className="
-                  relative -top-16 -left-36 right-0 bottom-0 scale-125 h-auto 2xl:scale-150 2xl:translate-y-20 2xl:-translate-x-36 "
+                  relative -top-16 -left-36 right-0 bottom-0 translate-y-20 scale-125  2xl:scale-150 2xl:translate-y-20 2xl:-translate-x-36 "
                   />
                 </ScrollMotionEffect>
 
@@ -100,7 +100,7 @@ const BestServices = () => {
                     />
                   </ScrollMotionEffect>
                 </div>
-                <div className="absolute bottom-0 translate-y-5 md:translate-y-0 2xl:-bottom-20 2xl:-translate-x-28">
+                <div className="absolute bottom-0 translate-y-20 md:translate-y-0 2xl:-bottom-20 2xl:-translate-x-28">
                   <ScrollMotionEffect effect="zoom-in" duration={2000}>
                     <button className="bg-primary h-32 w-56 text-white font-thin rounded-xl flex flex-col justify-center items-center  hover:scale-105 transition-all duration-250 ease-in-out ">
                       <p className="pb-4  text-lg">
