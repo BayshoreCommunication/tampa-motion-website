@@ -1,6 +1,10 @@
 import PageHeroSection from "@/components/shared/PageHeroSection";
 import React from "react";
-
+import Head from "next/head";
+export const metadata = {
+  title: "Cookie Policy - Tampa Motion",
+  description: "",
+};
 const page = () => {
   return (
     <div>

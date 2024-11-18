@@ -62,11 +62,11 @@ export const siteConfig = {
   socialLinks: [
     {
       title: "Facebook",
-      url: "",
+      url: "https://www.facebook.com/tampamotion",
     },
     {
       title: "Twitter",
-      url: "#",
+      url: "https://x.com/tampamotionpllc",
     },
     {
       title: "Instagram",
@@ -74,7 +74,11 @@ export const siteConfig = {
     },
     {
       title: "LinkedIn",
-      url: "#",
+      url: "https://www.linkedin.com/company/tampamotionpllc",
     },
+    {
+      title: "Youtube",
+      url: "https://www.youtube.com/channel/UCTJg34YjVuwolUNmUs8tdJw",
+    }
   ],
 };

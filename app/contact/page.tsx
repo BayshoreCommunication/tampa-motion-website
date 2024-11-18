@@ -2,6 +2,7 @@ import ContactForm from "@/components/contact/ContactForm";
 import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
 import PageHeroSection from "@/components/shared/PageHeroSection";
 import { Content } from "next/font/google";
+import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 import {
@@ -14,7 +15,7 @@ import { IoIosCall, IoMdMailUnread } from "react-icons/io";
 import { IoLogoInstagram } from "react-icons/io5";
 
 export const metadata = {
-  title: "",
+  title: "Contact Us - Tampa Motion",
   description: "",
 };
 const page = () => {

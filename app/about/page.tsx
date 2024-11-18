@@ -3,9 +3,9 @@ import PowerOfPhysiotherapy from "@/components/about/PowerOfPhysiotherapy";
 import BestServices from "@/components/home/BestServices";
 import PageHeroSection from "@/components/shared/PageHeroSection";
 import React from "react";
-
+import Head from "next/head";
 export const metadata = {
-  title: "",
+  title: "About Us - Tampa Motion",
   description: "",
 };
 

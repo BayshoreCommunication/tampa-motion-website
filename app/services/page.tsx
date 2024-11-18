@@ -4,10 +4,11 @@ import ServiceCards from "@/components/services/ServiceCards";
 import BookAnAppointment from "@/components/shared/BookAnAppointment";
 import EasyStep from "@/components/shared/EasyStep";
 import PageHeroSection from "@/components/shared/PageHeroSection";
+import Head from "next/head";
 import React from "react";
 
 export const metadata = {
-  title: "",
+  title: "Services - Tampa Motion",
   description: "",
 };
 const page = () => {

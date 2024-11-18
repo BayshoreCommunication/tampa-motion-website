@@ -1,7 +1,8 @@
 import React from "react";
+import Head from "next/head";
 
 export const metadata = {
-  title: "",
+  title: "Blog - Tampa Motion",
   description: "",
 };
 const page = () => {
