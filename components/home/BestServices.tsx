@@ -35,7 +35,7 @@ const services = [
 
 const BestServices = () => {
   return (
-    <section className="bg-white">
+    <section className="bg-white pb-10">
       <div className="container py-10 md:py-20 pb-20  text-black">
         <div className="flex w-full  flex-col justify-center items-center ">
           <ScrollMotionEffect effect="fade-up" duration={2000}>
