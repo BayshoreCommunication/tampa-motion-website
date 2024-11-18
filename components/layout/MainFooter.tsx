@@ -88,7 +88,7 @@ const MainFooter = () => {
                 <h2 className="text-[22px] font-semibold text-white">
                   Quick Links
                 </h2>
-                <hr className="mt-2 mb-6 w-28 border-white" />
+                <hr className="mt-2 mb-6 w-36 border-white" />
                 <ul className="ml-0 text-white list-none text-[18px] font-medium">
                   {siteConfig?.footer?.quick_links?.map((el, index) => (
                     <li className="mb-4" key={index}>
@@ -103,7 +103,7 @@ const MainFooter = () => {
                 <h2 className="text-[22px] font-semibold text-white">
                   Legal Areas
                 </h2>
-                <hr className="w-32 mt-2 mb-6 border-white" />
+                <hr className="w-36 mt-2 mb-6 border-white" />
                 <ul className="ml-0 text-[18px] font-medium text-white list-none">
                   {siteConfig?.footer?.company?.map((el, index) => (
                     <li className="mb-4" key={index}>
@@ -118,7 +118,7 @@ const MainFooter = () => {
                 <h2 className="font-semibold text-white text-[22px]">
                   Contact us
                 </h2>
-                <hr className="w-24 mt-2 mb-6 border-white" />
+                <hr className="w-36 mt-2 mb-6 border-white" />
                 <ul className="ml-0 text-[18px] font-medium text-white list-none">
                   <li className="mb-4">
                     <div className="flex items-center gap-x-1">
