@@ -90,7 +90,7 @@ const BestServices = () => {
                   />
                 </ScrollMotionEffect>
 
-                <div className="absolute scale-110 h-auto md:scale-125  2xl:-translate-x-28">
+                <div className="absolute scale-105 h-auto md:scale-125  2xl:-translate-x-28">
                   <ScrollMotionEffect effect="zoom-in" duration={2000}>
                     <Image
                       src="/assets/BestServices/patientBack.png"
