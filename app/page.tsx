@@ -25,7 +25,6 @@ export default function Home() {
   return (
     <section className="bg-[#EFEFEF] ">
       <HeroSection />
-
       <AchievingOptimal />
       <BestServices />
       <EasyStep />

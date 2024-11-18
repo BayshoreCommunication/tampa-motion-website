@@ -54,15 +54,15 @@ const BestServices = () => {
             </div>
           </ScrollMotionEffect>
           <ScrollMotionEffect effect="fade-up" duration={2000}>
-            <div className="w-full flex flex-col 2xl:flex-row justify-end items-end gap-4 2xl:relative">
-              <div className="container w-full flex  flex-wrap justify-center items-center gap-4 2xl:p-10  z-10">
+            <div className="w-full flex flex-col 2xl:flex-row justify-end items-center gap-4 2xl:relative">
+              <div className="container w-full flex-grow flex  flex-wrap justify-center items-center gap-4   z-10">
                 {services.map((item, i) => (
                   <ScrollMotionEffect effect="zoom-in" duration={2000}>
                     <div
                       key={i}
                       className="item  bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] rounded-3xl p-[1px] hover:scale-105 transition-all duration-500 ease-in-out"
                     >
-                      <article className="w-[350px] md:w-[500px] lg:w-[400px] h-[250px] border bg-white p-4 rounded-3xl flex flex-col justify-center items-center border-transparent hover:bg-gray-100 transition-all duration-500 ease-in-out">
+                      <article className="w-[350px]  lg:w-[350px] xl:w-[400px] h-[250px] border bg-white p-4 rounded-3xl flex flex-col justify-center items-center border-transparent hover:bg-gray-100 transition-all duration-500 ease-in-out">
                         <Image
                           src={item.image}
                           alt={item.alt}
@@ -77,31 +77,47 @@ const BestServices = () => {
                   </ScrollMotionEffect>
                 ))}
               </div>
-              <ScrollMotionEffect effect="fade-up" duration={2000}>
-                <div className=" flex flex-col justify-center items-center relative -left-[19%]  lg:-left-[13%] xl:-left-[10%] 2xl:-left-[3%]">
+
+              <div className=" flex flex-col justify-center items-center relative ">
+                <ScrollMotionEffect effect="zoom-in" duration={2000}>
                   <Image
-                    src="/assets/BestServices/backCircle.png"
-                    alt="backCircle"
-                    width={900}
-                    height={600}
-                    className=" w-[900px]
-                   relative 2xl:-left-52 lg:px-20 lg:h-[500px] lg:w-[700px] 2xl:w-[900px] 2xl:h-[600px] xl:px-30 2xl:px-0 2xl:-translate-x-9"
+                    src="/assets/BestServices/emptyCircle.png"
+                    alt="Patient"
+                    width={600}
+                    height={608}
+                    className="
+                  relative -top-16 -left-36 right-0 bottom-0 scale-125 h-auto 2xl:scale-150 2xl:translate-y-20 2xl:-translate-x-36 "
                   />
-                  <button className="bg-primary h-32 w-56 text-white font-thin rounded-xl flex flex-col justify-center items-center absolute right-[2.5%] -bottom-8 md:-bottom-4 2xl:-bottom-5  md:right-[16%] lg:right-[20%] xl:right-[20%] 2xl:right-[55%] hover:scale-105 transition-all duration-250 ease-in-out ">
-                    <p className="pb-4  text-lg">
-                      We Proudly Give Quality Treatments
-                    </p>
-                    <Link href="/services">
-                      <p className=" text-black flex items-center gap-5 hover:text-white transition-all duration-250 ease-in-out ">
-                        View All Services&nbsp;
-                        <span>
-                          <FaArrowRight />
-                        </span>
-                      </p>
-                    </Link>
-                  </button>
+                </ScrollMotionEffect>
+
+                <div className="absolute scale-110 h-auto md:scale-125  2xl:-translate-x-28">
+                  <ScrollMotionEffect effect="zoom-in" duration={2000}>
+                    <Image
+                      src="/assets/BestServices/patientBack.png"
+                      alt="Patient"
+                      width={300}
+                      height={500}
+                    />
+                  </ScrollMotionEffect>
                 </div>
-              </ScrollMotionEffect>
+                <div className="absolute bottom-0 2xl:-bottom-20 2xl:-translate-x-28">
+                  <ScrollMotionEffect effect="zoom-in" duration={2000}>
+                    <button className="bg-primary h-32 w-56 text-white font-thin rounded-xl flex flex-col justify-center items-center  hover:scale-105 transition-all duration-250 ease-in-out ">
+                      <p className="pb-4  text-lg">
+                        We Proudly Give Quality Treatments
+                      </p>
+                      <Link href="/services">
+                        <p className=" text-black flex items-center gap-5 hover:text-white transition-all duration-250 ease-in-out ">
+                          View All Services&nbsp;
+                          <span>
+                            <FaArrowRight />
+                          </span>
+                        </p>
+                      </Link>
+                    </button>
+                  </ScrollMotionEffect>
+                </div>
+              </div>
             </div>
           </ScrollMotionEffect>
         </div>

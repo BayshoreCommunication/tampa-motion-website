@@ -168,7 +168,7 @@ const HeroSection = () => {
             <BookAnAppointment />
           </ScrollMotionEffect>
         </div>
-        <div className="relative -bottom-40 md:-bottom-48 -mt-24 md:-mt-32 overscroll-none">
+        <div className="relative -bottom-40 md:-bottom-48 -mt-24 md:-mt-32 ">
           <ScrollMotionEffect effect="fade-up" duration={2000}>
             <div className="grid grid-cols-1 md:grid-cols-3 items-stretch justify-between gap-8">
               {cardDatas?.map((el: any, index: number) => (

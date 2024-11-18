@@ -9,7 +9,7 @@ const AchievingOptimal = () => {
       <div className="container py-10 md:py-20">
         <div className="flex flex-col xl:flex-row items-center gap-x-16">
           <div className="w-full xl:w-[50%] flex items-center justify-center">
-            <div className="hidden lg:block">
+            <div className="block">
               <ScrollMotionEffect effect="fade-up" duration={2000}>
                 <div className="relative">
                   <Image
@@ -26,7 +26,7 @@ const AchievingOptimal = () => {
                 </div>
               </ScrollMotionEffect>
             </div>
-            <div className="lg:hidden block">
+            {/* <div className="lg:hidden block">
               <ScrollMotionEffect effect="fade-up" duration={2000}>
                 <div className="relative">
                   <Image
@@ -44,7 +44,7 @@ const AchievingOptimal = () => {
                   </div>
                 </div>
               </ScrollMotionEffect>
-            </div>
+            </div> */}
           </div>
 
           <div className="w-full xl:w-[50%] pt-10">
