@@ -90,7 +90,7 @@ const BestServices = () => {
                   />
                 </ScrollMotionEffect>
 
-                <div className="absolute scale-105 h-auto md:scale-125  2xl:-translate-x-28">
+                <div className="absolute translate-y-5 md:translate-y-0 scale-105 h-auto md:scale-125  2xl:-translate-x-28">
                   <ScrollMotionEffect effect="zoom-in" duration={2000}>
                     <Image
                       src="/assets/BestServices/patientBack.png"
@@ -100,7 +100,7 @@ const BestServices = () => {
                     />
                   </ScrollMotionEffect>
                 </div>
-                <div className="absolute bottom-0 2xl:-bottom-20 2xl:-translate-x-28">
+                <div className="absolute bottom-0 translate-y-5 md:translate-y-0 2xl:-bottom-20 2xl:-translate-x-28">
                   <ScrollMotionEffect effect="zoom-in" duration={2000}>
                     <button className="bg-primary h-32 w-56 text-white font-thin rounded-xl flex flex-col justify-center items-center  hover:scale-105 transition-all duration-250 ease-in-out ">
                       <p className="pb-4  text-lg">
