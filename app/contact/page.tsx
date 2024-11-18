@@ -66,7 +66,7 @@ const page = () => {
                 </div>
                 <section className="text-white flex flex-row justify-start items-center gap-4 h-fit py-4">
                   <Link href={"https://www.facebook.com/tampamotion"}>
-                    <button className="p-2 rounded-md hover:border-white border border-[#084a4d] transition-all duration-300 ease-in-out">
+                    <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
                       <FaFacebookF className="w-6 h-6" />
                     </button>
                   </Link>
@@ -74,19 +74,19 @@ const page = () => {
                   <Link
                     href={"https://www.linkedin.com/company/tampamotionpllc"}
                   >
-                    <button className="p-2 rounded-md hover:border-white border border-[#084a4d] transition-all duration-300 ease-in-out">
+                    <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
                       <FaLinkedinIn className="w-6 h-6" />
                     </button>
                   </Link>
 
                   <Link href={"https://x.com/tampamotionpllc"}>
-                    <button className="p-2 rounded-md hover:border-white border border-[#084a4d] transition-all duration-300 ease-in-out">
+                    <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
                       <FaTwitter className="w-6 h-6" />
                     </button>
                   </Link>
 
                   <Link href={"#"}>
-                    <button className="p-2 rounded-md hover:border-white border border-[#084a4d] transition-all duration-300 ease-in-out">
+                    <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
                       <IoLogoInstagram className="w-6 h-6" />
                     </button>
                   </Link>
