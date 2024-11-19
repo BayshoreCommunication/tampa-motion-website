@@ -118,45 +118,49 @@ const AchievingOptimal = () => {
                   natoque penatibus.
                 </p>
                 <div className="flex flex-col xl:flex-row items-center justify-center gap-x-16 gap-y-10 mt-8">
-                  <div className="flex flex-col items-center justify-center xl:justify-start xl:items-start ">
-                    <div className="flex items-center justify-center p-3 bg-secondary rounded-full w-16 h-16">
-                      <Image
-                        src={"/assets/AchievingOptimal/focus.png"}
-                        alt="logo"
-                        width={800}
-                        height={500}
-                        className="w-[60px] h-auto"
-                      />
-                    </div>
-                    <h2 className="text-2xl font-bold leading-snug mt-3">
-                      Our Mission
-                    </h2>
+                  <ScrollMotionEffect effect="zoom-in" duration={2000}>
+                    <div className="flex flex-col items-center justify-center xl:justify-start xl:items-start ">
+                      <div className="flex items-center justify-center p-3 bg-secondary rounded-full w-16 h-16">
+                        <Image
+                          src={"/assets/AchievingOptimal/focus.png"}
+                          alt="logo"
+                          width={800}
+                          height={500}
+                          className="w-[60px] h-auto"
+                        />
+                      </div>
+                      <h2 className="text-2xl font-bold leading-snug mt-3">
+                        Our Mission
+                      </h2>
 
-                    <p className="text-base mt-4 px-5 text-center xl:text-left xl:px-0">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing.
-                      Aenean commodo ligula eget dolor aenean massa cum sociis
-                      et natoque penatibus.
-                    </p>
-                  </div>
-                  <div className="flex flex-col items-center justify-center xl:justify-start xl:items-start ">
-                    <div className="flex items-center justify-center p-3 bg-secondary rounded-full w-16 h-16">
-                      <Image
-                        src={"/assets/AchievingOptimal/pointer.png"}
-                        alt="logo"
-                        width={800}
-                        height={500}
-                        className="w-[60px] h-auto"
-                      />
+                      <p className="text-base mt-4 px-5 text-center xl:text-left xl:px-0">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing.
+                        Aenean commodo ligula eget dolor aenean massa cum sociis
+                        et natoque penatibus.
+                      </p>
                     </div>
-                    <h2 className="text-2xl font-bold leading-snug mt-3">
-                      Our Vision
-                    </h2>
-                    <p className="text-base mt-4 px-5 text-center xl:text-left xl:px-0">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing.
-                      Aenean commodo ligula eget dolor aenean massa cum sociis
-                      et penatibus.
-                    </p>
-                  </div>
+                  </ScrollMotionEffect>
+                  <ScrollMotionEffect effect="zoom-in" duration={2000}>
+                    <div className="flex flex-col items-center justify-center xl:justify-start xl:items-start ">
+                      <div className="flex items-center justify-center p-3 bg-secondary rounded-full w-16 h-16">
+                        <Image
+                          src={"/assets/AchievingOptimal/pointer.png"}
+                          alt="logo"
+                          width={800}
+                          height={500}
+                          className="w-[60px] h-auto"
+                        />
+                      </div>
+                      <h2 className="text-2xl font-bold leading-snug mt-3">
+                        Our Vision
+                      </h2>
+                      <p className="text-base mt-4 px-5 text-center xl:text-left xl:px-0">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing.
+                        Aenean commodo ligula eget dolor aenean massa cum sociis
+                        et penatibus.
+                      </p>
+                    </div>
+                  </ScrollMotionEffect>
                 </div>
               </ScrollMotionEffect>
             </div>

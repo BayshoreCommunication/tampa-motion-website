@@ -66,31 +66,36 @@ const page = () => {
                   </div>
                 </div>
                 <section className="text-white flex flex-row justify-start items-center gap-4 h-fit py-4">
-                  <Link href={"https://www.facebook.com/tampamotion"}>
-                    <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
-                      <FaFacebookF className="w-6 h-6" />
-                    </button>
-                  </Link>
-
-                  <Link
-                    href={"https://www.linkedin.com/company/tampamotionpllc"}
-                  >
-                    <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
-                      <FaLinkedinIn className="w-6 h-6" />
-                    </button>
-                  </Link>
-
-                  <Link href={"https://x.com/tampamotionpllc"}>
-                    <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
-                      <FaTwitter className="w-6 h-6" />
-                    </button>
-                  </Link>
-
-                  <Link href={"#"}>
-                    <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
-                      <IoLogoInstagram className="w-6 h-6" />
-                    </button>
-                  </Link>
+                  <ScrollMotionEffect effect="zoom-in" duration={2000}>
+                    <Link href={"https://www.facebook.com/tampamotion"}>
+                      <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
+                        <FaFacebookF className="w-6 h-6" />
+                      </button>
+                    </Link>
+                  </ScrollMotionEffect>
+                  <ScrollMotionEffect effect="zoom-in" duration={2000}>
+                    <Link
+                      href={"https://www.linkedin.com/company/tampamotionpllc"}
+                    >
+                      <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
+                        <FaLinkedinIn className="w-6 h-6" />
+                      </button>
+                    </Link>
+                  </ScrollMotionEffect>
+                  <ScrollMotionEffect effect="zoom-in" duration={2000}>
+                    <Link href={"https://x.com/tampamotionpllc"}>
+                      <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
+                        <FaTwitter className="w-6 h-6" />
+                      </button>
+                    </Link>
+                  </ScrollMotionEffect>
+                  <ScrollMotionEffect effect="zoom-in" duration={2000}>
+                    <Link href={"#"}>
+                      <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
+                        <IoLogoInstagram className="w-6 h-6" />
+                      </button>
+                    </Link>
+                  </ScrollMotionEffect>
                 </section>
               </div>
             </div>

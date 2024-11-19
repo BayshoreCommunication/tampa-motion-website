@@ -163,7 +163,7 @@ const HeroSection = () => {
             </ScrollMotionEffect>
           </div>
         </div>
-        <div>
+        <div className="w-full h-fit">
           <ScrollMotionEffect effect="fade-up" duration={2000}>
             <BookAnAppointment />
           </ScrollMotionEffect>
@@ -172,23 +172,29 @@ const HeroSection = () => {
           <ScrollMotionEffect effect="fade-up" duration={2000}>
             <div className="grid grid-cols-1 md:grid-cols-3 items-stretch justify-between gap-8">
               {cardDatas?.map((el: any, index: number) => (
-                <div className="bg-white  border shadow-2xl rounded-3xl text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] hover:scale-105 transition-all ease-in-out duration-500 ">
-                  <div className="bg-white border border-transparent rounded-3xl p-4 h-full hover:bg-gray-100 transition-all ease-in-out duration-500">
-                    <div className="flex justify-center items-center ">
-                      <Image
-                        className="w-20 h-auto flex  justify-center"
-                        width={100}
-                        height={100}
-                        src={el?.img}
-                        alt="avatar"
-                      />
+                <ScrollMotionEffect
+                  key={index}
+                  effect="zoom-in"
+                  duration={2000}
+                >
+                  <div className="bg-white  border shadow-2xl rounded-3xl text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] hover:scale-105 transition-all ease-in-out duration-500 h-full">
+                    <div className="bg-white border border-transparent rounded-3xl p-4 h-full hover:bg-gray-100 transition-all ease-in-out duration-500">
+                      <div className="flex justify-center items-center ">
+                        <Image
+                          className="w-20 h-auto flex  justify-center"
+                          width={100}
+                          height={100}
+                          src={el?.img}
+                          alt="avatar"
+                        />
+                      </div>
+                      <h2 className="text-2xl md:text-3xl font-semibold leading-tight text-center mt-4">
+                        {el?.title}
+                      </h2>
+                      <p className=" text-center mt-2 text-lg">{el?.desc}</p>
                     </div>
-                    <h2 className="text-2xl md:text-3xl font-semibold leading-tight text-center mt-4">
-                      {el?.title}
-                    </h2>
-                    <p className=" text-center mt-2 text-lg">{el?.desc}</p>
                   </div>
-                </div>
+                </ScrollMotionEffect>
               ))}
             </div>
           </ScrollMotionEffect>
