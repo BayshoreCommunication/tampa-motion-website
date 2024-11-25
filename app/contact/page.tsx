@@ -57,11 +57,11 @@ const page = () => {
                   </div>
                 </div>
                 <div className="flex flex-row pb-5 lg:pb-20  text-left w-full items-center pl-4">
-                  <div>
+                  <div className="place-self-start pt-0.5">
                     <FaLocationDot />
                   </div>
-                  <div className="text-sm md:text-base line-clamp-1 xl:line-clamp-2 ">
-                    &nbsp;&nbsp;1900 Highland Oaks Blvd, Lutz, FL 33599
+                  <div className="text-sm md:text-base pl-2 line-clamp-2 xl:line-clamp-2 ">
+                    1900 Highland Oaks Blvd, Lutz, FL 33599
                   </div>
                 </div>
                 <section className="text-white flex flex-row justify-start items-center gap-4 h-fit py-4">
