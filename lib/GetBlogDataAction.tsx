@@ -1,9 +1,9 @@
 export default async function GetAllPostData() {
-  const bloData = await fetch(
+  const blogData = await fetch(
     "https://backend-tampa-motion.vercel.app/site/blog",
     {
       next: { revalidate: 200 },
     }
   );
-  return bloData.json();
+  return blogData.json();
 }

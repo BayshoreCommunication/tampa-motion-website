@@ -45,7 +45,7 @@ const page = () => {
                     <IoIosCall />
                   </div>
                   <div className="text-sm md:text-base">
-                    &nbsp;&nbsp;+1 248-993-5526
+                    &nbsp;&nbsp;+1 813-291-3536
                   </div>
                 </div>
                 <div className="flex flex-row  text-left w-full items-center pl-4 pb-2">
@@ -53,7 +53,7 @@ const page = () => {
                     <IoMdMailUnread />
                   </div>
                   <div className="text-sm md:text-base">
-                    &nbsp;&nbsp;tampamotionpllc@gmail.com
+                    &nbsp;&nbsp;athena.akram@tampamotion.com
                   </div>
                 </div>
                 <div className="flex flex-row pb-5 lg:pb-20  text-left w-full items-center pl-4">
@@ -61,8 +61,7 @@ const page = () => {
                     <FaLocationDot />
                   </div>
                   <div className="text-sm md:text-base line-clamp-1 xl:line-clamp-2 ">
-                    &nbsp;&nbsp;20200 West Dixie Highway, Suite 902 Aventura,
-                    &nbsp;&nbsp;FL&nbsp;&nbsp;33180
+                    &nbsp;&nbsp;1900 Highland Oaks Blvd, Lutz, FL 33599
                   </div>
                 </div>
                 <section className="text-white flex flex-row justify-start items-center gap-4 h-fit py-4">

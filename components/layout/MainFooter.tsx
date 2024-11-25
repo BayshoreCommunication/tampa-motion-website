@@ -133,7 +133,7 @@ const MainFooter = () => {
                       className=" hover:underline duration-300"
                       target="_blank"
                     >
-                      {`20200 West Dixie Highway, Suite 902 Aventura, FL 33180`}
+                      {`1900 Highland Oaks Blvd, Lutz, FL 33599`}
                     </Link>
                   </li>
                   <li className="mb-4">
@@ -146,10 +146,10 @@ const MainFooter = () => {
                     </div>
                     <div className="flex flex-wrap gap-x-3 gap-y-1">
                       <Link
-                        href="tel:+1 248-993-5526"
+                        href="tel:+1 813-291-3536"
                         className="hover:underline duration-300"
                       >
-                        {`+1 248-993-5526`}
+                        {`+1 813-291-3536`}
                       </Link>
                       {/* <Link
                         href="tel:+18635996735"
@@ -169,10 +169,10 @@ const MainFooter = () => {
                       </h3>
                     </div>
                     <Link
-                      href="mailto:convergentkineticspt@gmail.com"
-                      className="hover:convergentkineticspt@gmail.com"
+                      href="mailto:athena.akram@tampamotion.com"
+                      className="hover:athena.akram@tampamotion.com"
                     >
-                      tampamotionpllc@gmail.com
+                      athena.akram@tampamotion.com
                     </Link>
                   </li>
                 </ul>
