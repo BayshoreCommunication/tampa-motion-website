@@ -15,7 +15,7 @@ const ScrollMotionEffect: React.FC<ScrollMotionEffectProps> = ({
   duration,
 }) => {
   useEffect(() => {
-    console.log("Initializing AOS");
+    //console.log("Initializing AOS");
     AOS.init();
     AOS.refresh();
 
