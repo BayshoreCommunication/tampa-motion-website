@@ -110,9 +110,9 @@ const ContactForm: React.FC = () => {
 
   return (
     <div className="w-full">
-      <h1 className="text-xl md:text-3xl font-bold leading-tight lg:text-left text-center text-black mb-8 mt-4">
+      <h2 className="text-xl md:text-3xl font-bold leading-tight lg:text-left text-center text-black mb-8 mt-4">
         Get in Touch
-      </h1>
+      </h2>
       <form className="w-full" onSubmit={handleSubmit}>
         <div className="mb-5 w-full flex flex-col md:flex-row gap-5">
           {/* First Name */}

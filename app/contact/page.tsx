@@ -16,8 +16,24 @@ import { IoLogoInstagram } from "react-icons/io5";
 
 export const metadata = {
   title: "Contact Us - Tampa Motion",
-  description: "",
+  description:
+    "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+  openGraph: {
+    title: "Contact Us - Tampa Motion",
+    description:
+      "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+    url: "https://www.tampamotion.com/blog",
+    siteName: "Tampa Motion",
+    images: [
+      {
+        url: "/opengraph-image.jpg",
+        width: 1200,
+        height: 800,
+      },
+    ],
+  },
 };
+
 const page = () => {
   return (
     <section className=" bg-white">

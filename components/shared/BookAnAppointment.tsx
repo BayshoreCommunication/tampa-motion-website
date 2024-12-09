@@ -101,9 +101,9 @@ const BookAnAppointment = () => {
 
   return (
     <div className="bg-white p-10 text-black shadow-xl">
-      <h1 className="text-2xl font-bold leading-tight text-center">
+      <h2 className="text-2xl font-bold leading-tight text-center">
         Book an appointment today
-      </h1>
+      </h2>
       <div className="mt-8">
         <form className="" onSubmit={handleSubmit}>
           <div className="flex flex-col md:flex-row  justify-between items-center gap-4">

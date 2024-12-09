@@ -6,7 +6,22 @@ import React from "react";
 import Head from "next/head";
 export const metadata = {
   title: "About Us - Tampa Motion",
-  description: "",
+  description:
+    "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+  openGraph: {
+    title: "About Us - Tampa Motion",
+    description:
+      "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+    url: "https://www.tampamotion.com/about",
+    siteName: "Tampa Motion",
+    images: [
+      {
+        url: "/opengraph-image.jpg",
+        width: 1200,
+        height: 800,
+      },
+    ],
+  },
 };
 
 const page = () => {

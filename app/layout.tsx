@@ -14,6 +14,20 @@ const inter = Libre_Baskerville({ weight: "400", subsets: ["latin"] });
 
 export const metadata = {
   metadataBase: new URL("https://tampa-motion-website.vercel.app"),
+  openGraph: {
+    title: "Tampa Motion",
+    description:
+      "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+    url: "https://www.tampamotion.com/",
+    siteName: "Tampa Motion",
+    images: [
+      {
+        url: "/opengraph-image.jpg",
+        width: 1200,
+        height: 800,
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

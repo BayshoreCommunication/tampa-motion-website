@@ -48,7 +48,7 @@ const HeroSection = () => {
             variants={{ visible: { transition: { staggerChildren: 0.2 } } }}
             className="flex-1 mt-10 md:mt-0"
           >
-            <h1 className="hidden md:block  text-4xl md:text-7xl font-bold leading-tight md:text-left text-center text-black whitespace-pre">
+            <h1 className="  text-4xl md:text-7xl font-bold leading-tight md:text-left text-center text-black whitespace-pre">
               {h1.map((word, index) => (
                 <motion.span
                   initial={{ opacity: 0 }}
@@ -61,7 +61,7 @@ const HeroSection = () => {
               ))}
             </h1>
 
-            <h1 className="text-4xl md:text-7xl font-bold leading-tight md:text-left text-center text-black whitespace-pre md:hidden">
+            {/* <h1 className="text-4xl md:text-7xl font-bold leading-tight md:text-left text-center text-black whitespace-pre md:hidden">
               <ScrollMotionEffect effect="fade-up" duration={2000}>
                 {h1.map((word, index) => (
                   <motion.span
@@ -74,7 +74,7 @@ const HeroSection = () => {
                   </motion.span>
                 ))}
               </ScrollMotionEffect>
-            </h1>
+            </h1> */}
 
             <motion.h6
               variants={variants}
@@ -134,7 +134,7 @@ const HeroSection = () => {
             </ScrollMotionEffect>
           </motion.div>
           <div className="flex-1 self-end relative">
-            <ScrollMotionEffect effect="fade-up" duration={2000}>
+            <ScrollMotionEffect effect="zoom-in" duration={2000}>
               <Image
                 src={"/assets/home/heroimage.png"}
                 alt="logo"

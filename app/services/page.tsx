@@ -9,8 +9,24 @@ import React from "react";
 
 export const metadata = {
   title: "Services - Tampa Motion",
-  description: "",
+  description:
+    "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+  openGraph: {
+    title: "Services - Tampa Motion",
+    description:
+      "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+    url: "https://www.tampamotion.com/blog",
+    siteName: "Tampa Motion",
+    images: [
+      {
+        url: "/opengraph-image.jpg",
+        width: 1200,
+        height: 800,
+      },
+    ],
+  },
 };
+
 const page = () => {
   return (
     <section className="w-full flex flex-col justify-center items-center">
