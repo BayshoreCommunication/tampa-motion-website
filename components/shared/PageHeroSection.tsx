@@ -23,8 +23,7 @@ const PageHeroSection: React.FC<PageHeroSectionProps> = ({
         className="absolute object-cover bg-bottom w-full h-full"
         src="/assets/about/heropagebg.jpg"
         alt="Page Hero Image"
-        width={1920}
-        height={1080}
+        layout="fill"
         priority
       />
 
