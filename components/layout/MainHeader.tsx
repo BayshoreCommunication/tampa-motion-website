@@ -162,9 +162,9 @@ const MainHeader = () => {
                 <Link href="/">
                   <Image
                     src="/assets/site-logo/tampa-motion-logo1.png"
-                    alt="footer logo"
-                    width={500}
-                    height={500}
+                    alt="header logo"
+                    width={300}
+                    height={79}
                     className="w-[200px] h-auto max-h-[51px]"
                   />
                 </Link>
