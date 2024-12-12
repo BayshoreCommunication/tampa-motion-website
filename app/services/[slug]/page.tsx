@@ -1,9 +1,6 @@
-import React from "react";
-import Head from "next/head";
-
 export const metadata = {
   title: "Service - Tampa Motion",
-  description: "",
+  description: " ",
 };
 const page = () => {
   return (
