@@ -2,7 +2,7 @@ export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
   siteMetadata: {
-    title: "",
+    title: " ",
     description: "",
   },
   siteLogo: { url: "" },
