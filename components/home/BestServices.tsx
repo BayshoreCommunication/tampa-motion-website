@@ -1,8 +1,6 @@
-import * as React from "react";
-import { motion } from "framer-motion";
-import { FaArrowRight } from "react-icons/fa6";
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
+import { FaArrowRight } from "react-icons/fa6";
 
 import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
 
@@ -57,7 +55,7 @@ const BestServices = () => {
             <div className="w-full flex flex-col 2xl:flex-row justify-end items-center gap-4 2xl:relative">
               <div className="container w-full flex-grow flex  flex-wrap justify-center items-center gap-4   z-10">
                 {services.map((item, i) => (
-                  <ScrollMotionEffect effect="zoom-in" duration={2000}>
+                  <ScrollMotionEffect effect="zoom-in" duration={2000} key={i}>
                     <div
                       key={i}
                       className="item  bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] rounded-3xl p-[1px] hover:scale-105 transition-all duration-500 ease-in-out"

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
 import { services } from "@/config/serviceData.js";
@@ -8,8 +7,8 @@ import { services } from "@/config/serviceData.js";
 const ServiceCards = () => {
   return (
     <div className=" h-fit inline-grid gap-3 2xl:gap-12 grid-flow-row grid-cols-1 md:grid-cols-2 xl:grid-cols-3  auto-rows-min pt-10 px-5  text-black  translate-y-20">
-      {services.map((service) => (
-        <ScrollMotionEffect effect="fade-up" duration={2000}>
+      {services.map((service, index) => (
+        <ScrollMotionEffect effect="fade-up" duration={2000} key={index}>
           <div
             className="bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] rounded-3xl p-[1px] z-20 hover:scale-105  transition-all duration-300 ease-in-out"
             key={service.service}
