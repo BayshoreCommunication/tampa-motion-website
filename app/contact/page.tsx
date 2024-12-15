@@ -79,7 +79,10 @@ const page = () => {
                 </div>
                 <section className="text-white flex flex-row justify-start items-center gap-4 h-fit py-4">
                   <ScrollMotionEffect effect="zoom-in" duration={2000}>
-                    <Link href={"https://www.facebook.com/tampamotion"}>
+                    <Link
+                      href={"https://www.facebook.com/tampamotion"}
+                      target="_black"
+                    >
                       <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
                         <FaFacebookF className="w-6 h-6" />
                       </button>
@@ -88,6 +91,7 @@ const page = () => {
                   <ScrollMotionEffect effect="zoom-in" duration={2000}>
                     <Link
                       href={"https://www.linkedin.com/company/tampamotionpllc"}
+                      target="_black"
                     >
                       <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
                         <FaLinkedinIn className="w-6 h-6" />
@@ -95,14 +99,17 @@ const page = () => {
                     </Link>
                   </ScrollMotionEffect>
                   <ScrollMotionEffect effect="zoom-in" duration={2000}>
-                    <Link href={"https://x.com/tampamotionpllc"}>
+                    <Link
+                      href={"https://x.com/tampamotionpllc"}
+                      target="_black"
+                    >
                       <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
                         <FaTwitter className="w-6 h-6" />
                       </button>
                     </Link>
                   </ScrollMotionEffect>
                   <ScrollMotionEffect effect="zoom-in" duration={2000}>
-                    <Link href={"#"}>
+                    <Link href={"#"} target="_black">
                       <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
                         <IoLogoInstagram className="w-6 h-6" />
                       </button>

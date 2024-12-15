@@ -1,17 +1,17 @@
 "use client";
-import React, { useState, useMemo } from "react";
 import {
   Navbar,
   NavbarBrand,
   NavbarContent,
-  NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
+  NavbarMenuToggle,
 } from "@nextui-org/react";
+import React, { useMemo, useState } from "react";
 
+import { Libre_Baskerville } from "next/font/google";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Libre_Baskerville, Orbitron } from "next/font/google";
 
 import Image from "next/image";
 //import { areaspracticeData } from "@/config/data";
@@ -73,12 +73,13 @@ const MainHeader = () => {
 
             <div className="">
               <div className="flex items-center justify-stretch gap-x-2  xl:gap-x-8">
-                {menuItems.map((el) =>
+                {menuItems.map((el, index) =>
                   el?.title === "Services" ? (
                     <div
                       className="relative inline-block"
                       onMouseEnter={toggleDropdown}
                       onMouseLeave={toggleDropdown}
+                      key={index}
                     >
                       <div className="group">
                         <div className="flex items-center gap-1 ">
