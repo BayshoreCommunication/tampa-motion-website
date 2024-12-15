@@ -30,7 +30,7 @@ const config = {
       },
     },
     maxWidth: {
-      "2xl": "1536px", // The default value for 2xl in Tailwind CSS
+      "2xl": "1536px", 
     },
   },
  
