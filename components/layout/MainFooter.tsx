@@ -1,24 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
-import { RiPhoneFill } from "react-icons/ri";
-import { MdMarkEmailUnread } from "react-icons/md";
-import { IoLocationSharp } from "react-icons/io5";
-import { ImFacebook2 } from "react-icons/im";
-import { BsLinkedin } from "react-icons/bs";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaInstagramSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { PiPhoneCallFill } from "react-icons/pi";
-import { IoMdHome } from "react-icons/io";
+import { IoLocationSharp } from "react-icons/io5";
+import { MdMarkEmailUnread } from "react-icons/md";
+import { RiPhoneFill } from "react-icons/ri";
 
+import { siteConfig } from "@/config/site";
 import {
   FaFacebookF,
   FaLinkedinIn,
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa6";
-import { siteConfig } from "@/config/site";
 
 const MainFooter = () => {
   return (
@@ -183,21 +176,21 @@ const MainFooter = () => {
           <div className="md:flex :items-center sm:justify-between">
             <div className="text-[18px] font-medium text-center text-white">
               © 2024{" "}
-              <a href="/" className="hover:underline text-white">
+              <Link href="/" className="hover:underline text-white">
                 Tampa Motion
-              </a>
+              </Link>
               . All Rights Reserved.
             </div>
 
             <div className="text-[18px] font-medium text-center text-white">
               Design & Developed by{" "}
-              <a
+              <Link
                 href="https://www.bayshorecommunication.com/"
                 target="_blank"
                 className="font-medium hover:underline text-white"
               >
                 BayShore Communication
-              </a>
+              </Link>
             </div>
           </div>
         </div>

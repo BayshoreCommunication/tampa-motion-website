@@ -1,10 +1,8 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import ScrollMotionEffect from "../motion/ScrollMotionEffect";
-import { motion } from "framer-motion";
 
 const physiotherapyDatas = [
   {
@@ -227,7 +225,10 @@ const PowerOfPhysiotherapy = () => {
                 </p>
                 <ul className=" md:text-left text-center list-none">
                   {physiotherapyDatas?.map((el: any, index: number) => (
-                    <li className="text-base md:text-xl font-semibold text-gray-800 py-1">
+                    <li
+                      className="text-base md:text-xl font-semibold text-gray-800 py-1"
+                      key={index}
+                    >
                       <div className="flex md:flex-row flex-col items-center md:items-start justify-center md:justify-start space-x-4">
                         <div className="flex items-center justify-center md:justify-start mx-0 mb-4 md:mb-0">
                           <Image

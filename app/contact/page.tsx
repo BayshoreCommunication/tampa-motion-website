@@ -133,7 +133,7 @@ const page = () => {
             // style="border:0;"
             // allowfullscreen=""
             loading="lazy"
-            // referrerpolicy="no-referrer-when-downgrade"
+            title="Example Website"
             className="w-full"
           ></iframe>
         </ScrollMotionEffect>
