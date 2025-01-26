@@ -74,7 +74,7 @@ const page = () => {
                     <FaLocationDot />
                   </div>
                   <div className="text-sm md:text-base pl-2 line-clamp-2 xl:line-clamp-2 ">
-                    1900 Highland Oaks Blvd, Lutz, FL 33599
+                    8333 Gunn Highway, Tampa, FL 33626
                   </div>
                 </div>
                 <section className="text-white flex flex-row justify-start items-center gap-4 h-fit py-4">
@@ -127,13 +127,11 @@ const page = () => {
       <div>
         <ScrollMotionEffect effect="fade-in" duration={2000}>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3516.737337012907!2d-82.42644992451545!3d28.18490257591212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2ba29b52d837d%3A0x57c4d10a9bc83f03!2s1900%20Highland%20Oaks%20Blvd%2C%20Lutz%2C%20FL%2033559%2C%20USA!5e0!3m2!1sen!2sbd!4v1732696120038!5m2!1sen!2sbd"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3520.0539515447263!2d-82.5781300779631!3d28.083897145566095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2eabbc5fae6bf%3A0xbf90d7555eb0cc4!2s8333%20Gunn%20Hwy%2C%20Tampa%2C%20FL%2033626%2C%20USA!5e0!3m2!1sen!2sbd!4v1737883888923!5m2!1sen!2sbd"
             width="600"
             height="450"
-            // style="border:0;"
-            // allowfullscreen=""
+            title="Maps"
             loading="lazy"
-            title="Example Website"
             className="w-full"
           ></iframe>
         </ScrollMotionEffect>

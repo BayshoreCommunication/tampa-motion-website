@@ -122,11 +122,11 @@ const MainFooter = () => {
                       </h3>
                     </div>
                     <Link
-                      href="https://www.google.com/maps/place/20200+W+Dixie+Hwy+%23902,+Miami,+FL+33180,+USA/@25.96314,-80.148125,16z/data=!4m5!3m4!1s0x88d9ac5e74403639:0x487bf5a8937d27c5!8m2!3d25.9631404!4d-80.1481251?hl=en&entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D"
+                      href="https://www.google.com/maps/place/8333+Gunn+Hwy,+Tampa,+FL+33626,+USA/@28.0838971,-82.5781301,17z/data=!4m6!3m5!1s0x88c2eabbc5fae6bf:0xbf90d7555eb0cc4!8m2!3d28.0833103!4d-82.5771162!16s%2Fg%2F11c0_skph6?entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D"
                       className=" hover:underline duration-300"
                       target="_blank"
                     >
-                      {`1900 Highland Oaks Blvd, Lutz, FL 33599`}
+                      {`8333 Gunn Highway, Tampa, FL 33626`}
                     </Link>
                   </li>
                   <li className="mb-4">
