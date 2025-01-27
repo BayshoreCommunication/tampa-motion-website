@@ -62,7 +62,7 @@ const MainFooter = () => {
                     <FaTwitter className="size-5 " />
                   </Link>
                   <Link
-                    href="https://www.instagram.com/accounts/login/?next=%2Ftampamotionpllc%2F&source=omni_redirect"
+                    href="https://www.instagram.com/tampamotionpllc/"
                     target="_blank"
                     className="inline-block p-2 rounded  duration-300 border-2 border-secondary hover:border-white"
                   >

@@ -110,9 +110,7 @@ const page = () => {
                   </ScrollMotionEffect>
                   <ScrollMotionEffect effect="zoom-in" duration={2000}>
                     <Link
-                      href={
-                        "https://www.instagram.com/accounts/login/?next=%2Ftampamotionpllc%2F&source=omni_redirect"
-                      }
+                      href={"https://www.instagram.com/tampamotionpllc/"}
                       target="_black"
                     >
                       <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
