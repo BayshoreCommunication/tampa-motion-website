@@ -29,7 +29,7 @@ const page = () => {
     <section className="">
       <PageHeroSection
         title="About Us"
-        description="Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus. Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus."
+        description="Everybody has their own story, and every recovery is a unique journey. With over 7 years of experience in physiotherapy and rehabilitation, we’ve had the privilege of helping over 600 people overcome injuries, regain function, and live more fully. But it’s not just the numbers that define us; it’s the lives we’ve touched along the way."
       />
       <ExperienceSection />
       <PowerOfPhysiotherapy />

@@ -8,17 +8,17 @@ const physiotherapyDatas = [
   {
     url: "/assets/about/professional-trainer.png",
     title: "Professional Trainer",
-    desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo.",
+    desc: "Our experienced therapists are highly trained to provide you with customized care that meets your specific needs.",
   },
   {
     url: "/assets/about/affordable-prices.png",
     title: "Affordable Prices",
-    desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo",
+    desc: "We are offering exceptional care at prices that fit your budget without compromise. Quality physiotherapy should be accessible to everyone.",
   },
   {
     url: "/assets/about/very-friendly-service.png",
     title: "Very Friendly Service",
-    desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo.",
+    desc: "Our team creates a space where you can always feel at ease, supported, and truly cared for. Healing begins with comfort.",
   },
 ];
 

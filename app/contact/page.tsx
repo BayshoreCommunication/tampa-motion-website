@@ -36,7 +36,7 @@ const page = () => {
     <section className=" bg-white">
       <PageHeroSection
         title="Contact Us"
-        description="Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus."
+        description="If you have any questions or concerns, don’t hesitate to reach out. Our team will get back to you with answers as soon as we can."
       />
       <div className="container xl:px-40 py-10 md:py-20">
         <ScrollMotionEffect effect="fade-up" duration={2000}>
@@ -48,9 +48,8 @@ const page = () => {
                     Contact Information
                   </h3>
                   <p className="font-sans 2xl:text-base text-sm text-center xl:text-left">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Amet dolorum ipsa consequuntur sint id labore voluptatum
-                    repellat quidem
+                    We’re here to assist you on your journey to recovery and
+                    wellness. Reach out to us using the details below:
                   </p>
                 </div>
                 <div className="flex flex-row pt-8 text-left w-full items-center pl-4 pb-2">

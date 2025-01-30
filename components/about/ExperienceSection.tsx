@@ -59,11 +59,10 @@ const ExperienceSection = () => {
                 Experience The Healing Power Of Physiotherapy
               </h2>
               <p className="text-base md:text-lg font-medium mt-4  text-black mb-6  md:text-center text-center  lg:text-center xl:text-left">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean
-                commodo ligula eget dolor aenean massa cum sociis et natoque
-                penatibus.Lorem ipsum dolor sit amet, consectetuer adipiscing.
-                Aenean commodo ligula eget dolor aenean massa cum sociis et
-                natoque penatibus.
+                Every recovery needs the right support. Your state of health is
+                our top priority. With expert care, experience, and personalized
+                treatment plans, we’re here to help you move past pain, recover
+                from injuries, and rebuild your strength.
               </p>
               <div className="flex justify-center xl:justify-start">
                 <ul className=" list-disc list-outside ml-5 text-black">
