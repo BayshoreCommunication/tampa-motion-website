@@ -25,14 +25,11 @@ const Testimonials = () => {
                 Testimonials
               </h2>
               <h4 className="font-sans py-3 text-black text-center md:py-5 lg:py-8 lg:px-20 2xl:px-52">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima
-                neque repellendus adipisci recusandae, quisquam aliquam
-                reiciendis ea? Ex exercitationem rerum ipsa debitis quod error
-                accusantium beatae porro eaque quisquam! Ducimus. Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Itaque deleniti
-                sapiente, labore asperiores quod ullam voluptatem delectus, quam
-                iure veritatis blanditiis maiores quos ut? Reprehenderit
-                voluptate assumenda temporibus adipisci cum.
+                Check out what others have to say about their experience with
+                our care and how it’s improved their quality of life. Their
+                stories show our dedication to giving you the right support,
+                treatment, and results. Got your own story to share? We’d love
+                to hear it.
               </h4>
             </div>
 
@@ -104,7 +101,7 @@ const Testimonials = () => {
                         <div className="flex flex-col justify-center items-center text-textSecondary">
                           <Rating rating={el.rating} className="pb-3" />
                           <h4 className="font-baskerville text-lg text-left line-clamp-1">
-                            {el.username}
+                            &#x201C; {el.username} &#x201D;
                           </h4>
                           <p className="font-sans text-sm text-center line-clamp-4">
                             {el.text}
@@ -144,7 +141,7 @@ const Testimonials = () => {
                         <div className="flex flex-col justify-center 2  2xl:items-start lg:items-center text-textSecondary">
                           <Rating rating={el.rating} className="pb-3" />
                           <h4 className="font-baskerville text-2xl text-left  line-clamp-1">
-                            {el.username}
+                            &#x201C;{el.username}&#x201D;
                           </h4>
                           <p className="font-sans 2xl:text-left text-center lg:line-clamp-3 2xl:line-clamp-4">
                             {el.text}
@@ -164,33 +161,39 @@ const Testimonials = () => {
 };
 const review = [
   {
-    username: "John Doe",
+    username: "Dedicated",
     avatar: "/assets/Testimonials/avatar.avif",
-    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
-    rating: 3,
-  },
-  {
-    username: "Luke Skywalker",
-    avatar: "/assets/Testimonials/avatar.avif",
-    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+    text: "The therapists here truly care. They created my recovery plan to fit my needs and adjusted it as I improved. I always felt heard, supported, and in good hands. Grateful for everything they’ve done.",
     rating: 5,
   },
   {
-    username: "John Doe",
+    username: "Welcoming",
     avatar: "/assets/Testimonials/avatar.avif",
-    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+    text: "The team here is kind and professional. Booking an appointment is simple, and the clinic is always clean and welcoming. The calm atmosphere made every visit comfortable.",
     rating: 5,
   },
   {
-    username: "John Doe",
+    username: "Life-Changing",
     avatar: "/assets/Testimonials/avatar.avif",
-    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+    text: "After months of pain, I finally found relief. I’m truly grateful for their incredible care. Their therapy improved my movements, and now I am enjoying life without much discomfort.",
     rating: 5,
   },
   {
-    username: "John Doe",
+    username: "Professional",
     avatar: "/assets/Testimonials/avatar.avif",
-    text: "Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+    text: "The team here is amazing. They took the time to explain everything and made sure my treatment was right for me. Their care and support really helped in my recovery. I highly recommend them.",
+    rating: 5,
+  },
+  {
+    username: "Reassuring",
+    avatar: "/assets/Testimonials/avatar.avif",
+    text: "After my joint replacement, I was nervous about recovery, but the team put me at ease from day one. They walked me through every step, answered all my questions, and guided me with patience.",
+    rating: 4,
+  },
+  {
+    username: "Very Quick",
+    avatar: "/assets/Testimonials/avatar.avif",
+    text: "The clinic made scheduling my annual checkup easy. My appointment started on time. Always a great experience coming here.",
     rating: 4,
   },
 ];

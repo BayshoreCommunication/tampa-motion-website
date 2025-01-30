@@ -55,11 +55,10 @@ const AchievingOptimal = () => {
                 </h2>
 
                 <p className="text-center xl:text-left text-lg font-medium mt-4 border-b-2 border-secondary pb-10">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean
-                  commodo ligula eget dolor aenean massa cum sociis et natoque
-                  penatibus.Lorem ipsum dolor sit amet, consectetuer adipiscing.
-                  Aenean commodo ligula eget dolor aenean massa cum sociis et
-                  natoque penatibus.
+                  We know every step of recovery counts. Through Chirox, our
+                  expert therapists guide you to ease pain, restore balance, and
+                  optimize movement. With a unique and well-rounded approach,
+                  we’re here to help you heal and return to your best self.
                 </p>
                 <div className="flex flex-col xl:flex-row items-center justify-center gap-x-16 gap-y-10 mt-8">
                   <div className="flex flex-col items-center justify-center xl:justify-start xl:items-start ">
@@ -77,9 +76,9 @@ const AchievingOptimal = () => {
                     </h2>
 
                     <p className="text-base mt-4 px-5 text-center xl:text-left xl:px-0">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing.
-                      Aenean commodo ligula eget dolor aenean massa cum sociis
-                      et natoque penatibus.
+                      To provide compassionate, wholesome care that guides our
+                      patients through recovery, restoring strength and
+                      flexibility for a healthier life.
                     </p>
                   </div>
                   <div className="flex flex-col items-center justify-center xl:justify-start xl:items-start ">
@@ -96,9 +95,9 @@ const AchievingOptimal = () => {
                       Our Vision
                     </h2>
                     <p className="text-base mt-4 px-5 text-center xl:text-left xl:px-0">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing.
-                      Aenean commodo ligula eget dolor aenean massa cum sociis
-                      et penatibus.
+                      To redefine health and healing, helping every individual
+                      regain strength and vitality with expert care that
+                      empowers them to live fully.
                     </p>
                   </div>
                 </div>

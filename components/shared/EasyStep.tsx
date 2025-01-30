@@ -8,7 +8,7 @@ const EasyStep = ({ className }: { className?: string }) => {
       <div className="container">
         <div
           className={
-            " bg-white px-10 h-fit inline-grid grid-flow-row grid-cols-1 auto-rows-min pb-16 w-full place-content-center md:32 lg:px-52 text-black m-auto"
+            " bg-white px-10 h-fit inline-grid grid-flow-row grid-cols-1 auto-rows-min pb-16 w-full place-content-center md:px-20 lg:px-32 2xl:px-80 text-black m-auto"
           }
         >
           <ScrollMotionEffect effect="fade-up" duration={2000}>
@@ -17,8 +17,8 @@ const EasyStep = ({ className }: { className?: string }) => {
             </div>
           </ScrollMotionEffect>
           <ScrollMotionEffect effect="fade-up" duration={2000}>
-            <div className="relative col-span-1 place-self-center">
-              <ol className="relative border-s-2 border-secondary  pl-10 ml-2 h-fit m-auto w-full mx-5 ">
+            <div className="relative col-span-1 place-self-center px-14">
+              <ol className="relative border-s-2 border-secondary  pl-10 ml-2 h-fit m-auto w-full mx-5  ">
                 <li className="mb-10 ms-6 pb-5" key={1}>
                   <span className="absolute flex items-center justify-center w-14 h-10 bg-secondary rounded-full -start-7  ring-8 ring-white  translate-y-2  xl:-start-8 xl:w-16">
                     <Image
@@ -34,9 +34,8 @@ const EasyStep = ({ className }: { className?: string }) => {
                     </h3>
 
                     <p className="mb-4 text-sm lg:text-base font-normal ">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing.
-                      Aenean commodo ligula eget dolor aenean massa cum sociis
-                      et natoque penatibus.
+                      Simply reach out to schedule your visit, and we’ll find a
+                      time that works for you.
                     </p>
                   </ScrollMotionEffect>
                 </li>
@@ -55,9 +54,8 @@ const EasyStep = ({ className }: { className?: string }) => {
                     </h3>
 
                     <p className="mb-4 text-sm lg:text-base font-normal ">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing.
-                      Aenean commodo ligula eget dolor aenean massa cum sociis
-                      et natoque penatibus.
+                      When you arrive, our team will listen to your concerns and
+                      assess your needs.
                     </p>
                   </ScrollMotionEffect>
                 </li>
@@ -76,9 +74,8 @@ const EasyStep = ({ className }: { className?: string }) => {
                     </h3>
 
                     <p className="mb-4 text-sm lg:text-base font-normal ">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing.
-                      Aenean commodo ligula eget dolor aenean massa cum sociis
-                      et natoque penatibus.
+                      You'll meet with a skilled physiotherapist who’ll create a
+                      treatment plan just for you.
                     </p>
                   </ScrollMotionEffect>
                 </li>
@@ -98,9 +95,8 @@ const EasyStep = ({ className }: { className?: string }) => {
                     </h3>
 
                     <p className=" font-normal  text-sm lg:text-base">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing.
-                      Aenean commodo ligula eget dolor aenean massa cum sociis
-                      et natoque penatibus.
+                      Start your sessions and experience the relief as you move
+                      toward recovery.
                     </p>
                   </ScrollMotionEffect>
                 </li>

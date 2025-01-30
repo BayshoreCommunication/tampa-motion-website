@@ -9,17 +9,17 @@ const cardDatas = [
   {
     img: "/assets/home/health-guarantee.png",
     title: "Health Guarantee",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.",
+    desc: "We stand by our commitment to your health. If you're not satisfied with your progress, we'll work until you are. ",
   },
   {
     img: "/assets/home/trusted-clinic.png",
     title: "Trusted Clinic",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.",
+    desc: "With over 7 years of experience, our clinic is trusted by thousands who’ve reclaimed their health and vitality.",
   },
   {
     img: "/assets/home/expert-therapist.png",
     title: "Expert Therapist",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.",
+    desc: "Our team of expert therapists brings years of knowledge, skill, and personalized care to ensure your optimal recovery.",
   },
 ];
 

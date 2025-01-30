@@ -9,25 +9,25 @@ const services = [
     image: "/assets/BestServices/healthCare.png",
     alt: "Physiotherapy",
     service: "Physiotherapy",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quae.",
+    text: "Expert physiotherapist treatments like dry needling and manual therapy for quicker recovery.",
   },
   {
     image: "/assets/BestServices/healthCare.png",
     alt: "Joint replacements",
     service: "Joint replacements",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quae.",
+    text: "Aquatic therapy and strengthening programs to accelerate joint replacement recovery.",
   },
   {
     image: "/assets/BestServices/healthCare.png",
     alt: "Neurological Rehab",
     service: "Neurological Rehab",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quae.",
+    text: "Neuroplasticity Exercises and Functional Electrical Stimulation to improve motor function in neurological rehab.",
   },
   {
     image: "/assets/BestServices/healthCare.png",
     alt: "Parkinson's Disease",
     service: "Parkinson's Disease",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quae.",
+    text: "LSVT BIG and balance training to help those with Parkinson's live comfortably.",
   },
 ];
 
@@ -40,14 +40,11 @@ const BestServices = () => {
             <div className="flex  flex-col   justify-center items-center pb-5">
               <h2 className="text-5xl font-bold">Best Services</h2>
               <p className="text-lg py-8 text-center">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
-                unde aut laudantium voluptate esse vel. Tenetur, tempora ipsum!
-                Ut cupiditate numquam deleniti corporis vitae voluptatibus atque
-                labore, laudantium tempora sit? Lorem ipsum dolor sit, amet
-                consectetur adipisicing elit. Beatae ducimus odit distinctio
-                dolorem nisi sint saepe, incidunt necessitatibus earum a iure
-                placeat omnis temporibus, animi laudantium ex eum. Voluptate,
-                temporibus?
+                These four services represent the heart of what we do, offering
+                exceptional care built on years of experience. With exclusive
+                treatment plans, we focus on guiding you toward lasting healing
+                and improved health, all while maintaining the same level of
+                excellence across all our services.
               </p>
             </div>
           </ScrollMotionEffect>
