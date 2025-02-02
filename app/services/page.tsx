@@ -8,13 +8,15 @@ import Head from "next/head";
 import React from "react";
 
 export const metadata = {
-  title: "Services - Tampa Motion",
+  title:
+    "Advanced Physical Therapy Near Me | Sports Physical Therapy Tampa | Orthopedic Physical Therapy Florida| Pediatric Physical Therapy Tampa | Manual Physical Therapy Specialist Tampa | Tampa Motion",
   description:
-    "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+    "Looking for advanced physical therapy near me? Tampa Motion offers expert care, including sports physical therapy Tampa, orthopedic physical therapy Florida, pediatric physical therapy Tampa, and manual physical therapy specialist Tampa. Get personalized treatment for optimal recovery!",
   openGraph: {
-    title: "Services - Tampa Motion",
+    title:
+      "Advanced Physical Therapy Near Me | Sports Physical Therapy Tampa | Orthopedic Physical Therapy Florida| Pediatric Physical Therapy Tampa | Manual Physical Therapy Specialist Tampa | Tampa Motion",
     description:
-      "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+      "Looking for advanced physical therapy near me? Tampa Motion offers expert care, including sports physical therapy Tampa, orthopedic physical therapy Florida, pediatric physical therapy Tampa, and manual physical therapy specialist Tampa. Get personalized treatment for optimal recovery!",
     url: "https://www.tampamotion.com/blog",
     siteName: "Tampa Motion",
     images: [

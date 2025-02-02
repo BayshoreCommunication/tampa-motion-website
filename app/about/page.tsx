@@ -5,13 +5,15 @@ import PageHeroSection from "@/components/shared/PageHeroSection";
 import React from "react";
 import Head from "next/head";
 export const metadata = {
-  title: "About Us - Tampa Motion",
+  title:
+    "Experienced Physical Therapist tampa | Physical Rehabilitation Center Tampa | Tampa Motion | Best Ligament repair therapy sessions Tampa | ExpertTendon injury physiotherapy Florida",
   description:
-    "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+    "Experience top-quality care at Tampa Motion, your trusted physical rehabilitation center Tampa. Our experienced physical therapist Tampa specializes in the best ligament repair therapy sessions Tampa and expert tendon injury physiotherapy Florida. Recover stronger with personalized treatment!",
   openGraph: {
-    title: "About Us - Tampa Motion",
+    title:
+      "Experienced Physical Therapist tampa | Physical Rehabilitation Center Tampa | Tampa Motion | Best Ligament repair therapy sessions Tampa | ExpertTendon injury physiotherapy Florida",
     description:
-      "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+      "Experience top-quality care at Tampa Motion, your trusted physical rehabilitation center Tampa. Our experienced physical therapist Tampa specializes in the best ligament repair therapy sessions Tampa and expert tendon injury physiotherapy Florida. Recover stronger with personalized treatment!",
     url: "https://www.tampamotion.com/about",
     siteName: "Tampa Motion",
     images: [

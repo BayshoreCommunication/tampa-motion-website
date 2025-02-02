@@ -3,13 +3,15 @@ import Head from "next/head";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Privacy Policy - Tampa Motion",
+  title:
+    "Best Physical therapy Tampa | Tampa Motion | Best Physical therapy Tampa | expert physiotherapists  in tampa,florida",
   description:
-    "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+    "Experience the best physical therapy Tampa at Tampa Motion. Our expert physiotherapists in Tampa, Florida, provide personalized care to enhance recovery, mobility, and overall well-being. Trust us for top-quality rehabilitation and treatment.",
   openGraph: {
-    title: "Privacy Policy - Tampa Motion",
+    title:
+      "Best Physical therapy Tampa | Tampa Motion | Best Physical therapy Tampa | expert physiotherapists  in tampa,florida",
     description:
-      "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+      "Experience the best physical therapy Tampa at Tampa Motion. Our expert physiotherapists in Tampa, Florida, provide personalized care to enhance recovery, mobility, and overall well-being. Trust us for top-quality rehabilitation and treatment.",
     //url: "https://www.tampamotion.com/privacy-policy",
     siteName: "Tampa Motion",
     images: [

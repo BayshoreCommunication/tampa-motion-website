@@ -3,13 +3,15 @@ import Head from "next/head";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Terms of Service - Tampa Motion",
+  title:
+    "Physical Rehabilitation Center Tampa | Best Florida physical rehabilitation center |Top-rated physiotherapy clinics tampa",
   description:
-    "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+    "Tampa Motion is a leading physical rehabilitation center Tampa, recognized as the best Florida physical rehabilitation center. As one of the top-rated physiotherapy clinics Tampa, we provide expert care to support recovery and enhance mobility.",
   openGraph: {
-    title: "Disclaimers - Tampa Motion",
+    title:
+      "Physical Rehabilitation Center Tampa | Best Florida physical rehabilitation center |Top-rated physiotherapy clinics tampa",
     description:
-      "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+      "Tampa Motion is a leading physical rehabilitation center Tampa, recognized as the best Florida physical rehabilitation center. As one of the top-rated physiotherapy clinics Tampa, we provide expert care to support recovery and enhance mobility.",
     //url: "https://www.tampamotion.com/disclaimers",
     siteName: "Tampa Motion",
     images: [

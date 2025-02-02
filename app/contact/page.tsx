@@ -12,13 +12,15 @@ import { IoIosCall, IoMdMailUnread } from "react-icons/io";
 import { IoLogoInstagram } from "react-icons/io5";
 
 export const metadata = {
-  title: "Contact Us - Tampa Motion",
+  title:
+    "Best Physical therapy Tampa | Best Foot and Ankle Ligament and Tendon Repair  in tampa | Expert Cosmetic surgery physical therapyTampa",
   description:
-    "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+    "Experience the best physical therapy Tampa at Tampa Motion. We specialize in the best foot and ankle ligament and tendon repair in Tampa, along with expert cosmetic surgery physical therapy Tampa for a smooth and effective recovery.",
   openGraph: {
-    title: "Contact Us - Tampa Motion",
+    title:
+      "Best Physical therapy Tampa | Best Foot and Ankle Ligament and Tendon Repair  in tampa | Expert Cosmetic surgery physical therapyTampa",
     description:
-      "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+      "Experience the best physical therapy Tampa at Tampa Motion. We specialize in the best foot and ankle ligament and tendon repair in Tampa, along with expert cosmetic surgery physical therapy Tampa for a smooth and effective recovery.",
     url: "https://www.tampamotion.com/blog",
     siteName: "Tampa Motion",
     images: [

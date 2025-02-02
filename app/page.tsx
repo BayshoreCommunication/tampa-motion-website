@@ -7,9 +7,10 @@ import Testimonials from "@/components/home/Testimonials";
 import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
 
 export const metadata = {
-  title: "Tampa Motion",
+  title:
+    "Expert physiotherapists  in tampa,florida | Best Physical therapy Tampa | Tampa Motion |  Physical therapy",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet, mauris vitae molestie gravida, libero lorem fermentum elit, eu placerat nunc elit id massa. Morbi interdum lectus ut mauris vehicula",
+    "Expert physiotherapists in Tampa, Florida, providing top-quality care at Tampa Motion. Experience the best physical therapy Tampa has to offer with personalized treatment plans to enhance recovery and mobility. Visit us for professional physical therapy services tailored to your needs.",
   alternates: {
     canonical: "/",
     languages: {

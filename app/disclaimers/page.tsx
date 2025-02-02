@@ -3,13 +3,15 @@ import Head from "next/head";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Disclaimers - Tampa Motion",
+  title:
+    "Spine and cosmetic surgeries in tampa | Orthopedic clinic in Tampa, Florida | Best Foot and Ankle Ligament and Tendon Repair  in tampa",
   description:
-    "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+    "Tampa Motion provides expert care for spine and cosmetic surgeries in Tampa. As a leading orthopedic clinic in Tampa, Florida, we specialize in the best foot and ankle ligament and tendon repair in Tampa, ensuring effective recovery and rehabilitation.",
   openGraph: {
-    title: "Disclaimers - Tampa Motion",
+    title:
+      "Spine and cosmetic surgeries in tampa | Orthopedic clinic in Tampa, Florida | Best Foot and Ankle Ligament and Tendon Repair  in tampa",
     description:
-      "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+      "Tampa Motion provides expert care for spine and cosmetic surgeries in Tampa. As a leading orthopedic clinic in Tampa, Florida, we specialize in the best foot and ankle ligament and tendon repair in Tampa, ensuring effective recovery and rehabilitation.",
     //url: "https://www.tampamotion.com/disclaimers",
     siteName: "Tampa Motion",
     images: [

@@ -4,13 +4,15 @@ import Head from "next/head";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Cookie Policy - Tampa Motion",
+  title:
+    "Expert Physical Therapy in Tampa | Leading Physical Therapy Specialist tampa | Top Physical Therapy Center florida| Experienced Physical Therapist tampa",
   description:
-    "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+    "Looking for expert physical therapy in Tampa? Visit the leading physical therapy specialist in Tampa at our top physical therapy center in Florida. Our experienced physical therapists are here to help you recover and improve your mobility with personalized care.",
   openGraph: {
-    title: "Cookie Policy - Tampa Motion",
+    title:
+      "Expert Physical Therapy in Tampa | Leading Physical Therapy Specialist tampa | Top Physical Therapy Center florida| Experienced Physical Therapist tampa",
     description:
-      "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+      "Looking for expert physical therapy in Tampa? Visit the leading physical therapy specialist in Tampa at our top physical therapy center in Florida. Our experienced physical therapists are here to help you recover and improve your mobility with personalized care.",
     //url: "https://www.tampamotion.com/privacy-policy",
     siteName: "Tampa Motion",
     images: [

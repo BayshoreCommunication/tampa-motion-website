@@ -2,13 +2,15 @@ import React from "react";
 import Head from "next/head";
 
 export const metadata = {
-  title: "Blogs - Tampa Motion",
+  title:
+    "tampa orthopedic clinic | Physical rehab Facilities in Tampa Florida | Neurological Rehab in tampa | Certified physical therapists in Florida | Tampa Motion",
   description:
-    "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+    "Tampa Motion is a leading Tampa orthopedic clinic offering top physical rehab facilities in Tampa, Florida. Our certified physical therapists in Florida specialize in neurological rehab in Tampa, providing expert care for recovery and mobility improvement.",
   openGraph: {
-    title: "Blogs - Tampa Motion",
+    title:
+      "tampa orthopedic clinic | Physical rehab Facilities in Tampa Florida | Neurological Rehab in tampa | Certified physical therapists in Florida | Tampa Motion",
     description:
-      "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+      "Tampa Motion is a leading Tampa orthopedic clinic offering top physical rehab facilities in Tampa, Florida. Our certified physical therapists in Florida specialize in neurological rehab in Tampa, providing expert care for recovery and mobility improvement.",
     url: "https://www.tampamotion.com/blog",
     siteName: "Tampa Motion",
     images: [
