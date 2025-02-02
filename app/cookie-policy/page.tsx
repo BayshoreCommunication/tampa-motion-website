@@ -34,7 +34,7 @@ const page = () => {
             >
               Cookie Policy
             </h2>
-            <p className="text-lg text-stone-950 text-center md:text-left">
+            <p className=" text-base text-stone-950 text-center md:text-left pb-5">
               Tampa Motion, PLLC ("we," "us," or "our") uses cookies on our
               website,{" "}
               <span className="text-blue-500 underline">
@@ -50,10 +50,10 @@ const page = () => {
             </p>
           </div>
           <div className="flex flex-col gap-4">
-            <p className="text-lg md:text-2xl text-stone-950 text-center md:text-left font-semibold">
+            <p className=" text-base  md:text-2xl text-stone-950 text-center md:text-left font-semibold">
               {`What Are Cookies?`}
             </p>
-            <p className="text-lg text-stone-950 text-center md:text-left">
+            <p className="text-base text-stone-950 text-center md:text-left">
               Cookies are small text files stored in your web browser when you
               visit a website. These files help websites remember details about
               your visit, making future visits more efficient and personalized.
@@ -61,10 +61,10 @@ const page = () => {
               leave the site) or "session" cookies (deleted when you close your
               browser).
             </p>
-            <p className="text-lg md:text-2xl text-stone-950 text-center md:text-left font-semibold">
+            <p className="text-base md:text-2xl text-stone-950 text-center md:text-left font-semibold">
               {`How We Use Cookies`}
             </p>
-            <p className="text-lg text-stone-950 text-center md:text-left">
+            <p className="text-base text-stone-950 text-center md:text-left">
               When you visit{" "}
               <span className="text-blue-500 underline">
                 <Link href="https://www.tampamotion.com/">
@@ -75,25 +75,25 @@ const page = () => {
               specific functions. We use cookies for the following purposes:
             </p>
             <ol className="pl-14 list-disc">
-              <li className="pb-4">
+              <li className="pb-4 text-base">
                 <span className="font-semibold">Essential Cookies: </span>
                 These cookies are required for the core functionality of our
                 website, such as enabling secure access to certain features.
                 Without them, the website may not work as intended.
               </li>
-              <li className="pb-4">
+              <li className="pb-4 text-base">
                 <span className="font-semibold">Analytics Cookies: </span>
                 We use cookies to gather data on how visitors use our site, such
                 as which pages are visited most often or if any errors occur.
                 This information helps us improve the site’s functionality.
               </li>
-              <li className="pb-4">
+              <li className="pb-4 text-base">
                 <span className="font-semibold">Functional Cookies: </span>
                 These cookies remember your preferences, like your language
                 choice, to provide a more personalized experience during your
                 visit.
               </li>
-              <li className="pb-4">
+              <li className="pb-4 text-base">
                 <span className="font-semibold">Third-Party Cookies: </span>
                 We may use cookies from third-party services (e.g., Google
                 Analytics, social media platforms) to collect usage statistics
@@ -102,42 +102,42 @@ const page = () => {
                 additional details.
               </li>
             </ol>
-            <p className="text-lg md:text-2xl text-stone-950 text-center md:text-left font-semibold">
+            <p className="text-base md:text-2xl text-stone-950 text-center md:text-left font-semibold">
               {`Managing Cookies`}
             </p>
-            <p className="text-lg text-stone-950 text-center md:text-left">
+            <p className="text-base text-stone-950 text-center md:text-left">
               You can control how cookies are used on your device. Most web
               browsers allow you to manage cookie preferences, including
               deleting existing cookies or refusing new ones. However, disabling
               cookies may impact the functionality of our website and limit
               access to certain features.
             </p>
-            <p className="text-lg text-stone-950 text-center md:text-left">
+            <p className="text-base text-stone-950 text-center md:text-left">
               To manage cookies in your browser, refer to these guides:
             </p>
             <ol className="pl-14 list-disc">
-              <li className="pb-4">
+              <li className="pb-4 text-base">
                 <span className="text-blue-500 underline">
                   <Link href="https://www.google.com/chrome/">
                     Google Chrome
                   </Link>
                 </span>
               </li>
-              <li className="pb-4">
+              <li className="pb-4 text-base">
                 <span className="text-blue-500 underline">
                   <Link href="https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09">
                     Microsoft Edge
                   </Link>
                 </span>
               </li>
-              <li className="pb-4">
+              <li className="pb-4 text-base">
                 <span className="text-blue-500 underline">
                   <Link href="https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences">
                     Mozilla Firefox
                   </Link>
                 </span>
               </li>
-              <li className="pb-4">
+              <li className="pb-4 text-base">
                 <span className="text-blue-500 underline">
                   <Link href="https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac">
                     Apple Safari
@@ -145,26 +145,26 @@ const page = () => {
                 </span>
               </li>
             </ol>
-            <p className="text-lg text-stone-950 text-center md:text-left">
+            <p className="text-base text-stone-950 text-center md:text-left">
               You can also opt out of Google Analytics tracking by installing
               the Google Analytics Opt-out Browser Add-on.{" "}
             </p>
-            <p className="text-lg md:text-xl  text-center md:text-left font-semibold">
+            <p className="text-base md:text-2xl  text-center md:text-left font-semibold">
               {`Where to Find More Information`}
             </p>
-            <p className="text-lg text-stone-950 text-center md:text-left">
+            <p className="text-base text-stone-950 text-center md:text-left">
               To learn more about cookies and how they work, visit these
               resources:{" "}
             </p>
             <ol className="pl-14 list-disc">
-              <li className="pb-4">
+              <li className="pb-4 text-base">
                 <span className="text-blue-500 underline">
                   <Link href="https://www.allaboutcookies.org/">
                     All About Cookies
                   </Link>
                 </span>
               </li>
-              <li className="pb-4">
+              <li className="pb-4 text-base">
                 <span className="text-blue-500 underline">
                   <Link href="https://www.networkadvertising.org/">
                     Network Advertising Initiative
@@ -172,14 +172,14 @@ const page = () => {
                 </span>
               </li>
             </ol>
-            <p className="text-lg md:text-2xl text-stone-950 text-center md:text-left font-semibold">
+            <p className="text-base md:text-2xl text-stone-950 text-center md:text-left font-semibold">
               Contact Us
             </p>
-            <p className="text-lg text-stone-950 text-center md:text-left">
+            <p className="text-base text-stone-950 text-center md:text-left">
               If you have any questions about our Cookie Policy or how we use
               cookies, please reach out to us:{" "}
             </p>
-            <p className="text-lg pb-2 text-left font-semibold">
+            <p className="text-base text-left font-semibold">
               Tampa Motion, PLLC
             </p>
             <p className="font-semibold text-base text-stone-950 text-left pb-2 ">

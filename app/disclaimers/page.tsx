@@ -32,7 +32,7 @@ const page = () => {
           >
             Disclaimer
           </h2>
-          <p className="text-lg text-stone-950   text-left  pb-4 ">
+          <p className="text-base text-stone-950   text-left  pb-4 ">
             By accessing and using the website of Tampa Motion, PLLC, you
             acknowledge and agree to the following terms:
           </p>
@@ -40,10 +40,10 @@ const page = () => {
           <div className="flex flex-col  pt-5 pb-10">
             <ol className="pl-14 list-disc pb-10 text-2xl">
               <li className="pb-6">
-                <p className="text-lg md:text-2xl text-stone-950 text-left font-semibold">
+                <p className="text-base md:text-2xl text-stone-950 text-left font-semibold">
                   Communication and Contact
                 </p>
-                <p className="text-lg text-stone-950  text-left ">
+                <p className="text-base text-stone-950  text-left ">
                   Tampa Motion, PLLC may contact you by phone, email, or text at
                   any number or address you provide. Communications may include
                   appointment reminders, service-related updates, or responses
@@ -53,10 +53,10 @@ const page = () => {
                 </p>
               </li>
               <li className="pb-6">
-                <p className="text-lg md:text-2xl text-stone-950   text-left font-semibold">
+                <p className="text-base md:text-2xl text-stone-950   text-left font-semibold">
                   Information Only, Not Medical Advice
                 </p>
-                <p className="text-lg text-stone-950  text-left ">
+                <p className="text-base text-stone-950  text-left ">
                   The content provided on this website is for educational and
                   informational purposes only. It is not and should not be
                   considered medical advice, diagnosis, or treatment. The
@@ -68,10 +68,10 @@ const page = () => {
                 </p>
               </li>
               <li className="pb-6">
-                <p className="text-lg md:text-2xl text-stone-950   text-left  font-semibold">
+                <p className="text-base md:text-2xl text-stone-950   text-left  font-semibold">
                   Website Terms of Use
                 </p>
-                <p className="text-lg text-stone-950  text-left ">
+                <p className="text-base text-stone-950  text-left ">
                   By using this website, you agree to abide by our Terms of Use.
                   We may update or modify these terms at any time, and the
                   changes will take effect immediately upon posting. It is your
@@ -82,10 +82,10 @@ const page = () => {
                 </p>
               </li>
               <li className="pb-6">
-                <p className="text-lg md:text-2xl text-stone-950   text-left font-semibold">
+                <p className="text-base md:text-2xl text-stone-950   text-left font-semibold">
                   Intellectual Property Rights
                 </p>
-                <p className="text-lg text-stone-950  text-left ">
+                <p className="text-base text-stone-950  text-left ">
                   Tampa Motion, PLLC owns the site's content, technology, and
                   branding, which are protected by copyright and trademark laws.
                   You are granted a limited, non-exclusive, non-transferable
@@ -96,10 +96,10 @@ const page = () => {
                 </p>
               </li>
               <li className="pb-6">
-                <p className="text-lg md:text-2xl text-stone-950   text-left font-semibold">
+                <p className="text-base md:text-2xl text-stone-950   text-left font-semibold">
                   Limitation of Liability
                 </p>
-                <p className="text-lg text-stone-950  text-left ">
+                <p className="text-base text-stone-950  text-left ">
                   Tampa Motion, PLLC may modify, suspend, or discontinue the
                   website at any time without notice. While we strive to provide
                   accurate and up-to-date information, we do not guarantee the
@@ -110,10 +110,10 @@ const page = () => {
               </li>
             </ol>
 
-            <p className="text-lg pb-5 text-left">
+            <p className="text-base pb-5 text-left">
               For questions or further assistance, please contact us at:
             </p>
-            <p className="text-lg pb-4 text-left font-semibold">
+            <p className="text-base pb-4 text-left font-semibold">
               Tampa Motion, PLLC
             </p>
             <p className="font-semibold text-base text-stone-950 text-left pb-4 ">
