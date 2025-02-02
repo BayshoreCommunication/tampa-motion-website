@@ -47,11 +47,11 @@ const MainHeader = () => {
       { title: "Blog", slug: "/blog" },
       { title: "Contact Us", slug: "/contact" },
     ],
-    []
+    [],
   );
 
   const setPathSlug = services?.some(
-    (el) => pathname === `/services/${el?.service_slug}`
+    (el) => pathname === `/services/${el?.service_slug}`,
   );
 
   return (
@@ -104,7 +104,7 @@ const MainHeader = () => {
                             </span>
                           </Link>
                         </div>
-                        <div className="absolute hidden group-hover:block bg-white shadow-lg rounded p-6  overflow-y-scroll w-[300px] max-h-[400px]">
+                        <section className="absolute hidden group-hover:block bg-white shadow-lg rounded p-6  overflow-y-scroll w-[300px] max-h-[400px]">
                           <ul className="py-2 list-none ml-0">
                             {services?.map((el, index) => (
                               <li key={index}>
@@ -117,7 +117,7 @@ const MainHeader = () => {
                               </li>
                             ))}
                           </ul>
-                        </div>
+                        </section>
                       </div>
                     </div>
                   ) : (
@@ -128,7 +128,7 @@ const MainHeader = () => {
                     >
                       {el.title}
                     </Link>
-                  )
+                  ),
                 )}
               </div>
             </div>

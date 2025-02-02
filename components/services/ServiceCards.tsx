@@ -14,7 +14,7 @@ const ServiceCards = () => {
             key={service.service}
           >
             <Link href={`/services/${service.slug}`}>
-              <article className="w-full h-[249px] border bg-white p-4 xl:p-8 rounded-3xl flex flex-col justify-center items-center border-transparent">
+              <article className="w-full  h-[376px]  lg:h-[320px] border bg-white p-4 xl:p-8 rounded-3xl flex flex-col justify-center items-center border-transparent">
                 <Image
                   src={service.image}
                   alt={service.alt}
@@ -26,7 +26,7 @@ const ServiceCards = () => {
                 <div className="text-xl font-bold  text-center">
                   {service.service}
                 </div>
-                <div className=" text-center pt-3 ">{service.text}</div>
+                <div className=" text-center pt-3  ">{service.text}</div>
               </article>
             </Link>
           </div>

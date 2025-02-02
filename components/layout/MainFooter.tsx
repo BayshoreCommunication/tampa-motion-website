@@ -62,7 +62,7 @@ const MainFooter = () => {
                     <FaTwitter className="size-5 " />
                   </Link>
                   <Link
-                    href="https://www.instagram.com/tampamotionpllc/"
+                    href="#"
                     target="_blank"
                     className="inline-block p-2 rounded  duration-300 border-2 border-secondary hover:border-white"
                   >
@@ -77,7 +77,7 @@ const MainFooter = () => {
                   </Link>
                 </div>
               </div>
-              <div className="">
+              <section className="">
                 <h2 className="text-[22px] font-semibold text-white">
                   Quick Links
                 </h2>
@@ -91,8 +91,8 @@ const MainFooter = () => {
                     </li>
                   ))}
                 </ul>
-              </div>
-              <div className="">
+              </section>
+              <section className="">
                 <h2 className="text-[22px] font-semibold text-white">
                   Legal Areas
                 </h2>
@@ -106,8 +106,8 @@ const MainFooter = () => {
                     </li>
                   ))}
                 </ul>
-              </div>
-              <div className="col-span-2 md:col-span-1">
+              </section>
+              <section className="col-span-2 md:col-span-1">
                 <h2 className="font-semibold text-white text-[22px]">
                   Contact us
                 </h2>
@@ -169,7 +169,7 @@ const MainFooter = () => {
                     </Link>
                   </li>
                 </ul>
-              </div>
+              </section>
             </div>
           </div>
           <hr className="my-6 border-white sm:mx-auto lg:my-8" />
