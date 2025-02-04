@@ -8,7 +8,7 @@ const EasyStep = ({ className }: { className?: string }) => {
       <div className="container">
         <div
           className={
-            " bg-white px-10 h-fit inline-grid grid-flow-row grid-cols-1 auto-rows-min pb-16 w-full place-content-center md:px-20 lg:px-32 2xl:px-80 text-black m-auto"
+            " bg-white px-2 h-fit inline-grid grid-flow-row grid-cols-1 auto-rows-min pb-16 w-full place-content-center md:px-20 lg:px-32 2xl:px-80 text-black m-auto"
           }
         >
           <ScrollMotionEffect effect="fade-up" duration={2000}>
