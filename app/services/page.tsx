@@ -43,13 +43,13 @@ const page = () => {
         <div className="bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] z-20  py-32 text-black">
           <ScrollMotionEffect effect="fade-up" duration={2000}>
             <h3 className="text-xl  text-center md:text-3xl 2xl:text-5xl font-baskerville px-5 2xl:px-52">
-              If you want avail these services Book an appointment today
+              If you want avail these services{" "}
+              <span className="block">Book an appointment today</span>
             </h3>
             <p className="text-center py-5 text-base 2xl:text-lg font-sans px-5 xl:px-52">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-              alias reiciendis, earum autem perspiciatis neque necessitatibus
-              quia nulla. Deleniti quos quas aut rem culpa eligendi qui
-              reprehenderit cum animi consequatur?
+              Reserve your consultation and experience the difference of truly
+              dedicated physiotherapy. Ready to take that first step toward
+              feeling better?
             </p>
           </ScrollMotionEffect>
         </div>

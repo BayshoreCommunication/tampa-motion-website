@@ -214,14 +214,14 @@ const PowerOfPhysiotherapy = () => {
             <div className=" ">
               <ScrollMotionEffect effect="fade-up" duration={2000}>
                 <h2 className="text-3xl md:text-5xl font-semibold md:text-left text-center text-black  !leading-snug">
-                  Experience The Healing Power Of Physiotherapy
+                  Healing Begins with Compassion and Care
                 </h2>
                 <p className="text-base md:text-lg font-medium mt-4  text-black mb-6  md:text-left text-center ">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean
-                  commodo ligula eget dolor aenean massa cum sociis et natoque
-                  penatibus.Lorem ipsum dolor sit amet, consectetuer adipiscing.
-                  Aenean commodo ligula eget dolor aenean massa cum sociis et
-                  natoque penatibus.
+                  Recovery is about finding the right support in a space where
+                  you’re heard and cared for. Maybe it’s an injury slowing you
+                  down, pain that won’t let go, or the simple need to move
+                  freely again. Whatever it is, we’re here with the expertise to
+                  see you through.
                 </p>
                 <ul className=" md:text-left text-center list-none">
                   {physiotherapyDatas?.map((el: any, index: number) => (
