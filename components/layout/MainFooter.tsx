@@ -112,7 +112,7 @@ const MainFooter = () => {
                   Contact us
                 </h2>
                 <hr className="w-36 mt-2 mb-6 border-white" />
-                <ul className="ml-0 text-[18px] font-medium text-white list-none">
+                <ul className="ml-0 text-[15px] font-medium text-white list-none">
                   <li className="mb-4">
                     <div className="flex items-center gap-x-1">
                       <IoLocationSharp className="size-6 text-white" />

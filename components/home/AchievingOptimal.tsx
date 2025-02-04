@@ -51,14 +51,15 @@ const AchievingOptimal = () => {
             <div className="hidden lg:block xl:hidden">
               <ScrollMotionEffect effect="fade-up" duration={2000}>
                 <h2 className="text-center xl:text-left text-5xl font-bold leading-snug">
-                  Achieving Optimal Health with Chirox
+                  Achieving Optimal Health with Tampa Motion
                 </h2>
 
                 <p className="text-center xl:text-left text-lg font-medium mt-4 border-b-2 border-secondary pb-10">
-                  We know every step of recovery counts. Through Chirox, our
-                  expert therapists guide you to ease pain, restore balance, and
-                  optimize movement. With a unique and well-rounded approach,
-                  we’re here to help you heal and return to your best self.
+                  We know every step of recovery counts. Through Tampa Motion,
+                  our expert therapists guide you to ease pain, restore balance,
+                  and optimize movement. With a unique and well-rounded
+                  approach, we’re here to help you heal and return to your best
+                  self.
                 </p>
                 <div className="flex flex-col xl:flex-row items-center justify-center gap-x-16 gap-y-10 mt-8">
                   <div className="flex flex-col items-center justify-center xl:justify-start xl:items-start ">
@@ -106,14 +107,15 @@ const AchievingOptimal = () => {
             <div className="block">
               <ScrollMotionEffect effect="fade-up" duration={2000}>
                 <h2 className="text-center xl:text-left text-5xl font-bold leading-snug">
-                  Achieving Optimal Health with Chirox
+                  Achieving Optimal Health with Tampa Motion
                 </h2>
 
                 <p className="text-center xl:text-left text-lg font-medium mt-4 border-b-2 border-secondary pb-10">
-                  We know every step of recovery counts. Through Chirox, our
-                  expert therapists guide you to ease pain, restore balance, and
-                  optimize movement. With a unique and well-rounded approach,
-                  we’re here to help you heal and return to your best self.
+                  We know every step of recovery counts. Through Tampa Motion,
+                  our expert therapists guide you to ease pain, restore balance,
+                  and optimize movement. With a unique and well-rounded
+                  approach, we’re here to help you heal and return to your best
+                  self.
                 </p>
                 <div className="flex flex-col xl:flex-row items-center justify-center gap-x-16 gap-y-10 mt-8">
                   <ScrollMotionEffect effect="zoom-in" duration={2000}>
