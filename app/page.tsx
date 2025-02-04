@@ -29,7 +29,7 @@ export default function Home() {
       <AchievingOptimal />
       <BestServices />
       <EasyStep />
-      <Testimonials />
+      <Testimonials extraSpace={"lg:pb-16 xl:pb-6 pb-14"} />
       <PowerOfPhysiotherapy />
     </section>
   );

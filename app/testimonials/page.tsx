@@ -1,3 +1,4 @@
+import Testimonials from "@/components/home/Testimonials";
 import Head from "next/head";
 import React from "react";
 export const metadata = {
@@ -6,8 +7,8 @@ export const metadata = {
 };
 const page = () => {
   return (
-    <div className="h-screen bg-white text-center py-20 text-black">
-      Testimonials
+    <div className=" bg-white text-center  text-black">
+      <Testimonials extraSpace={"xl:py-44  pb-10"} />
     </div>
   );
 };

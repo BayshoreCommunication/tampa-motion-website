@@ -14,9 +14,9 @@ import Rating from "../shared/Rating";
 
 import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
 
-const Testimonials = () => {
+const Testimonials = ({ extraSpace }: { extraSpace: any }) => {
   return (
-    <div className="bg-doctors bg-cover text-black lg:pb-16 xl:pb-6 pb-14">
+    <div className={`bg-doctors bg-cover text-black  ${extraSpace}`}>
       <ScrollMotionEffect effect="fade-up" duration={2000}>
         <div className="container">
           <section className="px-5 inline-grid grid-flow-row auto-rows-min grid-cols-1 py-10 md:py-20">
