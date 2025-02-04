@@ -69,7 +69,7 @@ const ContactForm: React.FC = () => {
         "service_8n2c08r",
         "template_l80dw67",
         emailForm,
-        "892_ctuJSgLrPDjJ7"
+        "892_ctuJSgLrPDjJ7",
       )
         .then((response) => {
           setLoading(false);
