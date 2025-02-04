@@ -220,7 +220,7 @@ export const servicesSlug = [
     slug: "physiotherapy",
     icon: "",
     sortTitle: "",
-
+    heroDescription: `Recover faster with expert physiotherapy that boosts strength, flexibility, and mobility through focused treatments.`,
     shortDescription: ``,
     description: ` 
     <div class="h-fit ">
@@ -330,6 +330,7 @@ Tampa Motion Kinetics PLLC is your trusted partner in overcoming physical challe
     icon: "",
     sortTitle: "",
 
+    heroDescription: `Rebuild strength and confidence post-surgery with personalized rehabilitation plans for smooth, pain-free recovery.`,
     shortDescription: ``,
     description: ` 
     <div>
@@ -425,6 +426,7 @@ Tampa Motion Kinetics PLLC is dedicated to supporting you through every step of 
     icon: "",
     sortTitle: "",
 
+    heroDescription: `Regain motor function and independence with our specialized therapies for conditions like stroke and nerve injuries.`,
     shortDescription: ``,
     description: ` 
     <div>
@@ -541,6 +543,7 @@ Tampa Motion Kinetics PLLC provides a nurturing environment to help patients ove
     icon: "",
     sortTitle: "",
 
+    heroDescription: `Enhance your movement, balance, and overall quality of life with therapies that help slow disease progression and improve daily activities.`,
     shortDescription: ``,
     description: ` 
     <div>
@@ -655,6 +658,7 @@ We walk this journey with you, offering genuine care, refined expertise, and an 
     icon: "",
     sortTitle: "",
 
+    heroDescription: `Prepare for surgery and heal effectively afterward with structured rehab programs that fasten recovery.`,
     shortDescription: ``,
     description: ` 
     <div>
@@ -769,6 +773,7 @@ We understand that every surgery and recovery process is unique. Our goal is to 
     icon: "",
     sortTitle: "",
 
+    heroDescription: `Get your shoulder ready before surgery and bounce back faster afterward with personalized rehab from our experts.`,
     shortDescription: ``,
     description: ` 
     <div>
@@ -877,6 +882,7 @@ Tampa Motion Kinetics PLLC is committed to preparing you for rotator cuff surger
     icon: "",
     sortTitle: "",
 
+    heroDescription: `Ensure a smooth recovery and long-term stability with personalized therapy designed for spinal and cosmetic surgical procedures.`,
     shortDescription: ``,
     description: ` 
     <div>
@@ -991,6 +997,7 @@ Tampa Motion Kinetics PLLC combines expertise, innovation, and compassion to ens
     icon: "",
     sortTitle: "",
 
+    heroDescription: `Rebuild strength and prevent future injuries with rehab focused to help you recover from ligament and tendon injuries.`,
     shortDescription: ``,
     description: ` 
     <div>
@@ -1105,6 +1112,7 @@ Tampa Motion Kinetics PLLC is committed to guiding you through every phase of li
     icon: "",
     sortTitle: "",
 
+    heroDescription: `Regain movement and function in your arms and legs with structured rehab customized to your surgical needs.`,
     shortDescription: ``,
     description: ` 
     <div>

@@ -34,7 +34,7 @@ const page = () => {
     <section className="w-full flex flex-col justify-center items-center">
       <PageHeroSection
         title="Services"
-        description="Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus."
+        description="Nothing matters more than your health. We shape every service with your well being in mind, delivering the best treatments to help you heal, move, and live better."
       />
       <article className="bg-white ">
         <div className="container">

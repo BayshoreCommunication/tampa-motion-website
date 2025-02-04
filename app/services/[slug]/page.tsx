@@ -98,7 +98,7 @@ const page = ({ params }: { params: { slug: string } }) => {
 
       <PageHeroSection
         title={data?.title || ""}
-        description={data?.shortDescription || ""}
+        description={data?.heroDescription || ""}
       />
 
       <div className="container  py-10 md:py-16">
