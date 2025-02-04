@@ -42,8 +42,8 @@ export const siteConfig = {
         slug: "/about",
       },
       {
-        title: "Practice Areas",
-        slug: "/practice-areas",
+        title: "Services",
+        slug: "/services",
       },
       {
         title: "Blog",
@@ -79,6 +79,6 @@ export const siteConfig = {
     {
       title: "Youtube",
       url: "https://www.youtube.com/channel/UCTJg34YjVuwolUNmUs8tdJw",
-    }
+    },
   ],
 };

@@ -36,8 +36,8 @@ const page = () => {
         title="Services"
         description="Nothing matters more than your health. We shape every service with your well being in mind, delivering the best treatments to help you heal, move, and live better."
       />
-      <article className="bg-white ">
-        <div className="container">
+      <article className="bg-white w-full">
+        <div className="container bg-white">
           <ServiceCards />
         </div>
         <div className="bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] z-20  py-32 text-black">
