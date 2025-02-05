@@ -55,7 +55,7 @@ const BestServices = () => {
                   <ScrollMotionEffect effect="zoom-in" duration={2000} key={i}>
                     <div
                       key={i}
-                      className="item  bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] rounded-3xl p-[1px] hover:scale-105 transition-all duration-500 ease-in-out"
+                      className="item  bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] rounded-3xl p-[2px] hover:scale-105 transition-all duration-500 ease-in-out"
                     >
                       <article className="w-[350px]  lg:w-[350px] xl:w-[400px] h-[250px] border bg-white p-4 rounded-3xl flex flex-col justify-center items-center border-transparent hover:bg-gray-100 transition-all duration-500 ease-in-out">
                         <Image
@@ -92,6 +92,7 @@ const BestServices = () => {
                       alt="Patient"
                       width={300}
                       height={500}
+                      className="rounded-2xl"
                     />
                   </ScrollMotionEffect>
                 </div>

@@ -112,7 +112,7 @@ const HeroSection = () => {
                   alt="logo"
                   width={600}
                   height={400}
-                  className="w-[180px] h-auto relative ml-6"
+                  className="w-[180px] h-auto relative ml-6 rounded-t-2xl"
                 />
                 {/* </ScrollMotionEffect> */}
                 {/* <ScrollMotionEffect effect="fade-up" duration={2000}> */}
@@ -145,7 +145,7 @@ const HeroSection = () => {
                 alt="logo"
                 width={2000}
                 height={604}
-                className="w-full"
+                className="w-full rounded-2xl md:rounded-none"
               />
               <div
                 className="absolute 2xl:top-[22.150%] 2xl:left-[27.5%] xl:top-[21.5%] xl:left-[27%] lg:top-[20.6%] lg:left-[26.1%]  md:top-[17.6%] md:left-[23.2%] 
