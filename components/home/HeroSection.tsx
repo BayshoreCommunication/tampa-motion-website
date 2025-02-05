@@ -14,17 +14,17 @@ const cardDatas = [
   {
     img: "/assets/home/trusted-clinic.png",
     title: "Trusted Clinic",
-    desc: "With over 7 years of experience, our clinic is trusted by thousands who’ve reclaimed their health and vitality.",
+    desc: "With over 15 years of clinical experience. our clinic is trusted by thousands who’ve reclaimed their health and vitality.",
   },
   {
     img: "/assets/home/expert-therapist.png",
     title: "Expert Therapist",
-    desc: "Our team of expert therapists brings years of knowledge, skill, and personalized care to ensure your optimal recovery.",
+    desc: "Our team of Doctors of Physical Therapy brings decades of knowledge, skill and personalized care to ensure your optimal recovery.",
   },
 ];
 
-const h1 = `Physio At
-Your Service`.split(" ");
+const h1 = `Physical Therapy
+At Your Service`.split(" ");
 const h2 = "Move better. Feel better. Live better.".split(" ");
 
 const variants = {
@@ -48,7 +48,12 @@ const HeroSection = () => {
             variants={{ visible: { transition: { staggerChildren: 0.2 } } }}
             className="flex-1 mt-10 md:mt-0"
           >
-            <h1 className="  text-4xl md:text-7xl font-bold leading-tight md:text-left text-center text-black whitespace-pre">
+            <h1
+              className="  text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold  md:text-left text-center text-black whitespace-pre"
+              style={{
+                lineHeight: "120%",
+              }}
+            >
               {h1.map((word, index) => (
                 <motion.span
                   initial={{ opacity: 0 }}
@@ -81,7 +86,7 @@ const HeroSection = () => {
               className="text-lg md:text-2xl font-normal mt-6 md:text-left text-center text-black"
             >
               <ScrollMotionEffect effect="fade-up" duration={2000}>
-                {`We empower you to move freely and live fully. Our expert physiotherapists use personalized treatment plans to help you recover from injury, manage pain, and enhance mobility. Whether you're healing from surgery or looking to prevent future issues, we’re here to support every step of your journey to better health.`}
+                {`We empower you to move freely and live fully. Our expert Physical Therapist use personalized treatment plans to help you recover from injury, manage pain, and enhance mobility. Whether you're healing from surgery or looking to prevent future issues, we’re here to support every step of your journey to better health.`}
               </ScrollMotionEffect>
             </motion.h6>
             <h2 className="text-lg font-semibold mt-6 md:text-left text-center text-black">
@@ -125,8 +130,8 @@ const HeroSection = () => {
                       18K
                     </h2>
                   </div>
-                  <h2 className="text-lg md:text-2xl font-bold leading-tight text-black">
-                    Satisfied Customers
+                  <h2 className="text-lg font-bold leading-tight text-black pl-2">
+                    Serving children and adults of Tampa area
                   </h2>
                 </div>
                 {/* </ScrollMotionEffect> */}

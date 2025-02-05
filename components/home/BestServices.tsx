@@ -6,28 +6,28 @@ import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
 
 const services = [
   {
-    image: "/assets/BestServices/healthCare.png",
-    alt: "Physiotherapy",
-    service: "Physiotherapy",
-    text: "Expert physiotherapist treatments like dry needling and manual therapy for quicker recovery.",
+    image: "/assets/BestServices/physiotherapy.png",
+    alt: "Orthopedic",
+    service: "Orthopedic",
+    text: "Expert therapy using manual therapy, exercise, ultrasound, laser, traction, taping.",
   },
   {
-    image: "/assets/BestServices/healthCare.png",
-    alt: "Joint replacements",
-    service: "Joint replacements",
-    text: "Aquatic therapy and strengthening programs to accelerate joint replacement recovery.",
+    image: "/assets/BestServices/joint.png",
+    alt: "Pelvic Floor ",
+    service: "Pelvic Floor ",
+    text: "Treating Weakness of Pelvic Floor, Bladder Control, and Core Control",
   },
   {
-    image: "/assets/BestServices/healthCare.png",
+    image: "/assets/BestServices/neurological.png",
     alt: "Neurological Rehab",
     service: "Neurological Rehab",
-    text: "Neuroplasticity Exercises and Functional Electrical Stimulation to improve motor function in neurological rehab.",
+    text: "Treating Stroke, Parkinson’s, Multiple Sclerosis, Lupus.",
   },
   {
-    image: "/assets/BestServices/healthCare.png",
-    alt: "Parkinson's Disease",
-    service: "Parkinson's Disease",
-    text: "LSVT BIG and balance training to help those with Parkinson's live comfortably.",
+    image: "/assets/BestServices/parkinson.png",
+    alt: "Balance and Sports",
+    service: "Balance and Sports",
+    text: "Treating Vestibular Disorders, Balance Dysfunctions, Sports-related Conditioning.",
   },
 ];
 

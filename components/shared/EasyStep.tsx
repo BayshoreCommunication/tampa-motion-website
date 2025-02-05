@@ -70,7 +70,7 @@ const EasyStep = ({ className }: { className?: string }) => {
                   </span>{" "}
                   <ScrollMotionEffect effect="fade-up" duration={2000}>
                     <h3 className="flex items-center mb-4 text-lg  md:text-xl   lg:text-2xl">
-                      Meet Our Physiotherapist
+                      Meet Our Physical Therapist
                     </h3>
 
                     <p className="mb-4 text-sm lg:text-base font-normal ">

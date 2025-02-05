@@ -7,17 +7,17 @@ import ScrollMotionEffect from "../motion/ScrollMotionEffect";
 const physiotherapyDatas = [
   {
     url: "/assets/about/professional-trainer.png",
-    title: "Professional Trainer",
+    title: "Doctor of Physical Therapy",
     desc: "Our experienced therapists are highly trained to provide you with customized care that meets your specific needs.",
   },
   {
     url: "/assets/about/affordable-prices.png",
-    title: "Affordable Prices",
-    desc: "We are offering exceptional care at prices that fit your budget without compromise. Quality physiotherapy should be accessible to everyone.",
+    title: "Accepting Insurance and Cash-based",
+    desc: "Accepting Medicare, Medicaid, Commercial Insurance, Impact Healthshare, and affordable prices for those without insurance.",
   },
   {
     url: "/assets/about/very-friendly-service.png",
-    title: "Very Friendly Service",
+    title: "Friendly Service",
     desc: "Our team creates a space where you can always feel at ease, supported, and truly cared for. Healing begins with comfort.",
   },
 ];

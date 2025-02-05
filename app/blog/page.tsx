@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import PageHeroSection from "@/components/shared/PageHeroSection";
 
 export const metadata = {
   title:
@@ -25,11 +26,19 @@ export const metadata = {
 
 const page = () => {
   return (
-    <article className="h-screen bg-white text-black ">
-      <div className="container text-center py-10 md:py-20">
-        <h1>Blogs</h1>
-      </div>
-    </article>
+    <section className="w-full flex flex-col justify-start items-center min-h-screen bg-white">
+      <PageHeroSection
+        title="Blogs"
+        description="lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, quos."
+      />
+      <article className="bg-white w-full ">
+        <div className="container bg-white">
+          <div className="w-full">
+            <div className="w-full h-[400px] bg-[url('/blog-1.jpg')] bg-cover bg-center bg-no-repeat"></div>
+          </div>
+        </div>
+      </article>
+    </section>
   );
 };
 
