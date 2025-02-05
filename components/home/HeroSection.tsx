@@ -19,7 +19,7 @@ const cardDatas = [
   {
     img: "/assets/home/expert-therapist.png",
     title: "Expert Therapist",
-    desc: "Our team of Doctors of Physical Therapy brings decades of knowledge, skill and personalized care to ensure your optimal recovery.",
+    desc: "Our team of Doctors of Physical Therapy brings decades of knowledge, skill and personalized care to ensure your optimal recovery",
   },
 ];
 
@@ -112,7 +112,7 @@ const HeroSection = () => {
                   alt="logo"
                   width={600}
                   height={400}
-                  className="w-[180px] h-auto relative ml-6 -top-4"
+                  className="w-[180px] h-auto relative ml-6"
                 />
                 {/* </ScrollMotionEffect> */}
                 {/* <ScrollMotionEffect effect="fade-up" duration={2000}> */}
@@ -130,7 +130,7 @@ const HeroSection = () => {
                       18K
                     </h2>
                   </div>
-                  <h2 className="text-lg font-bold leading-tight text-black pl-2">
+                  <h2 className="text-lg font-bold leading-tight text-black pl-4">
                     Serving children and adults of Tampa area
                   </h2>
                 </div>
