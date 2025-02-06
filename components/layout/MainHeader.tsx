@@ -110,7 +110,7 @@ const MainHeader = () => {
                               <li key={index}>
                                 <Link
                                   href={`/services/${el.service_slug}`}
-                                  className={`py-2 flex  text-base xl:text-[16px] hover:text-secondary border-b  ${pathname === `/practice-areas/${el?.slug}` ? " text-secondary " : "text-slate-900"}`}
+                                  className={`py-2 flex  text-base xl:text-[16px] hover:text-secondary transition-all duration-250 ease-in-out border-b  ${pathname === `/practice-areas/${el?.slug}` ? " text-secondary " : "text-slate-900"}`}
                                 >
                                   {el.service}
                                 </Link>

@@ -1,4 +1,4 @@
-import PowerOfPhysiotherapy from "@/components/about/PowerOfPhysiotherapy";
+import Healing from "@/components/about/Healing";
 import AchievingOptimal from "@/components/home/AchievingOptimal";
 import BestServices from "@/components/home/BestServices";
 import EasyStep from "@/components/shared/EasyStep";
@@ -30,7 +30,7 @@ export default function Home() {
       <BestServices />
       <EasyStep />
       <Testimonials extraSpace={"lg:pb-16 xl:pb-6 pb-14"} />
-      <PowerOfPhysiotherapy />
+      <Healing />
     </section>
   );
 }

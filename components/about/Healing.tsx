@@ -22,7 +22,7 @@ const physiotherapyDatas = [
   },
 ];
 
-const PowerOfPhysiotherapy = () => {
+const Healing = () => {
   return (
     <section className="bg-white">
       <div className="container py-10 md:py-20 xl:px-10">
@@ -275,4 +275,4 @@ const PowerOfPhysiotherapy = () => {
   );
 };
 
-export default PowerOfPhysiotherapy;
+export default Healing;

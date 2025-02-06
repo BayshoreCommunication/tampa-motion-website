@@ -163,7 +163,7 @@ const MainFooter = () => {
                     </div>
                     <Link
                       href="mailto:athena.akram@tampamotion.com"
-                      className="hover:athena.akram@tampamotion.com"
+                      className="hover:underline"
                     >
                       athena.akram@tampamotion.com
                     </Link>

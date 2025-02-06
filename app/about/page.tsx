@@ -1,5 +1,5 @@
 import ExperienceSection from "@/components/about/ExperienceSection";
-import PowerOfPhysiotherapy from "@/components/about/PowerOfPhysiotherapy";
+import Healing from "@/components/about/Healing";
 import BestServices from "@/components/home/BestServices";
 import PageHeroSection from "@/components/shared/PageHeroSection";
 import React from "react";
@@ -31,10 +31,10 @@ const page = () => {
     <section className="">
       <PageHeroSection
         title="About Us"
-        description="Everybody has their own story, and every recovery is a unique journey. With over 7 years of experience in physiotherapy and rehabilitation, we’ve had the privilege of helping over 600 people overcome injuries, regain function, and live more fully. But it’s not just the numbers that define us; it’s the lives we’ve touched along the way."
+        description="Everybody has their own story, and every recovery is a unique journey. With over 15 years of experience in physiotherapy and rehabilitation, we’ve had the privilege of helping over 600 people overcome injuries, regain function, and live more fully. But it’s not just the numbers that define us; it’s the lives we’ve touched along the way."
       />
       <ExperienceSection />
-      <PowerOfPhysiotherapy />
+      <Healing />
       <BestServices />
     </section>
   );
