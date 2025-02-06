@@ -10,7 +10,7 @@ const ServiceCards = () => {
       {services.map((service, index) => (
         <ScrollMotionEffect effect="fade-up" duration={2000} key={index}>
           <div
-            className="bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] rounded-3xl p-[1px] z-20 hover:scale-105  transition-all duration-300 ease-in-out"
+            className="bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] rounded-3xl p-[2px] z-20 hover:scale-105  transition-all duration-300 ease-in-out"
             key={service.service}
           >
             <Link href={`/services/${service.slug}`}>

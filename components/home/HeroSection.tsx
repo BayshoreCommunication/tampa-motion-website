@@ -116,21 +116,21 @@ const HeroSection = () => {
                 />
                 {/* </ScrollMotionEffect> */}
                 {/* <ScrollMotionEffect effect="fade-up" duration={2000}> */}
-                <div className="flex flex-col items-center justify-start space-y-4 md:-translate-x-3">
+                <div className="flex flex-col items-start justify-start space-y-4 ">
                   <div className="flex items-center justify-start space-x-0 md:space-x-2">
                     <Image
-                      className="w-[100px] md:w-[200px] h-auto -ml-4 md:ml-2"
+                      className="w-[100px] md:w-[200px] h-auto pl-4"
                       width={200}
                       height={100}
                       src="/assets/home/group-image.png"
                       alt="avatar"
                     />
 
-                    <h2 className="text-xl md:text-4xl font-bold leading-tight text-black ">
+                    <h2 className="text-xl md:text-3xl lg:text-4xl font-bold leading-tight text-black ">
                       18K
                     </h2>
                   </div>
-                  <h2 className="text-lg font-bold leading-tight text-black pl-4">
+                  <h2 className="text-sm lg:text-lg font-bold leading-tight text-black pl-4">
                     Serving children and adults of Tampa area
                   </h2>
                 </div>
