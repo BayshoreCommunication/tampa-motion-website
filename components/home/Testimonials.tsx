@@ -14,6 +14,7 @@ import Rating from "../shared/Rating";
 
 import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
 import review from "@/config/review";
+import Link from "next/link";
 
 const Testimonials = ({ extraSpace }: { extraSpace: any }) => {
   return (
@@ -49,26 +50,28 @@ const Testimonials = ({ extraSpace }: { extraSpace: any }) => {
                       className="text-center flex justify-center items-center  bg-[#EFEFEF] rounded-2xl py-6 px-4"
                       key={index}
                     >
-                      <div className=" cursor-pointer flex flex-col justify-start items-center w-full gap-3 ">
-                        <div className="basis-5/12">
-                          <Image
-                            src={el.avatar}
-                            alt="avatar"
-                            width={32}
-                            height={32}
-                            className="rounded-full w-16"
-                          />
+                      <Link href={"/testimonials"} className="w-full h-full">
+                        <div className=" cursor-pointer flex flex-col justify-start items-center w-full gap-3 ">
+                          <div className="basis-5/12">
+                            <Image
+                              src={el.avatar}
+                              alt="avatar"
+                              width={32}
+                              height={32}
+                              className="rounded-full w-16"
+                            />
+                          </div>
+                          <div className="flex flex-col justify-center items-center text-textSecondary">
+                            <Rating rating={el.rating} className="pb-3" />
+                            <h4 className="font-baskerville text-lg text-left line-clamp-1">
+                              &#x201C; {el.username} &#x201D;
+                            </h4>
+                            <p className="font-sans text-sm text-center line-clamp-4">
+                              {el.text}
+                            </p>
+                          </div>
                         </div>
-                        <div className="flex flex-col justify-center items-center text-textSecondary">
-                          <Rating rating={el.rating} className="pb-3" />
-                          <h4 className="font-baskerville text-lg text-left line-clamp-1">
-                            &#x201C; {el.username} &#x201D;
-                          </h4>
-                          <p className="font-sans text-sm text-center line-clamp-4">
-                            {el.text}
-                          </p>
-                        </div>
-                      </div>
+                      </Link>
                     </SwiperSlide>
                   ))}
                 </Swiper>
@@ -88,26 +91,28 @@ const Testimonials = ({ extraSpace }: { extraSpace: any }) => {
                       className="text-center flex justify-center items-center  bg-[#EFEFEF] rounded-2xl py-6 px-4 "
                       key={index}
                     >
-                      <div className=" cursor-pointer flex flex-col justify-start items-center w-full gap-3 hover:scale-105 transition-all duration-500 ease-in-out">
-                        <div className="basis-5/12 ">
-                          <Image
-                            src={el.avatar}
-                            alt="avatar"
-                            width={32}
-                            height={32}
-                            className="rounded-full w-16"
-                          />
+                      <Link href={"/testimonials"} className="w-full h-full">
+                        <div className=" cursor-pointer flex flex-col justify-start items-center w-full gap-3 hover:scale-105 transition-all duration-500 ease-in-out">
+                          <div className="basis-5/12 ">
+                            <Image
+                              src={el.avatar}
+                              alt="avatar"
+                              width={32}
+                              height={32}
+                              className="rounded-full w-16"
+                            />
+                          </div>
+                          <div className="flex flex-col justify-center items-center text-textSecondary">
+                            <Rating rating={el.rating} className="pb-3" />
+                            <h4 className="font-baskerville text-lg text-left line-clamp-1">
+                              &#x201C; {el.username} &#x201D;
+                            </h4>
+                            <p className="font-sans text-sm text-center line-clamp-4">
+                              {el.text}
+                            </p>
+                          </div>
                         </div>
-                        <div className="flex flex-col justify-center items-center text-textSecondary">
-                          <Rating rating={el.rating} className="pb-3" />
-                          <h4 className="font-baskerville text-lg text-left line-clamp-1">
-                            &#x201C; {el.username} &#x201D;
-                          </h4>
-                          <p className="font-sans text-sm text-center line-clamp-4">
-                            {el.text}
-                          </p>
-                        </div>
-                      </div>
+                      </Link>
                     </SwiperSlide>
                   ))}
                 </Swiper>
@@ -128,26 +133,28 @@ const Testimonials = ({ extraSpace }: { extraSpace: any }) => {
                       className=" cursor-pointer text-center flex justify-center items-center bg-[#EFEFEF] rounded-2xl p-8 "
                       key={index}
                     >
-                      <div className="flex 2xl:flex-row flex-col justify-center items-center xl:items-center 2xl:justify-start 2xl:items-start w-full gap-6  hover:scale-105 transition-all duration-400 ease-in-out">
-                        <div className="basis-5/12 ">
-                          <Image
-                            src={el.avatar}
-                            alt="avatar"
-                            width={72}
-                            height={72}
-                            className="rounded-full w-full lg:w-16 "
-                          />
+                      <Link href={"/testimonials"} className="w-full h-full">
+                        <div className="flex 2xl:flex-row flex-col justify-center items-center xl:items-center 2xl:justify-start 2xl:items-start w-full gap-6  hover:scale-105 transition-all duration-400 ease-in-out">
+                          <div className="basis-5/12 ">
+                            <Image
+                              src={el.avatar}
+                              alt="avatar"
+                              width={72}
+                              height={72}
+                              className="rounded-full w-full lg:w-16 "
+                            />
+                          </div>
+                          <div className="flex flex-col justify-center 2  2xl:items-start lg:items-center text-textSecondary">
+                            <Rating rating={el.rating} className="pb-3" />
+                            <h4 className="font-baskerville text-2xl text-left  line-clamp-1">
+                              &#x201C;{el.username}&#x201D;
+                            </h4>
+                            <p className="font-sans 2xl:text-left text-center lg:line-clamp-3 2xl:line-clamp-4">
+                              {el.text}
+                            </p>
+                          </div>
                         </div>
-                        <div className="flex flex-col justify-center 2  2xl:items-start lg:items-center text-textSecondary">
-                          <Rating rating={el.rating} className="pb-3" />
-                          <h4 className="font-baskerville text-2xl text-left  line-clamp-1">
-                            &#x201C;{el.username}&#x201D;
-                          </h4>
-                          <p className="font-sans 2xl:text-left text-center lg:line-clamp-3 2xl:line-clamp-4">
-                            {el.text}
-                          </p>
-                        </div>
-                      </div>
+                      </Link>
                     </SwiperSlide>
                   ))}
                 </Swiper>
