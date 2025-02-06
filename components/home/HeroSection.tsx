@@ -148,8 +148,8 @@ const HeroSection = () => {
                 className="w-full rounded-2xl md:rounded-none md:rounded-t-2xl"
               />
               <div
-                className="absolute 2xl:top-[22.150%] 2xl:left-[27.5%] xl:top-[21.5%] xl:left-[27%] lg:top-[20.6%] lg:left-[26.1%]  md:top-[17.6%] md:left-[23.2%] 
-               top-[20.5%] left-[25.5%]"
+                className="absolute 2xl:top-[19%] 2xl:left-[25.2%] xl:top-[18%] xl:left-[24.5%] lg:top-[17%] lg:left-[23.5%]  md:top-[16%] md:left-[22%] 
+               top-[17%] left-[23%]"
               >
                 <span className="relative flex h-7 w-7 bottom-[20%] justify-center items-center">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-500 "></span>
@@ -157,8 +157,8 @@ const HeroSection = () => {
                 </span>
               </div>
               <div
-                className="absolute 2xl:bottom-[28.2%] 2xl:left-[25.8%] xl:bottom-[27.6%] xl:left-[25.3%] lg:bottom-[26.7%] lg:left-[24.4%] md:bottom-[24%] md:left-[21.4%]
-               bottom-[26%] left-[24%]"
+                className="absolute 2xl:bottom-[32%] 2xl:left-[23.7%] xl:bottom-[31%] xl:left-[23%] lg:bottom-[29%] lg:left-[22%] md:bottom-[28%] md:left-[20.5%]
+               bottom-[29%] left-[22%]"
               >
                 <span className="relative flex h-7 w-7  bottom-[20%] justify-center items-center">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-500 "></span>
