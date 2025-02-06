@@ -39,6 +39,17 @@ const MainHeader = () => {
     setDropdownVisible(!isDropdownVisible);
   };
 
+  const menuItemsForMobile = useMemo(
+    () => [
+      { title: "Home", slug: "/" },
+      { title: "About", slug: "/about" },
+      { title: "Services", slug: "/services" },
+      { title: "Blog", slug: "/blog" },
+      { title: "Testimonials", slug: "/testimonials" },
+      { title: "Contact Us", slug: "/contact" },
+    ],
+    [],
+  );
   const menuItems = useMemo(
     () => [
       { title: "Home", slug: "/" },
@@ -177,7 +188,7 @@ const MainHeader = () => {
             </NavbarContent>
 
             <NavbarMenu className="overflow-hidden">
-              {menuItems.map((el, index) => (
+              {menuItemsForMobile.map((el, index) => (
                 <NavbarMenuItem key={el.slug} className="flex flex-row">
                   <Link
                     className={`w-full text-white text-center !text-xl font-medium py-1 hover:scale-110 transition-all ease-in-out duration-500 ${pathname === el.slug ? "!text-primary" : ""} ${index === 0 ? "mt-6" : ""}`}
