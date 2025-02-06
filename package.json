@@ -23,6 +23,7 @@
     "@nextui-org/system": "2.2.6",
     "@nextui-org/theme": "2.2.11",
     "@react-aria/ssr": "3.9.4",
+    "@react-aria/toolbar": "^3.0.0-beta.12",
     "@react-aria/visually-hidden": "3.8.12",
     "@types/aos": "^3.0.7",
     "@types/react-icons": "^3.0.0",
