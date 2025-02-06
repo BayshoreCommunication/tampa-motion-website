@@ -77,7 +77,7 @@ const MainHeader = () => {
                   alt="header logo"
                   width={300}
                   height={79}
-                  className="cursor-pointer w-[300px] xl:w-[300px]  m-2 max-h-[78px]"
+                  className="cursor-pointer w-[300px] xl:w-[300px]    m-2 max-h-[78px]"
                 />
               </Link>
             </div>
