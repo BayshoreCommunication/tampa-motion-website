@@ -35,7 +35,7 @@ const Testimonials = ({ extraSpace }: { extraSpace: any }) => {
             </div>
 
             <div className="col-span-1 relative h-60 w-full z-50 opacity-100 ">
-              <div className=" md:hidden lg:hidden py-4">
+              <div className=" md:hidden lg:hidden py-4 h-full">
                 <Swiper
                   slidesPerView={1}
                   spaceBetween={30}
@@ -43,14 +43,14 @@ const Testimonials = ({ extraSpace }: { extraSpace: any }) => {
                     clickable: true,
                   }}
                   modules={[Pagination]}
-                  className="mySwiper w-full h-full"
+                  className="mySwiper w-full "
                 >
                   {review.map((el, index) => (
                     <SwiperSlide
-                      className="text-center flex justify-center items-center  bg-[#EFEFEF] rounded-2xl py-6 px-4"
+                      className="text-center flex justify-center items-center  bg-[#EFEFEF] rounded-2xl py-6 px-4 "
                       key={index}
                     >
-                      <Link href={"/testimonials"} className="w-full h-full">
+                      <Link href={"/testimonials"} className="w-full ">
                         <div className=" cursor-pointer flex flex-col justify-start items-center w-full gap-3 ">
                           <div className="basis-5/12">
                             <Image
@@ -66,7 +66,7 @@ const Testimonials = ({ extraSpace }: { extraSpace: any }) => {
                             <h4 className="font-baskerville text-lg text-left line-clamp-1">
                               &#x201C; {el.username} &#x201D;
                             </h4>
-                            <p className="font-sans text-sm text-center line-clamp-4">
+                            <p className="font-sans text-sm text-center line-clamp-3">
                               {el.text}
                             </p>
                           </div>
