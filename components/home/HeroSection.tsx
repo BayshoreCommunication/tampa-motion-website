@@ -112,7 +112,7 @@ const HeroSection = () => {
                   alt="logo"
                   width={600}
                   height={400}
-                  className="w-[180px] h-auto relative ml-6 rounded-t-2xl"
+                  className="w-[180px] h-auto relative ml-6 rounded-t-2xl -top-[18px]"
                 />
                 {/* </ScrollMotionEffect> */}
                 {/* <ScrollMotionEffect effect="fade-up" duration={2000}> */}
