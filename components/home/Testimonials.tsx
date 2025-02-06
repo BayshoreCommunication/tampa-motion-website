@@ -14,10 +14,8 @@ import Rating from "../shared/Rating";
 
 import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
 import review from "@/config/review";
-import { useRouter } from "next/navigation";
 
 const Testimonials = ({ extraSpace }: { extraSpace: any }) => {
-  const router = useRouter();
   return (
     <div className={`bg-doctors bg-cover text-black  ${extraSpace}`}>
       <ScrollMotionEffect effect="fade-up" duration={2000}>
@@ -51,12 +49,7 @@ const Testimonials = ({ extraSpace }: { extraSpace: any }) => {
                       className="text-center flex justify-center items-center  bg-[#EFEFEF] rounded-2xl py-6 px-4"
                       key={index}
                     >
-                      <div
-                        onClick={() => {
-                          router.push("/testimonials");
-                        }}
-                        className=" cursor-pointer flex flex-col justify-start items-center w-full gap-3 "
-                      >
+                      <div className=" cursor-pointer flex flex-col justify-start items-center w-full gap-3 ">
                         <div className="basis-5/12">
                           <Image
                             src={el.avatar}
@@ -95,12 +88,7 @@ const Testimonials = ({ extraSpace }: { extraSpace: any }) => {
                       className="text-center flex justify-center items-center  bg-[#EFEFEF] rounded-2xl py-6 px-4 "
                       key={index}
                     >
-                      <div
-                        onClick={() => {
-                          router.push("/testimonials");
-                        }}
-                        className=" cursor-pointer flex flex-col justify-start items-center w-full gap-3 hover:scale-105 transition-all duration-500 ease-in-out"
-                      >
+                      <div className=" cursor-pointer flex flex-col justify-start items-center w-full gap-3 hover:scale-105 transition-all duration-500 ease-in-out">
                         <div className="basis-5/12 ">
                           <Image
                             src={el.avatar}
@@ -140,12 +128,7 @@ const Testimonials = ({ extraSpace }: { extraSpace: any }) => {
                       className=" cursor-pointer text-center flex justify-center items-center bg-[#EFEFEF] rounded-2xl p-8 "
                       key={index}
                     >
-                      <div
-                        onClick={() => {
-                          router.push("/testimonials");
-                        }}
-                        className="flex 2xl:flex-row flex-col justify-center items-center xl:items-center 2xl:justify-start 2xl:items-start w-full gap-6  hover:scale-105 transition-all duration-400 ease-in-out"
-                      >
+                      <div className="flex 2xl:flex-row flex-col justify-center items-center xl:items-center 2xl:justify-start 2xl:items-start w-full gap-6  hover:scale-105 transition-all duration-400 ease-in-out">
                         <div className="basis-5/12 ">
                           <Image
                             src={el.avatar}
