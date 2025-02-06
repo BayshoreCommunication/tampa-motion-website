@@ -145,7 +145,7 @@ const HeroSection = () => {
                 alt="logo"
                 width={2000}
                 height={604}
-                className="w-full rounded-2xl md:rounded-none"
+                className="w-full rounded-2xl md:rounded-none md:rounded-t-2xl"
               />
               <div
                 className="absolute 2xl:top-[22.150%] 2xl:left-[27.5%] xl:top-[21.5%] xl:left-[27%] lg:top-[20.6%] lg:left-[26.1%]  md:top-[17.6%] md:left-[23.2%] 

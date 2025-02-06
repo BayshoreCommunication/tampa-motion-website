@@ -13,6 +13,7 @@ import { Pagination } from "swiper/modules";
 import Rating from "../shared/Rating";
 
 import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
+import review from "@/config/review";
 
 const Testimonials = ({ extraSpace }: { extraSpace: any }) => {
   return (
@@ -25,11 +26,10 @@ const Testimonials = ({ extraSpace }: { extraSpace: any }) => {
                 Testimonials
               </h2>
               <h4 className="font-sans py-3 text-black text-center md:py-5 lg:py-8 lg:px-20 2xl:px-52">
-                Check out what others have to say about their experience with
-                our care and how it’s improved their quality of life. Their
-                stories show our dedication to giving you the right support,
-                treatment, and results. Got your own story to share? We’d love
-                to hear it.
+                See how Athena Akram, DPT, has helped people get back on their
+                feet, move with ease, and feel more confident. Her devoted and
+                expert care have made a real difference in so many lives. Got
+                your own story to share ? We’d love to hear it.
               </h4>
             </div>
 
@@ -159,42 +159,4 @@ const Testimonials = ({ extraSpace }: { extraSpace: any }) => {
     </div>
   );
 };
-const review = [
-  {
-    username: "Dedicated",
-    avatar: "/assets/Testimonials/avatar.avif",
-    text: "The therapists here truly care. They created my recovery plan to fit my needs and adjusted it as I improved. I always felt heard, supported, and in good hands. Grateful for everything they’ve done.",
-    rating: 5,
-  },
-  {
-    username: "Welcoming",
-    avatar: "/assets/Testimonials/avatar.avif",
-    text: "The team here is kind and professional. Booking an appointment is simple, and the clinic is always clean and welcoming. The calm atmosphere made every visit comfortable.",
-    rating: 5,
-  },
-  {
-    username: "Life-Changing",
-    avatar: "/assets/Testimonials/avatar.avif",
-    text: "After months of pain, I finally found relief. I’m truly grateful for their incredible care. Their therapy improved my movements, and now I am enjoying life without much discomfort.",
-    rating: 5,
-  },
-  {
-    username: "Professional",
-    avatar: "/assets/Testimonials/avatar.avif",
-    text: "The team here is amazing. They took the time to explain everything and made sure my treatment was right for me. Their care and support really helped in my recovery. I highly recommend them.",
-    rating: 5,
-  },
-  {
-    username: "Reassuring",
-    avatar: "/assets/Testimonials/avatar.avif",
-    text: "After my joint replacement, I was nervous about recovery, but the team put me at ease from day one. They walked me through every step, answered all my questions, and guided me with patience.",
-    rating: 4,
-  },
-  {
-    username: "Very Quick",
-    avatar: "/assets/Testimonials/avatar.avif",
-    text: "The clinic made scheduling my annual checkup easy. My appointment started on time. Always a great experience coming here.",
-    rating: 4,
-  },
-];
 export default Testimonials;
