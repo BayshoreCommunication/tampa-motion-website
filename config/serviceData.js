@@ -1,6 +1,95 @@
 export const services = [
+  //   {
+  //     service: "Physiotherapy",
+  //     service_slug: "physiotherapy",
+  //     text: `
+  // Physiotherapy is a specialized healthcare service focused on improving mobility, reducing pain, and restoring physical function through targeted therapeutic exercises, manual therapy, and advanced rehabilitation techniques.
+  // `,
+  //     image: "/assets/services/Physiotherapy.png",
+  //     alt: "Physiotherapy",
+  //     slug: "physiotherapy",
+  //   },
+  //   {
+  //     service: "Joint Replacement Rehabilitation",
+  //     service_slug: "joint-replacement-rehabilitation",
+  //     text: `
+  // Joint replacement rehabilitation is a specialized program designed to aid recovery after procedures like hip, knee, or shoulder replacements. It focuses on restoring strength, flexibility, and function while reducing post-surgical pain.
+  // `,
+  //     image: "/assets/services/joint_replacements.png",
+  //     alt: "Joint replacements",
+  //     slug: "joint-replacement-rehabilitation",
+  //   },
+  //   {
+  //     service: "Neurological Rehabilitation",
+  //     service_slug: "neurological-rehabilitation",
+  //     text: `
+  // Neurological rehabilitation is a specialized form of therapy designed to help individuals recover and adapt after conditions affecting the nervous system, such as strokes, brain injuries, or neurological disorders.
+  // `,
+  //     image: "/assets/services/neurological_rehab.png",
+  //     alt: "Neurological Rehab",
+  //     slug: "neurological-rehabilitation",
+  //   },
+  //   {
+  //     service: "Parkinson’s Disease Rehabilitation",
+  //     service_slug: "parkinsons-disease-rehabilitation",
+  //     text: `
+  // Parkinson’s disease rehabilitation is a specialized therapy designed to address the progressive challenges of Parkinson’s, such as tremors, rigidity, and difficulty with movement.`,
+  //     image: "/assets/services/parkinson_disease.png",
+  //     alt: "Parkinson's Disease",
+  //     slug: "parkinsons-disease-rehabilitation",
+  //   },
+  //   {
+  //     service: "Pre and Post-Operative Rehabilitation",
+  //     service_slug: "pre-and-post-operative-rehabilitation",
+  //     text: `
+  // Pre and post-operative rehabilitation is a program designed to prepare your body for surgery and facilitate a faster, more effective recovery afterward.
+  // `,
+  //     image: "/assets/services/operative_rehab.png",
+  //     alt: "Pre- and Post-Operative Rehab",
+  //     slug: "pre-and-post-operative-rehabilitation",
+  //   },
+  //   {
+  //     service: "Rotator cuff surgery preparation",
+  //     service_slug: "rotator-cuff-surgery-preparation",
+  //     text: `Rotator cuff surgery preparation is a focused rehabilitation program designed to optimize shoulder strength, flexibility, and function before undergoing surgical repair.`,
+  //     image: "/assets/services/cuff_surgery.png",
+  //     alt: "Rotator cuff surgery preparation",
+  //     slug: "rotator-cuff-surgery-preparation",
+  //   },
+  //   {
+  //     service: "Spine and Cosmetic Surgery Rehabilitation",
+  //     service_slug: "spine-and-cosmetic-surgery-rehabilitation",
+  //     text: `
+  // Rehabilitation for spine and cosmetic surgeries focuses on optimizing physical readiness before surgery and ensuring a safe, efficient recovery afterward.
+  // `,
+  //     image: "/assets/services/surgeries.png",
+  //     alt: "Spine and cosmetic surgeries",
+  //     slug: "spine-and-cosmetic-surgery-rehabilitation",
+  //   },
+  //   {
+  //     service: "Ligament and Tendon Repair Rehabilitation",
+  //     service_slug: "ligament-and-tendon-repair-rehabilitation",
+  //     text: `
+  // Rehabilitation for ligament and tendon repairs is a critical process that aids in restoring strength, stability, and range of motion following surgery or injury.
+  // `,
+  //     image: "/assets/services/repairs.png",
+  //     alt: "Ligament and tendon repairs",
+  //     slug: "ligament-and-tendon-repair-rehabilitation",
+  //   },
+  //   {
+  //     service: "Upper and Lower Extremity Surgery Rehabilitation",
+  //     service_slug: "upper-and-lower-extremity-surgery-rehabilitation",
+  //     text: `
+  // Rehabilitation for upper and lower extremity surgeries is an essential process that helps restore mobility, strength, and function following surgeries such as hip replacements, knee surgeries, shoulder surgeries, and more.
+  // `,
+  //     image: "/assets/services/extremities_surgeries.png",
+  //     alt: "Upper and lower extremities surgeries",
+  //     slug: "upper-and-lower-extremity-surgery-rehabilitation",
+  //   },
+  // new items
+
   {
-    service: "Physiotherapy",
+    service: "Orthopedic",
     service_slug: "physiotherapy",
     text: `
 Physiotherapy is a specialized healthcare service focused on improving mobility, reducing pain, and restoring physical function through targeted therapeutic exercises, manual therapy, and advanced rehabilitation techniques.
@@ -10,7 +99,18 @@ Physiotherapy is a specialized healthcare service focused on improving mobility,
     slug: "physiotherapy",
   },
   {
-    service: "Joint Replacement Rehabilitation",
+    service: "Neurological",
+    service_slug: "neurological-rehabilitation",
+    text: `
+Neurological rehabilitation is a specialized form of therapy designed to help individuals recover and adapt after conditions affecting the nervous system, such as strokes, brain injuries, or neurological disorders.
+`,
+    image: "/assets/services/neurological_rehab.png",
+    alt: "Neurological Rehab",
+    slug: "neurological-rehabilitation",
+  },
+
+  {
+    service: "Surgery related",
     service_slug: "joint-replacement-rehabilitation",
     text: `
 Joint replacement rehabilitation is a specialized program designed to aid recovery after procedures like hip, knee, or shoulder replacements. It focuses on restoring strength, flexibility, and function while reducing post-surgical pain.
@@ -20,17 +120,7 @@ Joint replacement rehabilitation is a specialized program designed to aid recove
     slug: "joint-replacement-rehabilitation",
   },
   {
-    service: "Neurological Rehabilitation",
-    service_slug: "neurological-rehabilitation",
-    text: `
-Neurological rehabilitation is a specialized form of therapy designed to help individuals recover and adapt after conditions affecting the nervous system, such as strokes, brain injuries, or neurological disorders.
-`,
-    image: "/assets/services/neurological_rehab.png",
-    alt: "Neurological Rehab",
-    slug: "neurological-rehabilitation",
-  },
-  {
-    service: "Parkinson’s Disease Rehabilitation",
+    service: "Manual lymphatic drainage",
     service_slug: "parkinsons-disease-rehabilitation",
     text: `
 Parkinson’s disease rehabilitation is a specialized therapy designed to address the progressive challenges of Parkinson’s, such as tremors, rigidity, and difficulty with movement.`,
@@ -39,7 +129,7 @@ Parkinson’s disease rehabilitation is a specialized therapy designed to addres
     slug: "parkinsons-disease-rehabilitation",
   },
   {
-    service: "Pre and Post-Operative Rehabilitation",
+    service: "Pelvic floor strengthening",
     service_slug: "pre-and-post-operative-rehabilitation",
     text: `
 Pre and post-operative rehabilitation is a program designed to prepare your body for surgery and facilitate a faster, more effective recovery afterward. 
@@ -49,42 +139,12 @@ Pre and post-operative rehabilitation is a program designed to prepare your body
     slug: "pre-and-post-operative-rehabilitation",
   },
   {
-    service: "Rotator cuff surgery preparation",
+    service: "Balance dysfunction / Vestibular",
     service_slug: "rotator-cuff-surgery-preparation",
     text: `Rotator cuff surgery preparation is a focused rehabilitation program designed to optimize shoulder strength, flexibility, and function before undergoing surgical repair.`,
     image: "/assets/services/cuff_surgery.png",
     alt: "Rotator cuff surgery preparation",
     slug: "rotator-cuff-surgery-preparation",
-  },
-  {
-    service: "Spine and Cosmetic Surgery Rehabilitation",
-    service_slug: "spine-and-cosmetic-surgery-rehabilitation",
-    text: `
-Rehabilitation for spine and cosmetic surgeries focuses on optimizing physical readiness before surgery and ensuring a safe, efficient recovery afterward.
-`,
-    image: "/assets/services/surgeries.png",
-    alt: "Spine and cosmetic surgeries",
-    slug: "spine-and-cosmetic-surgery-rehabilitation",
-  },
-  {
-    service: "Ligament and Tendon Repair Rehabilitation",
-    service_slug: "ligament-and-tendon-repair-rehabilitation",
-    text: `
-Rehabilitation for ligament and tendon repairs is a critical process that aids in restoring strength, stability, and range of motion following surgery or injury.
-`,
-    image: "/assets/services/repairs.png",
-    alt: "Ligament and tendon repairs",
-    slug: "ligament-and-tendon-repair-rehabilitation",
-  },
-  {
-    service: "Upper and Lower Extremity Surgery Rehabilitation",
-    service_slug: "upper-and-lower-extremity-surgery-rehabilitation",
-    text: `
-Rehabilitation for upper and lower extremity surgeries is an essential process that helps restore mobility, strength, and function following surgeries such as hip replacements, knee surgeries, shoulder surgeries, and more.
-`,
-    image: "/assets/services/extremities_surgeries.png",
-    alt: "Upper and lower extremities surgeries",
-    slug: "upper-and-lower-extremity-surgery-rehabilitation",
   },
 ];
 
