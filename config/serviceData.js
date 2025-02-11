@@ -94,9 +94,18 @@ export const services = [
     text: `
 Physiotherapy is a specialized healthcare service focused on improving mobility, reducing pain, and restoring physical function through targeted therapeutic exercises, manual therapy, and advanced rehabilitation techniques.
 `,
+
     image: "/assets/services/Physiotherapy.png",
     alt: "Physiotherapy",
     slug: "physiotherapy",
+
+    subClass: [
+      { service: "Physiotherapy", service_slug: "physiotherapy" },
+      // { service: "", service_slug: "" },
+      // { service: "", service_slug: "" },
+      // { service: "", service_slug: "" },
+      // { service: "", service_slug: "" },
+    ],
   },
   {
     service: "Neurological",
@@ -107,6 +116,15 @@ Neurological rehabilitation is a specialized form of therapy designed to help in
     image: "/assets/services/neurological_rehab.png",
     alt: "Neurological Rehab",
     slug: "neurological-rehabilitation",
+    subClass: [
+      {
+        service: "Neurological Rehab",
+        service_slug: "neurological-rehabilitation",
+      },
+      // { service: "", service_slug: "" },
+      // { service: "", service_slug: "" },
+      // { service: "", service_slug: "" },
+    ],
   },
 
   {
@@ -118,6 +136,18 @@ Joint replacement rehabilitation is a specialized program designed to aid recove
     image: "/assets/services/joint_replacements.png",
     alt: "Joint replacements",
     slug: "joint-replacement-rehabilitation",
+    subClass: [
+      {
+        service: "Joint replacements",
+        service_slug: "joint-replacement-rehabilitation",
+      },
+      {
+        service: "Pre- and Post-Operative Rehab",
+        service_slug: "pre-and-post-operative-rehabilitation",
+      },
+      // { service: "", service_slug: "" },
+      // { service: "", service_slug: "" },
+    ],
   },
   {
     service: "Manual lymphatic drainage",
@@ -125,8 +155,14 @@ Joint replacement rehabilitation is a specialized program designed to aid recove
     text: `
 Parkinson’s disease rehabilitation is a specialized therapy designed to address the progressive challenges of Parkinson’s, such as tremors, rigidity, and difficulty with movement.`,
     image: "/assets/services/parkinson_disease.png",
-    alt: "Parkinson's Disease",
+    alt: "Manual lymphatic drainage",
     slug: "parkinsons-disease-rehabilitation",
+    subClass: [
+      // { service: "", service_slug: "" },
+      // { service: "", service_slug: "" },
+      // { service: "", service_slug: "" },
+      // { service: "", service_slug: "" },
+    ],
   },
   {
     service: "Pelvic floor strengthening",
@@ -137,6 +173,12 @@ Pre and post-operative rehabilitation is a program designed to prepare your body
     image: "/assets/services/operative_rehab.png",
     alt: "Pre- and Post-Operative Rehab",
     slug: "pre-and-post-operative-rehabilitation",
+    subClass: [
+      // { service: "", service_slug: "" },
+      // { service: "", service_slug: "" },
+      // { service: "", service_slug: "" },
+      // { service: "", service_slug: "" },
+    ],
   },
   {
     service: "Balance dysfunction / Vestibular",
@@ -145,6 +187,12 @@ Pre and post-operative rehabilitation is a program designed to prepare your body
     image: "/assets/services/cuff_surgery.png",
     alt: "Rotator cuff surgery preparation",
     slug: "rotator-cuff-surgery-preparation",
+    subClass: [
+      // { service: "", service_slug: "" },
+      // { service: "", service_slug: "" },
+      // { service: "", service_slug: "" },
+      // { service: "", service_slug: "" },
+    ],
   },
 ];
 

@@ -1,4 +1,5 @@
 "use client";
+import { RiArrowDropDownLine } from "react-icons/ri";
 import {
   Navbar,
   NavbarBrand,
@@ -8,6 +9,7 @@ import {
   NavbarMenuToggle,
 } from "@nextui-org/react";
 import React, { useMemo, useState } from "react";
+import { RiArrowDropRightLine } from "react-icons/ri";
 
 import { Libre_Baskerville } from "next/font/google";
 import Link from "next/link";
@@ -30,6 +32,8 @@ const baskerville = Libre_Baskerville({ subsets: ["latin"], weight: "400" });
 
 const MainHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isSubClassOpen, setIsSubClassOpen] = useState(false);
+  const [className, setClassName] = useState("");
   const pathname = usePathname();
   const [navbarColor, setNavbarColor] = useState(false);
 
@@ -37,6 +41,10 @@ const MainHeader = () => {
 
   const toggleDropdown = () => {
     setDropdownVisible(!isDropdownVisible);
+    setClassName("");
+  };
+  const toggleSubClass = () => {
+    setIsSubClassOpen(!isSubClassOpen);
   };
 
   const menuItemsForMobile = useMemo(
@@ -48,7 +56,7 @@ const MainHeader = () => {
       { title: "Testimonials", slug: "/testimonials" },
       { title: "Contact Us", slug: "/contact" },
     ],
-    [],
+    []
   );
   const menuItems = useMemo(
     () => [
@@ -58,11 +66,11 @@ const MainHeader = () => {
       { title: "Blog", slug: "/blog" },
       { title: "Contact Us", slug: "/contact" },
     ],
-    [],
+    []
   );
 
   const setPathSlug = services?.some(
-    (el) => pathname === `/services/${el?.service_slug}`,
+    (el) => pathname === `/services/${el?.service_slug}`
   );
 
   return (
@@ -115,16 +123,59 @@ const MainHeader = () => {
                             </span>
                           </Link>
                         </div>
-                        <section className="absolute hidden group-hover:block bg-white shadow-lg rounded p-6  overflow-y-scroll w-[300px] max-h-[400px]">
-                          <ul className="py-2 list-none ml-0">
+                        <section className="absolute hidden group-hover:block bg-white shadow-lg rounded pt-6  ">
+                          <ul className="cursor-pointer list-none rounded-md">
                             {services?.map((el, index) => (
-                              <li key={index}>
-                                <Link
-                                  href={`/services/${el.service_slug}`}
-                                  className={`py-2 flex  text-base xl:text-[16px] hover:text-secondary transition-all duration-250 ease-in-out border-b  ${pathname === `/practice-areas/${el?.slug}` ? " text-secondary " : "text-slate-900"}`}
+                              <li key={index} className="p-0 m-0">
+                                {/* <Link */}
+                                {/*   href={`/services/${el.service_slug}`} */}
+                                {/*   className={`py-2 flex  text-base xl:text-[16px] hover:text-secondary transition-all duration-250 ease-in-out border-b  ${pathname === `/practice-areas/${el?.slug}` ? " text-secondary " : "text-slate-900"}`} */}
+                                {/* > */}
+                                {/*   {el.service} */}
+                                {/* </Link> */}
+                                <div
+                                  className={`py-2 px-4 flex relative w-full h-full flex-col text-base xl:text-[16px] hover:text-secondary transition-all duration-250 ease-in-out border-b rounded-md ${pathname === `/practice-areas/${el?.slug}` ? " text-secondary " : "text-slate-900"}`}
+                                  onMouseEnter={() => {
+                                    setIsSubClassOpen(!isSubClassOpen);
+                                    setClassName(el.service);
+                                  }}
                                 >
-                                  {el.service}
-                                </Link>
+                                  <p className="flex justify-between items-center text-nowrap w-full">
+                                    {el.service}
+                                    {className !== el.service ? (
+                                      <RiArrowDropDownLine className="size-5" />
+                                    ) : (
+                                      <RiArrowDropRightLine className="size-5" />
+                                    )}
+                                    {className === el.service ? (
+                                      <div
+                                        className={`"text-primary absolute top-0 -right-[316px] w-full z-20 bg-white font-semibold transition-all duration-250 ease-in-out rounded-md " ${el.subClass.length == 0 ? "" : "border border-gray-200"}`}
+                                      >
+                                        {services
+                                          .filter(
+                                            (e) => e.service === el.service
+                                          )[0]
+                                          ?.subClass?.map(
+                                            (subService, index) => (
+                                              <li
+                                                key={index}
+                                                className={`"list-none border-b last:border-b-0 rounded-md  p-0 m-0 " ${subService.service === "" ? "hidden" : ""}`}
+                                              >
+                                                <Link
+                                                  href={`/services/${subService.service_slug}`}
+                                                  className={`py-2 px-4 flex relative w-full h-full flex-col text-base xl:text-[16px] hover:text-secondary transition-all duration-250 ease-in-out rounded-md text-wrap ${pathname === `/practice-areas/${el?.slug}` ? " text-secondary " : "text-slate-900"}`}
+                                                >
+                                                  {subService.service}
+                                                </Link>
+                                              </li>
+                                            )
+                                          )}
+                                      </div>
+                                    ) : (
+                                      <></>
+                                    )}
+                                  </p>
+                                </div>
                               </li>
                             ))}
                           </ul>
@@ -139,7 +190,7 @@ const MainHeader = () => {
                     >
                       {el.title}
                     </Link>
-                  ),
+                  )
                 )}
               </div>
             </div>
