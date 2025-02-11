@@ -4,7 +4,7 @@ import { servicesSlug } from "@/config/serviceData.js";
 import parse from "html-react-parser";
 
 const css = `
- h1, h2, p, br, nav {
+# h1, h2, p, br, nav {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: normal;
@@ -22,24 +22,24 @@ h2 {
   font-size: 40px;
 }
 
-p {
+#service p {
   font-size: 18px;
   padding-top: 6px;
   padding-bottom: 6px;
 }
 
-ul {
+#service ul {
   list-style-type: disc;
   
 }
 
-div>ul{
+#service div>ul{
 padding-left:40px
 
 }
 
 
-li{
+#service li{
   padding-bottom:8px;font-size: 18px;
 }
 
@@ -52,7 +52,7 @@ type Props = {
 
 export async function generateMetadata(
   { params, searchParams }: Props,
-  parent: ResolvingMetadata,
+  parent: ResolvingMetadata
 ): Promise<Metadata> {
   // read route params
   const slug = (await params).slug;
@@ -93,7 +93,7 @@ const page = ({ params }: { params: { slug: string } }) => {
   const data = servicesSlug.find((service) => service.slug === slug);
 
   return (
-    <article className=" bg-white text-black ">
+    <article id="service" className=" bg-white text-black ">
       <style>{css}</style>
 
       <PageHeroSection
