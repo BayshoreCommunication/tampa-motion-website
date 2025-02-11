@@ -149,7 +149,7 @@ const MainHeader = () => {
                                     )}
                                     {className === el.service ? (
                                       <div
-                                        className={`"text-primary absolute top-0 -right-[316px] w-full z-20 bg-white font-semibold transition-all duration-250 ease-in-out rounded-md " ${el.subClass.length == 0 ? "" : "border border-gray-200"}`}
+                                        className={`"text-primary absolute top-0 -right-[316px] w-full z-20 bg-white  transition-all duration-250 ease-in-out rounded-md " ${el.subClass.length == 0 ? "" : "border border-gray-200"}`}
                                       >
                                         {services
                                           .filter(
