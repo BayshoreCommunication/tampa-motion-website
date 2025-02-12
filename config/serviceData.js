@@ -100,7 +100,10 @@ Physiotherapy is a specialized healthcare service focused on improving mobility,
     slug: "physiotherapy",
 
     subClass: [
-      { service: "Physiotherapy", service_slug: "physiotherapy" },
+      {
+        service: "Physiotherapy",
+        service_slug: "physiotherapy",
+      },
       // { service: "", service_slug: "" },
       // { service: "", service_slug: "" },
       // { service: "", service_slug: "" },
@@ -198,12 +201,12 @@ Pre and post-operative rehabilitation is a program designed to prepare your body
 
 //slug structure------------------------------
 const slugStructure = {
-  title: "",
-  url: "",
-  slug: "",
-  icon: "",
-  sortTitle: "",
-
+  title: ``,
+  url: ``,
+  slug: ``,
+  icon: ``,
+  sortTitle: ``,
+  heroDescription: ``,
   shortDescription: ``,
   description: ` 
     <div>
@@ -1324,6 +1327,2123 @@ For athletes or highly active individuals, we integrate sport-specific training 
         <p className="text-gray-700 mb-4 leading-relaxed">
                       
 Tampa Motion Kinetics PLLC is dedicated to ensuring that your recovery from upper and lower extremity surgeries is as efficient and effective as possible. With expert care and personalized treatment plans, we are committed to helping you return to an active, pain free lifestyle.
+        </p>
+      </div>
+    </div>`,
+  },
+  {
+    title: `CONSERVATIVE (NON-INVASIVE TREATMENTS)`,
+    url: ``,
+    slug: `CONSERVATIVE-NON-INVASIVE-TREATMENTS)`,
+    icon: ``,
+    sortTitle: ``,
+    heroDescription: ``,
+    shortDescription: ``,
+    description: ` 
+    <div>
+      <div className="  md:space-x-6">
+        <div>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+                   Injuries to most joints and spine can leave you struggling with pain and limited movement. Whether from trauma, overuse, or degeneration, these conditions can disrupt your daily life. We are committed to helping you reclaim what’s been lost. With personalized care and advanced rehabilitation, we’ll help you move freely again and restore your quality of life.   
+            </p>
+        </div>         
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+                Who is Affected the Most?      
+          </h2>
+          
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                Young adults and athletes (both genders):          
+              </span> Active individuals are more prone to traumatic injuries like sprains, fractures, and ligament tears, especially in the knees, shoulders, and hands.          
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                    Middle-aged adults (both genders):      
+              </span>Overuse injuries such as tendonitis and bursitis are common due to repetitive movements, often related to work or exercise.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          Older adults (More common in women):
+              </span>           
+Conditions like osteoarthritis and spinal stenosis become more prevalent, particularly in women, leading to joint and spine issues that affect mobility.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                 Men (More likely in middle-aged and older adults):         
+              </span>Tend to suffer from work-related injuries and trauma, such as herniated discs and fractures, often impacting the spine and upper extremities.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+              Common Conditions Patients Face:        
+          </h2>
+                   <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                    Joint injuries:      
+              </span>    Swelling, pain, and loss of function, particularly in the knees, hips, and shoulders.       
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                   Spinal injuries:       
+              </span>Chronic back pain, herniated discs, and nerve compression that cause tingling or weakness in the limbs.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                     Hand and elbow injuries:     
+              </span>     Carpal tunnel syndrome, tennis elbow, and fractures that limit movement and grip strength.      
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                     Knee injuries:     
+              </span>ACL tears, meniscus injuries, and knee osteoarthritis cause pain, instability, and difficulty bearing weight.
+            </li>
+            
+          </ul>
+        </div><div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+             How Tampa Motion  Can Help in the Recovery Process:         
+          </h2>
+          
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>           
+Our team offers personalized physical therapy programs designed to reduce swelling, improve joint mobility, and alleviate pain. We also use advanced techniques, such as ULTRASOUND therapy, LASER therapy, Iontophoresis, KINESIOTAPING and manual mobilizations, FASCIAL RELEASE, TRACTION to support the healing process and help you regain function.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Our specialists focus on spinal alignment, core strengthening, and posture correction to relieve pressure on nerves and improve overall back health.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>  We use a combination of therapeutic exercises, bracing, and targeted manual therapy to restore strength and range of motion. Our approach emphasizes gradual recovery while minimizing discomfort, helping you return to your daily activities with confidence.         
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>We develop customized rehabilitation plans that focus on strengthening the muscles around your knee, improving joint stability, and reducing inflammation.
+            </li>
+            </ul>
+</div>
+
+        
+      </div>
+    </div>`,
+  },
+  {
+    title: `ORTHOPEDIC / JOINT PAIN / SPINE`,
+    url: ``,
+    slug: `ORTHOPEDIC-JOINT PAIN-SPINE`,
+    icon: ``,
+    sortTitle: ``,
+    heroDescription: ``,
+    shortDescription: ``,
+    description: ` 
+    <div>
+      <div className="  md:space-x-6">
+        <div>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+At Tampa Motion, our clinicians provide ONE-TO-ONE care.  All exercises and treatments are tailored for each patient. We believe in a hands-on, personalized approach. Patients of all ages – from children (aged 8 and above) to adults – receive custom care plans from our licensed Doctor of Physical Therapy (DPT), ensuring every session targets your unique goals.
+            </p>
+        </div> <div>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+Athena Akram, DPT, the CEO and Senior Physical Therapist of Tampa Motion has extensive experience with treating patients with acute and chronic cervical, thoracic, and low back pain caused by degenerative disc and joint disease, scoliosis, Bertolotti’s syndrome and other debilitating diseases. She also has 10+ years of experience in treatment rehabilitation for many types of surgeries and conditions, such as:
+            </p>
+        </div>         
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+                Orthopedic conditions treated at Tampa Motion:      
+          </h2>
+                    <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>  Arthritis - hand, wrist, elbow, shoulder, hip, knee, ankle, foot, pelvis          
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Diabetic Neuropathy
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span> Peripheral Neuropathy          
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Plantar Fasciitis
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span> Spinal Neuropathy          
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Sprains
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span> Strains          
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Tennis Elbow
+            </li><li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Tendonitis and Tendinosis
+            </li><li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>TMJ Dysfunction
+            </li>
+
+
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+                      
+ Spine-Related Rehab is available for:
+          </h2>
+          <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+          </p>
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span> Ankylosing Spondylitis          
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Bertolotti’s Syndrome
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Disc herniation           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Ehler’s Danlos Syndrome
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span> Facet arthritis          
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Low back pain
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span> Neck pain and Low back pain          
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Neuropathy
+            </li>           <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Pelvic Floor weakness
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Rheumatoid Arthritis
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Ribs and thoracic spine pain
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Scoliosis
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>SI joint pain and dysfunctions
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Spinal fusion, laminectomy, discectomy and disc replacement
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Spondylolisthesis
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Spondylosis
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Spinal Stenosis
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Whiplash
+            </li>
+
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4 underline">
+                 Treatments offered for Orthopedic Rehabilitation:     
+          </h2>
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                Education and Counseling:          
+              </span>  We provide guidance on what to expect before, during, and after surgery. Instructions on home safety and assistive devices.         
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                Pain Management Techniques:          
+              </span>We use physical therapy modalities to reduce pain pre-surgery. Examples include Traction / Decompression, heat, cold, Infra-Red, Ultrasound, Phonophoresis, Electrical Stimulation, Kinesio taping, Instrument-Assisted and Manual Soft tissue mobilization.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Activity Specific Return to Work and Sports program:           
+              </span> Customized exercises to help patients return to work, sports, or daily routines safely.          
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Balance and Gait Training:           
+              </span>We teach the proper use of walkers or crutches to ensure safe movement post-surgery. We ensure stability improvements and retrain walking patterns. Additionally, we aim to reduce the risk of falls.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Breathing Training and Circulation Treatments:           
+              </span>We aim to improve lung function and reduce the risk of post-surgery blood clots. We also offer manual lymphatic drainage for optimal results of all surgeries.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Functional Movement Training:           
+              </span>We prepare the shoulder for daily activities, improving mobility and reducing stiffness.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Manual Lymphatic Drainage:           
+              </span>A specialized form of massage technique to direct proper lymph flow for post-surgical patients.  This technique significantly reduces swelling and healing time, increases muscle and joint function and reduces pain.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Manual Therapy:           
+              </span>Hands-on techniques to reduce scar tissue, joint mobilization, Kinesio taping and lymphatic drainage and improve range of motion.
+            </li>    
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Monitoring and Progress Tracking:           
+              </span>Regular assessments to adjust the program based on recovery progress.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Posture and Core Stability Work:           
+              </span>Enhances overall stability to prevent compensatory movements that could strain the spinal ligaments and muscles.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Progressive Strengthening Exercises:           
+              </span>We prepare muscles around the joint for surgery. Our primary focus is on improving flexibility and joint mobility. 
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>
+            </li>
+          </ul>
+        </div>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+        </p>
+      </div>
+    </div>`,
+  },
+  {
+    title: `PRE-SURGICAL  /  POST-SURGICAL`,
+    url: ``,
+    slug: `PRE-SURGICAL-POST-SURGICAL`,
+    icon: ``,
+    sortTitle: ``,
+    heroDescription: ``,
+    shortDescription: ``,
+    description: ` 
+    <div>
+      <div className="  md:space-x-6">
+        <div>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+               Tampa Motion offers comprehensive pre- and post-operative rehabilitation to ensure the best outcomes. It helps patients regain strength, flexibility, and function. Our rehab programs are designed to support patients through every step of their recovery, providing personalized care and expert guidance.  We are proud of ONE-TO-ONE patient care, avoiding multiple overlapping patients and avoiding ‘all-size-fits-all’ treatments.       
+            </p>
+        </div>         
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+           Common Issues that occur WITHOUT Pre- and Post-Operative Rehab           
+          </h2>
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Delayed Recovery:           
+              </span>Without rehab, the recovery process can be significantly slower.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Reduced Mobility and Range of Motion:            
+              </span>Rehabilitation helps restore joint movement, and without it, patients may experience stiffness and limited motion.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Increased Pain and Discomfort:            
+              </span>Proper rehab can help manage and reduce pain post-surgery.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Higher Risk of Complications:           
+              </span>Lack of rehab can increase the risk of complications such as blood clots, infections, excessive scar tissue formation, poor healing and issues with the prosthesis.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Muscle Weakness and Atrophy:            
+              </span>Without exercises to strengthen muscles, patients may experience muscle weakness and atrophy.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Decreased Overall Function:            
+              </spanRehabilitation is crucial for regaining the ability to perform daily activities.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Long-Term Disability:            
+              </span>Inadequate rehab can lead to long-term disability and reduced quality of life.
+            </li><li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Need for Another Surgery:            
+              </span>Poor recovery and complications might necessitate additional surgeries.
+            </li>
+
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+           SURGICAL (Pre- / Post) TREATMENTS           
+          </h2>
+          
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Education and Counseling:            
+              </span>We provide guidance on what to expect before, during, and after surgery. Instructions on home safety and assistive devices.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Pain Management Techniques:           
+              </span>We use physical therapy modalities to reduce pain pre-surgery. Examples include heat, cold, Infra-Red, Ultrasound, Phonophoresis, Electrical Stimulation, Kinesio taping, Instrument-Assisted and Manual Soft tissue mobilization.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Breathing Training and Circulation Treatments:            
+              </span>We aim to improve lung function and reduce the risk of post-surgery blood clots. We also offer manual lymphatic drainage for optimal results of all surgeries.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Manual Lymphatic Drainage:            
+              </span>A specialized form of massage technique to direct proper lymph flow.  This technique significantly reduces swelling and healing time, increases muscle and joint function and reduces pain.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                Manual Therapy:           
+              </span>Hands-on techniques to reduce scar tissue, joint mobilization, Kinesio taping and lymphatic drainage and improve range of motion.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Progressive Strengthening Exercises:            
+              </span>We prepare muscles around the joint for surgery. Our primary focus is on improving flexibility and joint mobility.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Posture and Core Stability Work:            
+              </span>Enhances overall stability to prevent compensatory movements that could strain joint(s).           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Balance and Gait Training:            
+              </span>We teach the proper use of walkers or crutches to ensure safe movement post-surgery. We ensure stability improvements and retrain walking patterns, increase balance and proprioception. Additionally, we aim to reduce the risk of falls.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Functional Movement Training:           
+              </span>We prepare the shoulder for daily activities, improving mobility and reducing stiffness.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Activity Specific Return to Work and Sports program:            
+              </span>Customized exercises to help patients return to work, sports, or daily routines safely.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Monitoring and Progress Tracking:            
+              </span>Regular assessments to adjust the program based on recovery progress.
+            </li>
+          </ul>
+        </div>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+        </p>
+      </div>
+    </div>`,
+  },
+  {
+    title: `COSMETIC SURGERY REHAB`,
+    url: ``,
+    slug: `COSMETIC-SURGERY-REHAB`,
+    icon: ``,
+    sortTitle: ``,
+    heroDescription: ``,
+    shortDescription: ``,
+    description: ` 
+    <div>
+      <div className="  md:space-x-6">
+        <div>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+             Cosmetic surgeries can significantly improve a patient's quality of life, whether by alleviating chronic pain, improving health or enhancing physical appearance. However, the success of these surgeries heavily relies on comprehensive pre- and post-operative rehabilitation. Proper rehab ensures optimal recovery, minimizes complications, and helps patients return to their daily activities with improved function and confidence.         
+            </p>
+        </div>         
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Rehabilitation is crucial for a diverse group of patients undergoing certain cosmetic surgeries:            
+          </h2>
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Mastectomy           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Lumpectomy
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Lymphotomy            
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Liposuction
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Facial, Oral, TMJ surgeries           
+            </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Pre- and post-operative rehab can prevent several complications:            
+          </h2>
+          
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Prolonged Swelling and Bruising:            
+              </span>Without rehab, swelling and bruising may take longer to subside.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Scar Tissue Formation:           
+              </span>Lack of proper care can lead to excessive scar tissue, affecting the cosmetic outcome. We provide treatments to improve skin elasticity and blood circulation.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Delayed Healing:            
+              </span>The recovery process can be slower without guided rehabilitation. Treatments reducing inflammation and improving blood circulation can rapidly increase healing of affected tissues.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Reduced Range of Motion:            
+              </span>Particularly in surgeries involving the face or limbs, movement can be restricted.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Increased Risk of Complications:            
+              </span>Including infections and poor wound healing.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Progressive weakness and instability of Joints:            
+              </span>Without specific exercises to regain muscle function of the surrounding surgical area, instability of joints can arise overtime producing chronic pain and functional difficulties. Clinicians at Tampa Motion can help prepare the body for surgery with light cardiovascular and resistance training. We ensure optimal weight and fitness levels.
+            </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Post-Operative Rehab Program for Cosmetic Surgeries:            
+          </h2>
+          <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+          </p>
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Scar Management:            
+              </span>           
+We use techniques like massage and soft tissue mobilizations to minimize scar tissue.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Swelling and Bruising Control:            
+              </span>We provide manual lymphatic drainage, Kinesio taping, Infra-red therapy, and cold therapy to address inflammatory processes.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Mobility and Strength Restoration:             
+              </span>Gentle movements and progressive strength training to prevent stiffness and restore normal function.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Skin and Tissue Healing:            
+              </span>We offer non-invasive treatments to improve skin tone, texture, and elasticity.
+            </li>
+            
+          </ul>
+        </div><p className="text-gray-700 mb-4 leading-relaxed">
+                      
+        </p>
+      </div>
+    </div>`,
+  },
+
+  {
+    title: `MULTIPLE SCLEROSIS`,
+    url: ``,
+    slug: `MULTIPLE-SCLEROSIS`,
+    icon: ``,
+    sortTitle: ``,
+    heroDescription: ``,
+    shortDescription: ``,
+    description: ` 
+    <div>
+      <div className="  md:space-x-6">
+        <div>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+            Multiple Sclerosis (MS) is a chronic neurological condition where the immune system mistakenly attacks the protective covering of nerves (myelin), causing communication issues between the brain and body. MS affects the central nervous system, leading to a variety of symptoms that can disrupt daily life with fatigue and mobility issues. When it is severe, some individuals may face cognitive difficulties such as difficulties in reading, writing, understanding, or making any decision.          
+            </p>
+        </div>         
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          How Tampa Motion Can Help You Manage Symptoms Of Multiple Sclerosis:            
+          </h2>
+          
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span> Each patient gets a personalized rehabilitation plan based on their specific symptoms. This plan may include physical therapy to boost strength and mobility, an occupational therapy to help with everyday tasks.          
+            </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Who is Affected the Most?            
+          </h2>
+          
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Women:            
+              </span>Multiple Sclerosis primarily affects adults aged 20 to 50, with women being two to three times more likely to be diagnosed than men.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Younger Adults:            
+              </span>Often experience relapsing MS, causing mobility issues and fatigue that impact work and social life.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Older Adults:            
+              </span>They may develop progressive forms, leading to severe disabilities and requiring comprehensive neurological rehabilitation.           
+            </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Common Conditions Patients Face:            
+          </h2>
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Mobility Limitations:            
+              </span>Difficulty walking or maintaining balance, and muscle weakness can lead to increased slip or fall risk.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Fatigue:            
+              </span>An extensive symptom that affects energy levels and overall quality of life.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Cognitive Impairments:            
+              </span>Issues with memory, attention, and problem-solving abilities can complicate daily tasks.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Spasticity and Muscle Weakness:           
+              </span>These conditions can hinder movement and contribute to discomfort.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Emotional Challenges:            
+              </span>Anxiety and depression are prevalent among MS patients, impacting their mental health and social engagement.           
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>`,
+  },
+  {
+    title: `LUPUS`,
+    url: ``,
+    slug: `LUPUS`,
+    icon: ``,
+    sortTitle: ``,
+    heroDescription: ``,
+    shortDescription: ``,
+    description: ` 
+    <div>
+      <div className="  md:space-x-6">
+        <div>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+            Lupus, specifically systemic lupus erythematosus (SLE), is a chronic autoimmune disease where the immune system attacks healthy tissues and organs unintentionally. It can affect the skin, joints, kidneys, heart, and nervous system. Symptoms vary widely but often include joint pain, fatigue, skin rashes, and neurological issues, making it challenging to manage without specialized care. Early diagnosis and ongoing care are essential, as complications like kidney damage and cardiovascular issues can occur.          
+            </p>
+        </div>         
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          How Tampa Motion Can Help You Manage Symptoms Of Lupus:            
+          </h2>
+         
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>           
+We use targeted physical therapy techniques to improve flexibility, reducing joint pain, and stiffness. So, you can perform everyday tasks with ease and reduce the risk of falls.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>We develop strategies and strength-building exercises to improve energy levels and build muscle strength, making it easier to carry out daily tasks without feeling fatigued.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Our therapists guide patients on how to avoid triggers of skin rashes, reduce neurological challenges and incorporate low-impact exercises for lupus management.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>For issues related to the kidneys, heart, and lungs, our team of specialists creates a rehabilitation plan that includes routines and treatments to support cardiovascular and respiratory health.
+            </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Who is Affected the Most?            
+          </h2>
+           
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Younger Women:            
+              </span>Often experience more prominent symptoms that can interfere with a healthy lifestyle.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Older Adults:            
+              </span>May face complications related to long-term lupus management, including increased risk of organ damage and chronic pain.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Gender Differences:            
+              </span>           
+Lupus predominantly affects women, especially those between the ages of 15 and 44. It is less common in men and children but can still occur.
+            </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Common Conditions Patients Face:            
+          </h2>
+          <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+          </p>
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Joint Pain and Stiffness:            
+              </span>Often leading to difficulty in movement and daily activities.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Fatigue:            
+              </span>Many lupus patients experience extreme tiredness from daily activities, making even simple tasks feel exhausting.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Skin Rashes:            
+              </span>Such as the unique butterfly rash on the face, which can impact self-esteem.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Organ Involvement:            
+              </span>Lupus can affect the kidneys, heart, and lungs, leading to more severe health issues.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Neurological Symptoms:             
+              </span>Many lupus patients experience headaches, memory loss, and difficulty concentrating.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Muscle Weakness:            
+              </span>Due to inflammation and fatigue, muscle weakness is common, reducing strength and movement.
+            </li>
+            
+          </ul>
+        </div>
+        
+      </div>
+    </div>`,
+  },
+  {
+    title: `STROKE (CVA / TIA)`,
+    url: ``,
+    slug: `STROKE-CVA-TIA`,
+    icon: ``,
+    sortTitle: ``,
+    heroDescription: ``,
+    shortDescription: ``,
+    description: ` 
+    <div>
+      <div className="  md:space-x-6">
+        <div>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+            A stroke,  a cerebrovascular accident (CVA), occurs when blood flow to the brain is interrupted, leading to potential brain damage and a range of physical issues such as paralysis, difficulty speaking, cognitive impairments, and more. Stroke rehabilitation is a specialized program designed to help individuals recover from a stroke. It is dedicated to helping stroke survivors regain physical and emotional strength, improving their quality of life.          
+            </p>
+        </div>         
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          How Tampa Motion Can Help You Recover From Stroke (CVA):            
+          </h2>
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>We customize plans for individuals based on your specific needs. Our team focuses on strength, mobility, and daily functioning. Our therapies target specific deficits, such as walking ability, through physical therapy.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Our therapies include neuroplasticity-based exercises, balance training, and coordination drills using modern tools and technologies to gain as much comfort as you can get.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>We incorporate cognitive exercises to enhance memory, problem-solving, and attention for our patients to rebuild cognitive skills for daily living.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Our team of clinicians work together to provide a supportive environment. It helps you manage the emotional and psychological impact of a stroke, offering coping strategies and stress-reduction techniques.
+            </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Who is Affected the Most?            
+          </h2>
+          <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+          </p>
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Age:            
+              </span>Stroke can affect anyone. The risk increases with age, particularly in individuals over 55. However, younger adults can also experience strokes due to various factors.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Gender:            
+              </span>Men are generally at a higher risk of having strokes at a younger age, while women tend to experience strokes later in life and may face more severe outcomes.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Associated conditions:            
+              </span>Individuals with conditions such as high blood pressure, diabetes, or heart disease are at greater risk. Lifestyle factors such as smoking and obesity play a major role too.           
+            </li>
+            
+          </ul>
+        </div>
+         <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Common Conditions Patients Face:            
+          </h2>
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Paralysis or Weakness:            
+              </span>This usually affects one side of the body (hemiparesis), difficulty walking, and balance issues.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Cognitive Difficulties:            
+              </span>Problems with memory, attention, and decision-making can hinder daily activities.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Speech and Swallowing Issues:            
+              </span>Aphasia or dysphagia can affect communication and the ability to eat safely.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Emotional Changes:            
+              </span>Many stroke survivors face depression or anxiety as they adjust to their new circumstances.
+            </li>
+            
+          </ul>
+        </div>
+        
+      </div>
+    </div>`,
+  },
+  {
+    title: `PARKINSON’S DISEASE`,
+    url: ``,
+    slug: `PARKINSONS-DISEASE`,
+    icon: ``,
+    sortTitle: ``,
+    heroDescription: ``,
+    shortDescription: ``,
+    description: ` 
+    <div>
+      <div className="  md:space-x-6">
+        <div>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+            Parkinson’s Disease (PD) is a progressive neurological disorder that affects movement. It occurs when nerve cells in the brain that produce dopamine, a chemical that helps control movement, begin to break down. This leads to symptoms such as tremors, muscle stiffness, slowed movement (bradykinesia), and balance issues. Parkinson's disease rehabilitation is a specialized therapeutic approach designed to support individuals diagnosed with this neurological disorder.          
+            </p>
+        </div>         
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          How Tampa Motion  Can Help You Recover From  Parkinson's Disease:            
+          </h2>
+          
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>We focus on techniques like Kinesiotaping and others to reduce pain and improve walking speed. Our personalized therapeutic exercises based on LSVT BIG concept can reduce tremors and move with confidence.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>We offer flexibility and core strengthening programs, to help Parkinson's patients improve mobility, reduce muscle rigidity, and enhance balance and posture.
+            </li>
+            </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Who is Affected the Most?            
+          </h2>
+          
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Older Adults:            
+              </span>           
+Parkinson’s Disease primarily affects adults over 60. Older adults with Parkinson’s often experience more severe motor impairments. 
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Younger Onset:            
+              </span>Parkinson’s can occur in younger individuals and may face a slower progression than the older.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Gender Differences:            
+              </span>Men are more likely to develop Parkinson's disease than women. Men often experience more muscle stiffness, while women may have stronger tremors and more non-motor symptoms like anxiety or depression.           
+            </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Common Conditions Patients Face:            
+          </h2>
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Tremors:            
+              </span>Individuals diagnosed with Parkinson’s disorder may face involuntary shaking, usually starting in the hands or fingers.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Bradykinesia:            
+              </span>Slowed movements, making it hard to perform simple tasks and affecting movement.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Muscle Stiffness:            
+              </span>Rigid muscles that can limit the range of motion and cause pain.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Impaired Balance and Posture:            
+              </span>
+This increases the risk of falls and affects the ability to move safely.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+             Speech and Swallowing Difficulties:             
+              </span>Parkinson’s can lead to speech problems (slurred or soft speech) and difficulty swallowing (dysphagia).           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Cognitive Impairments:            
+              </span>Memory problems, reduced focus, and dementia in later stages.
+            </li>
+            
+          </ul>
+        </div>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+        </p>
+      </div>
+    </div>`,
+  },
+  {
+    title: `EHLERS DANLOS SYNDROME`,
+    url: ``,
+    slug: `EHLERS-DANLOS-SYNDROME`,
+    icon: ``,
+    sortTitle: ``,
+    heroDescription: ``,
+    shortDescription: ``,
+    description: ` 
+    <div>
+      <div className="  md:space-x-6">
+        <div>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+             Ehlers-Danlos Syndrome (EDS) is a collection of genetic disorders that impact connective tissues, influencing the skin, joints, and the walls of blood vessels. People with EDS often have hypermobile joints, skin that bruises easily, and fragile tissues. Rehabilitation for EDS aims to help manage symptoms and improve quality of life. This is achieved through a combination of manual lymphatic massage, therapeutic exercises, education, and supportive treatments.         
+            </p>
+        </div>         
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          How Tampa Motion Can Help You Recover From Ehlers Danlos Syndrome:            
+          </h2>
+          
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>We create individualized therapeutic plans to strengthen muscles around hypermobile joints, improve stability, and reduce pain and the risk of dislocations or injury.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>We treat patients with gentle, hands-on techniques to reduce muscle tension and alleviate chronic pain. We provide manual lymphatic massage to address swelling and promote better circulation.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>With Kinesiotaping and specialized taping, the patients get additional joint support and protection during daily activities.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>We offer guidance on how to adapt daily activities and routines to reduce injury risks and minimize EDS-related complications.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Who is Affected the Most?            
+          </h2>
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Age:            
+              </span>Symptoms may first appear in childhood or adolescence, but many individuals are diagnosed in their 20s or 30s.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Gender:           
+              </span>EDS affects both men and women equally. However, women may be more likely to seek medical help due to the impact of symptoms on daily life.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Genetic Factors:            
+              </span>Since EDS is a genetic condition, those with a family history of connective tissue disorders are at higher risk.
+            </li>
+            
+          </ul>
+        </div>
+         <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Common Conditions Patients Face:            
+          </h2>
+          <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+          </p>
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Joint Hypermobility and Instability:            
+              </span>Joints that move beyond their normal range, leading to frequent dislocations, sprains, and chronic pain.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Skin Fragility:            
+              </span>Delicate, stretchy skin that bruises easily and may tear or bruise with minimal impact.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Fatigue and Muscle Weakness:            
+              </span>Constantly managing joint instability and pain often leads to muscle fatigue and overall physical exhaustion.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Cardiovascular Issues:            
+              </span>Certain types of EDS can affect blood vessel walls, causing a risk of arterial or organ rupture in more severe cases.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Digestive Problems:            
+              </span>Individuals with EDS can have digestive issues, like trouble moving food through the stomach and intestines, because of weak connective tissues.           
+            </li>
+            
+          </ul>
+        </div>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+        </p>
+      </div>
+    </div>`,
+  },
+  {
+    title: `SPORTS-RELATED INJURIES (SPRAINS / STRAINS / FRACTURES)`,
+    url: ``,
+    slug: `SPORTS-RELATED-INJURIES-SPRAINS-STRAINS-FRACTURES)`,
+    icon: ``,
+    sortTitle: ``,
+    heroDescription: ``,
+    shortDescription: ``,
+    description: ` 
+    <div>
+      <div className="  md:space-x-6">
+        <div>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+            Sports-related injuries, such as sprains, strains, and fractures, are common conditions that affect the musculoskeletal system. A sprain involves ligament damage, while a strain affects muscles or tendons. Fractures are breaks in the bone, often caused by high-impact sports or repetitive stress. These injuries can result in significant pain, reduced mobility, and a prolonged recovery process without proper treatment.          
+            </p>
+        </div>         
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Who is Affected the Most?            
+          </h2>
+          <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+          </p>
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Adolescents and young adults (ages 8-35):            
+              </span>Active individuals in this age group are most susceptible to sports-related injuries, including sprains, strains, and fractures.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Males:             
+              </span>More likely to experience injuries due to higher participation in high-impact sports such as basketball, soccer, and football.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Females:            
+              </span>At equal risk, especially for conditions like ACL tears, influenced by biomechanical differences in movement.           
+            </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Common Conditions Patients Face:            
+          </h2>
+          
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Sprains:            
+              </span>Characterized by swelling, bruising, and difficulty bearing weight.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Strains:           
+              </span>Muscle pain, weakness, and stiffness, often occurring in the back or hamstrings.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Fractures:            
+              </span>Severe pain, swelling, and inability to move the affected area, often needing immobilization or surgery.           
+            </li>
+            
+          </ul>
+        </div>
+         <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          How Tampa Motion  Can Help in the Recovery Process:            
+          </h2>
+          
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Tampa Motion  offers specialized treatments like manual therapy to reduce swelling and improve joint stability. Taping and bracing is used to support the affected area, while targeted exercises help restore mobility and strength. Our personalized rehabilitation plan ensures a safe return to activity, minimizing the risk of re-injury.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>We focus on relieving muscle pain and stiffness through hands-on manual therapy and gentle stretching techniques. Targeted strengthening exercises for the specific muscle group help restore function and prevent future strain.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Clinicians at Tampa Motion offer post-injury rehabilitation to restore strength and mobility after fractures. Our approach combines therapeutic exercises and manual techniques to enhance motion and prevent complications. We collaborate with your medical provider for a smooth recovery journey.           
+            </li>
+            
+          </ul>
+        </div>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+        </p>
+      </div>
+    </div>`,
+  },
+  {
+    title: `MANUAL LYMPHATIC DRAINAGE`,
+    url: ``,
+    slug: `MANUAL-LYMPHATIC-DRAINAGE`,
+    icon: ``,
+    sortTitle: ``,
+    heroDescription: ``,
+    shortDescription: ``,
+    description: ` 
+    <div>
+      <div className="  md:space-x-6">
+        <div>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+            Do you struggle with swelling, discomfort, or slow recovery after surgery? We understand how these issues can impact your quality of life. Our Manual Lymphatic Drainage (MLD) service is specifically designed to help manage lymphedema and promote faster healing after surgeries. This gentle, non-invasive therapy focuses on stimulating the lymphatic system, improving circulation, and reducing swelling to support your body’s natural detoxification process.          
+            </p>
+        </div>         
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+           Who Can Benefit from Manual Lymphatic Massage?           
+          </h2>
+          
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Lymphedema:           
+              </span>Swelling caused by a buildup of lymph fluid, often after surgery, injury, or cancer treatment.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Post surgical recovery:           
+              </span>Enhances healing after procedures like liposuction, facelifts, tummy tucks, or breast augmentation.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Chronic swelling:           
+              </span>Helps alleviate persistent swelling caused by conditions that affect the lymphatic system.           
+            </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Risks of Overlooking Manual Lymphatic Massage for Swelling and Recovery            
+          </h2>
+          
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Persistent swelling:            
+              </span>Swelling that doesn’t subside naturally and can lead to discomfort and limited movement.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Delayed healing:            
+              </span>Without lymphatic stimulation, your body may struggle to clear toxins and promote recovery after surgery.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+             Increased discomfort:              
+              </span>Fluid buildup can cause a feeling of heaviness or tightness, making everyday activities difficult.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Pain and Neuropathy:            
+              </span>lymphedema may cause chronic pain of joints and nerves that may last for years.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Mobility issues:            
+              </span>Restricted flexibility and muscle weakness can lead to severe mobility disorders.            
+            </li>
+            
+          </ul>
+        </div>
+         <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          How Manual Lymphatic Massage at Tampa Motion Supports Your Healing Journey            
+          </h2>
+          
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Manual Lymphatic Massage encourages fluid drainage, reducing swelling and improving mobility. Our gentle techniques help eliminate excess fluid, easing discomfort and restoring movement.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>By promoting lymphatic flow, our massage enhances circulation and speeds up detoxification, helping your body recover faster after surgery and reducing downtime.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Fluid buildup can cause tightness and heaviness. Lymphatic massage targets these areas, relieving discomfort and restoring balance, so you can move with greater ease.           
+            </li>
+            
+          </ul>
+        </div>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+        </p>
+      </div>
+    </div>`,
+  },
+
+  {
+    title: `PELVIC FLOOR STRENGTHENING`,
+    url: ``,
+    slug: `PELVIC-FLOOR-STRENGTHENING`,
+    icon: ``,
+    sortTitle: ``,
+    heroDescription: ``,
+    shortDescription: ``,
+    description: ` 
+    <div>
+      <div className="  md:space-x-6">
+        <div>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+            The pelvic floor muscles hold the pelvic organ in their unique positions for optimal functions.  Hence, weakness of these muscles can directly affect the function of the bladder, intestines, urethra, rectum, vagina, cervix and prostate.          
+            </p>
+        </div>         
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+           Who is Affected the Most?           
+          </h2>
+          <p className="text-gray-700 mb-9 leading-relaxed">
+           Both men and women can suffer from pelvic floor weakness due to several reasons such as surgeries, trauma (childbirth / accidents) neurological conditions, menopause, aging.  Even genetics can play a role where some people simply have weaker muscles and connective tissue.           
+          </p>
+          <p className="text-gray-700 mb-4 leading-relaxed">
+           How Tampa Motion Can Help in the Recovery Process:           
+          </p>
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>For pregnant women, we offer gentle manual therapy and customized programs to ease back pain, sciatica, and joint stiffness, with core-strengthening exercises to improve posture and reduce strain.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Postpartum care of Tampa Motion includes targeted therapy to strengthen the pelvic floor, correct muscle imbalances, and restore core stability, reducing discomfort.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>In general, our clinicians will guide you, using evidence-based practice to safely strengthen weak muscles and relax muscles that are too tight.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+                      
+          </h2>
+          <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+Pregnant women and new mothers can suffer from hormonal changes, inflammation, weight gain, and post-birth recovery often lead to musculoskeletal issues.
+The Pelvic floor can be weakened by:
+          </p>
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Supporting the weight of the uterus during pregnancy           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Vaginal childbirth, which may overstretch the muscles
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>The pressure of obesity           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Chronic constipation and straining to poo
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Constant coughing           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Some forms of surgery that require cutting the muscles (including prostate cancer treatment in males)
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Lower levels of oestrogen after menopause           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Pelvic floor muscle tension caused by painful periods, endometriosis
+            </li>
+          </ul>
+        </div>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+        </p>
+      </div>
+    </div>`,
+  },
+  {
+    title: `PERSONAL / WORK INJURY`,
+    url: ``,
+    slug: `PERSONAL-WORK-INJURY`,
+    icon: ``,
+    sortTitle: ``,
+    heroDescription: ``,
+    shortDescription: ``,
+    description: ` 
+    <div>
+      <div className="  md:space-x-6">
+        <div>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+Personal and  work injuries can severely harm your mobility and quality of life, including ability to work and provide for oneself. Work injuries, from repetitive strain or accidents, can cause chronic pain, stiffness, and limited movement.
+            </p>
+        </div>         
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Who is Affected the Most?            
+          </h2>
+          
+          <ul className="list-none pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Individuals in physically demanding jobs or with poor ergonomics:            
+              </span>Particularly those aged 25 to 55, are at a higher risk for work-related injuries.           
+            </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Common Conditions Patients Face            
+          </h2>
+          <ul className="list-none pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Work-related injuries:           
+              </span>Strains, sprains, and repetitive motion injuries such as  tendonitis, back pain, carpal tunnel syndrome.           
+            </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          How Tampa Motion Can Help in the Recovery Process            
+          </h2>
+          <ul className="list-none pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>For strains, sprains, or repetitive motion injuries, our comprehensive treatment plans combine therapeutic exercises, manual therapy, and postural correction to relieve pain, restore function, and work-hardening to prevent future injuries.           
+            </li>
+            
+          </ul>
+        </div>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+        </p>
+      </div>
+    </div>`,
+  },
+  {
+    title: `FLEXIBILITY LAB (PASSIVE STRETCHING)`,
+    url: ``,
+    slug: `FLEXIBILITY-LAB-PASSIVE-STRETCHING)`,
+    icon: ``,
+    sortTitle: ``,
+    heroDescription: ``,
+    shortDescription: ``,
+    description: ` 
+    <div>
+      <div className="  md:space-x-6">
+        <div>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+            Do you often feel stiff, experience limited range of motion, or deal with aches that make daily tasks more challenging?  We understand that flexibility is more than just about movement—it's about living comfortably and confidently. Our Flexibility Lab focuses on passive stretching techniques tailored to your body’s needs, promoting better mobility, relaxation, and overall well-being.          
+            </p>
+        </div>         
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Who Can Benefit from Passive Stretching?            
+          </h2>
+          <p className="text-gray-700 mb-4 leading-relaxed">
+          This service is ideal for individuals experiencing:            
+          </p>
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Chronic stiffness:           
+              </span>           
+Whether from a sedentary lifestyle or repetitive movements.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Post-surgical recovery:           
+              </span>
+To gently regain range of motion under professional guidance.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Athletic performance plateaus:            
+              </span>For those looking to enhance flexibility for improved movement efficiency.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Stress-related tension:            
+              </span> Passive stretching helps calm the mind and ease tight muscles.
+            </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+           Risks of Overlooking Professional Support for Your Flexibility Needs           
+          </h2>
+          
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Restricted mobility:           
+              </span>Making even simple movements like bending, reaching, and walking uncomfortable           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Increased injury risk:           
+              </span>Tight muscles are more prone to strains and tears.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Chronic pain:           
+              </span>Over time, imbalances in flexibility can cause discomfort in joints and muscles.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Postural complications:            
+              </span>
+Poor flexibility often contributes to misalignment and slouched, poor posture.
+            </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+           How the Flexibility Lab at Tampa Motion,   Breaks Through Your Stretching Barriers          
+          </h2>
+          
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Our passive stretching techniques target areas of stiffness, helping you regain ease in movements like bending and reaching.          
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>
+By improving flexibility and muscle balance, we reduce your risk of strains and tears, keeping you safe during physical activity.
+
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>We address muscle imbalances and tightness to alleviate chronic pain, offering you long-term relief and comfort.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>
+Our stretches improve flexibility, realign your posture, and reduce strain on your spine, promoting better body mechanics.
+            </li>
+            
+          </ul>
+        </div><p className="text-gray-700 mb-4 leading-relaxed">
+                      
+        </p>
+      </div>
+    </div>`,
+  },
+  {
+    title: `CORE LAB (STRENGTHENING / FUNCTIONAL TRAINING)`,
+    url: ``,
+    slug: `CORE-LAB-STRENGTHENING-FUNCTIONAL-TRAINING)`,
+    icon: ``,
+    sortTitle: ``,
+    heroDescription: ``,
+    shortDescription: ``,
+    description: ` 
+    <div>
+      <div className="  md:space-x-6">
+        <div>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+             Do you often struggle with low energy, poor posture, or discomfort during physical activity? We understand that core strength is more than just about looking toned—it's about building a stable foundation for your body to function at its best. Our Core Lab focuses on strengthening the muscles that support your spine, pelvis, and abdomen, improving balance, posture, and overall strength needed for daily activities and higher-level work and sports related functions.         
+            </p>
+        </div>         
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+           Who Can Benefit from Core Strengthening?           
+          </h2>
+          <p className="text-gray-700 mb-4 leading-relaxed">
+          This service is ideal for individuals experiencing:            
+          </p>
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Weak core muscles:           
+              </span>A common cause of poor posture and discomfort during daily tasks or exercise.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Neck and Back pain:           
+              </span>Strengthening the core can provide relief from chronic pain by supporting your spine.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Post-surgical recovery:           
+              </span> Core strengthening exercises help rebuild strength after procedures like back surgery, joint replacements.          
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Athletic performance:           
+              </span>
+A strong core is key for improving coordination, agility, and endurance in sports.
+            </li>
+            
+          </ul>
+        </div>
+         <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+                      
+Risks of Overlooking Professional Support for Your Core Strengthening
+          </h2>
+          <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+          </p>
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Poor posture:            
+              </span>           
+Without a strong core, slouching or misalignment can become habitual, leading to back and neck pain.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Increased injury risk:           
+              </span>A weak core can strain muscles, joints, and ligaments, making you more vulnerable to injuries.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Limited mobility:           
+              </span>A lack of core strength can hinder your ability to move freely and comfortably.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Imbalance in movement:           
+              </span>Without core stability, your body may rely on other muscle groups, leading to overuse and discomfort.
+            </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+                      
+How the Core Lab at Tampa Motion Improve Your Strength and Stability
+          </h2>
+          <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+          </p>
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>We help strengthen the muscles supporting your spine, helping you maintain proper alignment and reducing back and neck pain caused by poor posture.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Our core exercises improve stability, supporting muscles, joints, and ligaments, lowering the risk of strains and injuries from weak core muscles.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>           
+By targeting core strength, we improve your flexibility and ease of movement, making everyday tasks and physical activities more comfortable.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>
+We focus on core stability to prevent your body from relying on other muscle groups, reducing discomfort, and correcting movement imbalances for better overall function.
+            </li>
+            
+          </ul>
+        </div>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+        </p>
+      </div>
+    </div>`,
+  },
+  {
+    title: `VESTIBULAR AND BALANCE THERAPY`,
+    url: ``,
+    slug: `VESTIBULAR-AND-BALANCE-THERAPY`,
+    icon: ``,
+    sortTitle: ``,
+    heroDescription: ``,
+    shortDescription: ``,
+    description: ` 
+    <div>
+      <div className="  md:space-x-6">
+        <div>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+            Do you experience dizziness, vertigo, or challenges with balance that disrupt your daily life? We understand how these issues can affect your overall well-being. Our Vestibular and Balance Therapy program is specifically designed to address inner ear disorders and neurological conditions that impact your body’s stability.          
+            </p>
+        </div>         
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+           Who Can Benefit from Vestibular and Balance Therapy?           
+          </h2>
+          
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Vertigo and dizziness:           
+              </span>Persistent spinning sensations or lightheadedness caused by inner ear issues, head injuries, or migraines.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Post-concussion symptoms:           
+              </span>Lingering balance problems, dizziness, or unsteadiness following a head injury or mild traumatic brain injury.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Balance disorders:           
+              </span>Struggles with coordination or stability due to aging, neurological conditions, or reduced muscle strength           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Neurological conditions:            
+              </span>Symptoms like unsteadiness or impaired mobility related to stroke, Parkinson’s disease, or Multiple Sclerosis.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Falls and fear of falling:            
+              </span>Frequent falls or anxiety about falling, especially in older adults, impacts confidence in daily activities.           
+            </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+           Risks of Overlooking Vestibular and Balance Therapy for Stability and Mobility           
+          </h2>
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Persistent dizziness:           
+              </span>Without therapy, dizziness can linger, disrupting your ability to perform daily activities comfortably and safely.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Higher fall risk:            
+              </span>Balance issues can increase the likelihood of falls, which may lead to injuries and limit independence.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Slower neurological recovery:            
+              </span> For conditions like stroke or Parkinson’s disease, skipping therapy may delay progress in restoring coordination and mobility.          
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Reduced confidence in movement:           
+              </span>Living with unaddressed balance problems can lead to a fear of falling, making it harder to stay active and engaged in your life.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Increased physical strain:            
+              </span>Overcompensating for balance challenges can lead to muscle tension or pain in other areas of the body, further impacting your quality of life.           
+            </li>
+            
+          </ul>
+        </div>
+         <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+           How Vestibular and Balance Therapy at Tampa Motion Supports Your Healing Journey           
+          </h2>
+          
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Our therapists use targeted exercises to recalibrate your vestibular system. These exercises help you feel steady and comfortable during daily activities.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Balance training improves your stability and strength. With practice, you move more confidently and avoid injuries caused by falls.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Our team creates specific exercises to restore coordination after strokes or during Parkinson’s treatment. These exercises rebuild strength and mobility effectively.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Our sessions help you trust your ability to move safely. You stay active and enjoy your favorite activities without fear of falling.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Strengthening exercises relieve muscle tension and correct posture. You feel more balanced and comfortable during everyday tasks.           
+            </li>
+            
+          </ul>
+        </div>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+        </p>
+      </div>
+    </div>`,
+  },
+  {
+    title: `School-based sports training and rehabilitation programs`,
+    url: ``,
+    slug: `School-based-sports-training-and-rehabilitation-programs`,
+    icon: ``,
+    sortTitle: ``,
+    heroDescription: ``,
+    shortDescription: ``,
+    description: ` 
+    <div>
+      <div className="  md:space-x-6">
+        <div>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+             Are you a student-athlete looking to enhance your performance or recover from an injury? We understand that participating in school sports is not just about competition—it’s about building strength, endurance, and resilience while staying healthy. Our School-Based Sports Training and Rehabilitation Programs are designed to help athletes at every level stay in top shape and safely recover when needed.         
+            </p>
+        </div>         
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+           Who Can Benefit from School-Based Sports Training and Rehabilitation?           
+          </h2>
+          <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+This program is ideal for:
+          </p>
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Student-athletes:           
+              </span>Those looking to improve overall physical performance, strength, and fitness for better results in their sport.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Injury recovery:            
+              </span>Athletes recovering from sprains, strains, or other injuries needing a structured rehabilitation plan to return safely to their sport.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Injury prevention:            
+              </span>Young athletes who want to build strength, flexibility, and proper movement patterns to reduce the risk of injuries during practices or games.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Improved performance:            
+              </span>Athletes aiming to enhance coordination, agility, and endurance to perform at their peak during competition.
+            </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Risks of Overlooking Professional Sports Training and Rehabilitation            
+          </h2>
+          
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Injury risk:            
+              </span>Without proper training or rehabilitation, athletes are more likely to suffer from sprains, strains, or overuse injuries.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Reduced performance:            
+              </span>Inadequate conditioning can lead to decreased strength, agility, and endurance during games and practices.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Unbalanced movement:            
+              </span>Poor training may cause athletes to develop bad habits that affect their overall physical performance and posture.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+              Longer recovery times:            
+              </span>Failing to address injuries early can lead to longer recovery periods and more severe setbacks.
+            </li>
+            
+          </ul>
+        </div>
+         <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+           How School-Based Sports Training and Rehabilitation Programs at Tampa Motion Enhance Athletic Performance and Recovery           
+          </h2>
+          
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span> Our professional training programs teach athletes proper techniques, reducing the risk of sprains, strains, and overuse injuries.          
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>We focus on improving strength, agility, and endurance, ensuring athletes perform at their best during practices and games.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>We provide tailored exercises that correct movement patterns and posture, preventing bad habits and promoting efficient, injury-free performance.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Our rehabilitation programs address injuries early with customized treatment plans that promote faster recovery. We focus on strengthening and rebuilding affected areas, ensuring a quicker return to full activity, and minimizing long-term setbacks.
+            </li>
+            
+          </ul>
+        </div>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+                      
+        </p>
+      </div>
+    </div>`,
+  },
+  {
+    title: `Work-place ergonomics and mobility workshops for businesses`,
+    url: ``,
+    slug: `Work-place-ergonomics-and-mobility-workshops-for-businesses`,
+    icon: ``,
+    sortTitle: ``,
+    heroDescription: ``,
+    shortDescription: ``,
+    description: ` 
+    <div>
+      <div className="  md:space-x-6">
+        <div>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+            Are your employees dealing with discomfort, fatigue, or injuries from poor posture or repetitive movements? Workplace wellness goes beyond just having the right tools. It’s about creating an environment where employees feel comfortable and can perform at their best.          
+            </p>
+        </div>         
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          Who Can Benefit from Work-Place Ergonomics and Mobility Workshops?            
+          </h2>
+          
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Businesses prioritizing employee health and performance:           
+              </span>           
+Companies that want to create a healthier, more productive workplace.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Employees who sit for long hours:           
+              </span>Individuals working at desks and computers for extended periods, where poor posture can lead to discomfort and pain.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Workers performing repetitive tasks:           
+              </span>Employees are involved in tasks that require repetitive movements, which can lead to strain and injury over time.           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Individuals engaged in physical labor:           
+              </span>Employees who perform manual tasks or heavy lifting, benefit from better posture, stretching, and mobility exercises to prevent injury.
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+               Teams needing to improve overall well-being:           
+              </span>Any workforce looking to reduce discomfort, improve flexibility, and boost productivity through healthier movement habits.           
+            </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h2 classname="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+         Risks of Overlooking Proper Ergonomics and Mobility Training            
+          </h2>
+          <ul classname="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span classname="font-semibold text-gray-900 pr-1">
+               Chronic discomfort:           
+              </span>Poor ergonomics can lead to back pain, neck stiffness, and other musculoskeletal issues.           
+            </li>
+            <li>
+              <span classname="font-semibold text-gray-900 pr-1">
+               Decreased productivity:           
+              </span>Discomfort from improper posture can distract employees, leading to reduced focus and efficiency.
+            </li>
+            <li>
+              <span classname="font-semibold text-gray-900 pr-1">
+               Increased injury risk:           
+              </span>Improper sitting, lifting, or repetitive movements can lead to long-term injuries needing surgeries, affecting employee performance and morale.           
+            </li>
+            <li>
+              <span classname="font-semibold text-gray-900 pr-1">
+               Higher healthcare costs:           
+              </span>Strained muscles and repetitive injuries can result in more sick days, expensive medical expenses, and insurance claims.
+            </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h2 classname="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+          
+How Workplace Ergonomics and Mobility Workshops at Tampa Motion Improve Business Performance
+            
+          </h2>
+          <ul classname="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              Personalized assessments and posture training reduce back pain, neck stiffness, and other musculoskeletal issues.           
+            </li>
+            <li>
+              Improved posture and movement habits keep employees comfortable and focused, boosting efficiency.
+            </li>
+            <li>
+              Safe movement techniques and mobility exercises lower the risk of injuries from repetitive tasks or poor posture.           
+            </li>
+            <li>
+              Early intervention reduces muscle strain, injuries, sick days, and medical expenses, saving your business money.
+            </li>
+            
+          </ul>
+        </div><p className="text-gray-700 mb-4 leading-relaxed">
+                      
         </p>
       </div>
     </div>`,

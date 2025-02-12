@@ -56,7 +56,7 @@ const MainHeader = () => {
       { title: "Testimonials", slug: "/testimonials" },
       { title: "Contact Us", slug: "/contact" },
     ],
-    []
+    [],
   );
   const menuItems = useMemo(
     () => [
@@ -66,11 +66,11 @@ const MainHeader = () => {
       { title: "Blog", slug: "/blog" },
       { title: "Contact Us", slug: "/contact" },
     ],
-    []
+    [],
   );
 
   const setPathSlug = services?.some(
-    (el) => pathname === `/services/${el?.service_slug}`
+    (el) => pathname === `/services/${el?.service_slug}`,
   );
 
   return (
@@ -140,20 +140,31 @@ const MainHeader = () => {
                                     setClassName(el.service);
                                   }}
                                 >
-                                  <p className="flex justify-between items-center text-nowrap w-full">
-                                    {el.service}
-                                    {className !== el.service ? (
-                                      <RiArrowDropDownLine className="size-5" />
-                                    ) : (
-                                      <RiArrowDropRightLine className="size-5" />
-                                    )}
+                                  <p className="  w-[285px]">
+                                    <Link
+                                      className="flex justify-between items-center "
+                                      href={`/services/${el.service_slug}`}
+                                    >
+                                      {el.service}
+                                      <span className="w-5 h-5">
+                                        {className !== el.service ? (
+                                          <RiArrowDropDownLine
+                                            className={`p-0 y-0 size-5 ${services.filter((e) => e.service === el?.service)[0]?.subClass?.length == 0 ? " text-white " : " "}`}
+                                          />
+                                        ) : (
+                                          <RiArrowDropRightLine
+                                            className={`size-5 p-0 y-0 size-5${services.filter((e) => e.service === el?.service)[0]?.subClass?.length == 0 ? " text-white " : " "}`}
+                                          />
+                                        )}
+                                      </span>
+                                    </Link>
                                     {className === el.service ? (
                                       <div
                                         className={`"text-primary absolute top-0 -right-[316px] w-full z-20 bg-white  transition-all duration-250 ease-in-out rounded-md " ${el.subClass.length == 0 ? "" : "border border-gray-200"}`}
                                       >
                                         {services
                                           .filter(
-                                            (e) => e.service === el.service
+                                            (e) => e.service === el.service,
                                           )[0]
                                           ?.subClass?.map(
                                             (subService, index) => (
@@ -168,7 +179,7 @@ const MainHeader = () => {
                                                   {subService.service}
                                                 </Link>
                                               </li>
-                                            )
+                                            ),
                                           )}
                                       </div>
                                     ) : (
@@ -190,7 +201,7 @@ const MainHeader = () => {
                     >
                       {el.title}
                     </Link>
-                  )
+                  ),
                 )}
               </div>
             </div>
