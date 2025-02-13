@@ -46,7 +46,7 @@ ul {
 //   description: "",
 // };
 
-function extractTextFromHtml(htmlString) {
+function extractTextFromHtml(htmlString: any) {
   // Use regex to strip HTML tags and extract plain text
   const plainText = htmlString.replace(/<\/?[^>]+(>|$)/g, "");
   return plainText;
