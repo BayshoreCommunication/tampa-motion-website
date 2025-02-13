@@ -52,7 +52,7 @@ type Props = {
 
 export async function generateMetadata(
   { params, searchParams }: Props,
-  parent: ResolvingMetadata
+  parent: ResolvingMetadata,
 ): Promise<Metadata> {
   // read route params
   const slug = (await params).slug;
@@ -90,7 +90,10 @@ const page = ({ params }: { params: { slug: string } }) => {
   const slug = params.slug;
 
   // fetch data
-  const data = servicesSlug.find((service) => service.slug === slug);
+  const data = servicesSlug.find(
+    (service) => service.slug.toLowerCase() === slug,
+  );
+  console.log(servicesSlug.map((e) => e.title));
 
   return (
     <article id="service" className=" bg-white text-black ">

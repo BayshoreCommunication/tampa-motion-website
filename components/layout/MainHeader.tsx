@@ -17,7 +17,7 @@ import { usePathname } from "next/navigation";
 
 import Image from "next/image";
 //import { areaspracticeData } from "@/config/data";
-import { services } from "@/config/serviceData";
+import { serviceMenu } from "@/config/serviceData";
 
 const baskerville = Libre_Baskerville({ subsets: ["latin"], weight: "400" });
 
@@ -69,7 +69,7 @@ const MainHeader = () => {
     [],
   );
 
-  const setPathSlug = services?.some(
+  const setPathSlug = serviceMenu?.some(
     (el) => pathname === `/services/${el?.service_slug}`,
   );
 
@@ -125,7 +125,7 @@ const MainHeader = () => {
                         </div>
                         <section className="absolute hidden group-hover:block bg-white shadow-lg rounded pt-6  ">
                           <ul className="cursor-pointer list-none rounded-md">
-                            {services?.map((el, index) => (
+                            {serviceMenu?.map((el, index) => (
                               <li key={index} className="p-0 m-0">
                                 {/* <Link */}
                                 {/*   href={`/services/${el.service_slug}`} */}
@@ -134,7 +134,7 @@ const MainHeader = () => {
                                 {/*   {el.service} */}
                                 {/* </Link> */}
                                 <div
-                                  className={`py-2 px-4 flex relative w-full h-full flex-col text-base xl:text-[16px] hover:text-secondary transition-all duration-250 ease-in-out border-b rounded-md ${pathname === `/practice-areas/${el?.slug}` ? " text-secondary " : "text-slate-900"}`}
+                                  className={`py-2 px-4 flex relative w-full h-full flex-col text-base xl:text-[16px] hover:text-secondary transition-all duration-250 ease-in-out border-b rounded-md ${pathname === `/practice-areas/${el?.service_slug.toLowerCase()}` ? " text-secondary " : "text-slate-900"}`}
                                   onMouseEnter={() => {
                                     setIsSubClassOpen(!isSubClassOpen);
                                     setClassName(el.service);
@@ -143,17 +143,17 @@ const MainHeader = () => {
                                   <p className="  w-[285px]">
                                     <Link
                                       className="flex justify-between items-center "
-                                      href={`/services/${el.service_slug}`}
+                                      href={`/services/${el.service_slug.toLowerCase()}`}
                                     >
                                       {el.service}
                                       <span className="w-5 h-5">
                                         {className !== el.service ? (
                                           <RiArrowDropDownLine
-                                            className={`p-0 y-0 size-5 ${services.filter((e) => e.service === el?.service)[0]?.subClass?.length == 0 ? " text-white " : " "}`}
+                                            className={`p-0 y-0 size-5 ${serviceMenu.filter((e) => e.service === el?.service)[0]?.subClass?.length == 0 ? " text-white " : " "}`}
                                           />
                                         ) : (
                                           <RiArrowDropRightLine
-                                            className={`size-5 p-0 y-0 size-5${services.filter((e) => e.service === el?.service)[0]?.subClass?.length == 0 ? " text-white " : " "}`}
+                                            className={`size-5 p-0 y-0 size-5${serviceMenu.filter((e) => e.service === el?.service)[0]?.subClass?.length == 0 ? " text-white " : " "}`}
                                           />
                                         )}
                                       </span>
@@ -162,7 +162,7 @@ const MainHeader = () => {
                                       <div
                                         className={`"text-primary absolute top-0 -right-[316px] w-full z-20 bg-white  transition-all duration-250 ease-in-out rounded-md " ${el.subClass.length == 0 ? "" : "border border-gray-200"}`}
                                       >
-                                        {services
+                                        {serviceMenu
                                           .filter(
                                             (e) => e.service === el.service,
                                           )[0]
@@ -173,8 +173,8 @@ const MainHeader = () => {
                                                 className={`"list-none border-b last:border-b-0 rounded-md  p-0 m-0 " ${subService.service === "" ? "hidden" : ""}`}
                                               >
                                                 <Link
-                                                  href={`/services/${subService.service_slug}`}
-                                                  className={`py-2 px-4 flex relative w-full h-full flex-col text-base xl:text-[16px] hover:text-secondary transition-all duration-250 ease-in-out rounded-md text-wrap ${pathname === `/practice-areas/${el?.slug}` ? " text-secondary " : "text-slate-900"}`}
+                                                  href={`/services/${subService.service_slug.toLowerCase()}`}
+                                                  className={`py-2 px-4 flex relative w-full h-full flex-col text-base xl:text-[16px] hover:text-secondary transition-all duration-250 ease-in-out rounded-md text-wrap ${pathname === `/practice-areas/${el?.service_slug.toLowerCase()}` ? " text-secondary " : "text-slate-900"}`}
                                                 >
                                                   {subService.service}
                                                 </Link>
