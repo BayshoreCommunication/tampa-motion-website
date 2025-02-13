@@ -104,7 +104,7 @@ const page = ({ params }: { params: { slug: string } }) => {
         description={data?.heroDescription || ""}
       />
 
-      <div className="container  py-10 md:py-16">
+      <div className="container py-10 md:py-16">
         {parse(data?.description || "")}
       </div>
     </article>

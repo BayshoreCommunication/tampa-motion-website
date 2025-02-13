@@ -13,7 +13,7 @@ const ServiceCards = () => {
             className="bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] rounded-3xl p-[2px] z-20 hover:scale-105  transition-all duration-300 ease-in-out"
             key={service.service}
           >
-            <Link href={`/services/${service.slug}`}>
+            <Link href={`/services/${service.slug.toLowerCase()}`}>
               <article className="w-full  h-[376px]  lg:h-[320px] border bg-white p-4 xl:p-8 rounded-3xl flex flex-col justify-center items-center border-transparent">
                 <Image
                   src={service.image}
@@ -26,7 +26,9 @@ const ServiceCards = () => {
                 <div className="text-xl font-bold  text-center">
                   {service.service}
                 </div>
-                <div className=" text-center pt-3  ">{service.text}</div>
+                <div className=" text-center pt-3  line-clamp-5">
+                  {service.text}
+                </div>
               </article>
             </Link>
           </div>
