@@ -20,10 +20,10 @@ export const serviceMenu = [
         service: "Pre-Surgical / Post-Surgical",
         service_slug: "Pre-Surgical-Post-Surgical",
       },
-      {
-        service: "Joint Replacement Rehabilitation",
-        service_slug: "Joint-Replacement-Rehabilitation",
-      },
+      // {
+      //   service: "Joint Replacement Rehabilitation",
+      //   service_slug: "Joint-Replacement-Rehabilitation",
+      // },
       {
         service: "Sports-Related Injuries (Sprains / Strains / Fractures)",
         service_slug: "Sports-Related-Injuries-Sprains-Strains-Fractures",
@@ -32,22 +32,22 @@ export const serviceMenu = [
         service: "Personal / Work Injury",
         service_slug: "Personal-Work-Injury",
       },
-      {
-        service: "Rotator Cuff Surgery Preparation",
-        service_slug: "Rotator-Cuff-Surgery-Preparation",
-      },
-      {
-        service: "Spine and Cosmetic Surgery Rehabilitation",
-        service_slug: "Spine-and-Cosmetic-Surgery-Rehabilitation",
-      },
-      {
-        service: "Ligament and Tendon Repair Rehabilitation",
-        service_slug: "Ligament-and-Tendon-Repair-Rehabilitation",
-      },
-      {
-        service: "Upper and Lower Extremity Surgery Rehabilitation",
-        service_slug: "Upper-and-Lower-Extremity-Surgery-Rehabilitation",
-      },
+      // {
+      //   service: "Rotator Cuff Surgery Preparation",
+      //   service_slug: "Rotator-Cuff-Surgery-Preparation",
+      // },
+      // {
+      //   service: "Spine and Cosmetic Surgery Rehabilitation",
+      //   service_slug: "Spine-and-Cosmetic-Surgery-Rehabilitation",
+      // },
+      // {
+      //   service: "Ligament and Tendon Repair Rehabilitation",
+      //   service_slug: "Ligament-and-Tendon-Repair-Rehabilitation",
+      // },
+      // {
+      //   service: "Upper and Lower Extremity Surgery Rehabilitation",
+      //   service_slug: "Upper-and-Lower-Extremity-Surgery-Rehabilitation",
+      // },
       {
         service: "FLEXIBILITY LAB (PASSIVE STRETCHING)",
         service_slug: "FLEXIBILITY-LAB-PASSIVE-STRETCHING",
@@ -137,16 +137,16 @@ export const serviceMenu = [
         service: "Vestibular and Balance Therapy",
         service_slug: "VESTIBULAR-AND-BALANCE-THERAPY",
       },
-      { service: "Stroke (CVA / TIA)", service_slug: "STROKE-CVA-TIA" },
-      {
-        service: "Parkinson’s Disease",
-        service_slug: "PARKINSONS-DISEASE",
-      },
-      { service: "Multiple Sclerosis", service_slug: "MULTIPLE-SCLEROSIS" },
-      {
-        service: "Sports-Related Injuries (Sprains / Strains / Fractures)",
-        service_slug: "SPORTS-RELATED-INJURIES-SPRAINS-STRAINS-FRACTURES",
-      },
+      // { service: "Stroke (CVA / TIA)", service_slug: "STROKE-CVA-TIA" },
+      // {
+      //   service: "Parkinson’s Disease",
+      //   service_slug: "PARKINSONS-DISEASE",
+      // },
+      // { service: "Multiple Sclerosis", service_slug: "MULTIPLE-SCLEROSIS" },
+      // {
+      //   service: "Sports-Related Injuries (Sprains / Strains / Fractures)",
+      //   service_slug: "SPORTS-RELATED-INJURIES-SPRAINS-STRAINS-FRACTURES",
+      // },
     ],
   },
   {
