@@ -32,7 +32,7 @@ export async function generateMetadata({ params }) {
 
 const page = async () => {
   const posts = await GetAllPostData().then((res) => res.data);
-  console.log(posts[0]);
+
   return (
     <section className="w-full flex flex-col justify-start items-center min-h-screen bg-white">
       <PageHeroSection
@@ -42,7 +42,7 @@ const page = async () => {
       <article className="bg-white w-full ">
         <div className="container bg-white grid grid-flow-row auto-rows-max grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-10">
           {posts?.map((el, index) => (
-            <ScrollMotionEffect effect="fade-up" duration="2000" key={index}>
+            <ScrollMotionEffect effect="fade-up" duration={2000} key={index}>
               <div className=" bg-white !shadow-md !rounded-md border h-full hover:scale-105 transition-all duration-400 ease-in-out">
                 <Image
                   src={el?.featuredImage?.image?.url}
