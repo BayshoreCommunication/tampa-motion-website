@@ -53,42 +53,7 @@ const page = () => {
             </p>
           </ScrollMotionEffect>
         </div>
-        {/* <div className="container py-5 px-5 text-black relative -top-20 ">
-          <article className="w-full  rounded-3xl grid grid-flow-row grid-cols-1  h-fit z-10 shadow-2xl">
-            <div className="w-full h-fit text-2xl text-center  pb-4 xl:text-3xl bg-white pt-5 rounded-t-3xl">
-              Book an appointment today
-            </div>
-            <form
-              action=""
-              method="post"
-              className="w-full px-2 pt-2 flex flex-col xl:items-center gap-4  xl:flex-row justify-center  bg-white pb-5 rounded-b-3xl  md:px-28 lg:px-36"
-            >
-              <input
-                type="text"
-                className="border border-black p-2 bg-white rounded-lg"
-                placeholder="Name"
-              />
-              <input
-                type="eamil"
-                className="border border-black p-2  bg-white rounded-lg"
-                placeholder="Email"
-              />
-              <input
-                type="text"
-                className="border border-black p-2 bg-white rounded-lg"
-                placeholder="Phone"
-              />
-              <input
-                type="text"
-                className="border border-black p-2  bg-white rounded-lg"
-                placeholder="Select"
-              />
-              <button className="px-10 py-2 bg-primary text-white rounded-lg">
-                Book Now
-              </button>
-            </form>
-          </article>
-        </div> */}
+
         <div className="container relative -top-20 ">
           <ScrollMotionEffect effect="fade-up" duration={2000}>
             <BookAnAppointment />
