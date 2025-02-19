@@ -48,7 +48,7 @@ const page = () => {
             </h3>
             <p className="text-center py-5 text-base 2xl:text-lg font-sans px-5 xl:px-52">
               Reserve your consultation and experience the difference of truly
-              dedicated physiotherapy. Ready to take that first step toward
+              dedicated physical therapy. Ready to take that first step toward
               feeling better?
             </p>
           </ScrollMotionEffect>

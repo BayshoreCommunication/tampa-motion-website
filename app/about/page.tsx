@@ -7,14 +7,14 @@ import Head from "next/head";
 import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
 export const metadata = {
   title:
-    "Experienced Physical Therapist tampa | Physical Rehabilitation Center Tampa | Tampa Motion | Best Ligament repair therapy sessions Tampa | ExpertTendon injury physiotherapy Florida",
+    "Experienced Physical Therapist tampa | Physical Rehabilitation Center Tampa | Tampa Motion | Best Ligament repair therapy sessions Tampa | ExpertTendon injury physical therapy Florida",
   description:
-    "Experience top-quality care at Tampa Motion, your trusted physical rehabilitation center Tampa. Our experienced physical therapist Tampa specializes in the best ligament repair therapy sessions Tampa and expert tendon injury physiotherapy Florida. Recover stronger with personalized treatment!",
+    "Experience top-quality care at Tampa Motion, your trusted physical rehabilitation center Tampa. Our experienced physical therapist Tampa specializes in the best ligament repair therapy sessions Tampa and expert tendon injury physical therapy Florida. Recover stronger with personalized treatment!",
   openGraph: {
     title:
-      "Experienced Physical Therapist tampa | Physical Rehabilitation Center Tampa | Tampa Motion | Best Ligament repair therapy sessions Tampa | ExpertTendon injury physiotherapy Florida",
+      "Experienced Physical Therapist tampa | Physical Rehabilitation Center Tampa | Tampa Motion | Best Ligament repair therapy sessions Tampa | ExpertTendon injury physical therapy Florida",
     description:
-      "Experience top-quality care at Tampa Motion, your trusted physical rehabilitation center Tampa. Our experienced physical therapist Tampa specializes in the best ligament repair therapy sessions Tampa and expert tendon injury physiotherapy Florida. Recover stronger with personalized treatment!",
+      "Experience top-quality care at Tampa Motion, your trusted physical rehabilitation center Tampa. Our experienced physical therapist Tampa specializes in the best ligament repair therapy sessions Tampa and expert tendon injury physical therapy Florida. Recover stronger with personalized treatment!",
     url: "https://www.tampamotion.com/about",
     siteName: "Tampa Motion",
     images: [
@@ -32,7 +32,7 @@ const page = () => {
   //   <section className="">
   //     <PageHeroSection
   //       title="About Us"
-  //       description="Everybody has their own story, and every recovery is a unique journey. With over 15 years of experience in physiotherapy and rehabilitation, we’ve had the privilege of helping over 600 people overcome injuries, regain function, and live more fully. But it’s not just the numbers that define us; it’s the lives we’ve touched along the way."
+  //       description="Everybody has their own story, and every recovery is a unique journey. With over 15 years of experience in physical therapy and rehabilitation, we’ve had the privilege of helping over 600 people overcome injuries, regain function, and live more fully. But it’s not just the numbers that define us; it’s the lives we’ve touched along the way."
   //     />
   //     <ExperienceSection />
   //     <Healing />
@@ -44,7 +44,7 @@ const page = () => {
     <section className="w-full flex flex-col justify-start items-center min-h-screen bg-white">
       <PageHeroSection
         title="About Us"
-        description="Everybody has their own story, and every recovery is a unique journey. With over 15 years of experience in physiotherapy and rehabilitation, we’ve had the privilege of helping over 600 people overcome injuries, regain function, and live more fully. But it’s not just the numbers that define us; it’s the lives we’ve touched along the way."
+        description="Everybody has their own story, and every recovery is a unique journey. With over 15 years of experience in physical therapy and rehabilitation, we’ve had the privilege of helping over 600 people overcome injuries, regain function, and live more fully. But it’s not just the numbers that define us; it’s the lives we’ve touched along the way."
       />
       <article className="bg-white w-full pb-10">
         <ScrollMotionEffect effect="fade-in" duration={2500}>

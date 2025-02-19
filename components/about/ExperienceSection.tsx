@@ -56,7 +56,7 @@ const ExperienceSection = () => {
             </div>
             <div className="flex-1">
               <h2 className="text-3xl md:text-5xl font-semibold mt-6 md:text-center text-center text-black  !leading-snug  xl:text-left">
-                Experience The Healing Power Of Physiotherapy
+                Experience The Healing Power Of Physical Therapy
               </h2>
               <p className="text-base md:text-lg font-medium mt-4  text-black mb-6  md:text-center text-center  lg:text-center xl:text-left">
                 Every recovery needs the right support. Your state of health is

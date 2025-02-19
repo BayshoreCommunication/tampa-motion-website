@@ -4,10 +4,10 @@ export const serviceMenu = [
     service_slug: "",
 
     subClass: [
-      {
-        service: "Physiotherapy",
-        service_slug: "physiotherapy",
-      },
+      // {
+      //   service: "Physiotherapy",
+      //   service_slug: "physiotherapy",
+      // },
       {
         service: "Orthopedic / Joint Pain / Spine",
         service_slug: "Orthopedic-Joint-Pain-Spine",
@@ -49,7 +49,7 @@ export const serviceMenu = [
       //   service_slug: "Upper-and-Lower-Extremity-Surgery-Rehabilitation",
       // },
       {
-        service: "FLEXIBILITY LAB (PASSIVE STRETCHING)",
+        service: "Flexibility Lab (Passive Stretching)",
         service_slug: "FLEXIBILITY-LAB-PASSIVE-STRETCHING",
       },
       {
@@ -67,12 +67,12 @@ export const serviceMenu = [
         service: "Neurological Rehab",
         service_slug: "neurological-rehabilitation",
       },
-      { service: "MULTIPLE SCLEROSIS", service_slug: "MULTIPLE-SCLEROSIS" },
-      { service: "LUPUS", service_slug: "LUPUS" },
-      { service: "STROKE (CVA / TIA)", service_slug: "STROKE-CVA-TIA" },
-      { service: "PARKINSON’S DISEASE", service_slug: "PARKINSONS-DISEASE" },
+      { service: "Multiple Sclerosis", service_slug: "MULTIPLE-SCLEROSIS" },
+      { service: "Lupus", service_slug: "Lupus" },
+      { service: "Stroke (Cva/Tia)", service_slug: "STROKE-CVA-TIA" },
+      { service: "Parkinson's Disease", service_slug: "PARKINSONS-DISEASE" },
       {
-        service: "EHLERS DANLOS SYNDROME",
+        service: "Ehlers Danlos Syndrome",
         service_slug: "EHLERS-DANLOS-SYNDROME",
       },
     ],
@@ -118,26 +118,26 @@ export const serviceMenu = [
     ],
   },
   {
-    service: "Manual lymphatic drainage",
+    service: "Manual Lymphatic Drainage",
     service_slug: "MANUAL-LYMPHATIC-DRAINAGE",
 
     subClass: [],
   },
   {
-    service: "Pelvic floor strengthening",
+    service: "Pelvic Floor Strengthening",
     service_slug: "PELVIC-FLOOR-STRENGTHENING",
     subClass: [],
   },
   {
-    service: "Balance dysfunction / Vestibular",
+    service: "Balance Dysfunction / Vestibular",
     service_slug: "",
 
     subClass: [
       {
-        service: "Vestibular and Balance Therapy",
+        service: "Vestibular And Balance Therapy",
         service_slug: "VESTIBULAR-AND-BALANCE-THERAPY",
       },
-      // { service: "Stroke (CVA / TIA)", service_slug: "STROKE-CVA-TIA" },
+      // { service: "Stroke (Cva/Tia)", service_slug: "STROKE-CVA-TIA" },
       // {
       //   service: "Parkinson’s Disease",
       //   service_slug: "PARKINSONS-DISEASE",
@@ -150,7 +150,7 @@ export const serviceMenu = [
     ],
   },
   {
-    service: "Community Outreach and Advisory Programs",
+    service: "Community Outreach And Advisory Programs",
     service_slug: "",
 
     subClass: [
@@ -167,18 +167,32 @@ export const serviceMenu = [
     ],
   },
 ];
+export const insuranceMenu = [
+  {
+    service: "Insurance",
+    service_slug: "insurance",
+
+    subClass: [],
+  },
+  {
+    service: "Non Insurance",
+    service_slug: "non-insurance",
+
+    subClass: [],
+  },
+];
 
 export const services = [
-  {
-    service: "Physiotherapy",
-    service_slug: "physiotherapy",
-    text: `
-   Physiotherapy is a specialized healthcare service focused on improving mobility, reducing pain, and restoring physical function through targeted therapeutic exercises, manual therapy, and advanced rehabilitation techniques.
-   `,
-    image: "/assets/services/Physiotherapy.png",
-    alt: "Physiotherapy",
-    slug: "physiotherapy",
-  },
+  // {
+  //   service: "Physiotherapy",
+  //   service_slug: "physiotherapy",
+  //   text: `
+  //  Physiotherapy is a specialized healthcare service focused on improving mobility, reducing pain, and restoring physical function through targeted therapeutic exercises, manual therapy, and advanced rehabilitation techniques.
+  //  `,
+  //   image: "/assets/services/Physiotherapy.png",
+  //   alt: "Physiotherapy",
+  //   slug: "physiotherapy",
+  // },
   {
     service: "Joint Replacement Rehabilitation",
     service_slug: "joint-replacement-rehabilitation",
@@ -193,7 +207,7 @@ export const services = [
     service: "Neurological Rehabilitation",
     service_slug: "neurological-rehabilitation",
     text: `
-   Neurological rehabilitation is a specialized form of therapy designed to help individuals recover and adapt after conditions affecting the nervous system, such as strokes, brain injuries, or neurological disorders.
+   Neurological Rehabilitation is a specialized form of therapy designed to help individuals recover and adapt after conditions affecting the nervous system, such as strokes, brain injuries, or neurological disorders.
    `,
     image: "/assets/services/neurological_rehab.png",
     alt: "Neurological Rehab",
@@ -219,11 +233,11 @@ export const services = [
     slug: "pre-and-post-operative-rehabilitation",
   },
   {
-    service: "Rotator cuff surgery preparation",
+    service: "Rotator Cuff Surgery Preparation",
     service_slug: "rotator-cuff-surgery-preparation",
     text: `Rotator cuff surgery preparation is a focused rehabilitation program designed to optimize shoulder strength, flexibility, and function before undergoing surgical repair.`,
     image: "/assets/services/cuff_surgery.png",
-    alt: "Rotator cuff surgery preparation",
+    alt: "Rotator Cuff Surgery Preparation",
     slug: "rotator-cuff-surgery-preparation",
   },
   {
@@ -258,7 +272,7 @@ export const services = [
   },
   // new items
   {
-    service: "CONSERVATIVE (NON-INVASIVE TREATMENTS)",
+    service: "Conservative (Non-Invasive Treatments)",
     service_slug: "",
     text: `Injuries to most joints and spine can leave you struggling with pain and limited movement. Whether from trauma, overuse, or degeneration, these conditions can disrupt your daily life. We are committed to helping you reclaim what’s been lost. With personalized care and advanced rehabilitation, we’ll help you move freely again and restore your quality of life.
 `,
@@ -283,7 +297,7 @@ export const services = [
     slug: "PRE-SURGICAL-POST-SURGICAL",
   },
   {
-    service: "COSMETIC SURGERY REHAB",
+    service: "Cosmetic Surgery Rehab",
     service_slug: "",
     text: `Cosmetic surgeries can significantly improve a patient's quality of life, whether by alleviating chronic pain, improving health or enhancing physical appearance. However, the success of these surgeries heavily relies on comprehensive pre- and post-operative rehabilitation. Proper rehab ensures optimal recovery, minimizes complications, and helps patients return to their daily activities with improved function and confidence.`,
     image: "/assets/services/extremities_surgeries.png",
@@ -291,7 +305,7 @@ export const services = [
     slug: "COSMETIC-SURGERY-REHAB",
   },
   {
-    service: "MULTIPLE SCLEROSIS",
+    service: "Multiple Sclerosis",
     service_slug: "",
     text: `Multiple Sclerosis (MS) is a chronic neurological condition where the immune system mistakenly attacks the protective covering of nerves (myelin), causing communication issues between the brain and body. MS affects the central nervous system, leading to a variety of symptoms that can disrupt daily life with fatigue and mobility issues. When it is severe, some individuals may face cognitive difficulties such as difficulties in reading, writing, understanding, or making any decision.
 `,
@@ -300,15 +314,15 @@ export const services = [
     slug: "MULTIPLE-SCLEROSIS",
   },
   {
-    service: "LUPUS",
+    service: "Lupus",
     service_slug: "",
-    text: `Lupus, specifically systemic lupus erythematosus (SLE), is a chronic autoimmune disease where the immune system attacks healthy tissues and organs unintentionally. It can affect the skin, joints, kidneys, heart, and nervous system. Symptoms vary widely but often include joint pain, fatigue, skin rashes, and neurological issues, making it challenging to manage without specialized care. Early diagnosis and ongoing care are essential, as complications like kidney damage and cardiovascular issues can occur.`,
+    text: `Lupus, specifically systemic Lupus erythematosus (SLE), is a chronic autoimmune disease where the immune system attacks healthy tissues and organs unintentionally. It can affect the skin, joints, kidneys, heart, and nervous system. Symptoms vary widely but often include joint pain, fatigue, skin rashes, and neurological issues, making it challenging to manage without specialized care. Early diagnosis and ongoing care are essential, as complications like kidney damage and cardiovascular issues can occur.`,
     image: "/assets/services/extremities_surgeries.png",
     alt: "",
-    slug: "LUPUS",
+    slug: "Lupus",
   },
   {
-    service: "STROKE (CVA / TIA)",
+    service: "Stroke (Cva/Tia)",
     service_slug: "",
     text: `A stroke,  a cerebrovascular accident (CVA), occurs when blood flow to the brain is interrupted, leading to potential brain damage and a range of physical issues such as paralysis, difficulty speaking, cognitive impairments, and more. Stroke rehabilitation is a specialized program designed to help individuals recover from a stroke. It is dedicated to helping stroke survivors regain physical and emotional strength, improving their quality of life.
 `,
@@ -325,7 +339,7 @@ export const services = [
     slug: "PARKINSONS-DISEASE",
   },
   {
-    service: "EHLERS DANLOS SYNDROME",
+    service: "Ehlers Danlos Syndrome",
     service_slug: "",
     text: `Ehlers-Danlos Syndrome (EDS) is a collection of genetic disorders that impact connective tissues, influencing the skin, joints, and the walls of blood vessels. People with EDS often have hypermobile joints, skin that bruises easily, and fragile tissues. Rehabilitation for EDS aims to help manage symptoms and improve quality of life. This is achieved through a combination of manual lymphatic massage, therapeutic exercises, education, and supportive treatments.
 `,
@@ -334,7 +348,7 @@ export const services = [
     slug: "EHLERS-DANLOS-SYNDROME",
   },
   {
-    service: "SPORTS-RELATED INJURIES (SPRAINS / STRAINS / FRACTURES)",
+    service: "Sports-Related Injuries (Sprains / Strains / Fractures)",
     service_slug: "",
     text: `Sports-related injuries, such as sprains, strains, and fractures, are common conditions that affect the musculoskeletal system. A sprain involves ligament damage, while a strain affects muscles or tendons. Fractures are breaks in the bone, often caused by high-impact sports or repetitive stress. These injuries can result in significant pain, reduced mobility, and a prolonged recovery process without proper treatment.`,
     image: "/assets/services/extremities_surgeries.png",
@@ -342,7 +356,7 @@ export const services = [
     slug: "SPORTS-RELATED-INJURIES-SPRAINS-STRAINS-FRACTURES",
   },
   {
-    service: "MANUAL LYMPHATIC DRAINAGE",
+    service: "Manual Lymphatic Drainage",
     service_slug: "",
     text: `Do you struggle with swelling, discomfort, or slow recovery after surgery? We understand how these issues can impact your quality of life. Our Manual Lymphatic Drainage (MLD) service is specifically designed to help manage lymphedema and promote faster healing after surgeries. This gentle, non-invasive therapy focuses on stimulating the lymphatic system, improving circulation, and reducing swelling to support your body’s natural detoxification process.`,
     image: "/assets/services/extremities_surgeries.png",
@@ -350,7 +364,7 @@ export const services = [
     slug: "MANUAL-LYMPHATIC-DRAINAGE",
   },
   {
-    service: "PELVIC FLOOR STRENGTHENING",
+    service: "Pelvic Floor Strengthening",
     service_slug: "",
     text: `The pelvic floor muscles hold the pelvic organ in their unique positions for optimal functions.  Hence, weakness of these muscles can directly affect the function of the bladder, intestines, urethra, rectum, vagina, cervix and prostate.
 `,
@@ -368,7 +382,7 @@ export const services = [
     slug: "PERSONAL-WORK-INJURY",
   },
   {
-    service: "FLEXIBILITY LAB (PASSIVE STRETCHING)",
+    service: "Flexibility Lab (Passive Stretching)",
     service_slug: "",
     text: `Do you often feel stiff, experience limited range of motion, or deal with aches that make daily tasks more challenging?  We understand that flexibility is more than just about movement—it's about living comfortably and confidently. Our Flexibility Lab focuses on passive stretching techniques tailored to your body’s needs, promoting better mobility, relaxation, and overall well-being.
 `,
@@ -386,7 +400,7 @@ export const services = [
     slug: "CORE-LAB-STRENGTHENING-FUNCTIONAL-TRAINING",
   },
   {
-    service: "VESTIBULAR AND BALANCE THERAPY",
+    service: "Vestibular And Balance Therapy",
     service_slug: "",
     text: `Do you experience dizziness, vertigo, or challenges with balance that disrupt your daily life? We understand how these issues can affect your overall well-being. Our Vestibular and Balance Therapy program is specifically designed to address inner ear disorders and neurological conditions that impact your body’s stability. `,
     image: "/assets/services/extremities_surgeries.png",
@@ -537,115 +551,115 @@ const slugStructure = {
 //-----------------------
 
 export const servicesSlug = [
-  {
-    title: "Physiotherapy",
-    url: "",
-    slug: "physiotherapy",
-    icon: "",
-    sortTitle: "",
-    heroDescription: `Recover faster with expert physiotherapy that boosts strength, flexibility, and mobility through focused treatments.`,
-    shortDescription: ``,
-    description: ` 
-    <div class="h-fit ">
-      <div class=" md:space-x-6">
-        <div>
-            <p class="text-gray-700 mb-4 leading-relaxed">
-                      
-Physiotherapy is a specialized healthcare service focused on improving mobility, reducing pain, and restoring physical function through targeted therapeutic exercises, manual therapy, and advanced rehabilitation techniques.
-            </p>
-        </div>         
-        <div>
-          <h2 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-                      
-Who Can Benefit from This Service?
-          </h2>
-          <p class="text-gray-700 mb-4 leading-relaxed">
-                      
-Physiotherapy is ideal for individuals of all ages dealing with a wide range of physical challenges, including:
-          </p>
-          <ul className="list-disc pl-8 ml-10 to-emerald-500 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
-            <li>
-              <span class="font-bold text-gray-900 pr-1">
-  Chronic Pain:                        
-              </span>           
- Persistent back, neck, shoulder, or joint pain due to conditions like arthritis or fibromyalgia.
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-  Injuries:                        
-              </span>
- Sports injuries, workplace injuries, or accidents causing muscle strain, ligament tears, or fractures.
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-  Post-Surgery Recovery:                        
-              </span>           
- Rehabilitation after orthopedic surgeries such as joint replacements or spinal procedures.
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-  Neurological Conditions:                        
-              </span>
- Issues like stroke, multiple sclerosis, or Parkinson's disease affecting balance and coordination.
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-  Movement Disorders:                        
-              </span>           
- Difficulty in walking, climbing stairs, or performing daily activities due to aging or illness.
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-                      
-How Tampa Motion Kinetics Helps You Heal and Move Forward
-          </h2>
-          <p className="text-gray-700 mb-4 leading-relaxed">
-                      
-Tampa Motion Kinetics PLLC addresses your physical challenges with a comprehensive and  customized approach:
-          </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2 ">
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>           
-Our experienced physiotherapists conduct detailed evaluations to identify the root cause of your pain or movement issues.
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>
-We employ modern treatment methods, including dry needling, cupping therapy, and electrotherapy, alongside traditional techniques to ensure optimal results.
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>           
-Each session focuses on your unique goals, providing hands-on therapy and tailored exercise regimens for faster recovery.
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>
-Our clinic features advanced rehabilitation equipment, allowing us to treat a wide range of conditions effectively.
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>           
-Beyond physical therapy, we guide lifestyle adjustments, ergonomic improvements, and preventative strategies to maintain long-term health and mobility.
-            </li>
-          
-          </ul>
-        </div>
-        <p className="text-gray-700 mb-4 leading-relaxed">
-                      
-Tampa Motion Kinetics PLLC is your trusted partner in overcoming physical challenges and rediscovering the freedom to move pain-free. Reach out today and take the first step toward a healthier, more active life.
-        </p>
-      </div>
-    </div>`,
-  },
+  //   {
+  //     title: "Physiotherapy",
+  //     url: "",
+  //     slug: "physiotherapy",
+  //     icon: "",
+  //     sortTitle: "",
+  //     heroDescription: `Recover faster with expert physiotherapy that boosts strength, flexibility, and mobility through focused treatments.`,
+  //     shortDescription: ``,
+  //     description: `
+  //     <div class="h-fit ">
+  //       <div class=" md:space-x-6">
+  //         <div>
+  //             <p class="text-gray-700 mb-4 leading-relaxed">
+
+  // Physiotherapy is a specialized healthcare service focused on improving mobility, reducing pain, and restoring physical function through targeted therapeutic exercises, manual therapy, and advanced rehabilitation techniques.
+  //             </p>
+  //         </div>
+  //         <div>
+  //           <h2 class="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+
+  // Who Can Benefit from This Service?
+  //           </h2>
+  //           <p class="text-gray-700 mb-4 leading-relaxed">
+
+  // Physiotherapy is ideal for individuals of all ages dealing with a wide range of physical challenges, including:
+  //           </p>
+  //           <ul className="list-disc pl-8 ml-10 to-emerald-500 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+  //             <li>
+  //               <span class="font-bold text-gray-900 pr-1">
+  //   Chronic Pain:
+  //               </span>
+  //  Persistent back, neck, shoulder, or joint pain due to conditions like arthritis or fibromyalgia.
+  //             </li>
+  //             <li>
+  //               <span className="font-semibold text-gray-900 pr-1">
+  //   Injuries:
+  //               </span>
+  //  Sports injuries, workplace injuries, or accidents causing muscle strain, ligament tears, or fractures.
+  //             </li>
+  //             <li>
+  //               <span className="font-semibold text-gray-900 pr-1">
+  //   Post-Surgery Recovery:
+  //               </span>
+  //  Rehabilitation after orthopedic surgeries such as joint replacements or spinal procedures.
+  //             </li>
+  //             <li>
+  //               <span className="font-semibold text-gray-900 pr-1">
+  //   Neurological Conditions:
+  //               </span>
+  //  Issues like stroke, Multiple Sclerosis, or Parkinson's disease affecting balance and coordination.
+  //             </li>
+  //             <li>
+  //               <span className="font-semibold text-gray-900 pr-1">
+  //   Movement Disorders:
+  //               </span>
+  //  Difficulty in walking, climbing stairs, or performing daily activities due to aging or illness.
+  //             </li>
+  //           </ul>
+  //         </div>
+  //         <div>
+  //           <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+
+  // How Tampa Motion Kinetics Helps You Heal and Move Forward
+  //           </h2>
+  //           <p className="text-gray-700 mb-4 leading-relaxed">
+
+  // Tampa Motion Kinetics PLLC addresses your physical challenges with a comprehensive and  customized approach:
+  //           </p>
+  //           <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2 ">
+  //             <li>
+  //               <span className="font-semibold text-gray-900 pr-1">
+
+  //               </span>
+  // Our experienced physiotherapists conduct detailed evaluations to identify the root cause of your pain or movement issues.
+  //             </li>
+  //             <li>
+  //               <span className="font-semibold text-gray-900 pr-1">
+
+  //               </span>
+  // We employ modern treatment methods, including dry needling, cupping therapy, and electrotherapy, alongside traditional techniques to ensure optimal results.
+  //             </li>
+  //             <li>
+  //               <span className="font-semibold text-gray-900 pr-1">
+
+  //               </span>
+  // Each session focuses on your unique goals, providing hands-on therapy and tailored exercise regimens for faster recovery.
+  //             </li>
+  //             <li>
+  //               <span className="font-semibold text-gray-900 pr-1">
+
+  //               </span>
+  // Our clinic features advanced rehabilitation equipment, allowing us to treat a wide range of conditions effectively.
+  //             </li>
+  //             <li>
+  //               <span className="font-semibold text-gray-900 pr-1">
+
+  //               </span>
+  // Beyond physical therapy, we guide lifestyle adjustments, ergonomic improvements, and preventative strategies to maintain long-term health and mobility.
+  //             </li>
+
+  //           </ul>
+  //         </div>
+  //         <p className="text-gray-700 mb-4 leading-relaxed">
+
+  // Tampa Motion Kinetics PLLC is your trusted partner in overcoming physical challenges and rediscovering the freedom to move pain-free. Reach out today and take the first step toward a healthier, more active life.
+  //         </p>
+  //       </div>
+  //     </div>`,
+  //   },
   {
     title: "Joint Replacement Rehabilitation",
     url: "",
@@ -757,7 +771,7 @@ Tampa Motion Kinetics PLLC is dedicated to supporting you through every step of 
         <div>
             <p className="text-gray-700 mb-4 leading-relaxed">
                       
-Neurological rehabilitation is a specialized form of therapy designed to help individuals recover and adapt after conditions affecting the nervous system, such as strokes, brain injuries, or neurological disorders.
+Neurological Rehabilitation is a specialized form of therapy designed to help individuals recover and adapt after conditions affecting the nervous system, such as strokes, brain injuries, or neurological disorders.
             </p>
         </div>         
         <div>
@@ -767,7 +781,7 @@ Who Can Benefit from This Service?
           </h2>
           <p className="text-gray-700 mb-4 leading-relaxed">
                       
-Neurological rehab is for individuals facing challenges resulting from:
+Neurological Rehab is for individuals facing challenges resulting from:
           </p>
           <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
@@ -786,7 +800,7 @@ Neurological rehab is for individuals facing challenges resulting from:
               <span className="font-semibold text-gray-900 pr-1">
   Neurological Disorders:                        
               </span>           
- Conditions like multiple sclerosis or ALS that impact mobility and daily activities.
+ Conditions like Multiple Sclerosis or ALS that impact mobility and daily activities.
             </li>
             <li>
               <span className="font-semibold text-gray-900 pr-1">
@@ -1278,7 +1292,7 @@ For spine surgeries, we enhance core and spinal muscle strength to stabilize and
               <span className="font-semibold text-gray-900 pr-1">
                           
               </span>
-Post-surgery, we use techniques like manual lymphatic drainage, compression therapy, and therapeutic exercises to minimize discomfort and promote healing.
+Post-surgery, we use techniques like Manual Lymphatic Drainage, compression therapy, and therapeutic exercises to minimize discomfort and promote healing.
             </li>
             <li>
               <span className="font-semibold text-gray-900 pr-1">
@@ -1544,7 +1558,7 @@ Tampa Motion Kinetics PLLC is dedicated to ensuring that your recovery from uppe
     </div>`,
   },
   {
-    title: `CONSERVATIVE (NON-INVASIVE TREATMENTS)`,
+    title: `Conservative (Non-Invasive Treatments)`,
     url: ``,
     slug: `CONSERVATIVE-NON-INVASIVE-TREATMENTS`,
     icon: ``,
@@ -1650,7 +1664,7 @@ Our team offers personalized physical therapy programs designed to reduce swelli
     </div>`,
   },
   {
-    title: `ORTHOPEDIC / JOINT PAIN / SPINE`,
+    title: `Orthopedic/ Joint Pain / Spine`,
     url: ``,
     slug: `ORTHOPEDIC-JOINT-PAIN-SPINE`,
     icon: ``,
@@ -1857,7 +1871,7 @@ Athena Akram, DPT, the CEO and Senior Physical Therapist of Tampa Motion has ext
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                Breathing Training and Circulation Treatments:           
-              </span>We aim to improve lung function and reduce the risk of post-surgery blood clots. We also offer manual lymphatic drainage for optimal results of all surgeries.           
+              </span>We aim to improve lung function and reduce the risk of post-surgery blood clots. We also offer Manual Lymphatic Drainage for optimal results of all surgeries.           
             </li>
             <li>
               <span className="font-semibold text-gray-900 pr-1">
@@ -1903,7 +1917,7 @@ Athena Akram, DPT, the CEO and Senior Physical Therapist of Tampa Motion has ext
     </div>`,
   },
   {
-    title: `PRE-SURGICAL  /  POST-SURGICAL`,
+    title: `Pre-Surgical / Post-Surgical`,
     url: ``,
     slug: `PRE-SURGICAL-POST-SURGICAL`,
     icon: ``,
@@ -1989,7 +2003,7 @@ Athena Akram, DPT, the CEO and Senior Physical Therapist of Tampa Motion has ext
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Breathing Training and Circulation Treatments:            
-              </span>We aim to improve lung function and reduce the risk of post-surgery blood clots. We also offer manual lymphatic drainage for optimal results of all surgeries.           
+              </span>We aim to improve lung function and reduce the risk of post-surgery blood clots. We also offer Manual Lymphatic Drainage for optimal results of all surgeries.           
             </li>
             <li>
               <span className="font-semibold text-gray-900 pr-1">
@@ -2040,7 +2054,7 @@ Athena Akram, DPT, the CEO and Senior Physical Therapist of Tampa Motion has ext
     </div>`,
   },
   {
-    title: `COSMETIC SURGERY REHAB`,
+    title: `Cosmetic Surgery Rehab`,
     url: ``,
     slug: `COSMETIC-SURGERY-REHAB`,
     icon: ``,
@@ -2090,7 +2104,7 @@ Athena Akram, DPT, the CEO and Senior Physical Therapist of Tampa Motion has ext
         </div>
         <div>
           <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-          Pre- and post-operative rehab can prevent several complications:            
+          Pre- and Post-Operative Rehab can prevent several complications:            
           </h2>
           
           <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
@@ -2144,7 +2158,7 @@ We use techniques like massage and soft tissue mobilizations to minimize scar ti
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Swelling and Bruising Control:            
-              </span>We provide manual lymphatic drainage, Kinesio taping, Infra-red therapy, and cold therapy to address inflammatory processes.
+              </span>We provide Manual Lymphatic Drainage, Kinesio taping, Infra-red therapy, and cold therapy to address inflammatory processes.
             </li>
             <li>
               <span className="font-semibold text-gray-900 pr-1">
@@ -2166,7 +2180,7 @@ We use techniques like massage and soft tissue mobilizations to minimize scar ti
   },
 
   {
-    title: `MULTIPLE SCLEROSIS`,
+    title: `Multiple Sclerosis`,
     url: ``,
     slug: `MULTIPLE-SCLEROSIS`,
     icon: ``,
@@ -2214,7 +2228,7 @@ We use techniques like massage and soft tissue mobilizations to minimize scar ti
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Older Adults:            
-              </span>They may develop progressive forms, leading to severe disabilities and requiring comprehensive neurological rehabilitation.           
+              </span>They may develop progressive forms, leading to severe disabilities and requiring comprehensive Neurological Rehabilitation.           
             </li>
             
           </ul>
@@ -2256,9 +2270,9 @@ We use techniques like massage and soft tissue mobilizations to minimize scar ti
     </div>`,
   },
   {
-    title: `LUPUS`,
+    title: `Lupus`,
     url: ``,
-    slug: `LUPUS`,
+    slug: `Lupus`,
     icon: ``,
     sortTitle: ``,
     heroDescription: ``,
@@ -2372,7 +2386,7 @@ Lupus predominantly affects women, especially those between the ages of 15 and 4
     </div>`,
   },
   {
-    title: `STROKE (CVA / TIA)`,
+    title: `Stroke (Cva/Tia)`,
     url: ``,
     slug: `STROKE-CVA-TIA`,
     icon: ``,
@@ -2474,7 +2488,7 @@ Lupus predominantly affects women, especially those between the ages of 15 and 4
     </div>`,
   },
   {
-    title: `PARKINSON’S DISEASE`,
+    title: `Parkinson's Disease`,
     url: ``,
     slug: `PARKINSONS-DISEASE`,
     icon: ``,
@@ -2578,7 +2592,7 @@ This increases the risk of falls and affects the ability to move safely.
     </div>`,
   },
   {
-    title: `EHLERS DANLOS SYNDROME`,
+    title: `Ehlers Danlos Syndrome`,
     url: ``,
     slug: `EHLERS-DANLOS-SYNDROME`,
     icon: ``,
@@ -2692,7 +2706,7 @@ This increases the risk of falls and affects the ability to move safely.
     </div>`,
   },
   {
-    title: `SPORTS-RELATED INJURIES (SPRAINS / STRAINS / FRACTURES)`,
+    title: `Sports-Related Injuries (Sprains/ Strains / Fractures)`,
     url: ``,
     slug: `SPORTS-RELATED-INJURIES-SPRAINS-STRAINS-FRACTURES`,
     icon: ``,
@@ -2788,7 +2802,7 @@ This increases the risk of falls and affects the ability to move safely.
     </div>`,
   },
   {
-    title: `MANUAL LYMPHATIC DRAINAGE`,
+    title: `Manual Lymphatic Drainage`,
     url: ``,
     slug: `MANUAL-LYMPHATIC-DRAINAGE`,
     icon: ``,
@@ -2893,7 +2907,7 @@ This increases the risk of falls and affects the ability to move safely.
   },
 
   {
-    title: `PELVIC FLOOR STRENGTHENING`,
+    title: `Pelvic Floor Strengthening`,
     url: ``,
     slug: `PELVIC-FLOOR-STRENGTHENING`,
     icon: ``,
@@ -2996,7 +3010,7 @@ The Pelvic floor can be weakened by:
     </div>`,
   },
   {
-    title: `PERSONAL / WORK INJURY`,
+    title: `Personal/Work Injury`,
     url: ``,
     slug: `PERSONAL-WORK-INJURY`,
     icon: ``,
@@ -3059,7 +3073,7 @@ Personal and  work injuries can severely harm your mobility and quality of life,
     </div>`,
   },
   {
-    title: `FLEXIBILITY LAB (PASSIVE STRETCHING)`,
+    title: `Flexibility Lab (Passive Stretching)`,
     url: ``,
     slug: `FLEXIBILITY-LAB-PASSIVE-STRETCHING`,
     icon: ``,
@@ -3175,7 +3189,7 @@ Our stretches improve flexibility, realign your posture, and reduce strain on yo
     </div>`,
   },
   {
-    title: `CORE LAB (STRENGTHENING / FUNCTIONAL TRAINING)`,
+    title: `Core Lab (Strengthening/Functional Training)`,
     url: ``,
     slug: `CORE-LAB-STRENGTHENING-FUNCTIONAL-TRAINING`,
     icon: ``,
@@ -3296,7 +3310,7 @@ We focus on core stability to prevent your body from relying on other muscle gro
     </div>`,
   },
   {
-    title: `VESTIBULAR AND BALANCE THERAPY`,
+    title: `Vestibular And Balance Therapy`,
     url: ``,
     slug: `VESTIBULAR-AND-BALANCE-THERAPY`,
     icon: ``,
@@ -3632,6 +3646,219 @@ How Workplace Ergonomics and Mobility Workshops at Tampa Motion Improve Business
           </ul>
         </div><p className="text-gray-700 mb-4 leading-relaxed">
                       
+        </p>
+      </div>
+    </div>`,
+  },
+];
+
+export const insuranceSlug = [
+  {
+    title: `Insurance`,
+    url: ``,
+    slug: `insurance`,
+    icon: ``,
+    sortTitle: ``,
+    heroDescription: ``,
+    shortDescription: ``,
+    description: ` 
+    <div>
+      <div className="  md:space-x-6">
+                
+        <div>
+          
+          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Medicare           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Medicaid
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span> Molina Healthcare (MCO)          
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Aetna Better Health (MCO)
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>  Magellan Healthcare (MCO)         
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Sunshine Healthcare (MCO) 
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>  Wellcare/Stay Well (MCO)          
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Simply Healthcare (MCO)
+            </li><li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>  Caresource (MCO)          
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Care Plus (MCO)
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>  Oscar Health (MCO)
+         
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Optemum Health (MCO) 
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span> Tricare (MCO)          
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>AETNA (Commercial)
+
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>  United Healthcare (MCO)         
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>National General (National General) 
+            </li><li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>  Humana (Medicare Advantage Plan)          
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Cigna (Commercial) 
+
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>  Anthem BCBS (Commercial)          
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Kaiser (Commercial) 
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span> Ambetter (Commercial)           
+            </li>
+            
+          </ul>
+        </div>
+        
+      </div>
+    </div>`,
+  },
+  {
+    title: `Non-Insurance Payment Options`,
+    url: ``,
+    slug: `non-insurance`,
+    icon: ``,
+    sortTitle: ``,
+    heroDescription: ``,
+    shortDescription: ``,
+    description: ` 
+    <div>
+      <div className="  md:space-x-6">
+        <div>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+                 Don’t have insurance?  No problem.  At Tampa Motion, we have several affordable packages for all your rehabilitation needs.
+     
+            </p>
+        </div>         
+        <div>
+          
+          <ul className="list-decimal pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>  Evaluation and 1 treatment visit: $200         
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Evaluation and 6 treatment visits combo package: $400
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span> Evaluation and 12 treatment visits combo package: $700 (value option)          
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Evaluation and 24 treatment visits combo package: $1300
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>1 treatment visit (a la carte): $90           
+            </li>
+            <li>
+              <span className="font-semibold text-gray-900 pr-1">
+                          
+              </span>Cash or check payments: 5% discount of total services
+            </li>
+            
+          </ul>
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+             What to expect during an Evaluation:         
+          </h2>
+          <p className="text-gray-700 mb-4 leading-relaxed">
+            When you meet your Doctor of Physical Therapy for the first time, it’s more than just a routine check. It's the beginning of a conversation, a clinical examination, a history intake, a review of your systems, and gathering objective data. This initial meeting is where your therapist starts to understand you, and you begin to understand what lies ahead. They’ll create a treatment plan just for you, one that reflects where you’re at and where you’re headed. It's also a chance for you both to set expectations and lay down the foundation for progress. This part of the journey usually takes about 60-90 minutes.
+          
+          </p>
+          
+        </div>
+        <div>
+          <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+             What to expect during a treatment session:     
+          </h2>
+          <p className="text-gray-700 mb-4 leading-relaxed">
+           As with all things, the specifics depend on where you stand. Your treatment may involve exercises, stretches, soft tissue mobilization, joint work, or something gentler like lymphatic drainage massage or functional training. Sometimes, modalities like Ultrasound, Cold laser, Traction, Kinesiotaping or E-stim will make their way into the session. It’s a carefully chosen balance, unique to you. The time spent in these sessions can vary, typically ranging from 45 to 90 minutes.
+          
+          </p>
+          
+        </div>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+         NEW PATIENT SPECIALS UNTIL 4/30/2025             
+        </p>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+         SPECIAL PRICING OPTIONS FOR NEW PATIENTS:  10% OFF of all services.  Free consultation.  Call 813-291-3536 to schedule.             
         </p>
       </div>
     </div>`,

@@ -56,8 +56,8 @@ const Healing = () => {
                   <ScrollMotionEffect effect="zoom-in" duration={3000}>
                     <button className="bg-gradient-to-b from-[#0aa3e8] to-[#34e1d8] h-32 w-56 text-white font-thin  rounded-3xl flex flex-col justify-center items-center hover:scale-105 transition-all duration-500 ease-in-out cursor-default">
                       <p className=" font-baskerville text-base font-thin">
-                        &quot;Physiotherapy gives me the flexibility I need to
-                        keep in the game.&quot;
+                        &quot;Physical Therapy gives me the flexibility I need
+                        to keep in the game.&quot;
                       </p>
                     </button>
                   </ScrollMotionEffect>
@@ -92,8 +92,8 @@ const Healing = () => {
                   <ScrollMotionEffect effect="zoom-in" duration={3000}>
                     <button className="bg-gradient-to-b from-[#0aa3e8] to-[#34e1d8] h-28 p-3 w-52 text-white font-thin  rounded-3xl flex flex-col justify-center items-center ">
                       <p className=" font-baskerville text-sm font-thin">
-                        &quot;Physiotherapy gives me the flexibility I need to
-                        keep in the game.&quot;
+                        &quot;Physical Therapy gives me the flexibility I need
+                        to keep in the game.&quot;
                       </p>
                     </button>
                   </ScrollMotionEffect>
@@ -106,7 +106,7 @@ const Healing = () => {
             {/* <div className=" hidden lg:block xl:hidden">
               <ScrollMotionEffect effect="fade-up" duration={2000}>
                 <h2 className="text-3xl md:text-5xl font-semibold md:text-left text-center text-black  !leading-snug">
-                  Experience The Healing Power Of Physiotherapy
+                  Experience The Healing Power Of Physical Therapy
                 </h2>
                 <p className="text-base md:text-lg font-medium mt-4  text-black mb-6  md:text-left text-center ">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean
@@ -160,7 +160,7 @@ const Healing = () => {
             {/* <div className=" hidden 2xl:block">
               <ScrollMotionEffect effect="fade-left" duration={2000}>
                 <h2 className="text-3xl md:text-5xl font-semibold md:text-left text-center text-black  !leading-snug">
-                  Experience The Healing Power Of Physiotherapy
+                  Experience The Healing Power Of Physical Therapy
                 </h2>
                 <p className="text-base md:text-lg font-medium mt-4  text-black mb-6  md:text-left text-center ">
                   Lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean

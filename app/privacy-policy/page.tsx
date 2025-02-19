@@ -162,8 +162,8 @@ const page = () => {
               </li>
               <li className="pb-4 text-base">
                 <span className="font-semibold">Improving Our Services: </span>
-                Enhancing our rehabilitation and physiotherapy offerings based
-                on feedback and analytics.
+                Enhancing our rehabilitation and physical therapy offerings
+                based on feedback and analytics.
               </li>
               <li className="pb-4 text-base">
                 <span className="font-semibold">Communications: </span>Sending

@@ -4,14 +4,14 @@ import Link from "next/link";
 
 export const metadata = {
   title:
-    "Physical Rehabilitation Center Tampa | Best Florida physical rehabilitation center |Top-rated physiotherapy clinics tampa",
+    "Physical Rehabilitation Center Tampa | Best Florida physical rehabilitation center |Top-rated physical therapy clinics tampa",
   description:
-    "Tampa Motion is a leading physical rehabilitation center Tampa, recognized as the best Florida physical rehabilitation center. As one of the top-rated physiotherapy clinics Tampa, we provide expert care to support recovery and enhance mobility.",
+    "Tampa Motion is a leading physical rehabilitation center Tampa, recognized as the best Florida physical rehabilitation center. As one of the top-rated physical therapy clinics Tampa, we provide expert care to support recovery and enhance mobility.",
   openGraph: {
     title:
-      "Physical Rehabilitation Center Tampa | Best Florida physical rehabilitation center |Top-rated physiotherapy clinics tampa",
+      "Physical Rehabilitation Center Tampa | Best Florida physical rehabilitation center |Top-rated physical therapy clinics tampa",
     description:
-      "Tampa Motion is a leading physical rehabilitation center Tampa, recognized as the best Florida physical rehabilitation center. As one of the top-rated physiotherapy clinics Tampa, we provide expert care to support recovery and enhance mobility.",
+      "Tampa Motion is a leading physical rehabilitation center Tampa, recognized as the best Florida physical rehabilitation center. As one of the top-rated physical therapy clinics Tampa, we provide expert care to support recovery and enhance mobility.",
     //url: "https://www.tampamotion.com/disclaimers",
     siteName: "Tampa Motion",
     images: [
@@ -40,7 +40,7 @@ const page = () => {
               Services Provided
             </p>
             <p className="text-base text-stone-950  text-left pb-5">
-              Tampa Motion offers physiotherapy and rehabilitation services,
+              Tampa Motion offers physical therapy and rehabilitation services,
               focusing on personalized care to enhance mobility, manage pain,
               and improve your overall quality of life. Our expert therapists
               use evidence-based methods to support your recovery journey.
@@ -70,7 +70,7 @@ const page = () => {
             </p>
             <p className="text-base text-stone-950  pb-5  text-left ">
               Tampa Motion does not provide medical diagnoses or prescribe
-              medication. Our physiotherapy services complement your overall
+              medication. Our physical therapy services complement your overall
               healthcare plan and should not replace advice from your primary
               healthcare provider.
             </p>

@@ -13,7 +13,7 @@ const EasyStep = ({ className }: { className?: string }) => {
         >
           <ScrollMotionEffect effect="fade-up" duration={2000}>
             <div className="col-span-1 text-2xl text-center md:text-3xl  2xl:text-5xl 2xl:px-52 w-full   2xl:leading-normal pb-16 font-semibold">
-              Easy Step to Get Physiotherapy
+              Easy Step to Get Physical Therapy
             </div>
           </ScrollMotionEffect>
           <ScrollMotionEffect effect="fade-up" duration={2000}>

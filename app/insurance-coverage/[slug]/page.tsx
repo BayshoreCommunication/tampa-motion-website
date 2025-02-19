@@ -1,6 +1,6 @@
 import PageHeroSection from "@/components/shared/PageHeroSection";
 import type { Metadata, ResolvingMetadata } from "next";
-import { servicesSlug } from "@/config/serviceData.js";
+import { insuranceSlug } from "@/config/serviceData.js";
 import parse from "html-react-parser";
 
 const css = `
@@ -58,7 +58,7 @@ export async function generateMetadata(
   const slug = (await params).slug;
 
   // fetch data
-  const data = servicesSlug.find((service) => service.slug === slug);
+  const data = insuranceSlug.find((insurance) => insurance.slug === slug);
 
   // optionally access and extend (rather than replace) parent metadata
   // const previousImages = (await parent).openGraph?.images || [];
@@ -90,8 +90,8 @@ const page = ({ params }: { params: { slug: string } }) => {
   const slug = params.slug;
 
   // fetch data
-  const data = servicesSlug.find(
-    (service) => service.slug.toLowerCase() === slug
+  const data = insuranceSlug.find(
+    (insurance) => insurance.slug.toLowerCase() === slug
   );
   // console.log(servicesSlug.map((e) => e.title));
 

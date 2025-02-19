@@ -104,7 +104,7 @@ const AchievingOptimal = () => {
                 </div>
               </ScrollMotionEffect>
             </div>
-            <div className="block">
+            <div className="block lg:hidden">
               <ScrollMotionEffect effect="fade-up" duration={2000}>
                 <h2 className="text-center xl:text-left text-5xl font-bold leading-snug">
                   Achieving Optimal Health with Tampa Motion
