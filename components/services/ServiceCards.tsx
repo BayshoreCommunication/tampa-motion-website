@@ -45,11 +45,11 @@ const ServiceCards = () => {
                 </p>
               </div>
 
-              <div className=" grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3  gap-5  w-full justify-center items-center align-middle content-center auto-rows-min text-black  ">
+              <div className=" flex flex-wrap  gap-5  w-full justify-center items-center align-middle content-center auto-rows-min text-black  ">
                 {service.subClass.map((item: any, i: any) => (
                   <div
                     key={i}
-                    className="bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] rounded-3xl p-[2px] z-20 hover:scale-105  transition-all duration-300 ease-in-out"
+                    className="bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] rounded-3xl p-[2px]  z-20 hover:scale-105  transition-all duration-300 ease-in-out w-full lg:w-[45%] 2xl:w-[30%]"
                   >
                     <Link href={`/services/${item.service_slug.toLowerCase()}`}>
                       <article className="w-full  h-[376px]  lg:h-[340px] border bg-white p-4 xl:p-8 rounded-3xl flex flex-col gap-5 justify-center items-center border-transparent">
