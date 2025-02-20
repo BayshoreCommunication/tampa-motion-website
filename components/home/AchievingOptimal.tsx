@@ -48,7 +48,7 @@ const AchievingOptimal = () => {
           </div>
 
           <div className="w-full xl:w-[50%] pt-10">
-            <div className="hidden lg:block xl:hidden">
+            <div className="hidden lg:block ">
               <ScrollMotionEffect effect="fade-up" duration={2000}>
                 <h2 className="text-center xl:text-left text-5xl font-bold leading-snug">
                   Achieving Optimal Health with Tampa Motion

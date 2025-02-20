@@ -5,6 +5,7 @@ import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
 import { serviceMenu, services } from "@/config/serviceData.js";
 
 const ServiceCards = () => {
+  serviceMenu.filter((i) => i.service == "Manual Lymphatic Drainage");
   return (
     <div className=" h-fit inline-grid gap-3 2xl:gap-12 grid-flow-row grid-cols-1 w-full  items-center auto-rows-min py-10 lg:py-20 px-5  text-black  ">
       {serviceMenu.map((service, index) => (
