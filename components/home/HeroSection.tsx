@@ -49,7 +49,7 @@ const HeroSection = () => {
             className="flex-1 mt-10 md:mt-0"
           >
             <h1
-              className="  text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold  md:text-left text-center text-black whitespace-pre"
+              className="  text-4xl  lg:text-6xl xl:text-7xl font-bold  md:text-left text-center text-black whitespace-pre"
               style={{
                 lineHeight: "120%",
               }}
@@ -83,7 +83,7 @@ const HeroSection = () => {
 
             <motion.h6
               variants={variants}
-              className="text-lg md:text-2xl font-normal mt-6 md:text-left text-center text-black"
+              className="text-lg lg:text-2xl font-normal mt-6 md:text-left text-center text-black"
             >
               <ScrollMotionEffect effect="fade-up" duration={2000}>
                 {`We empower you to move freely and live fully. Our expert Physical Therapist use personalized treatment plans to help you recover from injury, manage pain, and enhance mobility. Whether you're healing from surgery or looking to prevent future issues, we’re here to support every step of your journey to better health.`}
@@ -105,7 +105,7 @@ const HeroSection = () => {
             </h2>
             {/* Bottom Image */}
             <ScrollMotionEffect effect="fade-up" duration={2000}>
-              <div className="bg-[#CEECFB] flex items-center rounded-t-2xl w-full  h-[150px] md:h-[160px] mt-20">
+              <div className="bg-[#CEECFB] lg:flex items-center rounded-t-2xl w-full  h-[150px] md:h-[160px] mt-20 hidden">
                 {/* <ScrollMotionEffect effect="fade-up" duration={2000}> */}
                 <Image
                   src={"/assets/home/satisfied-customers-imageone.png"}
@@ -138,6 +138,7 @@ const HeroSection = () => {
               </div>
             </ScrollMotionEffect>
           </motion.div>
+
           <div className="flex-1 self-start relative">
             <ScrollMotionEffect effect="zoom-in" duration={2000}>
               <Image
@@ -168,6 +169,36 @@ const HeroSection = () => {
             </ScrollMotionEffect>
           </div>
         </div>
+        <ScrollMotionEffect effect="fade-up" duration={2000}>
+          <div className="bg-[#CEECFB] flex items-center rounded-t-2xl w-[70%] lg:hidden  h-[150px] md:h-[160px] mt-20 ">
+            <Image
+              src={"/assets/home/satisfied-customers-imageone.png"}
+              alt="logo"
+              width={600}
+              height={400}
+              className="w-[180px] h-auto relative ml-6 rounded-t-2xl -top-[18px]"
+            />
+
+            <div className="flex flex-col items-start justify-start space-y-4 ">
+              <div className="flex items-center justify-start space-x-0 md:space-x-2">
+                <Image
+                  className="w-[100px] md:w-[200px] h-auto pl-4"
+                  width={200}
+                  height={100}
+                  src="/assets/home/group-image.png"
+                  alt="avatar"
+                />
+
+                <h2 className="text-xl md:text-3xl lg:text-4xl font-bold leading-tight text-black ">
+                  18K
+                </h2>
+              </div>
+              <h2 className="text-sm lg:text-lg font-bold leading-tight text-black pl-4">
+                Serving children and adults of Tampa area
+              </h2>
+            </div>
+          </div>
+        </ScrollMotionEffect>
         <div className="w-full h-fit">
           <ScrollMotionEffect effect="fade-up" duration={2000}>
             <BookAnAppointment />
