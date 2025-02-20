@@ -8,7 +8,7 @@ import {
   NavbarMenuItem,
   NavbarMenuToggle,
 } from "@nextui-org/react";
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { RiArrowDropRightLine } from "react-icons/ri";
 
 import { Libre_Baskerville } from "next/font/google";
@@ -84,10 +84,25 @@ const MainHeader = () => {
   const setInsuranceSlug = insuranceMenu?.some(
     (el) => pathname === `/insurance-coverage/${el?.service_slug}`
   );
+
+  useEffect(() => {
+    const dynamicNav = document.querySelector(".dynamicNav");
+    var prevstate = window.scrollY;
+    window.onscroll = () => {
+      var currentState = window.scrollY;
+      if (currentState < prevstate) {
+        dynamicNav.style.top = "0";
+      } else {
+        dynamicNav.style.top = "-200px";
+      }
+      prevstate = currentState;
+    };
+  });
+
   return (
     <section className={"relative z-50"}>
       <div className="bg-primary ">
-        <div className="bg-white hidden xl:block ">
+        <div className="bg-white hidden xl:block dynamicNav fixed w-full transition-all ease-in-out duration-300">
           <div className="flex items-center container  justify-between ">
             <div className=" flex items-center gap-x-8 2xl:gap-x-16 max-h-[94px]">
               <Link href={"/"}>
@@ -213,8 +228,7 @@ const MainHeader = () => {
                     >
                       <div className="group">
                         <div className="flex items-center gap-1 ">
-                          <Link
-                            href={el?.slug}
+                          <div
                             className={`flex items-center gap-x-1 cursor-pointer text-black text-sm xl:text-[14px] 2xl:text-[16px] font-medium capitalize hover:text-secondary ${pathname === el.slug || setInsuranceSlug ? " border border-secondary rounded-full text-secondary py-1 lg:py-2 px-2 lg:px-5" : ""} `}
                           >
                             Insurance Coverage
@@ -232,7 +246,7 @@ const MainHeader = () => {
                                 />
                               </svg>
                             </span>
-                          </Link>
+                          </div>
                         </div>
                         <section className="absolute hidden group-hover:block bg-white shadow-lg rounded pt-6  ">
                           <ul className="cursor-pointer list-none rounded-md">
@@ -336,7 +350,7 @@ const MainHeader = () => {
             </div>
           </div>
         </div>
-        <div className="xl:hidden ">
+        <div className="xl:hidden dynamicNav fixed w-full transition-all ease-in-out duration-300">
           <Navbar
             isMenuOpen={isMenuOpen}
             onMenuOpenChange={setIsMenuOpen}

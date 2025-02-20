@@ -31,22 +31,21 @@ const ServiceCards = () => {
             key={service.service}
           >
             <article className="w-full   border bg-[#34e1d8]/20 p-4 xl:p-8 rounded-3xl flex flex-col justify-center items-center border-transparent">
-              {/* <Image
-                src={
-                  service.service
-                }
-                alt={
-                  service.service
-                }
-                width={40}
-                height={40}
-                className="pb-3"
-              /> */}
+              <div className="flex flex-col lg:flex-row justify-center items-center pb-10 xl:pb-16 gap-4">
+                <Image
+                  src={service.image}
+                  alt={service.service}
+                  width={40}
+                  height={40}
+                  className=""
+                />
 
-              <p className="text-4xl font-bold  pb-10 xl:pb-16 text-center">
-                {service.service}
-              </p>
-              <div className=" grid grid-flow-row grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-5  w-full justify-center items-center align-middle content-center auto-rows-min   text-black  ">
+                <p className="text-4xl font-bold  text-center">
+                  {service.service}
+                </p>
+              </div>
+
+              <div className=" grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3  gap-5  w-full justify-center items-center align-middle content-center auto-rows-min text-black  ">
                 {service.subClass.map((item: any, i: any) => (
                   <div
                     key={i}
@@ -55,21 +54,19 @@ const ServiceCards = () => {
                     <Link href={`/services/${item.service_slug.toLowerCase()}`}>
                       <article className="w-full  h-[376px]  lg:h-[340px] border bg-white p-4 xl:p-8 rounded-3xl flex flex-col gap-5 justify-center items-center border-transparent">
                         <Image
-                          src={
-                            customeFilter(
-                              services,
-                              (i: any) =>
-                                `${i.slug.toLowerCase()}` ==
-                                `${item.service_slug.toLowerCase()}`
-                            )[0]?.image
-                          }
+                          src={customeFilter(
+                            services,
+                            (i: any) =>
+                              `${i.slug.toLowerCase()}` ==
+                              `${item.service_slug.toLowerCase()}`
+                          )[0]?.image.toLowerCase()}
                           alt={
                             customeFilter(
                               services,
                               (i: any) =>
                                 `${i.slug.toLowerCase()}` ==
                                 `${item.service_slug.toLowerCase()}`
-                            )[0]?.alt
+                            )[0]?.service
                           }
                           width={40}
                           height={40}

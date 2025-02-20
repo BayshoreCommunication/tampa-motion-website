@@ -1,7 +1,10 @@
+import { image } from "@nextui-org/theme";
+
 export const serviceMenu = [
   {
     service: "Orthopedic",
     service_slug: "",
+    image: "/assets/services/orthopedic.png",
 
     subClass: [
       // {
@@ -61,7 +64,7 @@ export const serviceMenu = [
   {
     service: "Neurological",
     service_slug: "",
-
+    image: "/assets/services/neurological.png",
     subClass: [
       {
         service: "Neurological Rehab",
@@ -81,7 +84,7 @@ export const serviceMenu = [
   {
     service: "Surgery related",
     service_slug: "",
-
+    image: "/assets/services/surgery-related.png",
     subClass: [
       {
         service: "Pre- and Post-Operative Rehab",
@@ -120,18 +123,19 @@ export const serviceMenu = [
   {
     service: "Manual Lymphatic Drainage",
     service_slug: "MANUAL-LYMPHATIC-DRAINAGE",
-
+    image: "/assets/services/manual-lymphatic-drainage.png",
     subClass: [],
   },
   {
     service: "Pelvic Floor Strengthening",
     service_slug: "PELVIC-FLOOR-STRENGTHENING",
+    image: "/assets/services/pelvic-floor-strengthening.png",
     subClass: [],
   },
   {
     service: "Balance Dysfunction / Vestibular",
     service_slug: "",
-
+    image: "/assets/services/balance-dysfunction-vestibular.png",
     subClass: [
       {
         service: "Vestibular And Balance Therapy",
@@ -152,7 +156,7 @@ export const serviceMenu = [
   {
     service: "Community Outreach And Advisory Programs",
     service_slug: "",
-
+    image: "/assets/services/community-outreach-and-advisory-programs.png",
     subClass: [
       {
         service: "Work Place Ergonomics and Mobility Workshops for Businesses",
@@ -276,7 +280,7 @@ export const services = [
     service_slug: "CONSERVATIVE-NON-INVASIVE-TREATMENTS",
     text: `Injuries to most joints and spine can leave you struggling with pain and limited movement. Whether from trauma, overuse, or degeneration, these conditions can disrupt your daily life. We are committed to helping you reclaim what’s been lost. With personalized care and advanced rehabilitation, we’ll help you move freely again and restore your quality of life.
 `,
-    image: "",
+    image: "/assets/services/CONSERVATIVE-NON-INVASIVE-TREATMENTS.png",
     alt: "",
     slug: "CONSERVATIVE-NON-INVASIVE-TREATMENTS",
   },
@@ -284,7 +288,7 @@ export const services = [
     service: "Orthopedic / Joint Pain / Spine",
     service_slug: "",
     text: `At Tampa Motion, our clinicians provide ONE-TO-ONE care.  All exercises and treatments are tailored for each patient. We believe in a hands-on, personalized approach. Patients of all ages – from children (aged 8 and above) to adults – receive custom care plans from our licensed Doctor of Physical Therapy (DPT), ensuring every session targets your unique goals.`,
-    image: "",
+    image: "/assets/services/ORTHOPEDIC-JOINT-PAIN-SPINE.png",
     alt: "",
     slug: "ORTHOPEDIC-JOINT-PAIN-SPINE",
   },
@@ -292,7 +296,7 @@ export const services = [
     service: "PRE-SURGICAL  /  POST-SURGICAL",
     service_slug: "PRE-SURGICAL-POST-SURGICAL",
     text: `Tampa Motion offers comprehensive pre- and post-operative rehabilitation to ensure the best outcomes. It helps patients regain strength, flexibility, and function. Our rehab programs are designed to support patients through every step of their recovery, providing personalized care and expert guidance.  We are proud of ONE-TO-ONE patient care, avoiding multiple overlapping patients and avoiding ‘all-size-fits-all’ treatments.`,
-    image: "",
+    image: "/assets/services/PRE-SURGICAL-POST-SURGICAL.png",
     alt: "",
     slug: "PRE-SURGICAL-POST-SURGICAL",
   },
@@ -300,7 +304,7 @@ export const services = [
     service: "Cosmetic Surgery Rehab",
     service_slug: "",
     text: `Cosmetic surgeries can significantly improve a patient's quality of life, whether by alleviating chronic pain, improving health or enhancing physical appearance. However, the success of these surgeries heavily relies on comprehensive pre- and post-operative rehabilitation. Proper rehab ensures optimal recovery, minimizes complications, and helps patients return to their daily activities with improved function and confidence.`,
-    image: "",
+    image: "/assets/services/COSMETIC-SURGERY-REHAB.png",
     alt: "",
     slug: "COSMETIC-SURGERY-REHAB",
   },
@@ -309,7 +313,7 @@ export const services = [
     service_slug: "",
     text: `Multiple Sclerosis (MS) is a chronic neurological condition where the immune system mistakenly attacks the protective covering of nerves (myelin), causing communication issues between the brain and body. MS affects the central nervous system, leading to a variety of symptoms that can disrupt daily life with fatigue and mobility issues. When it is severe, some individuals may face cognitive difficulties such as difficulties in reading, writing, understanding, or making any decision.
 `,
-    image: "",
+    image: "/assets/services/MULTIPLE-SCLEROSIS.png",
     alt: "",
     slug: "MULTIPLE-SCLEROSIS",
   },
@@ -317,7 +321,7 @@ export const services = [
     service: "Lupus",
     service_slug: "",
     text: `Lupus, specifically systemic Lupus erythematosus (SLE), is a chronic autoimmune disease where the immune system attacks healthy tissues and organs unintentionally. It can affect the skin, joints, kidneys, heart, and nervous system. Symptoms vary widely but often include joint pain, fatigue, skin rashes, and neurological issues, making it challenging to manage without specialized care. Early diagnosis and ongoing care are essential, as complications like kidney damage and cardiovascular issues can occur.`,
-    image: "",
+    image: "/assets/services/Lupus.png",
     alt: "",
     slug: "Lupus",
   },
@@ -326,7 +330,7 @@ export const services = [
     service_slug: "",
     text: `A stroke,  a cerebrovascular accident (CVA), occurs when blood flow to the brain is interrupted, leading to potential brain damage and a range of physical issues such as paralysis, difficulty speaking, cognitive impairments, and more. Stroke rehabilitation is a specialized program designed to help individuals recover from a stroke. It is dedicated to helping stroke survivors regain physical and emotional strength, improving their quality of life.
 `,
-    image: "",
+    image: "/assets/services/STROKE-CVA-TIA.png",
     alt: "",
     slug: "STROKE-CVA-TIA",
   },
@@ -334,7 +338,7 @@ export const services = [
     service: "PARKINSON’S DISEASE",
     service_slug: "",
     text: `Parkinson’s Disease (PD) is a progressive neurological disorder that affects movement. It occurs when nerve cells in the brain that produce dopamine, a chemical that helps control movement, begin to break down. This leads to symptoms such as tremors, muscle stiffness, slowed movement (bradykinesia), and balance issues. Parkinson's disease rehabilitation is a specialized therapeutic approach designed to support individuals diagnosed with this neurological disorder.`,
-    image: "",
+    image: "/assets/services/PARKINSONS-DISEASE.png",
     alt: "",
     slug: "PARKINSONS-DISEASE",
   },
@@ -343,7 +347,7 @@ export const services = [
     service_slug: "",
     text: `Ehlers-Danlos Syndrome (EDS) is a collection of genetic disorders that impact connective tissues, influencing the skin, joints, and the walls of blood vessels. People with EDS often have hypermobile joints, skin that bruises easily, and fragile tissues. Rehabilitation for EDS aims to help manage symptoms and improve quality of life. This is achieved through a combination of manual lymphatic massage, therapeutic exercises, education, and supportive treatments.
 `,
-    image: "",
+    image: "/assets/services/EHLERS-DANLOS-SYNDROME.png",
     alt: "",
     slug: "EHLERS-DANLOS-SYNDROME",
   },
@@ -351,7 +355,8 @@ export const services = [
     service: "Sports-Related Injuries (Sprains / Strains / Fractures)",
     service_slug: "",
     text: `Sports-related injuries, such as sprains, strains, and fractures, are common conditions that affect the musculoskeletal system. A sprain involves ligament damage, while a strain affects muscles or tendons. Fractures are breaks in the bone, often caused by high-impact sports or repetitive stress. These injuries can result in significant pain, reduced mobility, and a prolonged recovery process without proper treatment.`,
-    image: "",
+    image:
+      "/assets/services/SPORTS-RELATED-INJURIES-SPRAINS-STRAINS-FRACTURES.png",
     alt: "",
     slug: "SPORTS-RELATED-INJURIES-SPRAINS-STRAINS-FRACTURES",
   },
@@ -359,7 +364,7 @@ export const services = [
     service: "Manual Lymphatic Drainage",
     service_slug: "",
     text: `Do you struggle with swelling, discomfort, or slow recovery after surgery? We understand how these issues can impact your quality of life. Our Manual Lymphatic Drainage (MLD) service is specifically designed to help manage lymphedema and promote faster healing after surgeries. This gentle, non-invasive therapy focuses on stimulating the lymphatic system, improving circulation, and reducing swelling to support your body’s natural detoxification process.`,
-    image: "",
+    image: "/assets/services/MANUAL-LYMPHATIC-DRAINAGE.png",
     alt: "",
     slug: "MANUAL-LYMPHATIC-DRAINAGE",
   },
@@ -368,7 +373,7 @@ export const services = [
     service_slug: "",
     text: `The pelvic floor muscles hold the pelvic organ in their unique positions for optimal functions.  Hence, weakness of these muscles can directly affect the function of the bladder, intestines, urethra, rectum, vagina, cervix and prostate.
 `,
-    image: "",
+    image: "/assets/services/PELVIC-FLOOR-STRENGTHENING.png",
     alt: "",
     slug: "PELVIC-FLOOR-STRENGTHENING",
   },
@@ -377,7 +382,7 @@ export const services = [
     service_slug: "",
     text: `Personal and  work injuries can severely harm your mobility and quality of life, including ability to work and provide for oneself. Work injuries, from repetitive strain or accidents, can cause chronic pain, stiffness, and limited movement.
 `,
-    image: "",
+    image: "/assets/services/PERSONAL-WORK-INJURY.png",
     alt: "",
     slug: "PERSONAL-WORK-INJURY",
   },
@@ -386,7 +391,7 @@ export const services = [
     service_slug: "",
     text: `Do you often feel stiff, experience limited range of motion, or deal with aches that make daily tasks more challenging?  We understand that flexibility is more than just about movement—it's about living comfortably and confidently. Our Flexibility Lab focuses on passive stretching techniques tailored to your body’s needs, promoting better mobility, relaxation, and overall well-being.
 `,
-    image: "",
+    image: "/assets/services/FLEXIBILITY-LAB-PASSIVE-STRETCHING.png",
     alt: "",
     slug: "FLEXIBILITY-LAB-PASSIVE-STRETCHING",
   },
@@ -395,7 +400,7 @@ export const services = [
     service_slug: "",
     text: `Do you often struggle with low energy, poor posture, or discomfort during physical activity? We understand that core strength is more than just about looking toned—it's about building a stable foundation for your body to function at its best. Our Core Lab focuses on strengthening the muscles that support your spine, pelvis, and abdomen, improving balance, posture, and overall strength needed for daily activities and higher-level work and sports related functions.
 `,
-    image: "",
+    image: "/assets/services/CORE-LAB-STRENGTHENING-FUNCTIONAL-TRAINING.png",
     alt: "",
     slug: "CORE-LAB-STRENGTHENING-FUNCTIONAL-TRAINING",
   },
@@ -403,7 +408,7 @@ export const services = [
     service: "Vestibular And Balance Therapy",
     service_slug: "",
     text: `Do you experience dizziness, vertigo, or challenges with balance that disrupt your daily life? We understand how these issues can affect your overall well-being. Our Vestibular and Balance Therapy program is specifically designed to address inner ear disorders and neurological conditions that impact your body’s stability. `,
-    image: "",
+    image: "/assets/services/VESTIBULAR-AND-BALANCE-THERAPY.png",
     alt: "",
     slug: "VESTIBULAR-AND-BALANCE-THERAPY",
   },
@@ -411,7 +416,8 @@ export const services = [
     service: "School Based Sports Training and Rehabilitation Programs",
     service_slug: "",
     text: `Are you a student-athlete looking to enhance your performance or recover from an injury? We understand that participating in school sports is not just about competition—it’s about building strength, endurance, and resilience while staying healthy. Our School-Based Sports Training and Rehabilitation Programs are designed to help athletes at every level stay in top shape and safely recover when needed.`,
-    image: "",
+    image:
+      "/assets/services/School-based-sports-training-and-rehabilitation-programs.png",
     alt: "",
     slug: "School-based-sports-training-and-rehabilitation-programs",
   },
@@ -419,7 +425,8 @@ export const services = [
     service: "Work Place Ergonomics and Mobility Workshops for Businesses",
     service_slug: "",
     text: `Are your employees dealing with discomfort, fatigue, or injuries from poor posture or repetitive movements? Workplace wellness goes beyond just having the right tools. It’s about creating an environment where employees feel comfortable and can perform at their best. `,
-    image: "",
+    image:
+      "/assets/services/Work-place-ergonomics-and-mobility-workshops-for-businesses.png",
     alt: "",
     slug: "Work-place-ergonomics-and-mobility-workshops-for-businesses",
   },
