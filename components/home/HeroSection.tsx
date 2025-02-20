@@ -170,7 +170,7 @@ const HeroSection = () => {
           </div>
         </div>
         <ScrollMotionEffect effect="fade-up" duration={2000}>
-          <div className="bg-[#CEECFB] flex items-center rounded-t-2xl w-[70%] lg:hidden  h-[150px] md:h-[160px] mt-20 ">
+          <div className="bg-[#CEECFB] flex items-center rounded-t-2xl w-[80%] md:w-[70%] lg:hidden  h-[150px] md:h-[160px] mt-20 ">
             <Image
               src={"/assets/home/satisfied-customers-imageone.png"}
               alt="logo"
