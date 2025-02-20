@@ -24,7 +24,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <section className="bg-[#EFEFEF] ">
+    <section className="bg-[#EFEFEF] pt-[90px]">
       <HeroSection />
       <AchievingOptimal />
       <BestServices />

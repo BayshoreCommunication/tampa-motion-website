@@ -138,7 +138,7 @@ const HeroSection = () => {
               </div>
             </ScrollMotionEffect>
           </motion.div>
-          <div className="flex-1 self-end relative">
+          <div className="flex-1 self-start relative">
             <ScrollMotionEffect effect="zoom-in" duration={2000}>
               <Image
                 src={"/assets/home/heroimage.png"}
