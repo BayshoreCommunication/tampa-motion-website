@@ -27,7 +27,7 @@ const PageHeroSection: React.FC<PageHeroSectionProps> = ({
         priority
       />
 
-      <div className="relative flex flex-col items-center justify-center w-full h-full">
+      <div className="relative flex flex-col items-center justify-center w-full h-full pt-14 lg:pt-20">
         <div className="container py-10 md:py-14">
           <ScrollMotionEffect {...animationProps}>
             <h1 className="text-[30px] md:text-[55px] font-bold text-black md:text-left text-center leading-snug md:leading-tight">
