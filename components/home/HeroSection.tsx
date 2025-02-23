@@ -142,15 +142,15 @@ const HeroSection = () => {
           <div className="flex-1 self-start relative">
             <ScrollMotionEffect effect="zoom-in" duration={2000}>
               <Image
-                src={"/assets/home/heroimage.png"}
+                src={"/assets/home/heroimage-6.png"}
                 alt="logo"
                 width={2000}
                 height={604}
                 className="w-full rounded-2xl md:rounded-none md:rounded-t-2xl"
               />
               <div
-                className="absolute 2xl:top-[19%] 2xl:left-[25.2%] xl:top-[18%] xl:left-[24.5%] lg:top-[17%] lg:left-[23.5%]  md:top-[16%] md:left-[22%] 
-               top-[17%] left-[23%]"
+                className="absolute 2xl:top-[23.6%] 2xl:left-[25.2%] xl:top-[22.4%] xl:left-[24.5%] lg:top-[21.5%] lg:left-[23.5%]  md:top-[21%] md:left-[23%] 
+               top-[21.5%] left-[22.5%]"
               >
                 <span className="relative flex h-7 w-7 bottom-[20%] justify-center items-center">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-500 "></span>
@@ -158,8 +158,8 @@ const HeroSection = () => {
                 </span>
               </div>
               <div
-                className="absolute 2xl:bottom-[32%] 2xl:left-[23.7%] xl:bottom-[31%] xl:left-[23%] lg:bottom-[29%] lg:left-[22%] md:bottom-[28%] md:left-[20.5%]
-               bottom-[29%] left-[22%]"
+                className="absolute 2xl:bottom-[27.3%] 2xl:left-[23.7%] xl:bottom-[26.2%] xl:left-[23%] lg:bottom-[25%] lg:left-[22%] md:bottom-[25%] md:left-[21.5%]
+               bottom-[25%] left-[21.5%]"
               >
                 <span className="relative flex h-7 w-7  bottom-[20%] justify-center items-center">
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-500 "></span>
