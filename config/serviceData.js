@@ -82,7 +82,7 @@ export const serviceMenu = [
   },
 
   {
-    service: "Surgery related",
+    service: "Surgery Related",
     service_slug: "",
     image: "/assets/services/surgery-related.png",
     subClass: [
