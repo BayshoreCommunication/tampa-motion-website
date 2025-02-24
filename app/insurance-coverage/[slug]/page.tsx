@@ -2,6 +2,9 @@ import PageHeroSection from "@/components/shared/PageHeroSection";
 import type { Metadata, ResolvingMetadata } from "next";
 import { insuranceSlug } from "@/config/serviceData.js";
 import parse from "html-react-parser";
+import BookAnAppointment from "@/components/shared/BookAnAppointment";
+import EasyStep from "@/components/shared/EasyStep";
+import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
 
 const css = `
 # h1, h2, p, br, nav {
@@ -96,18 +99,45 @@ const page = ({ params }: { params: { slug: string } }) => {
   // console.log(servicesSlug.map((e) => e.title));
 
   return (
-    <article id="service" className=" bg-white text-black ">
-      <style>{css}</style>
+    <>
+      <article id="service" className=" bg-white text-black ">
+        <style>{css}</style>
 
-      <PageHeroSection
-        title={data?.title || ""}
-        description={data?.heroDescription || ""}
-      />
+        <PageHeroSection
+          title={data?.title || ""}
+          description={data?.heroDescription || ""}
+        />
 
-      <div className="container py-10 md:py-16">
-        {parse(data?.description || "")}
+        <div className="container py-10 md:py-16">
+          {parse(data?.description || "")}
+        </div>
+      </article>
+
+      <article className="bg-white w-full">
+        <div className="bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] z-20  py-32 text-black">
+          <ScrollMotionEffect effect="fade-up" duration={2000}>
+            <h3 className="text-xl  text-center md:text-3xl 2xl:text-5xl font-baskerville px-5 2xl:px-52">
+              If you want avail these services{" "}
+              <span className="block">Book an appointment today</span>
+            </h3>
+            <p className="text-center py-5 text-base 2xl:text-lg font-sans px-5 xl:px-52">
+              Reserve your consultation and experience the difference of truly
+              dedicated physical therapy. Ready to take that first step toward
+              feeling better?
+            </p>
+          </ScrollMotionEffect>
+        </div>
+
+        <div className="container relative -top-20 ">
+          <ScrollMotionEffect effect="fade-up" duration={2000}>
+            <BookAnAppointment />
+          </ScrollMotionEffect>
+        </div>
+      </article>
+      <div className="bg-white w-full">
+        <EasyStep className={" relative -top-10 "} />
       </div>
-    </article>
+    </>
   );
 };
 

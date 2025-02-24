@@ -3669,124 +3669,117 @@ export const insuranceSlug = [
     heroDescription: ``,
     shortDescription: ``,
     description: ` 
-    <div>
-      <div className="  md:space-x-6">
-                
+     <div className="  md:space-x-6">
         <div>
-          
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>Medicare           
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>Medicaid
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span> Molina Healthcare (MCO)          
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>Aetna Better Health (MCO)
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>  Magellan Healthcare (MCO)         
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>Sunshine Healthcare (MCO) 
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>  Wellcare/Stay Well (MCO)          
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>Simply Healthcare (MCO)
-            </li><li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>  Caresource (MCO)          
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>Care Plus (MCO)
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>  Oscar Health (MCO)
-         
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>Optemum Health (MCO) 
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span> Tricare (MCO)          
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>AETNA (Commercial)
-
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>  United Healthcare (MCO)         
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>National General (National General) 
-            </li><li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>  Humana (Medicare Advantage Plan)          
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>Cigna (Commercial) 
-
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>  Anthem BCBS (Commercial)          
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>Kaiser (Commercial) 
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span> Ambetter (Commercial)           
-            </li>
-            
-          </ul>
+          <div className="text-gray-700 text-lg lg:text-[22px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-4 xl:gap-6">
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">Medicare</p>
+              </div>
+            </div>
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">Medicaid</p>
+              </div>
+            </div>
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">Molina Healthcare (MCO)</p>
+              </div>
+            </div>
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">Aetna Better Health (MCO)</p>
+              </div>
+            </div>
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">Magellan Healthcare (MCO)</p>
+              </div>
+            </div>
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">Sunshine Healthcare (MCO)</p>
+              </div>
+            </div>
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">Wellcare/Stay Well (MCO)</p>
+              </div>
+            </div>
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">Simply Healthcare (MCO)</p>
+              </div>
+            </div>
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">Caresource (MCO)</p>
+              </div>
+            </div>
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">Care Plus (MCO)</p>
+              </div>
+            </div>
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">Oscar Health (MCO)</p>
+              </div>
+            </div>
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">Optemum Health (MCO)</p>
+              </div>
+            </div>
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">Tricare (MCO)</p>
+              </div>
+            </div>
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">AETNA (Commercial)</p>
+              </div>
+            </div>
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">United Healthcare (MCO)</p>
+              </div>
+            </div>
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">National General (National General)</p>
+              </div>
+            </div>
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">Humana (Medicare Advantage Plan)</p>
+              </div>
+            </div>
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">Cigna (Commercial)</p>
+              </div>
+            </div>
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">Anthem BCBS (Commercial)</p>
+              </div>
+            </div>
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">Kaiser (Commercial)</p>
+              </div>
+            </div>
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">Ambetter (Commercial)</p>
+              </div>
+            </div>
+          </div>
         </div>
-        
-      </div>
-    </div>`,
+      </div>`,
   },
   {
     title: `Non-Insurance Payment Options`,
@@ -3798,16 +3791,15 @@ export const insuranceSlug = [
     shortDescription: ``,
     description: ` 
     <div>
-      <div className="  md:space-x-6">
+      <div className=" mb-8 lg:mb-12">
         <div>
-            <p className="text-gray-700 mb-4 leading-relaxed">
-                 Don’t have insurance?  No problem.  At Tampa Motion, we have several affordable packages for all your rehabilitation needs.
-     
+             <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
+                Don’t have insurance? No problem. At Tampa Motion, we have several affordable packages for all your rehabilitation needs.
             </p>
         </div>         
         <div>
           
-          <ul className="list-decimal pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-decimal  list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -3868,6 +3860,23 @@ export const insuranceSlug = [
          SPECIAL PRICING OPTIONS FOR NEW PATIENTS:  10% OFF of all services.  Free consultation.  Call 813-291-3536 to schedule.             
         </p>
       </div>
+          <div className="text-gray-700 text-lg lg:text-[22px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-4 xl:gap-6">
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">10% OFF of All Services</p>
+              </div>
+            </div>
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">Free Consultation</p>
+              </div>
+            </div>
+            <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
+              <div className="bg-white border border-transparent rounded-[20px] p-4 h-full flex justify-center items-center">
+                <p className="text-center">Call 813-291-3536 to Schedule</p>
+              </div>
+            </div>
+            </div>
     </div>`,
   },
 ];
