@@ -37,7 +37,7 @@ const page = async () => {
     <section className="w-full flex flex-col justify-start items-center min-h-screen bg-white">
       <PageHeroSection
         title="Blogs"
-        description="lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, quos."
+        description="Welcome to our blog. Here, we share expert advice, tips, and success stories to help you on your journey to a healthy life."
       />
       <article className="bg-white w-full ">
         <div className="container bg-white grid grid-flow-row auto-rows-max grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-10">

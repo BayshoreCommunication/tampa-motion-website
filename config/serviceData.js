@@ -3853,12 +3853,14 @@ export const insuranceSlug = [
           </p>
           
         </div>
-        <p className="text-gray-700 mb-4 leading-relaxed">
-         NEW PATIENT SPECIALS UNTIL 4/30/2025             
-        </p>
-        <p className="text-gray-700 mb-4 leading-relaxed">
-         SPECIAL PRICING OPTIONS FOR NEW PATIENTS:  10% OFF of all services.  Free consultation.  Call 813-291-3536 to schedule.             
-        </p>
+      <div className="text-center flex flex-col justify-center items-center pt-10 lg:pt-20">
+      
+         <h4 className="text-gray-700 text-xl lg:text-2xl font-semibold mb-2 leading-relaxed">
+         New Patient Specials Until 30 April 2025          
+        </h4>
+        <p className="text-gray-700 mb-4 leading-relaxed">Special Pricing Options For New Patients</p>
+      
+      </div>
       </div>
           <div className="text-gray-700 text-lg lg:text-[22px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-4 xl:gap-6">
             <div className="bg-white border shadow-2xl rounded-[20px] text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
