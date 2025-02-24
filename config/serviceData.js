@@ -3672,109 +3672,110 @@ export const insuranceSlug = [
      <div className=" ">
         <div>
           <div className="text-gray-700 text-lg lg:text-[22px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-4 xl:gap-6">
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">Medicare</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">Medicare</p>
               </div>
             </div>
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">Medicaid</p>
+
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">Medicaid</p>
               </div>
             </div>
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">Molina Healthcare (MCO)</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">Molina Healthcare (MCO)</p>
               </div>
             </div>
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">Aetna Better Health (MCO)</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">Aetna Better Health (MCO)</p>
               </div>
             </div>
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">Magellan Healthcare (MCO)</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">Magellan Healthcare (MCO)</p>
               </div>
             </div>
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">Sunshine Healthcare (MCO)</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">Sunshine Healthcare (MCO)</p>
               </div>
             </div>
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">Wellcare/Stay Well (MCO)</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">Wellcare/Stay Well (MCO)</p>
               </div>
             </div>
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">Simply Healthcare (MCO)</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">Simply Healthcare (MCO)</p>
               </div>
             </div>
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">Caresource (MCO)</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">Caresource (MCO)</p>
               </div>
             </div>
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">Care Plus (MCO)</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">Care Plus (MCO)</p>
               </div>
             </div>
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">Oscar Health (MCO)</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">Oscar Health (MCO)</p>
               </div>
             </div>
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">Optemum Health (MCO)</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">Optemum Health (MCO)</p>
               </div>
             </div>
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">Tricare (MCO)</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">Tricare (MCO)</p>
               </div>
             </div>
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">AETNA (Commercial)</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">AETNA (Commercial)</p>
               </div>
             </div>
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">United Healthcare (MCO)</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">United Healthcare (MCO)</p>
               </div>
             </div>
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">National General (National General)</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">National General (National General)</p>
               </div>
             </div>
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">Humana (Medicare Advantage Plan)</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">Humana (Medicare Advantage Plan)</p>
               </div>
             </div>
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">Cigna (Commercial)</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">Cigna (Commercial)</p>
               </div>
             </div>
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">Anthem BCBS (Commercial)</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">Anthem BCBS (Commercial)</p>
               </div>
             </div>
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">Kaiser (Commercial)</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">Kaiser (Commercial)</p>
               </div>
             </div>
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">Ambetter (Commercial)</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">Ambetter (Commercial)</p>
               </div>
             </div>
           </div>
@@ -3863,19 +3864,19 @@ export const insuranceSlug = [
       </div>
       </div>
           <div className="text-gray-700 text-lg lg:text-[22px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-4 xl:gap-6">
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">10% OFF of All Services</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">10% OFF of All Services</p>
               </div>
             </div>
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">Free Consultation</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">Free Consultation</p>
               </div>
             </div>
-            <div className="bg-white border shadow-2xl rounded-[20px] overflow-hidden text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] h-full">
-              <div className="bg-white border border-transparent rounded-[20px] bg-transparent overflow-hidden p-4 h-full">
-                <p className="text-center">Call 813-291-3536 to Schedule</p>
+            <div className="relative bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-[20px] shadow-2xl overflow-hidden h-full">
+              <div className="bg-white rounded-[20px] p-4 h-full flex items-center justify-center">
+                <p className="text-center text-black">Call 813-291-3536 to Schedule</p>
               </div>
             </div>
             </div>
