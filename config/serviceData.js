@@ -3671,7 +3671,7 @@ export const insuranceSlug = [
     description: ` 
      <div className=" ">
         <div>
-          <div className="text-gray-700 text-lg lg:text-[22px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-4 xl:gap-6">
+          <div className="text-gray-700 text-lg lg:text-[22px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-4 xl:gap-6">
             <div className=" bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-2xl shadow-2xl overflow-hidden h-full">
               <div className="bg-white rounded-2xl p-4 h-full flex items-center justify-center">
                 <p className="text-center text-black">Medicare</p>
@@ -3863,7 +3863,7 @@ export const insuranceSlug = [
       
       </div>
       </div>
-          <div className="text-gray-700 text-lg lg:text-[22px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-4 xl:gap-6">
+          <div className="text-gray-700 text-lg lg:text-[22px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-4 xl:gap-6">
             <div className=" bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-2xl shadow-2xl overflow-hidden h-full">
               <div className="bg-white rounded-2xl p-4 h-full flex items-center justify-center">
                 <p className="text-center text-black">10% OFF of All Services</p>
