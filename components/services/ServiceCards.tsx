@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-
 import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
 import { serviceMenu, services } from "@/config/serviceData.js";
 
@@ -74,12 +73,6 @@ const ServiceCards = () => {
                         />
 
                         <p className="text-xl font-bold  text-center">
-                          {/* {
-                            services.filter((i) => {
-                              i.service_slug === item.service_slug;
-                              return i.service;
-                            })[i].service
-                          } */}
                           {item.service}
                         </p>
                         <p className=" text-center pt-3  line-clamp-5">

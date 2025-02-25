@@ -35,8 +35,7 @@ const MainHeader = () => {
   const [isSubClassOpen, setIsSubClassOpen] = useState(false);
   const [className, setClassName] = useState("");
   const pathname = usePathname();
-  console.log(pathname);
-  const params = useParams();
+
   const [navbarColor, setNavbarColor] = useState(false);
 
   const [isDropdownVisibleForService, setDropdownVisibleForService] =
@@ -81,20 +80,8 @@ const MainHeader = () => {
   );
 
   const setPathSlug = serviceMenu?.some((el) => {
-    pathname ===
-      `/services/${
-        el?.subClass.filter((e) => {
-          e.service_slug;
-        })[0]?.service_slug
-      }`;
-    console.log(
-      el?.subClass.filter((e) => {
-        e.service_slug;
-      })[0]
-    );
+    pathname === `/services/${el?.service_slug.toLowerCase()}`;
   });
-  console.log(setPathSlug);
-  console.log(pathname);
 
   const setInsuranceSlug = insuranceMenu?.some(
     (el) => pathname === `/insurance-coverage/${el?.service_slug}`

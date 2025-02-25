@@ -1679,7 +1679,7 @@ Our team offers personalized physical therapy programs designed to reduce swelli
     </div>`,
   },
   {
-    title: `Orthopedic/ Joint Pain / Spine`,
+    title: `Orthopedic / Joint Pain / Spine`,
     url: ``,
     slug: `ORTHOPEDIC-JOINT-PAIN-SPINE`,
     icon: ``,
@@ -2708,7 +2708,7 @@ This increases the risk of falls and affects the ability to move safely.
     </div>`,
   },
   {
-    title: `Sports-Related Injuries (Sprains/ Strains / Fractures)`,
+    title: `Sports-Related Injuries (Sprains / Strains / Fractures)`,
     url: ``,
     slug: `SPORTS-RELATED-INJURIES-SPRAINS-STRAINS-FRACTURES`,
     icon: ``,
