@@ -59,7 +59,7 @@ const MainHeader = () => {
       { title: "Home", slug: "/" },
       { title: "About", slug: "/about" },
       { title: "Services", slug: "/services" },
-      { title: "Insurance Coverage", slug: "/#" },
+      // { title: "Insurance Coverage", slug: "/#" },
       { title: "Blog", slug: "/blog" },
       { title: "Testimonials", slug: "/testimonials" },
       { title: "Contact Us", slug: "/contact" },

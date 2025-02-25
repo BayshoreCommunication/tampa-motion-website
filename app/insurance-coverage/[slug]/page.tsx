@@ -114,7 +114,7 @@ const page = ({ params }: { params: { slug: string } }) => {
       </article>
 
       <article className="bg-white w-full">
-        <div className="bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] z-20  py-32 text-black">
+        <div className="bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] z-20 py-16  lg:py-32 text-black">
           <ScrollMotionEffect effect="fade-up" duration={2000}>
             <h3 className="text-xl  text-center md:text-3xl 2xl:text-5xl font-baskerville px-5 2xl:px-52">
               If you want avail these services{" "}
