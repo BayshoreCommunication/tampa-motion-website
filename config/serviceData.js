@@ -3886,11 +3886,11 @@ export const insuranceSlug = [
                 <p className="text-center text-black">Free Consultation</p>
               </div>
             </div>
-            <div className=" bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-2xl shadow-2xl overflow-hidden h-full">
+            <a href="tel:+1 813-291-3536" className=" bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-2xl shadow-2xl overflow-hidden h-full">
               <div className="bg-white rounded-2xl p-4 h-full flex items-center justify-center">
-                <a href="tel:+1 813-291-3536" className="text-center text-black" >Call +1 813-291-3536 to Schedule</a>
+                <p className="text-center text-black" >Call +1 813-291-3536 to Schedule</p>
               </div>
-            </div>
+            </a>
             </div>
     </div>`,
   },
