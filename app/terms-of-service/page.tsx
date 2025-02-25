@@ -27,7 +27,7 @@ export const metadata = {
 const page = () => {
   return (
     <section className="bg-white text-black py-10 md:py-20 min-h-screen">
-      <article className="container">
+      <article className="container       mt-16">
         <div className="text-center md:text-left text-md md:text-xl">
           <h2
             className={` !font-semibold text-xl md:text-4xl md:pb-10   text-center  pb-3  uppercase`}

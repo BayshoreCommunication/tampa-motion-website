@@ -28,7 +28,7 @@ export const metadata = {
 const page = () => {
   return (
     <section className="bg-white text-black py-10 md:py-20 min-h-screen">
-      <article className="container">
+      <article className="container       mt-16">
         <div className="text-center md:text-left text-md md:text-xl">
           <div className="my-2">
             <h2
