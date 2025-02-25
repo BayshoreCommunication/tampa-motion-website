@@ -95,7 +95,7 @@ const page = () => {
                 </div>
                 <div className="">
                   <div>
-                    <h2 className="text-2xl font-semibold text-gray-900 mb-4 relative inline-block after:content-[''] after:block after:w-[165px] after:h-[2px] after:bg-[#08A1E9] after:mt-1">
+                    <h2 className="text-2xl font-semibold text-gray-900 mb-4 relative inline-block after:content-[''] after:block after:w-[265px] after:h-[2px] after:bg-[#08A1E9] after:mt-1">
                       Previous Experiences
                     </h2>
                     <ul className="list-disc pl-4 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
@@ -123,7 +123,7 @@ const page = () => {
                 </div>
                 <div>
                   <div>
-                    <h2 className="text-2xl font-semibold text-gray-900 mb-4 relative inline-block after:content-[''] after:block after:w-[165px] after:h-[2px] after:bg-[#08A1E9] after:mt-1">
+                    <h2 className="text-2xl font-semibold text-gray-900 mb-4 relative inline-block after:content-[''] after:block after:w-[100px] after:h-[2px] after:bg-[#08A1E9] after:mt-1">
                       Mission
                     </h2>
                     <p className="text-gray-700 leading-relaxed">
