@@ -21,10 +21,10 @@ const page = () => {
       />
       <article className="bg-white w-full">
         <div className="container bg-white">
-          <div className=" h-fit inline-grid gap-3 2xl:gap-12 grid-flow-row grid-cols-1 md:grid-cols-2 xl:grid-cols-3  auto-rows-min pt-10 px-5  text-black  py-10 md:py-20">
+          <div className=" h-fit inline-grid gap-8 2xl:gap-12 grid-flow-row grid-cols-1 md:grid-cols-2 xl:grid-cols-3  auto-rows-min pt-10 px-5  text-black  py-10 md:py-20">
             {review.map((el, index) => (
               <ScrollMotionEffect effect="fade-up" duration={2000} key={index}>
-                <div className="flex 2xl:flex-row h-full flex-col justify-center items-center xl:items-center 2xl:justify-start 2xl:items-start w-full   hover:scale-105 transition-all duration-400 ease-in-out bg-gray-50 px-5 py-8 rounded-2xl border border-gray-100 shadow-md">
+                <div className="flex 2xl:flex-row h-full flex-col justify-center items-center xl:items-center 2xl:justify-start 2xl:items-start w-full  hover:scale-105 transition-all duration-400 ease-in-out bg-gray-50 px-5 py-8 rounded-2xl border border-gray-100 shadow-md">
                   <div className="w-[20%] ">
                     <Image
                       src={el.avatar}
