@@ -66,21 +66,6 @@ const HeroSection = () => {
               ))}
             </h1>
 
-            {/* <h1 className="text-4xl md:text-7xl font-bold leading-tight md:text-left text-center text-black whitespace-pre md:hidden">
-              <ScrollMotionEffect effect="fade-up" duration={2000}>
-                {h1.map((word, index) => (
-                  <motion.span
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ duration: 3, delay: index / 5 }}
-                    key={index}
-                  >
-                    {word}{" "}
-                  </motion.span>
-                ))}
-              </ScrollMotionEffect>
-            </h1> */}
-
             <motion.h6
               variants={variants}
               className="text-lg lg:text-2xl font-normal mt-6 md:text-left text-center text-black"

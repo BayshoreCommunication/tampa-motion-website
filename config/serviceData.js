@@ -672,10 +672,11 @@ export const servicesSlug = [
     url: "",
     slug: "joint-replacement-rehabilitation",
     icon: "",
-    sortTitle: "",
+    sortTitle:
+      "Best joint replacement rehabilitation centers florida | Specialized Joint Rehabilitation Florida | Best Clinic for rehabilitation florida | total joint replacement rehabilitation specialist near me",
 
     heroDescription: `Rebuild strength and confidence post-surgery with personalized rehabilitation plans for smooth, pain-free recovery.`,
-    shortDescription: ``,
+    shortDescription: `Looking for the best joint replacement rehabilitation centers in Florida? Our specialized joint rehabilitation in Florida provides expert care. Visit the best clinic for rehabilitation in Florida with a total joint replacement rehabilitation specialist near you.`,
     description: ` 
     <div>
       <div className="  md:space-x-6">
@@ -768,10 +769,11 @@ Tampa Motion Kinetics PLLC is dedicated to supporting you through every step of 
     url: "",
     slug: "neurological-rehabilitation",
     icon: "",
-    sortTitle: "",
+    sortTitle:
+      "Neuro rehabilitation therapists Florida | best neurological rehabilitation centers Tampa | advanced neurologic rehabilitation florida | best neuro rehabilitation programs florida ",
 
     heroDescription: `Regain motor function and independence with our specialized therapies for conditions like stroke and nerve injuries.`,
-    shortDescription: ``,
+    shortDescription: `Recover with expert care from top neuro rehabilitation therapists in Florida. Our best neurological rehabilitation centers in Tampa offer advanced neurologic rehabilitation in Florida with the best neuro rehabilitation programs for optimal recovery.`,
     description: ` 
     <div>
       <div className="  md:space-x-6">
@@ -885,10 +887,11 @@ Tampa Motion Kinetics PLLC provides a nurturing environment to help patients ove
     url: "",
     slug: "parkinsons-disease-rehabilitation",
     icon: "",
-    sortTitle: "",
+    sortTitle:
+      "Best parkinson disease rehabilitation​ florida | Expert physical therapy for parkinson disease | specialized rehabilitation center for parkin's disease florida | best parkinson's disease treatments florida",
 
     heroDescription: `Enhance your movement, balance, and overall quality of life with therapies that help slow disease progression and improve daily activities.`,
-    shortDescription: ``,
+    shortDescription: `Get the best Parkinson’s disease rehabilitation in Florida with expert physical therapy for Parkinson’s disease. Our specialized rehabilitation center for Parkinson’s disease in Florida offers the best Parkinson’s disease treatments for improved mobility and quality of life.`,
     description: ` 
     <div>
       <div className="  md:space-x-6">
@@ -1000,10 +1003,11 @@ We walk this journey with you, offering genuine care, refined expertise, and an 
     url: "",
     slug: "pre-and-post-operative-rehabilitation",
     icon: "",
-    sortTitle: "",
+    sortTitle:
+      "Top Post-surgical rehabilitation programs florida | Best pre and post operative rehabilitation clinic florida | best pre-operativel rehab therapy solution| top post operative physical therapy",
 
     heroDescription: `Prepare for surgery and heal effectively afterward with structured rehab programs that fasten recovery.`,
-    shortDescription: ``,
+    shortDescription: `Recover faster with top post-surgical rehabilitation programs in Florida. Our best pre- and post-operative rehabilitation clinic in Florida offers the best pre-operative rehab therapy solutions and top post-operative physical therapy for optimal healing.`,
     description: ` 
     <div>
       <div className="  md:space-x-6">
@@ -1115,10 +1119,11 @@ We understand that every surgery and recovery process is unique. Our goal is to 
     url: "",
     slug: "rotator-cuff-surgery-preparation",
     icon: "",
-    sortTitle: "",
+    sortTitle:
+      "Expert preparation for rotator cuff surgery​ florida | best exercises to prepare for rotator cuff surgery florida | advanced preparation for rotator cuff surgery tampa | specializing in rotator cuff injuries florida ",
 
     heroDescription: `Get your shoulder ready before surgery and bounce back faster afterward with personalized rehab from our experts.`,
-    shortDescription: ``,
+    shortDescription: `Get expert preparation for rotator cuff surgery in Florida. Learn the best exercises to prepare for rotator cuff surgery in Florida with advanced preparation in Tampa. Our clinic specializes in rotator cuff injuries in Florida for optimal recovery.`,
     description: ` 
     <div>
       <div classname="  md:space-x-6">
@@ -1224,10 +1229,11 @@ Tampa Motion Kinetics PLLC is committed to preparing you for rotator cuff surger
     url: "",
     slug: "spine-and-cosmetic-surgery-rehabilitation",
     icon: "",
-    sortTitle: "",
+    sortTitle:
+      "Expert physical therapy in spine health | best spine therapy center florida | advanced therapy for cosmetic surgery | Expert florida physical therapy for cosmetic surgery​​",
 
     heroDescription: `Ensure a smooth recovery and long-term stability with personalized therapy designed for spinal and cosmetic surgical procedures.`,
-    shortDescription: ``,
+    shortDescription: `Improve mobility with expert physical therapy in spine health. Visit the best spine therapy center in Florida for advanced therapy for cosmetic surgery. Get expert Florida physical therapy for cosmetic surgery recovery and rehabilitation.`,
     description: ` 
     <div>
       <div className="  md:space-x-6">
@@ -1339,10 +1345,11 @@ Tampa Motion Kinetics PLLC combines expertise, innovation, and compassion to ens
     url: "",
     slug: "ligament-and-tendon-repair-rehabilitation",
     icon: "",
-    sortTitle: "",
+    sortTitle:
+      "Best tendon repair post-op rehabilitation florida | best local physical therapist for repair ligaments and tendons | best physical therapy for ligament and tendon healing florida | best physical therapy for ligament injuries",
 
     heroDescription: `Rebuild strength and prevent future injuries with rehab focused to help you recover from ligament and tendon injuries.`,
-    shortDescription: ``,
+    shortDescription: `Recover faster with the best tendon repair post-op rehabilitation in Florida. Find the best local physical therapist for repairing ligaments and tendons. Get the best physical therapy for ligament and tendon healing in Florida, specializing in ligament injury recovery.`,
     description: ` 
     <div>
       <div className="  md:space-x-6">
@@ -1454,10 +1461,11 @@ Tampa Motion Kinetics PLLC is committed to guiding you through every phase of li
     url: "",
     slug: "upper-and-lower-extremity-surgery-rehabilitation",
     icon: "",
-    sortTitle: "",
+    sortTitle:
+      "Best upper extremity surgical rehabilitation center | experts in lower extremity physical therapy | best physician services for Upper and Lower Extremity Surgery | best care for upper and lower extremity surgical rehabilitation",
 
     heroDescription: `Regain movement and function in your arms and legs with structured rehab customized to your surgical needs.`,
-    shortDescription: ``,
+    shortDescription: `Get expert care at the best upper extremity surgical rehabilitation center. Our specialists provide advanced lower extremity physical therapy and the best physician services for upper and lower extremity surgery. Experience the best care for upper and lower extremity surgical rehabilitation.`,
     description: ` 
     <div>
       <div className="  md:space-x-6">
@@ -3783,7 +3791,7 @@ export const insuranceSlug = [
       </div>`,
   },
   {
-    title: `Non-Insurance Payment Options`,
+    title: `Non-Insurance`,
     url: ``,
     slug: `non-insurance`,
     icon: ``,
@@ -3795,9 +3803,13 @@ export const insuranceSlug = [
       <div className=" mb-8 lg:mb-12">
         <div>
              <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
-                Don’t have insurance? No problem. At Tampa Motion, we have several affordable packages for all your rehabilitation needs.
-            </p>
-        </div>         
+                Non-Insurance Payment Options
+            </h2>
+        </div>  
+        <p className="text-gray-700 mb-4 leading-relaxed">
+            Don’t have insurance? No problem. At Tampa Motion we have several affordable packages for all your rehabilitation needs.
+          
+          </p>       
         <div>
           
           <ul className="list-decimal  list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
@@ -3839,7 +3851,7 @@ export const insuranceSlug = [
              What to expect during an Evaluation:         
           </h2>
           <p className="text-gray-700 mb-4 leading-relaxed">
-            When you meet your Doctor of Physical Therapy for the first time, it’s more than just a routine check. It's the beginning of a conversation, a clinical examination, a history intake, a review of your systems, and gathering objective data. This initial meeting is where your therapist starts to understand you, and you begin to understand what lies ahead. They’ll create a treatment plan just for you, one that reflects where you’re at and where you’re headed. It's also a chance for you both to set expectations and lay down the foundation for progress. This part of the journey usually takes about 60-90 minutes.
+            A Physical Therapy evaluation is your first encounter with a Doctor of Physical Therapy that will include a clinical examination, history intake, systems review, and objective data collection.  The evaluation helps your therapist to develop a personalized treatment plan and provides a baseline to track progress. This is where the patient and the therapist will work together to set expectations for the treatment plan. The average time for an evaluation is between 60-90 minutes.
           
           </p>
           
@@ -3849,7 +3861,7 @@ export const insuranceSlug = [
              What to expect during a treatment session:     
           </h2>
           <p className="text-gray-700 mb-4 leading-relaxed">
-           As with all things, the specifics depend on where you stand. Your treatment may involve exercises, stretches, soft tissue mobilization, joint work, or something gentler like lymphatic drainage massage or functional training. Sometimes, modalities like Ultrasound, Cold laser, Traction, Kinesiotaping or E-stim will make their way into the session. It’s a carefully chosen balance, unique to you. The time spent in these sessions can vary, typically ranging from 45 to 90 minutes.
+           Depending on an individual’s diagnosis and needs, several treatments will be used for rehabilitation, such as exercise, passive stretching, soft tissue mobilization, joint mobilization, lymphatic drainage massage, functional training, modalites (Ultrasound, Cold Laser, Kinesiotaping, Traction, heat/cold), E-stim). The average time for a treatment session is between 45-90 minutes.
           
           </p>
           
@@ -3857,9 +3869,9 @@ export const insuranceSlug = [
       <div className="text-center flex flex-col justify-center items-center pt-10 lg:pt-20">
       
          <h4 className="text-gray-700 text-xl lg:text-2xl font-semibold mb-2 leading-relaxed">
-         New Patient Specials Until 30 April 2025          
+         NEW PATIENT SPECIALS UNTIL 4/30/2025         
         </h4>
-        <p className="text-gray-700 mb-4 leading-relaxed">Special Pricing Options For New Patients</p>
+        <p className="text-gray-700 mb-4 leading-relaxed">SPECIAL PRICING OPTIONS FOR NEW PATIENTS</p>
       
       </div>
       </div>
@@ -3876,7 +3888,7 @@ export const insuranceSlug = [
             </div>
             <div className=" bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-2xl shadow-2xl overflow-hidden h-full">
               <div className="bg-white rounded-2xl p-4 h-full flex items-center justify-center">
-                <p className="text-center text-black">Call 813-291-3536 to Schedule</p>
+                <a href="tel:+1 813-291-3536" className="text-center text-black" >Call +1 813-291-3536 to Schedule</a>
               </div>
             </div>
             </div>
