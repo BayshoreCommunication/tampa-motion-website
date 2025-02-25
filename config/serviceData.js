@@ -1918,11 +1918,7 @@ Athena Akram, DPT, the CEO and Senior Physical Therapist of Tampa Motion has ext
                Progressive Strengthening Exercises:           
               </span>We prepare muscles around the joint for surgery. Our primary focus is on improving flexibility and joint mobility. 
             </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>
-            </li>
+            
           </ul>
         </div>
         <p className="text-gray-700 mb-4 leading-relaxed">
@@ -1962,11 +1958,7 @@ Athena Akram, DPT, the CEO and Senior Physical Therapist of Tampa Motion has ext
               Reduced Mobility and Range of Motion:            
               </span>Rehabilitation helps restore joint movement, and without it, patients may experience stiffness and limited motion.
             </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>           
-            </li>
+            
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Increased Pain and Discomfort:            
@@ -1985,7 +1977,7 @@ Athena Akram, DPT, the CEO and Senior Physical Therapist of Tampa Motion has ext
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Decreased Overall Function:            
-              </spanRehabilitation is crucial for regaining the ability to perform daily activities.           
+              </span>Rehabilitation is crucial for regaining the ability to perform daily activities.           
             </li>
             <li>
               <span className="font-semibold text-gray-900 pr-1">
@@ -2659,11 +2651,6 @@ This increases the risk of falls and affects the ability to move safely.
               <span className="font-semibold text-gray-900 pr-1">
               Age:            
               </span>Symptoms may first appear in childhood or adolescence, but many individuals are diagnosed in their 20s or 30s.           
-            </li>
-            <li>
-              <span className="font-semibold text-gray-900 pr-1">
-                          
-              </span>
             </li>
             <li>
               <span className="font-semibold text-gray-900 pr-1">

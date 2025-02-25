@@ -13,7 +13,7 @@ import { RiArrowDropRightLine } from "react-icons/ri";
 
 import { Libre_Baskerville } from "next/font/google";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { useParams, usePathname } from "next/navigation";
 
 import Image from "next/image";
 //import { areaspracticeData } from "@/config/data";
@@ -35,6 +35,8 @@ const MainHeader = () => {
   const [isSubClassOpen, setIsSubClassOpen] = useState(false);
   const [className, setClassName] = useState("");
   const pathname = usePathname();
+  console.log(pathname);
+  const params = useParams();
   const [navbarColor, setNavbarColor] = useState(false);
 
   const [isDropdownVisibleForService, setDropdownVisibleForService] =
@@ -78,9 +80,22 @@ const MainHeader = () => {
     []
   );
 
-  const setPathSlug = serviceMenu?.some(
-    (el) => pathname === `/services/${el?.service_slug}`
-  );
+  const setPathSlug = serviceMenu?.some((el) => {
+    pathname ===
+      `/services/${
+        el?.subClass.filter((e) => {
+          e.service_slug;
+        })[0]?.service_slug
+      }`;
+    console.log(
+      el?.subClass.filter((e) => {
+        e.service_slug;
+      })[0]
+    );
+  });
+  console.log(setPathSlug);
+  console.log(pathname);
+
   const setInsuranceSlug = insuranceMenu?.some(
     (el) => pathname === `/insurance-coverage/${el?.service_slug}`
   );
@@ -160,7 +175,7 @@ const MainHeader = () => {
                                 {/*   {el.service} */}
                                 {/* </Link> */}
                                 <div
-                                  className={`py-2 px-4 flex relative w-full h-full flex-col text-base  xl:text-[14px] 2xl:text-[16px]  hover:text-secondary transition-all duration-250 ease-in-out border-b rounded-md ${pathname === `/services/${el?.service_slug.toLowerCase()}` ? " text-secondary " : "text-slate-900"}`}
+                                  className={`py-2 px-4 flex relative w-full h-full flex-col text-base  xl:text-[14px] 2xl:text-[16px]  hover:text-secondary transition-all duration-250 ease-in-out border-b rounded-md ${pathname === `/services/${el?.service_slug.toLowerCase()}` || setPathSlug ? " text-secondary " : "text-slate-900"}`}
                                   onMouseEnter={() => {
                                     setIsSubClassOpen(!isSubClassOpen);
                                     setClassName(el.service);
