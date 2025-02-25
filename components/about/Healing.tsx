@@ -55,7 +55,7 @@ const Healing = () => {
                 <div className="absolute top-60 left-48 z-20 lg:left-[65%] lg:top-[65%]">
                   <ScrollMotionEffect effect="zoom-in" duration={3000}>
                     <button className="bg-gradient-to-b from-[#0aa3e8] to-[#34e1d8] h-32 w-56 text-white font-thin  rounded-3xl flex flex-col justify-center items-center hover:scale-105 transition-all duration-500 ease-in-out cursor-default">
-                      <p className=" font-baskerville text-base font-thin">
+                      <p className=" font-baskerville text-[13px] font-thin">
                         &quot;Physical Therapy gives me the flexibility I need
                         to keep in the game.&quot;
                       </p>
@@ -91,7 +91,7 @@ const Healing = () => {
                 <div className="absolute z-20 left-[65%] top-[65%] scale-85 -translate-x-20 translate-y-4 md:translate-y-0">
                   <ScrollMotionEffect effect="zoom-in" duration={3000}>
                     <button className="bg-gradient-to-b from-[#0aa3e8] to-[#34e1d8] h-28 p-3 w-52 text-white font-thin  rounded-3xl flex flex-col justify-center items-center ">
-                      <p className=" font-baskerville text-sm font-thin">
+                      <p className=" font-baskerville text-[13px] font-thin">
                         &quot;Physical Therapy gives me the flexibility I need
                         to keep in the game.&quot;
                       </p>
