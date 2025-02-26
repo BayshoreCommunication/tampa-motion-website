@@ -67,17 +67,17 @@ export async function generateMetadata(
   return {
     title:
       data?.sortTitle ||
-      "Best Physical Therapists Near Me in Tampa, FL | Trusted clinic for physical therapy in tampa fl | Parkinson's Disease Care in Tampa | Top Plastic Surgeon Tampa, FL | Top Medical Spa Tampa, FL | Tampa Motion",
+      "Experienced Physical Therapist tampa | Physical Rehabilitation Center Tampa| Spine and cosmetic surgeries in tampa | Tampa Motion",
     description:
       data?.shortDescription ||
-      "Looking for the best physical therapists near me in Tampa, FL? Tampa Motion is a trusted clinic for physical therapy in Tampa, FL, specializing in Parkinson's disease care in Tampa. We collaborate with top plastic surgeons Tampa, FL, and top medical spas Tampa, FL, for comprehensive recovery solutions.",
+      "Recover with an experienced physical therapist in Tampa at our leading physical rehabilitation center in Tampa. We specialize in spine and cosmetic surgeries in Tampa, providing expert care at Tampa Motion for optimal healing and mobility.",
     openGraph: {
       title:
         data?.sortTitle ||
-        "Best Physical Therapists Near Me in Tampa, FL | Trusted clinic for physical therapy in tampa fl | Parkinson's Disease Care in Tampa | Top Plastic Surgeon Tampa, FL | Top Medical Spa Tampa, FL | Tampa Motion",
+        "Experienced Physical Therapist tampa | Physical Rehabilitation Center Tampa| Spine and cosmetic surgeries in tampa | Tampa Motion",
       description:
         data?.shortDescription ||
-        "Looking for the best physical therapists near me in Tampa, FL? Tampa Motion is a trusted clinic for physical therapy in Tampa, FL, specializing in Parkinson's disease care in Tampa. We collaborate with top plastic surgeons Tampa, FL, and top medical spas Tampa, FL, for comprehensive recovery solutions.",
+        "Recover with an experienced physical therapist in Tampa at our leading physical rehabilitation center in Tampa. We specialize in spine and cosmetic surgeries in Tampa, providing expert care at Tampa Motion for optimal healing and mobility.",
       url: "https://www.tampamotion.com/services/" + slug,
       siteName: "Tampa Motion",
       images: [
