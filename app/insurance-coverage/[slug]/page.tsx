@@ -55,7 +55,7 @@ type Props = {
 
 export async function generateMetadata(
   { params, searchParams }: Props,
-  parent: ResolvingMetadata
+  parent: ResolvingMetadata,
 ): Promise<Metadata> {
   // read route params
   const slug = (await params).slug;
@@ -67,15 +67,19 @@ export async function generateMetadata(
   // const previousImages = (await parent).openGraph?.images || [];
 
   return {
-    title: data?.sortTitle,
+    title:
+      data?.sortTitle ||
+      `Best Physical therapy Tampa | Best Foot and Ankle Ligament and Tendon Repair  in tampa`,
     description:
       data?.shortDescription ||
-      "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+      "Experience the best physical therapy Tampa at Tampa Motion. We specialize in the best foot and ankle ligament and tendon repair in Tampa, along with expert cosmetic surgery physical therapy Tampa for a smooth and effective recovery.",
     openGraph: {
-      title: data?.sortTitle,
+      title:
+        data?.sortTitle ||
+        `Best Physical therapy Tampa | Best Foot and Ankle Ligament and Tendon Repair  in tampa`,
       description:
         data?.shortDescription ||
-        "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+        "Experience the best physical therapy Tampa at Tampa Motion. We specialize in the best foot and ankle ligament and tendon repair in Tampa, along with expert cosmetic surgery physical therapy Tampa for a smooth and effective recovery.",
       url: "https://www.tampamotion.com/services/" + slug,
       siteName: "Tampa Motion",
       images: [
@@ -94,7 +98,7 @@ const page = ({ params }: { params: { slug: string } }) => {
 
   // fetch data
   const data = insuranceSlug.find(
-    (insurance) => insurance.slug.toLowerCase() === slug
+    (insurance) => insurance.slug.toLowerCase() === slug,
   );
   // console.log(servicesSlug.map((e) => e.title));
 

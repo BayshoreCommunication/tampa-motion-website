@@ -15,11 +15,11 @@ const ServiceCards = () => {
   }
   filtered = customeFilter(
     serviceMenu,
-    (item: any) => item.service !== "Manual Lymphatic Drainage"
+    (item: any) => item.service !== "Manual Lymphatic Drainage",
   );
   filtered = customeFilter(
     filtered,
-    (item: any) => item.service !== "Pelvic Floor Strengthening"
+    (item: any) => item.service !== "Pelvic Floor Strengthening",
   );
   return (
     <div className=" h-fit inline-grid gap-3 2xl:gap-12 grid-flow-row grid-cols-1 w-full  items-center auto-rows-min py-10 lg:py-20 px-5  text-black  ">
@@ -29,7 +29,7 @@ const ServiceCards = () => {
             className="bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] rounded-3xl p-[2px] z-20 "
             key={service.service}
           >
-            <article className="w-full   border bg-[#34e1d8]/20 p-4 xl:p-8 rounded-3xl flex flex-col justify-center items-center border-transparent">
+            <article className="w-full  border bg-[#34e1d8]/20 p-4 xl:p-8 rounded-3xl flex flex-col justify-center items-center border-transparent">
               <div className="flex flex-col lg:flex-row justify-center items-center pb-10 xl:pb-16 gap-4">
                 <Image
                   src={service.image}
@@ -51,20 +51,20 @@ const ServiceCards = () => {
                     className="bg-gradient-to-r from-[#0aa3e8] to-[#34e1d8] rounded-3xl p-[2px]  z-20 hover:scale-105  transition-all duration-300 ease-in-out w-full lg:w-[45%] 2xl:w-[30%]"
                   >
                     <Link href={`/services/${item.service_slug.toLowerCase()}`}>
-                      <article className="w-full  h-[376px]  lg:h-[340px] border bg-white p-4 xl:p-8 rounded-3xl flex flex-col gap-5 justify-center items-center border-transparent">
+                      <article className="w-full   h-[376px]  lg:h-[340px] border bg-white p-4 xl:p-8 rounded-3xl flex flex-col gap-5 justify-center items-center border-transparent">
                         <Image
                           src={customeFilter(
                             services,
                             (i: any) =>
                               `${i.slug.toLowerCase()}` ==
-                              `${item.service_slug.toLowerCase()}`
+                              `${item.service_slug.toLowerCase()}`,
                           )[0]?.image.toLowerCase()}
                           alt={
                             customeFilter(
                               services,
                               (i: any) =>
                                 `${i.slug.toLowerCase()}` ==
-                                `${item.service_slug.toLowerCase()}`
+                                `${item.service_slug.toLowerCase()}`,
                             )[0]?.service
                           }
                           width={40}
@@ -81,7 +81,7 @@ const ServiceCards = () => {
                               services,
                               (i: any) =>
                                 `${i.slug.toLowerCase()}` ==
-                                `${item.service_slug.toLowerCase()}`
+                                `${item.service_slug.toLowerCase()}`,
                             )[0]?.text
                           }
                           {/* {item.text} */}

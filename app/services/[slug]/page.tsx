@@ -67,17 +67,17 @@ export async function generateMetadata(
   return {
     title:
       data?.sortTitle ||
-      "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+      "Best Physical Therapists Near Me in Tampa, FL | Trusted clinic for physical therapy in tampa fl | Parkinson's Disease Care in Tampa | Top Plastic Surgeon Tampa, FL | Top Medical Spa Tampa, FL | Tampa Motion",
     description:
       data?.shortDescription ||
-      "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+      "Looking for the best physical therapists near me in Tampa, FL? Tampa Motion is a trusted clinic for physical therapy in Tampa, FL, specializing in Parkinson's disease care in Tampa. We collaborate with top plastic surgeons Tampa, FL, and top medical spas Tampa, FL, for comprehensive recovery solutions.",
     openGraph: {
       title:
         data?.sortTitle ||
-        "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+        "Best Physical Therapists Near Me in Tampa, FL | Trusted clinic for physical therapy in tampa fl | Parkinson's Disease Care in Tampa | Top Plastic Surgeon Tampa, FL | Top Medical Spa Tampa, FL | Tampa Motion",
       description:
         data?.shortDescription ||
-        "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
+        "Looking for the best physical therapists near me in Tampa, FL? Tampa Motion is a trusted clinic for physical therapy in Tampa, FL, specializing in Parkinson's disease care in Tampa. We collaborate with top plastic surgeons Tampa, FL, and top medical spas Tampa, FL, for comprehensive recovery solutions.",
       url: "https://www.tampamotion.com/services/" + slug,
       siteName: "Tampa Motion",
       images: [
