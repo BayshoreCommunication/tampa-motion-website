@@ -29,11 +29,11 @@ const page = () => {
     <section className="bg-white text-black py-10 md:py-20 min-h-screen">
       <article className="container       mt-16">
         <div className="text-center md:text-left text-md md:text-xl">
-          <h2
+          <h1
             className={` !font-semibold text-xl md:text-4xl md:pb-10   text-center  pb-3  uppercase`}
           >
             Terms of Service
-          </h2>
+          </h1>
 
           <div className="flex flex-col  pt-5 pb-10">
             <p className="text-base  pb-3 md:text-2xl text-stone-950 text-left font-semibold">

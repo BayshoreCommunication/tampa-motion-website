@@ -29,11 +29,11 @@ const page = () => {
     <section className="bg-white text-black py-10 md:py-20 min-h-screen">
       <article className="container       mt-16">
         <div className="text-center md:text-left text-md md:text-xl">
-          <h2
+          <h1
             className={` !font-semibold text-xl md:text-4xl pb-5 md:pb-10   text-center  uppercase`}
           >
             Disclaimer
-          </h2>
+          </h1>
           <p className="text-base text-stone-950   text-left  pb-4 ">
             By accessing and using the website of Tampa Motion, PLLC, you
             acknowledge and agree to the following terms:

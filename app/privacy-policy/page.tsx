@@ -29,11 +29,11 @@ const page = () => {
       <article className="container       mt-16">
         <div className="text-center md:text-left text-md md:text-xl">
           <div className="my-2">
-            <h2
+            <h1
               className={`text-stone-950 !font-semibold text-xl md:text-4xl mb-10  text-center  uppercase`}
             >
               Privacy Policy
-            </h2>
+            </h1>
             <p className="text-base text-stone-950 text-center md:text-left font-semibold pb-2 italic">
               Effective Date: 26 January, 2025
             </p>
