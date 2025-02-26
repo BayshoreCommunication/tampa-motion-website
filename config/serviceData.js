@@ -456,7 +456,7 @@ const slugStructure = {
           <p className="text-gray-700 mb-4 leading-relaxed">
                       
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -506,7 +506,7 @@ const slugStructure = {
           <p className="text-gray-700 mb-4 leading-relaxed">
                       
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -584,7 +584,7 @@ export const servicesSlug = [
 
   // Physiotherapy is ideal for individuals of all ages dealing with a wide range of physical challenges, including:
   //           </p>
-  //           <ul className="list-disc pl-8 ml-10 to-emerald-500 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+  //           <ul className="list-disc pl-8 ml-10 to-emerald-500 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
   //             <li>
   //               <span class="font-bold text-gray-900 pr-1">
   //   Chronic Pain:
@@ -626,7 +626,7 @@ export const servicesSlug = [
 
   // Tampa Motion Kinetics PLLC addresses your physical challenges with a comprehensive and  customized approach:
   //           </p>
-  //           <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2 ">
+  //           <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2 ">
   //             <li>
   //               <span className="font-semibold text-gray-900 pr-1">
 
@@ -695,7 +695,7 @@ Who Can Benefit from This Service?
                       
 This service is designed for individuals who have undergone joint replacement surgery and are seeking a safe and effective recovery process. Common candidates include:
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
  Post-Surgery Patients:                         
@@ -724,7 +724,7 @@ How Tampa Motion Kinetics Helps You Heal and Move Forward
                       
 Our joint replacement rehabilitation program is designed to address the unique challenges of post-surgical recovery:
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -792,7 +792,7 @@ Who Can Benefit from This Service?
                       
 Neurological Rehab is for individuals facing challenges resulting from:
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
   Stroke:                        
@@ -834,7 +834,7 @@ How Tampa Motion Kinetics Helps You Heal and Move Forward
                       
 We recognize the complexities of neurological conditions and address them with an innovative approach:
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -910,7 +910,7 @@ Who Can Benefit from This Service?
                       
 This service is for individuals diagnosed with Parkinson’s disease who face:
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
  Movement Challenges:                         
@@ -952,7 +952,7 @@ How Tampa Motion Kinetics Helps You Heal and Move Forward
                       
 We offer to help individuals manage Parkinson’s disease and maintain a higher quality of life:
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -1026,7 +1026,7 @@ Who Can Benefit from This Service?
                       
 This service benefits individuals undergoing or recovering from surgeries such as:
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
  Orthopedic Procedures:                       
@@ -1068,7 +1068,7 @@ How Tampa Motion Kinetics Helps You Heal and Move Forward
                       
 We bridge the gap between surgery and full recovery with a strategic and individualized approach:
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -1142,7 +1142,7 @@ Who can benefit from this service?
                       
 This service is ideal for individuals planning rotator cuff surgery who are facing:
           </p>
-          <ul classname="list-disc list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul classname="list-disc list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span classname="font-semibold text-gray-900 pr-1">
  Shoulder Weakness or Pain:                         
@@ -1178,7 +1178,7 @@ How Tampa Motion Kinetics Helps You Heal and Move Forward
                       
 We provide a systematic, evidence-based approach to ensure your shoulder is prepared for surgery:
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -1252,7 +1252,7 @@ Who Can Benefit from This Service?
                       
 This service benefits individuals undergoing:
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
  Spine Surgeries:                         
@@ -1294,7 +1294,7 @@ How Tampa Motion Kinetics Helps You Heal and Move Forward
                       
 We approach spine and cosmetic surgery rehabilitation with precision and care, tailored to your unique needs:
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -1368,7 +1368,7 @@ Who Can Benefit from This Service?
                       
 This service is for individuals recovering from:
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
  Ligament Repairs:                         
@@ -1409,7 +1409,7 @@ How Tampa Motion Kinetics Helps You Heal and Move Forward
                       
 We focus on delivering precise care to ensure a fast and safe recovery from ligament and tendon repairs:
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -1484,7 +1484,7 @@ Who Can Benefit from This Service?
                       
 This service is for individuals recovering from surgeries of the upper and lower extremities, including:
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
  Upper Extremity Surgeries:                         
@@ -1526,7 +1526,7 @@ How Tampa Motion Kinetics Helps You Heal and Move Forward
                       
 We offer a personalized and systematic approach to rehabilitation, ensuring you achieve optimal results after upper and lower extremity surgeries:
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -1593,7 +1593,7 @@ Tampa Motion Kinetics PLLC is dedicated to ensuring that your recovery from uppe
                 Who is Affected the Most?      
           </h2>
           
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc list-outside pl-8  text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                 Young adults and athletes (both genders):          
@@ -1621,7 +1621,7 @@ Conditions like osteoarthritis and spinal stenosis become more prevalent, partic
           <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
               Common Conditions Patients Face:        
           </h2>
-                   <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+                   <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                     Joint injuries:      
@@ -1649,7 +1649,7 @@ Conditions like osteoarthritis and spinal stenosis become more prevalent, partic
              How Tampa Motion  Can Help in the Recovery Process:         
           </h2>
           
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -1704,7 +1704,7 @@ Athena Akram, DPT, the CEO and Senior Physical Therapist of Tampa Motion has ext
           <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
                 Orthopedic conditions treated at Tampa Motion:      
           </h2>
-                    <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+                    <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -1765,7 +1765,7 @@ Athena Akram, DPT, the CEO and Senior Physical Therapist of Tampa Motion has ext
           <p className="text-gray-700 mb-4 leading-relaxed">
                       
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -1862,7 +1862,7 @@ Athena Akram, DPT, the CEO and Senior Physical Therapist of Tampa Motion has ext
           <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4 underline">
                  Treatments offered for Orthopedic Rehabilitation:     
           </h2>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                 Education and Counseling:          
@@ -1947,7 +1947,7 @@ Athena Akram, DPT, the CEO and Senior Physical Therapist of Tampa Motion has ext
           <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
            Common Issues that occur WITHOUT Pre- and Post-Operative Rehab           
           </h2>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                Delayed Recovery:           
@@ -1996,7 +1996,7 @@ Athena Akram, DPT, the CEO and Senior Physical Therapist of Tampa Motion has ext
            SURGICAL (Pre- / Post) TREATMENTS           
           </h2>
           
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Education and Counseling:            
@@ -2080,7 +2080,7 @@ Athena Akram, DPT, the CEO and Senior Physical Therapist of Tampa Motion has ext
           <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
           Rehabilitation is crucial for a diverse group of patients undergoing certain cosmetic surgeries:            
           </h2>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -2114,7 +2114,7 @@ Athena Akram, DPT, the CEO and Senior Physical Therapist of Tampa Motion has ext
           Pre- and Post-Operative Rehab can prevent several complications:            
           </h2>
           
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Prolonged Swelling and Bruising:            
@@ -2155,7 +2155,7 @@ Athena Akram, DPT, the CEO and Senior Physical Therapist of Tampa Motion has ext
           <p className="text-gray-700 mb-4 leading-relaxed">
                       
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Scar Management:            
@@ -2207,7 +2207,7 @@ We use techniques like massage and soft tissue mobilizations to minimize scar ti
           How Tampa Motion Can Help You Manage Symptoms Of Multiple Sclerosis:            
           </h2>
           
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -2221,7 +2221,7 @@ We use techniques like massage and soft tissue mobilizations to minimize scar ti
           Who is Affected the Most?            
           </h2>
           
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Women:            
@@ -2244,7 +2244,7 @@ We use techniques like massage and soft tissue mobilizations to minimize scar ti
           <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
           Common Conditions Patients Face:            
           </h2>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Mobility Limitations:            
@@ -2297,7 +2297,7 @@ We use techniques like massage and soft tissue mobilizations to minimize scar ti
           How Tampa Motion Can Help You Manage Symptoms Of Lupus:            
           </h2>
          
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -2327,7 +2327,7 @@ We use targeted physical therapy techniques to improve flexibility, reducing joi
           Who is Affected the Most?            
           </h2>
            
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Younger Women:            
@@ -2354,7 +2354,7 @@ Lupus predominantly affects women, especially those between the ages of 15 and 4
           <p className="text-gray-700 mb-4 leading-relaxed">
                       
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Joint Pain and Stiffness:            
@@ -2412,7 +2412,7 @@ Lupus predominantly affects women, especially those between the ages of 15 and 4
           <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
           How Tampa Motion Can Help You Recover From Stroke (CVA):            
           </h2>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -2443,7 +2443,7 @@ Lupus predominantly affects women, especially those between the ages of 15 and 4
           <p className="text-gray-700 mb-4 leading-relaxed">
                       
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Age:            
@@ -2466,7 +2466,7 @@ Lupus predominantly affects women, especially those between the ages of 15 and 4
           <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
           Common Conditions Patients Face:            
           </h2>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Paralysis or Weakness:            
@@ -2515,7 +2515,7 @@ Lupus predominantly affects women, especially those between the ages of 15 and 4
           How Tampa Motion  Can Help You Recover From  Parkinson's Disease:            
           </h2>
           
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -2533,7 +2533,7 @@ Lupus predominantly affects women, especially those between the ages of 15 and 4
           Who is Affected the Most?            
           </h2>
           
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Older Adults:            
@@ -2557,7 +2557,7 @@ Parkinson’s Disease primarily affects adults over 60. Older adults with Parkin
           <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
           Common Conditions Patients Face:            
           </h2>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Tremors:            
@@ -2619,7 +2619,7 @@ This increases the risk of falls and affects the ability to move safely.
           How Tampa Motion Can Help You Recover From Ehlers Danlos Syndrome:            
           </h2>
           
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -2646,7 +2646,7 @@ This increases the risk of falls and affects the ability to move safely.
           <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
           Who is Affected the Most?            
           </h2>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Age:            
@@ -2672,7 +2672,7 @@ This increases the risk of falls and affects the ability to move safely.
           <p className="text-gray-700 mb-4 leading-relaxed">
                       
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Joint Hypermobility and Instability:            
@@ -2730,7 +2730,7 @@ This increases the risk of falls and affects the ability to move safely.
           <p className="text-gray-700 mb-4 leading-relaxed">
                       
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Adolescents and young adults (ages 8-35):            
@@ -2754,7 +2754,7 @@ This increases the risk of falls and affects the ability to move safely.
           Common Conditions Patients Face:            
           </h2>
           
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Sprains:            
@@ -2778,7 +2778,7 @@ This increases the risk of falls and affects the ability to move safely.
           How Tampa Motion  Can Help in the Recovery Process:            
           </h2>
           
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -2824,7 +2824,7 @@ This increases the risk of falls and affects the ability to move safely.
            Who Can Benefit from Manual Lymphatic Massage?           
           </h2>
           
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                Lymphedema:           
@@ -2848,7 +2848,7 @@ This increases the risk of falls and affects the ability to move safely.
           Risks of Overlooking Manual Lymphatic Massage for Swelling and Recovery            
           </h2>
           
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Persistent swelling:            
@@ -2882,7 +2882,7 @@ This increases the risk of falls and affects the ability to move safely.
           How Manual Lymphatic Massage at Tampa Motion Supports Your Healing Journey            
           </h2>
           
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -2934,7 +2934,7 @@ This increases the risk of falls and affects the ability to move safely.
           <p className="text-gray-700 mb-4 leading-relaxed">
            How Tampa Motion Can Help in the Recovery Process:           
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -2962,7 +2962,7 @@ This increases the risk of falls and affects the ability to move safely.
 Pregnant women and new mothers can suffer from hormonal changes, inflammation, weight gain, and post-birth recovery often lead to musculoskeletal issues.
 The Pelvic floor can be weakened by:
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -3033,7 +3033,7 @@ Personal and  work injuries can severely harm your mobility and quality of life,
           Who is Affected the Most?            
           </h2>
           
-          <ul className="list-none pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-none pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Individuals in physically demanding jobs or with poor ergonomics:            
@@ -3046,7 +3046,7 @@ Personal and  work injuries can severely harm your mobility and quality of life,
           <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
           Common Conditions Patients Face            
           </h2>
-          <ul className="list-none pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-none pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                Work-related injuries:           
@@ -3059,7 +3059,7 @@ Personal and  work injuries can severely harm your mobility and quality of life,
           <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
           How Tampa Motion Can Help in the Recovery Process            
           </h2>
-          <ul className="list-none pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-none pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -3097,7 +3097,7 @@ Personal and  work injuries can severely harm your mobility and quality of life,
           <p className="text-gray-700 mb-4 leading-relaxed">
           This service is ideal for individuals experiencing:            
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                Chronic stiffness:           
@@ -3128,7 +3128,7 @@ To gently regain range of motion under professional guidance.
            Risks of Overlooking Professional Support for Your Flexibility Needs           
           </h2>
           
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                Restricted mobility:           
@@ -3158,7 +3158,7 @@ Poor flexibility often contributes to misalignment and slouched, poor posture.
            How the Flexibility Lab at Tampa Motion,   Breaks Through Your Stretching Barriers          
           </h2>
           
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -3213,7 +3213,7 @@ Our stretches improve flexibility, realign your posture, and reduce strain on yo
           <p className="text-gray-700 mb-4 leading-relaxed">
           This service is ideal for individuals experiencing:            
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                Weak core muscles:           
@@ -3246,7 +3246,7 @@ Risks of Overlooking Professional Support for Your Core Strengthening
           <p className="text-gray-700 mb-4 leading-relaxed">
                       
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Poor posture:            
@@ -3279,7 +3279,7 @@ How the Core Lab at Tampa Motion Improve Your Strength and Stability
           <p className="text-gray-700 mb-4 leading-relaxed">
                       
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -3332,7 +3332,7 @@ We focus on core stability to prevent your body from relying on other muscle gro
            Who Can Benefit from Vestibular and Balance Therapy?           
           </h2>
           
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                Vertigo and dizziness:           
@@ -3365,7 +3365,7 @@ We focus on core stability to prevent your body from relying on other muscle gro
           <h2 className="text-2xl font-semibold text-gray-900 mt-8 mb-4">
            Risks of Overlooking Vestibular and Balance Therapy for Stability and Mobility           
           </h2>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                Persistent dizziness:           
@@ -3399,7 +3399,7 @@ We focus on core stability to prevent your body from relying on other muscle gro
            How Vestibular and Balance Therapy at Tampa Motion Supports Your Healing Journey           
           </h2>
           
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -3458,7 +3458,7 @@ We focus on core stability to prevent your body from relying on other muscle gro
                       
 This program is ideal for:
           </p>
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                Student-athletes:           
@@ -3487,7 +3487,7 @@ This program is ideal for:
           Risks of Overlooking Professional Sports Training and Rehabilitation            
           </h2>
           
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
               Injury risk:            
@@ -3516,7 +3516,7 @@ This program is ideal for:
            How School-Based Sports Training and Rehabilitation Programs at Tampa Motion Enhance Athletic Performance and Recovery           
           </h2>
           
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
@@ -3567,7 +3567,7 @@ This program is ideal for:
           Who Can Benefit from Work-Place Ergonomics and Mobility Workshops?            
           </h2>
           
-          <ul className="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                Businesses prioritizing employee health and performance:           
@@ -3601,7 +3601,7 @@ Companies that want to create a healthier, more productive workplace.
           <h2 classname="text-2xl font-semibold text-gray-900 mt-8 mb-4">
          Risks of Overlooking Proper Ergonomics and Mobility Training            
           </h2>
-          <ul classname="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul classname="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span classname="font-semibold text-gray-900 pr-1">
                Chronic discomfort:           
@@ -3631,7 +3631,7 @@ Companies that want to create a healthier, more productive workplace.
 How Workplace Ergonomics and Mobility Workshops at Tampa Motion Improve Business Performance
             
           </h2>
-          <ul classname="list-disc pl-8 list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul classname="list-disc pl-8 list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               Personalized assessments and posture training reduce back pain, neck stiffness, and other musculoskeletal issues.           
             </li>
@@ -3799,7 +3799,7 @@ export const insuranceSlug = [
           </p>       
         <div>
           
-          <ul className="list-decimal  list-inside text-gray-700 mb-4 leading-relaxed space-y-2">
+          <ul className="list-decimal  list-outside text-gray-700 mb-4 leading-relaxed space-y-2">
             <li>
               <span className="font-semibold text-gray-900 pr-1">
                           
