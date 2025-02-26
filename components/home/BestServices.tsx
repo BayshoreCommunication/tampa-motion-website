@@ -65,8 +65,8 @@ const BestServices = () => {
                           height={60}
                           className="pb-3"
                         />
-                        <div className="text-xl font-bold ">{item.service}</div>
-                        <div className=" text-center pt-3 ">{item.text}</div>
+                        <p className="text-xl font-bold ">{item.service}</p>
+                        <p className=" text-center pt-3 ">{item.text}</p>
                       </article>
                     </div>
                   </ScrollMotionEffect>

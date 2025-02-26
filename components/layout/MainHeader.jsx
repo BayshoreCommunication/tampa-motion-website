@@ -54,7 +54,7 @@ const MainHeader = () => {
       { title: "Testimonials", slug: "/testimonials" },
       { title: "Contact Us", slug: "/contact" },
     ],
-    []
+    [],
   );
   const menuItems = useMemo(
     () => [
@@ -65,7 +65,7 @@ const MainHeader = () => {
       { title: "Blog", slug: "/blog" },
       { title: "Contact Us", slug: "/contact" },
     ],
-    []
+    [],
   );
 
   const setPathSlug = serviceMenu?.some((el) => {
@@ -73,7 +73,7 @@ const MainHeader = () => {
   });
 
   const setInsuranceSlug = insuranceMenu?.some(
-    (el) => pathname === `/insurance-coverage/${el?.service_slug}`
+    (el) => pathname === `/insurance-coverage/${el?.service_slug}`,
   );
 
   useEffect(() => {
@@ -175,7 +175,7 @@ const MainHeader = () => {
                                       >
                                         {serviceMenu
                                           .filter(
-                                            (e) => e.service === el.service
+                                            (e) => e.service === el.service,
                                           )[0]
                                           ?.subClass?.map(
                                             (subService, index) => (
@@ -190,7 +190,7 @@ const MainHeader = () => {
                                                   {subService.service}
                                                 </Link>
                                               </li>
-                                            )
+                                            ),
                                           )}
                                       </div>
                                     ) : (
@@ -213,7 +213,7 @@ const MainHeader = () => {
                     >
                       <div className="group">
                         <div className="flex items-center gap-1 ">
-                          <div
+                          <p
                             className={`flex items-center gap-x-1 cursor-pointer text-black text-sm xl:text-[14px] 2xl:text-[16px] font-medium capitalize hover:text-secondary ${pathname === el.slug || setInsuranceSlug ? " border border-secondary rounded-full text-secondary py-1 lg:py-2 px-2 lg:px-5" : ""} `}
                           >
                             Insurance Coverage
@@ -231,7 +231,7 @@ const MainHeader = () => {
                                 />
                               </svg>
                             </span>
-                          </div>
+                          </p>
                         </div>
                         <section className="absolute hidden group-hover:block bg-white shadow-lg rounded pt-6  ">
                           <ul className="cursor-pointer list-none rounded-md">
@@ -268,7 +268,7 @@ const MainHeader = () => {
                                       >
                                         {serviceMenu
                                           .filter(
-                                            (e) => e.service === el.service
+                                            (e) => e.service === el.service,
                                           )[0]
                                           ?.subClass?.map(
                                             (subService, index) => (
@@ -283,7 +283,7 @@ const MainHeader = () => {
                                                   {subService.service}
                                                 </Link>
                                               </li>
-                                            )
+                                            ),
                                           )}
                                       </div>
                                     ) : (
@@ -305,7 +305,7 @@ const MainHeader = () => {
                     >
                       {el.title}
                     </Link>
-                  )
+                  ),
                 )}
               </div>
             </div>

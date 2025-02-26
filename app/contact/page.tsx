@@ -58,25 +58,25 @@ const page = () => {
                   <div>
                     <IoIosCall />
                   </div>
-                  <div className="text-sm md:text-base">
+                  <p className="text-sm md:text-base">
                     &nbsp;&nbsp;+1 813-291-3536
-                  </div>
+                  </p>
                 </div>
                 <div className="flex flex-row  text-left w-full items-center pl-4 pb-2">
                   <div>
                     <IoMdMailUnread />
                   </div>
-                  <div className="text-sm md:text-base">
+                  <p className="text-sm md:text-base">
                     &nbsp;&nbsp;athena.akram@tampamotion.com
-                  </div>
+                  </p>
                 </div>
                 <div className="flex flex-row pb-5 lg:pb-20  text-left w-full items-center pl-4">
                   <div className="place-self-start pt-0.5">
                     <FaLocationDot />
                   </div>
-                  <div className="text-sm md:text-base pl-2 line-clamp-2 xl:line-clamp-2 ">
+                  <p className="text-sm md:text-base pl-2 line-clamp-2 xl:line-clamp-2 ">
                     8333 Gunn Highway, Tampa, FL 33626
-                  </div>
+                  </p>
                 </div>
                 <section className="text-white flex flex-row justify-start items-center gap-4 h-fit py-4">
                   <ScrollMotionEffect effect="zoom-in" duration={2000}>
