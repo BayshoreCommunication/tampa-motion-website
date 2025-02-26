@@ -199,7 +199,7 @@ const HeroSection = () => {
                   duration={2000}
                 >
                   <div className="bg-white  border shadow-2xl rounded-3xl text-black bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] hover:scale-105 transition-all ease-in-out duration-500 h-full cursor-default">
-                    <div className="bg-white hover:bg-gradient-to-b hover:from-[#0aa3e8]/80 hover:transition-all hover:ease-in-out hover:duration-500 hover:to-[#34e1d8] border border-transparent rounded-3xl p-4 h-full ">
+                    <div className="bg-white hover:bg-gray-100 border border-transparent rounded-3xl p-4 h-full ">
                       <div className="flex justify-center items-center ">
                         <Image
                           className="w-20 h-auto flex  justify-center"

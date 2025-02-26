@@ -2,6 +2,7 @@ import PageHeroSection from "@/components/shared/PageHeroSection";
 import type { Metadata, ResolvingMetadata } from "next";
 import { servicesSlug } from "@/config/serviceData.js";
 import parse from "html-react-parser";
+import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
 
 const css = `
 # h1, h2, p, br, nav {
@@ -52,7 +53,7 @@ type Props = {
 
 export async function generateMetadata(
   { params, searchParams }: Props,
-  parent: ResolvingMetadata
+  parent: ResolvingMetadata,
 ): Promise<Metadata> {
   // read route params
   const slug = (await params).slug;
@@ -64,12 +65,16 @@ export async function generateMetadata(
   // const previousImages = (await parent).openGraph?.images || [];
 
   return {
-    title: data?.sortTitle,
+    title:
+      data?.sortTitle ||
+      "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
     description:
       data?.shortDescription ||
       "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
     openGraph: {
-      title: data?.sortTitle,
+      title:
+        data?.sortTitle ||
+        "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
       description:
         data?.shortDescription ||
         "lorem ipsum dolor sit amet, consectetuer adipiscing. Aenean commodo ligula eget dolor aenean massa cum sociis et natoque penatibus.",
@@ -91,7 +96,7 @@ const page = ({ params }: { params: { slug: string } }) => {
 
   // fetch data
   const data = servicesSlug.find(
-    (service) => service.slug.toLowerCase() === slug
+    (service) => service.slug.toLowerCase() === slug,
   );
   // console.log(servicesSlug.map((e) => e.title));
 
