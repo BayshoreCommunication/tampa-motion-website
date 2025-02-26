@@ -16,19 +16,8 @@ import Link from "next/link";
 import { useParams, usePathname } from "next/navigation";
 
 import Image from "next/image";
-//import { areaspracticeData } from "@/config/data";
+
 import { serviceMenu, insuranceMenu } from "@/config/serviceData";
-
-const baskerville = Libre_Baskerville({ subsets: ["latin"], weight: "400" });
-
-// // Debounce function to limit the rate of calling the handleScroll function
-// const debounce = (func, wait) => {
-//   let timeout;
-//   return (...args) => {
-//     clearTimeout(timeout);
-//     timeout = setTimeout(() => func.apply(null, args), wait);
-//   };
-// };
 
 const MainHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -155,12 +144,6 @@ const MainHeader = () => {
                           <ul className="cursor-pointer list-none rounded-md">
                             {serviceMenu?.map((el, index) => (
                               <li key={index} className="p-0 m-0">
-                                {/* <Link */}
-                                {/*   href={`/services/${el.service_slug}`} */}
-                                {/*   className={`py-2 flex  text-base xl:text-[16px] hover:text-secondary transition-all duration-250 ease-in-out border-b  ${pathname === `/practice-areas/${el?.slug}` ? " text-secondary " : "text-slate-900"}`} */}
-                                {/* > */}
-                                {/*   {el.service} */}
-                                {/* </Link> */}
                                 <div
                                   className={`py-2 px-4 flex relative w-full h-full flex-col text-base  xl:text-[14px] 2xl:text-[16px]  hover:text-secondary transition-all duration-250 ease-in-out border-b rounded-md ${pathname === `/services/${el?.service_slug.toLowerCase()}` || setPathSlug ? " text-secondary " : "text-slate-900"}`}
                                   onMouseEnter={() => {
@@ -254,12 +237,6 @@ const MainHeader = () => {
                           <ul className="cursor-pointer list-none rounded-md">
                             {insuranceMenu?.map((el, index) => (
                               <li key={index} className="p-0 m-0">
-                                {/* <Link */}
-                                {/*   href={`/services/${el.service_slug}`} */}
-                                {/*   className={`py-2 flex  text-base xl:text-[16px] hover:text-secondary transition-all duration-250 ease-in-out border-b  ${pathname === `/practice-areas/${el?.slug}` ? " text-secondary " : "text-slate-900"}`} */}
-                                {/* > */}
-                                {/*   {el.service} */}
-                                {/* </Link> */}
                                 <div
                                   className={`py-2 px-4 flex relative w-full h-full flex-col text-base  xl:text-[14px] 2xl:text-[16px]  hover:text-secondary transition-all duration-250 ease-in-out border-b rounded-md ${pathname === `/insurance-coverage/${el?.service_slug.toLowerCase()}` ? " text-secondary " : "text-slate-900"}`}
                                   onMouseEnter={() => {
@@ -334,13 +311,6 @@ const MainHeader = () => {
             </div>
 
             <div className="">
-              {/* <Link
-                href={"/contact"}
-                className="text-white font-normal text-lg bg-secondary px-2 xl:px-16 py-2 xl:py-4 rounded-full hover:bg-orange-400"
-              >
-                Contact Us
-              </Link> */}
-
               <button className="transition-all hover:scale-110 ease-in-out duration-500 text-white  xl:text-[14px] 2xl:text-[16px] text-center">
                 <Link
                   href="/contact"
