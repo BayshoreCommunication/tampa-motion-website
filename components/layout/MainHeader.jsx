@@ -11,9 +11,8 @@ import {
 import React, { useEffect, useMemo, useState } from "react";
 import { RiArrowDropRightLine } from "react-icons/ri";
 
-import { Libre_Baskerville } from "next/font/google";
 import Link from "next/link";
-import { useParams, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 import Image from "next/image";
 
@@ -49,12 +48,12 @@ const MainHeader = () => {
       { title: "Home", slug: "/" },
       { title: "About", slug: "/about" },
       { title: "Services", slug: "/services" },
-      // { title: "Insurance Coverage", slug: "/#" },
+
       { title: "Blog", slug: "/blog" },
       { title: "Testimonials", slug: "/testimonials" },
       { title: "Contact Us", slug: "/contact" },
     ],
-    [],
+    []
   );
   const menuItems = useMemo(
     () => [
@@ -65,7 +64,7 @@ const MainHeader = () => {
       { title: "Blog", slug: "/blog" },
       { title: "Contact Us", slug: "/contact" },
     ],
-    [],
+    []
   );
 
   const setPathSlug = serviceMenu?.some((el) => {
@@ -73,7 +72,7 @@ const MainHeader = () => {
   });
 
   const setInsuranceSlug = insuranceMenu?.some(
-    (el) => pathname === `/insurance-coverage/${el?.service_slug}`,
+    (el) => pathname === `/insurance-coverage/${el?.service_slug}`
   );
 
   useEffect(() => {
@@ -175,7 +174,7 @@ const MainHeader = () => {
                                       >
                                         {serviceMenu
                                           .filter(
-                                            (e) => e.service === el.service,
+                                            (e) => e.service === el.service
                                           )[0]
                                           ?.subClass?.map(
                                             (subService, index) => (
@@ -190,7 +189,7 @@ const MainHeader = () => {
                                                   {subService.service}
                                                 </Link>
                                               </li>
-                                            ),
+                                            )
                                           )}
                                       </div>
                                     ) : (
@@ -268,7 +267,7 @@ const MainHeader = () => {
                                       >
                                         {serviceMenu
                                           .filter(
-                                            (e) => e.service === el.service,
+                                            (e) => e.service === el.service
                                           )[0]
                                           ?.subClass?.map(
                                             (subService, index) => (
@@ -283,7 +282,7 @@ const MainHeader = () => {
                                                   {subService.service}
                                                 </Link>
                                               </li>
-                                            ),
+                                            )
                                           )}
                                       </div>
                                     ) : (
@@ -305,7 +304,7 @@ const MainHeader = () => {
                     >
                       {el.title}
                     </Link>
-                  ),
+                  )
                 )}
               </div>
             </div>

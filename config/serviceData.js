@@ -1,5 +1,3 @@
-import { image } from "@nextui-org/theme";
-
 export const serviceMenu = [
   {
     service: "Orthopedic",
@@ -7,10 +5,6 @@ export const serviceMenu = [
     image: "/assets/services/orthopedic.png",
 
     subClass: [
-      // {
-      //   service: "Physiotherapy",
-      //   service_slug: "physiotherapy",
-      // },
       {
         service: "Orthopedic / Joint Pain / Spine",
         service_slug: "Orthopedic-Joint-Pain-Spine",
@@ -23,10 +17,7 @@ export const serviceMenu = [
         service: "Pre-Surgical / Post-Surgical",
         service_slug: "Pre-Surgical-Post-Surgical",
       },
-      // {
-      //   service: "Joint Replacement Rehabilitation",
-      //   service_slug: "Joint-Replacement-Rehabilitation",
-      // },
+
       {
         service: "Sports-Related Injuries (Sprains / Strains / Fractures)",
         service_slug: "Sports-Related-Injuries-Sprains-Strains-Fractures",
@@ -35,22 +26,7 @@ export const serviceMenu = [
         service: "Personal / Work Injury",
         service_slug: "Personal-Work-Injury",
       },
-      // {
-      //   service: "Rotator Cuff Surgery Preparation",
-      //   service_slug: "Rotator-Cuff-Surgery-Preparation",
-      // },
-      // {
-      //   service: "Spine and Cosmetic Surgery Rehabilitation",
-      //   service_slug: "Spine-and-Cosmetic-Surgery-Rehabilitation",
-      // },
-      // {
-      //   service: "Ligament and Tendon Repair Rehabilitation",
-      //   service_slug: "Ligament-and-Tendon-Repair-Rehabilitation",
-      // },
-      // {
-      //   service: "Upper and Lower Extremity Surgery Rehabilitation",
-      //   service_slug: "Upper-and-Lower-Extremity-Surgery-Rehabilitation",
-      // },
+
       {
         service: "Flexibility Lab (Passive Stretching)",
         service_slug: "FLEXIBILITY-LAB-PASSIVE-STRETCHING",
@@ -141,16 +117,6 @@ export const serviceMenu = [
         service: "Vestibular And Balance Therapy",
         service_slug: "VESTIBULAR-AND-BALANCE-THERAPY",
       },
-      // { service: "Stroke (Cva/Tia)", service_slug: "STROKE-CVA-TIA" },
-      // {
-      //   service: "Parkinson’s Disease",
-      //   service_slug: "PARKINSONS-DISEASE",
-      // },
-      // { service: "Multiple Sclerosis", service_slug: "MULTIPLE-SCLEROSIS" },
-      // {
-      //   service: "Sports-Related Injuries (Sprains / Strains / Fractures)",
-      //   service_slug: "SPORTS-RELATED-INJURIES-SPRAINS-STRAINS-FRACTURES",
-      // },
     ],
   },
   {
@@ -187,16 +153,6 @@ export const insuranceMenu = [
 ];
 
 export const services = [
-  // {
-  //   service: "Physiotherapy",
-  //   service_slug: "physiotherapy",
-  //   text: `
-  //  Physiotherapy is a specialized healthcare service focused on improving mobility, reducing pain, and restoring physical function through targeted therapeutic exercises, manual therapy, and advanced rehabilitation techniques.
-  //  `,
-  //   image: "/assets/services/Physiotherapy.png",
-  //   alt: "Physiotherapy",
-  //   slug: "physiotherapy",
-  // },
   {
     service: "Joint Replacement Rehabilitation",
     service_slug: "joint-replacement-rehabilitation",

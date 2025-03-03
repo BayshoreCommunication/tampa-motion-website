@@ -29,18 +29,6 @@ export const metadata = {
 };
 
 const page = () => {
-  // return (
-  //   <section className="">
-  //     <PageHeroSection
-  //       title="About Us"
-  //       description="Everybody has their own story, and every recovery is a unique journey. With over 15 years of experience in physical therapy and rehabilitation, we’ve had the privilege of helping over 600 people overcome injuries, regain function, and live more fully. But it’s not just the numbers that define us; it’s the lives we’ve touched along the way."
-  //     />
-  //     <ExperienceSection />
-  //     <Healing />
-  //     <BestServices />
-  //   </section>
-  // );
-
   return (
     <section className="w-full flex flex-col justify-start items-center min-h-screen bg-white">
       <PageHeroSection

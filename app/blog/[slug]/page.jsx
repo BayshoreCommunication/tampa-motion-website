@@ -41,11 +41,6 @@ ul {
 
 `;
 
-// export const metadata = {
-//   title: "Blog - Tampa Motion",
-//   description: "",
-// };
-
 function extractTextFromHtml(htmlString) {
   // Use regex to strip HTML tags and extract plain text
   const plainText = htmlString.replace(/<\/?[^>]+(>|$)/g, "");
@@ -64,7 +59,7 @@ export async function generateMetadata({ params }) {
   const blogPostData = await GetAllPostData();
 
   const blogDetails = blogPostData?.data?.find(
-    (blogs) => blogs.slug === params.slug,
+    (blogs) => blogs.slug === params.slug
   );
 
   if (!blogDetails) {
@@ -96,7 +91,7 @@ const page = async ({ params }) => {
   const blogPostData = await GetAllPostData().then((res) => res.data);
 
   const blogDetails = blogPostData?.filter(
-    (blogs) => blogs.slug === params.slug,
+    (blogs) => blogs.slug === params.slug
   );
 
   const postDate = (date) => {
@@ -116,7 +111,6 @@ const page = async ({ params }) => {
           title="Blogs"
           description="lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, quos."
         />
-
         <div className="container grid gap-12 py-5 gird-col-1 sm:grid-cols-3">
           {blogDetails?.map((blogs, index) => (
             <div key={index} className="col-span-2">
@@ -146,7 +140,6 @@ const page = async ({ params }) => {
               <div className="mt-2 text-md">{parse(blogs?.body)}</div>
             </div>
           ))}
-
           <div className="col-span-2 sm:col-span-1 h-[100%] md:h-[1000px] overflow-y-scroll overflow-x-hidden  p-3 rounded-lg">
             <h2 className="font-medium text-4xl text-black border-b-2 border-gray-500 pb-4 mb-6">
               Recent Blogs
