@@ -108,66 +108,67 @@ const page = async ({ params }) => {
       <style>{css}</style>
       <article className=" bg-white text-black ">
         <PageHeroSection
-          title="Blogs"
-          description="lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, quos."
+          title={blogDetails?.title}
+          description={blogDetails?.shortDescription}
         />
-        <div className="container grid gap-12 py-5 gird-col-1 sm:grid-cols-3">
-          {blogDetails?.map((blogs, index) => (
-            <div key={index} className="col-span-2">
+        <ScrollMotionEffect effect="fade-up" duration={1500}>
+          <div className="container grid gap-12 py-5 gird-col-1 sm:grid-cols-3">
+            <div className="col-span-2">
               <div className="flex items-center justify-between">
                 <p className="text-[.9rem] md:text-[1rem] text-black text-left italic mt-4 ">
-                  {blogs?.category || "Blog Post"}
+                  {blogDetails?.category || "Blog Post"}
                 </p>
                 <p className="text-[.9rem] md:text-[1rem] text-black text-left italic mt-4 ">
-                  {postDate(blogs?.createdAt)}
+                  {postDate(blogDetails?.createdAt)}
                 </p>
               </div>
               <h2
                 className={`mb-0 md:mb-4 text-2xl md:text-4xl font-bold tracking-normal text-left text-[#1B2639]`}
               >
-                {blogs?.title}
+                {blogDetails?.title}
               </h2>
               <div>
                 <Image
                   width={1000}
                   height={300}
-                  src={blogs?.featuredImage?.image?.url}
-                  alt={blogs?.featuredImage?.altText}
+                  src={blogDetails?.featuredImage?.image?.url}
+                  alt={blogDetails?.featuredImage?.altText}
                   className="w-full  bg-center bg-cover"
                 />
               </div>
 
-              <div className="mt-2 text-md">{parse(blogs?.body)}</div>
+              <div className="mt-2 text-md">{parse(blogDetails?.body)}</div>
             </div>
-          ))}
-          <div className="col-span-2 sm:col-span-1 h-[100%] md:h-[1000px] overflow-y-scroll overflow-x-hidden  p-3 rounded-lg">
-            <h2 className="font-medium text-4xl text-black border-b-2 border-gray-500 pb-4 mb-6">
-              Recent Blogs
-            </h2>
-            {blogPostData
-              ?.filter((pub, no) => pub.published === true)
-              ?.map((blogs, index) => (
-                <Link
-                  className="flex items-start gap-2 ps-3 py-3 drop-shadow-lg bg-white my-3"
-                  key={index}
-                  href={`/blog/${blogs?.slug}`}
-                >
-                  <Image
-                    width={180}
-                    height={180}
-                    src={blogs?.featuredImage?.image?.url}
-                    alt={blogs?.featuredImage?.altText}
-                    className="w-[100px] h-[100px] bg-center bg-cover"
-                  />
-                  <div>
-                    <div className="text-xl font-bold text-black text-left line-clamp-2">
-                      {blogs?.title}
+
+            <div className="col-span-2 sm:col-span-1 h-[100%] md:h-[1000px] overflow-y-scroll overflow-x-hidden  p-3 rounded-lg">
+              <h2 className="font-medium text-4xl text-black border-b-2 border-gray-500 pb-4 mb-6">
+                Recent Blogs
+              </h2>
+              {blogPostData
+                ?.filter((pub, no) => pub.published === true)
+                ?.map((blogs, index) => (
+                  <Link
+                    className="flex items-start gap-2 ps-3 py-3 drop-shadow-lg bg-white my-3"
+                    key={index}
+                    href={`/blog/${blogs?.slug}`}
+                  >
+                    <Image
+                      width={180}
+                      height={180}
+                      src={blogs?.featuredImage?.image?.url}
+                      alt={blogs?.featuredImage?.altText}
+                      className="w-[100px] h-[100px] bg-center bg-cover"
+                    />
+                    <div>
+                      <div className="text-xl font-bold text-black text-left line-clamp-2">
+                        {blogs?.title}
+                      </div>
                     </div>
-                  </div>
-                </Link>
-              ))}
+                  </Link>
+                ))}
+            </div>
           </div>
-        </div>
+        </ScrollMotionEffect>
       </article>
     </>
   );

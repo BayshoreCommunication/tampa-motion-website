@@ -55,7 +55,7 @@ type Props = {
 
 export async function generateMetadata(
   { params, searchParams }: Props,
-  parent: ResolvingMetadata,
+  parent: ResolvingMetadata
 ): Promise<Metadata> {
   // read route params
   const slug = (await params).slug;
@@ -98,7 +98,7 @@ const page = ({ params }: { params: { slug: string } }) => {
 
   // fetch data
   const data = insuranceSlug.find(
-    (insurance) => insurance.slug.toLowerCase() === slug,
+    (insurance) => insurance.slug.toLowerCase() === slug
   );
   // console.log(servicesSlug.map((e) => e.title));
 
@@ -112,9 +112,11 @@ const page = ({ params }: { params: { slug: string } }) => {
           description={data?.heroDescription || ""}
         />
 
-        <div className="container py-10 md:py-16">
-          {parse(data?.description || "")}
-        </div>
+        <ScrollMotionEffect effect="fade-up" duration={1500}>
+          <div className="container py-10 md:py-16">
+            {parse(data?.description || "")}
+          </div>
+        </ScrollMotionEffect>
       </article>
 
       <article className="bg-white w-full">
