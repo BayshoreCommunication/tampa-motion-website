@@ -17,7 +17,7 @@ const MainFooter = () => {
   return (
     <>
       <footer className="bg-secondary">
-        <div className="container py-10 lg:py-16">
+        <div className="container py-10 lg:pt-16 lg:pb-10">
           <div className="md:flex md:justify-center">
             <div className="grid justify-center grid-cols-2 gap-8 sm:gap-6 xl:grid-cols-5 ">
               <div className="col-span-2 mx-auto mb-6 md:mb-0 md:mx-0">
