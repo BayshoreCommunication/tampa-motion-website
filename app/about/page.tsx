@@ -88,6 +88,7 @@ const page = () => {
                     autoPlay
                     muted
                     loop
+                    playsInline
                     src="/assets/about/athena-akram.mp4"
                   ></video>
 
@@ -123,6 +124,7 @@ const page = () => {
                     autoPlay
                     muted
                     loop
+                    playsInline
                     src="/assets/about/athena-akram.mp4"
                   ></video>
 
