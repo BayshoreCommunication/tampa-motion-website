@@ -34,7 +34,7 @@ const MainFooter = () => {
                   />
                 </Link>
                 <p className="py-5 text-[18px] font-normal text-center text-white md:text-left max-w-[450px] leading-8">
-                  The firm offers a free consultation and will gladly discuss
+                  The clinic offers a free consultation and will gladly discuss
                   your case with you at your convenience. Contact Tampa Motion
                   today to schedule an appointment.
                 </p>

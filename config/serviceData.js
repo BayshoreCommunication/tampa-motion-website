@@ -145,8 +145,8 @@ export const insuranceMenu = [
     subClass: [],
   },
   {
-    service: "Non Insurance",
-    service_slug: "non-insurance",
+    service: "Uninsured",
+    service_slug: "uninsured",
 
     subClass: [],
   },
@@ -3734,9 +3734,9 @@ export const insuranceSlug = [
       </div>`,
   },
   {
-    title: `Non-Insurance`,
+    title: `Uninsured`,
     url: ``,
-    slug: `non-insurance`,
+    slug: `uninsured`,
     icon: ``,
     sortTitle: ``,
     heroDescription: ``,
@@ -3746,7 +3746,7 @@ export const insuranceSlug = [
       <div className=" mb-8 lg:mb-12">
         <div>
              <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-                Non-Insurance Payment Options
+                Uninsured Payment Options
             </h2>
         </div>  
         <p className="text-gray-700 mb-4 leading-relaxed">
