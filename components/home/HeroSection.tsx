@@ -25,7 +25,7 @@ const cardDatas = [
 
 const h1 = `Physical Therapy
 At Your Service`.split(" ");
-const h2 = "Move better. Feel better. Live better.".split(" ");
+const h2 = "Regain Your Mobility".split(" ");
 
 const variants = {
   hidden: { opacity: 0, y: 20 },
