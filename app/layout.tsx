@@ -9,6 +9,7 @@ import { Providers } from "./providers";
 import { siteConfig } from "@/config/site";
 import MainHeader from "@/components/layout/MainHeader";
 import MainFooter from "@/components/layout/MainFooter";
+import Script from "next/script";
 
 const inter = Libre_Baskerville({ weight: "400", subsets: ["latin"] });
 
@@ -37,7 +38,24 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="en">
-      <head />
+      <head>
+        {/* Google Ads Global Site Tag (gtag.js) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17041654185"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'AW-17041654185', {
+              groups: 'default'
+            });
+          `}
+        </Script>
+      </head>
       <body className={clsx("antialiased scroll-smooth", inter.className)}>
         <Providers themeProps={{ attribute: "class" }}>
           <MainHeader />
