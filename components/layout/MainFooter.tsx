@@ -175,7 +175,7 @@ const MainFooter = () => {
           <hr className="my-6 border-white sm:mx-auto lg:my-8" />
           <div className="md:flex :items-center sm:justify-between">
             <div className="text-[18px] font-medium text-center text-white">
-              © 2024{" "}
+              <span>© {new Date().getFullYear()}</span>{" "}
               <Link href="/" className="hover:underline text-white">
                 Tampa Motion
               </Link>
