@@ -3904,7 +3904,7 @@ export const insuranceSlug = [
             </div>
             <div className="  hover:scale-105 transition-all duration-300 ease-in-out bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-2xl shadow-2xl overflow-hidden h-full">
               <div className="bg-white rounded-2xl p-4 h-full flex items-center justify-center">
-                <p className="text-center text-black">Free Consultation</p>
+                <p className="text-center text-black">Consultation Available by Phone or In-Person</p>
               </div>
             </div>
             <a href="tel:+1 813-291-3536" className="  hover:scale-105 transition-all duration-300 ease-in-out bg-gradient-to-l from-[#0aa3e8] to-[#34e1d8] p-[1px] rounded-2xl shadow-2xl overflow-hidden h-full">
