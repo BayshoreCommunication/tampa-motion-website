@@ -58,12 +58,15 @@ const BookAnAppointment = () => {
     setFormErrors(errors);
 
     if (Object.keys(errors).length === 0) {
-      send(
-        "service_8n2c08r",
-        "template_l80dw67",
-        emailForm,
-        "892_ctuJSgLrPDjJ7"
-      )
+      // ================
+      // send(
+      //   "service_8n2c08r",
+      //   "template_l80dw67",
+      //   emailForm,
+      //   "892_ctuJSgLrPDjJ7"
+      // )
+      send("", "", emailForm, "")
+        // =========================
         .then((response) => {
           setLoading(false);
           Swal.fire({

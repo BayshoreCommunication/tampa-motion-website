@@ -81,7 +81,8 @@ const page = () => {
                 <section className="text-white flex flex-row justify-start items-center gap-4 h-fit py-4">
                   <ScrollMotionEffect effect="zoom-in" duration={2000}>
                     <Link
-                      href={"https://www.facebook.com/tampamotion"}
+                      // href={"https://www.facebook.com/tampamotion"}
+                      href={"#"}
                       target="_black"
                     >
                       <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
@@ -91,7 +92,8 @@ const page = () => {
                   </ScrollMotionEffect>
                   <ScrollMotionEffect effect="zoom-in" duration={2000}>
                     <Link
-                      href={"https://www.linkedin.com/company/tampamotionpllc"}
+                      // href={"https://www.linkedin.com/company/tampamotionpllc"}
+                      href={"#"}
                       target="_black"
                     >
                       <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
@@ -101,7 +103,8 @@ const page = () => {
                   </ScrollMotionEffect>
                   <ScrollMotionEffect effect="zoom-in" duration={2000}>
                     <Link
-                      href={"https://x.com/tampamotionpllc"}
+                      // href={"https://x.com/tampamotionpllc"}
+                      href={"#"}
                       target="_black"
                     >
                       <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
