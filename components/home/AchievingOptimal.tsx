@@ -7,7 +7,7 @@ const AchievingOptimal = () => {
   return (
     <section className="bg-white text-black pt-44">
       <div className="container py-10 md:py-20">
-        <div className="flex flex-col xl:flex-row items-center gap-x-16">
+        <div className="flex flex-col xl:flex-row items-center gap-x-14">
           <div className="w-full xl:w-[50%] flex items-center justify-center">
             <div className="block">
               <ScrollMotionEffect effect="fade-up" duration={2000}>
