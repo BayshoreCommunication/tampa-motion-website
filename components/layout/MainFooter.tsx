@@ -40,7 +40,7 @@ const MainFooter = () => {
                   appointment.
                 </p>
 
-                <div className="text-white  flex justify-center md:justify-start gap-3 mt-4 md:mt-6 ">
+                {/* <div className="text-white  flex justify-center md:justify-start gap-3 mt-4 md:mt-6 ">
                   <Link
                     // href="https://www.facebook.com/tampamotion"
                     href={"#"}
@@ -80,7 +80,7 @@ const MainFooter = () => {
                   >
                     <FaYoutube className="size-5 " />
                   </Link>
-                </div>
+                </div> */}
               </div>
               <section className="">
                 <h2 className="text-[22px] font-semibold text-white">
@@ -144,18 +144,11 @@ const MainFooter = () => {
                       </h3>
                     </div>
                     <div className="flex flex-wrap gap-x-3 gap-y-1">
-                      <Link
-                        // href="tel:+1 813-291-3536"
-                        href={"#"}
+                      {/* <Link
+                        href="tel:+1 813-291-3536"
                         className="hover:underline duration-300"
                       >
                         {`+1 813-291-3536`}
-                      </Link>
-                      {/* <Link
-                        href="tel:+18635996735"
-                        className="hover:underline duration-300"
-                      >
-                        (863) 599-6735
                       </Link> */}
                     </div>
                   </li>
@@ -168,13 +161,12 @@ const MainFooter = () => {
                         Email
                       </h3>
                     </div>
-                    <Link
-                      // href="mailto:athena.akram@tampamotion.com"
-                      href={"#"}
+                    {/* <Link
+                      href="mailto:athena.akram@tampamotion.com"
                       className="hover:underline"
                     >
                       athena.akram@tampamotion.com
-                    </Link>
+                    </Link> */}
                   </li>
                 </ul>
               </section>

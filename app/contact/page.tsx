@@ -54,7 +54,7 @@ const page = () => {
                     wellness. Reach out to us using the details below:
                   </p>
                 </div>
-                <div className="flex flex-row pt-8 text-left w-full items-center pl-4 pb-2">
+                {/* <div className="flex flex-row pt-8 text-left w-full items-center pl-4 pb-2">
                   <div>
                     <IoIosCall />
                   </div>
@@ -69,7 +69,7 @@ const page = () => {
                   <p className="text-sm md:text-base">
                     &nbsp;&nbsp;athena.akram@tampamotion.com
                   </p>
-                </div>
+                </div> */}
                 <div className="flex flex-row pb-5 lg:pb-20  text-left w-full items-center pl-4">
                   <div className="place-self-start pt-0.5">
                     <FaLocationDot />
@@ -78,7 +78,7 @@ const page = () => {
                     8333 Gunn Highway, Tampa, FL 33626
                   </p>
                 </div>
-                <section className="text-white flex flex-row justify-start items-center gap-4 h-fit py-4">
+                {/* <section className="text-white flex flex-row justify-start items-center gap-4 h-fit py-4">
                   <ScrollMotionEffect effect="zoom-in" duration={2000}>
                     <Link
                       // href={"https://www.facebook.com/tampamotion"}
@@ -119,12 +119,10 @@ const page = () => {
                       </button>
                     </Link>
                   </ScrollMotionEffect>
-                </section>
+                </section> */}
               </div>
             </div>
-            <div className="w-full p-4">
-              <ContactForm />
-            </div>
+            <div className="w-full p-4">{/* <ContactForm /> */}</div>
           </div>
         </ScrollMotionEffect>
       </div>
