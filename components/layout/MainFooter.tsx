@@ -39,48 +39,6 @@ const MainFooter = () => {
                   at your convenience. Contact Tampa Motion today to schedule an
                   appointment.
                 </p>
-
-                {/* <div className="text-white  flex justify-center md:justify-start gap-3 mt-4 md:mt-6 ">
-                  <Link
-                    // href="https://www.facebook.com/tampamotion"
-                    href={"#"}
-                    target="_blank"
-                    className="inline-block p-2 rounded  duration-300 border-2 border-secondary hover:border-white"
-                  >
-                    <FaFacebookF className="size-5" />
-                  </Link>
-                  <Link
-                    // href="https://www.linkedin.com/company/tampamotionpllc"
-                    href={"#"}
-                    target="_blank"
-                    className="inline-block p-2 rounded duration-300 border-2 border-secondary hover:border-white"
-                  >
-                    <FaLinkedinIn className="size-5" />
-                  </Link>
-                  <Link
-                    // href="https://x.com/tampamotionpllc"
-                    href={"#"}
-                    target="_blank"
-                    className="inline-block p-2 rounded  duration-300 border-2 border-secondary hover:border-white"
-                  >
-                    <FaTwitter className="size-5 " />
-                  </Link>
-                  <Link
-                    href="#"
-                    target="_blank"
-                    className="inline-block p-2 rounded  duration-300 border-2 border-secondary hover:border-white"
-                  >
-                    <FaInstagram className="size-5 " />
-                  </Link>
-                  <Link
-                    // href="https://www.youtube.com/channel/UCTJg34YjVuwolUNmUs8tdJw"
-                    href={"#"}
-                    target="_blank"
-                    className="inline-block p-2 rounded duration-300 border-2 border-secondary hover:border-white"
-                  >
-                    <FaYoutube className="size-5 " />
-                  </Link>
-                </div> */}
               </div>
               <section className="">
                 <h2 className="text-[22px] font-semibold text-white">
@@ -127,7 +85,6 @@ const MainFooter = () => {
                       </h3>
                     </div>
                     <Link
-                      // href="https://www.google.com/maps/place/8333+Gunn+Hwy,+Tampa,+FL+33626,+USA/@28.0838971,-82.5781301,17z/data=!4m6!3m5!1s0x88c2eabbc5fae6bf:0xbf90d7555eb0cc4!8m2!3d28.0833103!4d-82.5771162!16s%2Fg%2F11c0_skph6?entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D"
                       href={"#"}
                       className=" hover:underline duration-300"
                       target="_blank"
@@ -143,14 +100,7 @@ const MainFooter = () => {
                         Contact
                       </h3>
                     </div>
-                    <div className="flex flex-wrap gap-x-3 gap-y-1">
-                      {/* <Link
-                        href="tel:+1 813-291-3536"
-                        className="hover:underline duration-300"
-                      >
-                        {`+1 813-291-3536`}
-                      </Link> */}
-                    </div>
+                    <div className="flex flex-wrap gap-x-3 gap-y-1"></div>
                   </li>
 
                   <li className="mb-4">
@@ -161,12 +111,6 @@ const MainFooter = () => {
                         Email
                       </h3>
                     </div>
-                    {/* <Link
-                      href="mailto:athena.akram@tampamotion.com"
-                      className="hover:underline"
-                    >
-                      athena.akram@tampamotion.com
-                    </Link> */}
                   </li>
                 </ul>
               </section>

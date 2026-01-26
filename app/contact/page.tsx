@@ -54,22 +54,7 @@ const page = () => {
                     wellness. Reach out to us using the details below:
                   </p>
                 </div>
-                {/* <div className="flex flex-row pt-8 text-left w-full items-center pl-4 pb-2">
-                  <div>
-                    <IoIosCall />
-                  </div>
-                  <p className="text-sm md:text-base">
-                    &nbsp;&nbsp;+1 813-291-3536
-                  </p>
-                </div>
-                <div className="flex flex-row  text-left w-full items-center pl-4 pb-2">
-                  <div>
-                    <IoMdMailUnread />
-                  </div>
-                  <p className="text-sm md:text-base">
-                    &nbsp;&nbsp;athena.akram@tampamotion.com
-                  </p>
-                </div> */}
+
                 <div className="flex flex-row pb-5 lg:pb-20  text-left w-full items-center pl-4">
                   <div className="place-self-start pt-0.5">
                     <FaLocationDot />
@@ -78,48 +63,6 @@ const page = () => {
                     8333 Gunn Highway, Tampa, FL 33626
                   </p>
                 </div>
-                {/* <section className="text-white flex flex-row justify-start items-center gap-4 h-fit py-4">
-                  <ScrollMotionEffect effect="zoom-in" duration={2000}>
-                    <Link
-                      // href={"https://www.facebook.com/tampamotion"}
-                      href={"#"}
-                      target="_black"
-                    >
-                      <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
-                        <FaFacebookF className="w-6 h-6" />
-                      </button>
-                    </Link>
-                  </ScrollMotionEffect>
-                  <ScrollMotionEffect effect="zoom-in" duration={2000}>
-                    <Link
-                      // href={"https://www.linkedin.com/company/tampamotionpllc"}
-                      href={"#"}
-                      target="_black"
-                    >
-                      <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
-                        <FaLinkedinIn className="w-6 h-6" />
-                      </button>
-                    </Link>
-                  </ScrollMotionEffect>
-                  <ScrollMotionEffect effect="zoom-in" duration={2000}>
-                    <Link
-                      // href={"https://x.com/tampamotionpllc"}
-                      href={"#"}
-                      target="_black"
-                    >
-                      <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
-                        <FaTwitter className="w-6 h-6" />
-                      </button>
-                    </Link>
-                  </ScrollMotionEffect>
-                  <ScrollMotionEffect effect="zoom-in" duration={2000}>
-                    <Link href={"#"} target="_black">
-                      <button className="p-2 rounded-md hover:border-white border-2 border-[#084a4d] transition-all duration-300 ease-in-out">
-                        <IoLogoInstagram className="w-6 h-6" />
-                      </button>
-                    </Link>
-                  </ScrollMotionEffect>
-                </section> */}
               </div>
             </div>
             <div className="w-full p-4">{/* <ContactForm /> */}</div>
