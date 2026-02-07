@@ -1,15 +1,7 @@
-import ContactForm from "@/components/contact/ContactForm";
+import { FaLocationDot, FaPhone } from "react-icons/fa6";
+
 import ScrollMotionEffect from "@/components/motion/ScrollMotionEffect";
 import PageHeroSection from "@/components/shared/PageHeroSection";
-import Link from "next/link";
-import {
-  FaFacebookF,
-  FaLinkedinIn,
-  FaLocationDot,
-  FaTwitter,
-} from "react-icons/fa6";
-import { IoIosCall, IoMdMailUnread } from "react-icons/io";
-import { IoLogoInstagram } from "react-icons/io5";
 
 export const metadata = {
   title:
@@ -37,11 +29,11 @@ const page = () => {
   return (
     <section className=" bg-white">
       <PageHeroSection
-        title="Contact Us"
         description="If you have any questions or concerns, don’t hesitate to reach out. Our team will get back to you with answers as soon as we can."
+        title="Contact Us"
       />
       <div className="container xl:px-40 py-10 md:py-20">
-        <ScrollMotionEffect effect="fade-up" duration={2000}>
+        <ScrollMotionEffect duration={2000} effect="fade-up">
           <div className="flex flex-col md:flex-row items-start justify-between gap-6 bg-white md:p-10  shadow-xl p-0">
             <div className="w-full p-4">
               <div className="flex flex-col justify-center items-center rounded-2xl p-4 bg-[#084a4d] text-white xl:col-span-1">
@@ -55,12 +47,21 @@ const page = () => {
                   </p>
                 </div>
 
-                <div className="flex flex-row pb-5 lg:pb-20  text-left w-full items-center pl-4">
+                <div className="flex flex-row pb-2 lg:pb-4
+                  text-left w-full items-center pl-4">
                   <div className="place-self-start pt-0.5">
                     <FaLocationDot />
                   </div>
                   <p className="text-sm md:text-base pl-2 line-clamp-2 xl:line-clamp-2 ">
                     8333 Gunn Highway, Tampa, FL 33626
+                  </p>
+                </div>
+                <div className="flex flex-row pb-5 lg:pb-20  text-left w-full items-center pl-4">
+                  <div className="place-self-start pt-0.5">
+                    <FaPhone />
+                  </div>
+                  <p className="text-sm md:text-base pl-2 line-clamp-2 xl:line-clamp-2 ">
+                    +1 (813) 291-3536
                   </p>
                 </div>
               </div>
@@ -70,15 +71,15 @@ const page = () => {
         </ScrollMotionEffect>
       </div>
       <div>
-        <ScrollMotionEffect effect="fade-in" duration={2000}>
+        <ScrollMotionEffect duration={2000} effect="fade-in">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3520.0539515447263!2d-82.5781300779631!3d28.083897145566095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2eabbc5fae6bf%3A0xbf90d7555eb0cc4!2s8333%20Gunn%20Hwy%2C%20Tampa%2C%20FL%2033626%2C%20USA!5e0!3m2!1sen!2sbd!4v1737883888923!5m2!1sen!2sbd"
-            width="600"
-            height="450"
-            title="Maps"
-            loading="lazy"
             className="w-full"
-          ></iframe>
+            height="450"
+            loading="lazy"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3520.0539515447263!2d-82.5781300779631!3d28.083897145566095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2eabbc5fae6bf%3A0xbf90d7555eb0cc4!2s8333%20Gunn%20Hwy%2C%20Tampa%2C%20FL%2033626%2C%20USA!5e0!3m2!1sen!2sbd!4v1737883888923!5m2!1sen!2sbd"
+            title="Maps"
+            width="600"
+          />
         </ScrollMotionEffect>
       </div>
     </section>
