@@ -4,7 +4,7 @@ import Image from "next/image";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
+// Import Swiper style
 import "swiper/css";
 import "swiper/css/pagination";
 
