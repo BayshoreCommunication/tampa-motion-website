@@ -100,7 +100,7 @@ const MainFooter = () => {
                         Contact
                       </h3>
                     </div>
-                    <div className="flex flex-wrap gap-x-3 gap-y-1">+1 (813) 291-3536</div>
+                    <div className="flex flex-wrap gap-x-3 gap-y-1">+1 (813) 291-3536 </div>
                   </li>
 
                   <li className="mb-4">
